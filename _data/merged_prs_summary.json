@@ -14817,7 +14817,10 @@
                     }
                 ], 
                 "check-headers": "passed", 
-                "static_checks_v2": "inprogress", 
+                "static_checks_v2": {
+                    "status": "passed", 
+                    "arch": "slc7_amd64_gcc820"
+                }, 
                 "valgrind": "found", 
                 "material_budget": "not-found", 
                 "dupDict": [
@@ -14831,7 +14834,7 @@
                     }
                 ], 
                 "lizard": "found", 
-                "static_checks": "inprogress", 
+                "static_checks": "slc7_amd64_gcc820:", 
                 "isIB": true, 
                 "inProgress": false, 
                 "igprof": "inprogress", 
@@ -31502,7 +31505,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.3.ROOT6-sun-00/CMSSW_11_3_ROOT6_X_2021-04-04-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 3011, 
+                            "num_passed": 3133, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
