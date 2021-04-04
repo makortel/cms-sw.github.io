@@ -61,7 +61,16 @@
         }, 
         {
             "comp_baseline_state": "ok", 
-            "python3_tests": [], 
+            "python3_tests": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.2-sun-00/CMSSW_11_2_X_2021-04-04-0000/python3.html", 
+                    "details": {
+                        "num_fails": "0"
+                    }
+                }
+            ], 
             "tests_archs": [
                 "cc8_amd64_gcc9", 
                 "slc7_amd64_gcc900"
@@ -80,7 +89,7 @@
                 "slc7_amd64_gcc900": "IB/CMSSW_11_2_X_2021-04-04-0000/slc7_amd64_gcc900"
             }, 
             "piechart": "inprogress", 
-            "flawfinder": "inprogress", 
+            "flawfinder": "found", 
             "next_ib": false, 
             "RVExceptions": null, 
             "igprof": "inprogress", 
@@ -119,7 +128,16 @@
                     "details": {}
                 }
             ], 
-            "invalid_includes": [], 
+            "invalid_includes": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/SDT/jenkins-artifacts/invalid-includes/CMSSW_11_2_X_2021-04-04-0000/slc7_amd64_gcc900/summary.json", 
+                    "details": {
+                        "num_fails": "155"
+                    }
+                }
+            ], 
             "builds": [
                 {
                     "arch": "slc7_amd64_gcc900", 
@@ -157,7 +175,14 @@
             "static_checks": "inprogress", 
             "isIB": true, 
             "inProgress": false, 
-            "addons": [], 
+            "addons": [
+                {
+                    "arch": "cc8_amd64_gcc9", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/sun/11.2-sun-00/CMSSW_11_2_X_2021-04-04-0000/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
             "hlt_tests": "inprogress"
         }, 
         {

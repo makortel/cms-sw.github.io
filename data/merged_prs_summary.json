@@ -90,9 +90,11 @@
                     }, 
                     {
                         "arch": "slc6_amd64_gcc700", 
-                        "passed": "unknown", 
-                        "file": "['/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.2-sun-00/CMSSW_10_2_X_2021-04-04-0000/new/logAnalysis.pkl']", 
-                        "details": {}
+                        "passed": "failed", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.2-sun-00/CMSSW_10_2_X_2021-04-04-0000/unitTests-summary.log", 
+                        "details": {
+                            "num_fails": "6"
+                        }
                     }
                 ], 
                 "ib_date": "2021-04-04-0000-0000", 
@@ -100,12 +102,12 @@
                     {
                         "done": false, 
                         "arch": "slc7_amd64_gcc700", 
-                        "passed": true, 
+                        "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.2-sun-00/CMSSW_10_2_X_2021-04-04-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 854, 
+                            "num_passed": 1051, 
                             "known_failed": 0, 
-                            "num_failed": 0
+                            "num_failed": 4
                         }
                     }, 
                     {
@@ -7851,7 +7853,14 @@
                 "static_checks": "inprogress", 
                 "isIB": true, 
                 "inProgress": false, 
-                "addons": [], 
+                "addons": [
+                    {
+                        "arch": "slc7_amd64_gcc700", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.3-sun-00/CMSSW_10_3_X_2021-04-04-0000/addOnTests.log", 
+                        "details": {}
+                    }
+                ], 
                 "hlt_tests": "inprogress"
             }, 
             {
@@ -11170,7 +11179,14 @@
                     }
                 ], 
                 "material_budget_v2": "not-found", 
-                "addons": [], 
+                "addons": [
+                    {
+                        "arch": "slc7_amd64_gcc700", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.6-sun-00/CMSSW_10_6_X_2021-04-04-0000/addOnTests.log", 
+                        "details": {}
+                    }
+                ], 
                 "static_checks_v2": "inprogress", 
                 "valgrind": "inprogress", 
                 "material_budget": "not-found", 
@@ -11180,7 +11196,7 @@
                         "passed": "passed"
                     }
                 ], 
-                "lizard": "inprogress", 
+                "lizard": "found", 
                 "static_checks": "inprogress", 
                 "isIB": true, 
                 "inProgress": false, 
@@ -14838,7 +14854,16 @@
             }, 
             {
                 "comp_baseline_state": "ok", 
-                "python3_tests": [], 
+                "python3_tests": [
+                    {
+                        "arch": "slc7_amd64_gcc820", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/sun/11.1-sun-00/CMSSW_11_1_X_2021-04-04-0000/python3.html", 
+                        "details": {
+                            "num_fails": "0"
+                        }
+                    }
+                ], 
                 "tests_archs": [
                     "slc7_amd64_gcc820", 
                     "cc8_amd64_gcc8"
@@ -14856,7 +14881,7 @@
                     "slc7_amd64_gcc820": "IB/CMSSW_11_1_X_2021-04-04-0000/slc7_amd64_gcc820", 
                     "cc8_amd64_gcc8": "IB/CMSSW_11_1_X_2021-04-04-0000/cc8_amd64_gcc8"
                 }, 
-                "flawfinder": "inprogress", 
+                "flawfinder": "found", 
                 "next_ib": false, 
                 "RVExceptions": null, 
                 "fwlite": [
@@ -14892,9 +14917,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/cc8_amd64_gcc8/www/sun/11.1-sun-00/CMSSW_11_1_X_2021-04-04-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 3, 
+                            "num_passed": 6, 
                             "known_failed": 0, 
-                            "num_failed": 1
+                            "num_failed": 2
                         }
                     }
                 ], 
@@ -14905,7 +14930,16 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [], 
                 "base_branch": "CMSSW_11_1_X", 
-                "invalid_includes": [], 
+                "invalid_includes": [
+                    {
+                        "arch": "slc7_amd64_gcc820", 
+                        "passed": "failed", 
+                        "file": "/data/sdt/SDT/jenkins-artifacts/invalid-includes/CMSSW_11_1_X_2021-04-04-0000/slc7_amd64_gcc820/summary.json", 
+                        "details": {
+                            "num_fails": "158"
+                        }
+                    }
+                ], 
                 "builds": [
                     {
                         "arch": "slc7_amd64_gcc820", 
@@ -15946,7 +15980,16 @@
             }, 
             {
                 "comp_baseline_state": "ok", 
-                "python3_tests": [], 
+                "python3_tests": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.2-sun-00/CMSSW_11_2_X_2021-04-04-0000/python3.html", 
+                        "details": {
+                            "num_fails": "0"
+                        }
+                    }
+                ], 
                 "tests_archs": [
                     "cc8_amd64_gcc9", 
                     "slc7_amd64_gcc900"
@@ -15965,7 +16008,7 @@
                     "slc7_amd64_gcc900": "IB/CMSSW_11_2_X_2021-04-04-0000/slc7_amd64_gcc900"
                 }, 
                 "piechart": "inprogress", 
-                "flawfinder": "inprogress", 
+                "flawfinder": "found", 
                 "next_ib": false, 
                 "RVExceptions": null, 
                 "igprof": "inprogress", 
@@ -16004,7 +16047,16 @@
                         "details": {}
                     }
                 ], 
-                "invalid_includes": [], 
+                "invalid_includes": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "failed", 
+                        "file": "/data/sdt/SDT/jenkins-artifacts/invalid-includes/CMSSW_11_2_X_2021-04-04-0000/slc7_amd64_gcc900/summary.json", 
+                        "details": {
+                            "num_fails": "155"
+                        }
+                    }
+                ], 
                 "builds": [
                     {
                         "arch": "slc7_amd64_gcc900", 
@@ -16042,7 +16094,14 @@
                 "static_checks": "inprogress", 
                 "isIB": true, 
                 "inProgress": false, 
-                "addons": [], 
+                "addons": [
+                    {
+                        "arch": "cc8_amd64_gcc9", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/sun/11.2-sun-00/CMSSW_11_2_X_2021-04-04-0000/addOnTests.log", 
+                        "details": {}
+                    }
+                ], 
                 "hlt_tests": "inprogress"
             }, 
             {
@@ -24339,6 +24398,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "60b0b66d5a12e0ec5ce3be7ba53c41725c252ae0", 
+                        "title": "[HGCAL] CaloParticleSelector selects non-converted CP", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33309", 
+                        "number": "33309", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ebrondol"
+                    }, 
+                    {
                         "hash": "9d30a110f010a46eafa7f71084da98b2c66dc57a", 
                         "title": "PPS Pixel charge share bug fix ", 
                         "url": "https://github.com/cms-sw/cmssw/pull/33329", 
@@ -24346,6 +24414,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "fabferro"
+                    }, 
+                    {
+                        "hash": "aa9e4a2958ce84151b1eda60a7d80460ff1cc065", 
+                        "title": "Add interactive option to runTheMatrix", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33082", 
+                        "number": "33082", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
                     }
                 ], 
                 "fwlite": [], 
@@ -24971,6 +25048,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "60b0b66d5a12e0ec5ce3be7ba53c41725c252ae0", 
+                        "title": "[HGCAL] CaloParticleSelector selects non-converted CP", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33309", 
+                        "number": "33309", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ebrondol"
+                    }, 
+                    {
                         "hash": "9d30a110f010a46eafa7f71084da98b2c66dc57a", 
                         "title": "PPS Pixel charge share bug fix ", 
                         "url": "https://github.com/cms-sw/cmssw/pull/33329", 
@@ -24978,6 +25064,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "fabferro"
+                    }, 
+                    {
+                        "hash": "aa9e4a2958ce84151b1eda60a7d80460ff1cc065", 
+                        "title": "Add interactive option to runTheMatrix", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33082", 
+                        "number": "33082", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
                     }
                 ], 
                 "fwlite": [], 
@@ -25986,6 +26081,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "60b0b66d5a12e0ec5ce3be7ba53c41725c252ae0", 
+                        "title": "[HGCAL] CaloParticleSelector selects non-converted CP", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33309", 
+                        "number": "33309", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ebrondol"
+                    }, 
+                    {
                         "hash": "9d30a110f010a46eafa7f71084da98b2c66dc57a", 
                         "title": "PPS Pixel charge share bug fix ", 
                         "url": "https://github.com/cms-sw/cmssw/pull/33329", 
@@ -25993,6 +26097,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "fabferro"
+                    }, 
+                    {
+                        "hash": "aa9e4a2958ce84151b1eda60a7d80460ff1cc065", 
+                        "title": "Add interactive option to runTheMatrix", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33082", 
+                        "number": "33082", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
                     }
                 ], 
                 "fwlite": [], 
@@ -26790,6 +26903,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "aa9e4a2958ce84151b1eda60a7d80460ff1cc065", 
+                        "title": "Add interactive option to runTheMatrix", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33082", 
+                        "number": "33082", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
+                    }, 
+                    {
                         "hash": "12fa92054fb9ce8eb798ad45d65a4c44ca5d29ce", 
                         "title": "Clean BuildFiles and add source_only flags to fix warnings", 
                         "url": "https://github.com/cms-sw/cmssw/pull/33282", 
@@ -26799,13 +26921,13 @@
                         "author_login": "guitargeek"
                     }, 
                     {
-                        "hash": "88af7ddc5734a7e9e78efec49b5a547d25ad7023", 
-                        "title": "move kalmanLUTs.root to cms-data external", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33304", 
-                        "number": "33304", 
+                        "hash": "f0348b2468c745dc7fe4f4bc73d30c92b9e79d57", 
+                        "title": "Move to D76 in HGCal geometry unit test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33326", 
+                        "number": "33326", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "smuzaffar"
+                        "author_login": "srimanob"
                     }, 
                     {
                         "hash": "9d30a110f010a46eafa7f71084da98b2c66dc57a", 
@@ -26817,13 +26939,22 @@
                         "author_login": "fabferro"
                     }, 
                     {
-                        "hash": "f0348b2468c745dc7fe4f4bc73d30c92b9e79d57", 
-                        "title": "Move to D76 in HGCal geometry unit test", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33326", 
-                        "number": "33326", 
+                        "hash": "88af7ddc5734a7e9e78efec49b5a547d25ad7023", 
+                        "title": "move kalmanLUTs.root to cms-data external", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33304", 
+                        "number": "33304", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "srimanob"
+                        "author_login": "smuzaffar"
+                    }, 
+                    {
+                        "hash": "60b0b66d5a12e0ec5ce3be7ba53c41725c252ae0", 
+                        "title": "[HGCAL] CaloParticleSelector selects non-converted CP", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33309", 
+                        "number": "33309", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ebrondol"
                     }, 
                     {
                         "hash": "da5385559b0ea1e55b31f7a324682f06b48b036d", 
@@ -28478,6 +28609,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "60b0b66d5a12e0ec5ce3be7ba53c41725c252ae0", 
+                        "title": "[HGCAL] CaloParticleSelector selects non-converted CP", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33309", 
+                        "number": "33309", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ebrondol"
+                    }, 
+                    {
                         "hash": "9d30a110f010a46eafa7f71084da98b2c66dc57a", 
                         "title": "PPS Pixel charge share bug fix ", 
                         "url": "https://github.com/cms-sw/cmssw/pull/33329", 
@@ -28485,6 +28625,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "fabferro"
+                    }, 
+                    {
+                        "hash": "aa9e4a2958ce84151b1eda60a7d80460ff1cc065", 
+                        "title": "Add interactive option to runTheMatrix", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33082", 
+                        "number": "33082", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
                     }
                 ], 
                 "fwlite": [], 
@@ -30837,6 +30986,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "60b0b66d5a12e0ec5ce3be7ba53c41725c252ae0", 
+                        "title": "[HGCAL] CaloParticleSelector selects non-converted CP", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33309", 
+                        "number": "33309", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ebrondol"
+                    }, 
+                    {
                         "hash": "9d30a110f010a46eafa7f71084da98b2c66dc57a", 
                         "title": "PPS Pixel charge share bug fix ", 
                         "url": "https://github.com/cms-sw/cmssw/pull/33329", 
@@ -30844,6 +31002,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "fabferro"
+                    }, 
+                    {
+                        "hash": "aa9e4a2958ce84151b1eda60a7d80460ff1cc065", 
+                        "title": "Add interactive option to runTheMatrix", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33082", 
+                        "number": "33082", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
                     }
                 ], 
                 "fwlite": [], 
@@ -31557,6 +31724,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "60b0b66d5a12e0ec5ce3be7ba53c41725c252ae0", 
+                        "title": "[HGCAL] CaloParticleSelector selects non-converted CP", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33309", 
+                        "number": "33309", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ebrondol"
+                    }, 
+                    {
                         "hash": "9d30a110f010a46eafa7f71084da98b2c66dc57a", 
                         "title": "PPS Pixel charge share bug fix ", 
                         "url": "https://github.com/cms-sw/cmssw/pull/33329", 
@@ -31564,6 +31740,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "fabferro"
+                    }, 
+                    {
+                        "hash": "aa9e4a2958ce84151b1eda60a7d80460ff1cc065", 
+                        "title": "Add interactive option to runTheMatrix", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33082", 
+                        "number": "33082", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
                     }
                 ], 
                 "fwlite": [], 
@@ -32662,7 +32847,26 @@
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "60b0b66d5a12e0ec5ce3be7ba53c41725c252ae0", 
+                        "title": "[HGCAL] CaloParticleSelector selects non-converted CP", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33309", 
+                        "number": "33309", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ebrondol"
+                    }, 
+                    {
+                        "hash": "aa9e4a2958ce84151b1eda60a7d80460ff1cc065", 
+                        "title": "Add interactive option to runTheMatrix", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33082", 
+                        "number": "33082", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
+                    }
+                ], 
                 "fwlite": [], 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -33268,6 +33472,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "aa9e4a2958ce84151b1eda60a7d80460ff1cc065", 
+                        "title": "Add interactive option to runTheMatrix", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33082", 
+                        "number": "33082", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
+                    }, 
+                    {
                         "hash": "12fa92054fb9ce8eb798ad45d65a4c44ca5d29ce", 
                         "title": "Clean BuildFiles and add source_only flags to fix warnings", 
                         "url": "https://github.com/cms-sw/cmssw/pull/33282", 
@@ -33277,13 +33490,13 @@
                         "author_login": "guitargeek"
                     }, 
                     {
-                        "hash": "88af7ddc5734a7e9e78efec49b5a547d25ad7023", 
-                        "title": "move kalmanLUTs.root to cms-data external", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33304", 
-                        "number": "33304", 
+                        "hash": "f0348b2468c745dc7fe4f4bc73d30c92b9e79d57", 
+                        "title": "Move to D76 in HGCal geometry unit test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33326", 
+                        "number": "33326", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "smuzaffar"
+                        "author_login": "srimanob"
                     }, 
                     {
                         "hash": "9d30a110f010a46eafa7f71084da98b2c66dc57a", 
@@ -33295,13 +33508,22 @@
                         "author_login": "fabferro"
                     }, 
                     {
-                        "hash": "f0348b2468c745dc7fe4f4bc73d30c92b9e79d57", 
-                        "title": "Move to D76 in HGCal geometry unit test", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33326", 
-                        "number": "33326", 
+                        "hash": "88af7ddc5734a7e9e78efec49b5a547d25ad7023", 
+                        "title": "move kalmanLUTs.root to cms-data external", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33304", 
+                        "number": "33304", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "srimanob"
+                        "author_login": "smuzaffar"
+                    }, 
+                    {
+                        "hash": "60b0b66d5a12e0ec5ce3be7ba53c41725c252ae0", 
+                        "title": "[HGCAL] CaloParticleSelector selects non-converted CP", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33309", 
+                        "number": "33309", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ebrondol"
                     }, 
                     {
                         "hash": "da5385559b0ea1e55b31f7a324682f06b48b036d", 
@@ -33918,6 +34140,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "60b0b66d5a12e0ec5ce3be7ba53c41725c252ae0", 
+                        "title": "[HGCAL] CaloParticleSelector selects non-converted CP", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33309", 
+                        "number": "33309", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ebrondol"
+                    }, 
+                    {
                         "hash": "9d30a110f010a46eafa7f71084da98b2c66dc57a", 
                         "title": "PPS Pixel charge share bug fix ", 
                         "url": "https://github.com/cms-sw/cmssw/pull/33329", 
@@ -33925,6 +34156,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "fabferro"
+                    }, 
+                    {
+                        "hash": "aa9e4a2958ce84151b1eda60a7d80460ff1cc065", 
+                        "title": "Add interactive option to runTheMatrix", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33082", 
+                        "number": "33082", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
                     }
                 ], 
                 "fwlite": [], 
@@ -34067,6 +34307,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "60b0b66d5a12e0ec5ce3be7ba53c41725c252ae0", 
+                        "title": "[HGCAL] CaloParticleSelector selects non-converted CP", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33309", 
+                        "number": "33309", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ebrondol"
+                    }, 
+                    {
                         "hash": "9d30a110f010a46eafa7f71084da98b2c66dc57a", 
                         "title": "PPS Pixel charge share bug fix ", 
                         "url": "https://github.com/cms-sw/cmssw/pull/33329", 
@@ -34074,6 +34323,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "fabferro"
+                    }, 
+                    {
+                        "hash": "aa9e4a2958ce84151b1eda60a7d80460ff1cc065", 
+                        "title": "Add interactive option to runTheMatrix", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33082", 
+                        "number": "33082", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
                     }
                 ], 
                 "fwlite": [], 
@@ -34227,7 +34485,26 @@
                 "comp_baseline": "inprogress", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
-                "merged_prs": [], 
+                "merged_prs": [
+                    {
+                        "hash": "60b0b66d5a12e0ec5ce3be7ba53c41725c252ae0", 
+                        "title": "[HGCAL] CaloParticleSelector selects non-converted CP", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33309", 
+                        "number": "33309", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ebrondol"
+                    }, 
+                    {
+                        "hash": "aa9e4a2958ce84151b1eda60a7d80460ff1cc065", 
+                        "title": "Add interactive option to runTheMatrix", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33082", 
+                        "number": "33082", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
+                    }
+                ], 
                 "fwlite": [], 
                 "invalid_includes": [], 
                 "builds": [], 
@@ -34603,9 +34880,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/cc8_aarch64_gcc9/www/fri/11.3-fri-23/CMSSW_11_3_X_2021-04-02-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2071, 
-                            "known_failed": 51, 
-                            "num_failed": 41
+                            "num_passed": 2077, 
+                            "known_failed": 0, 
+                            "num_failed": 95
                         }
                     }, 
                     {
@@ -43720,18 +43997,20 @@
                 "dqm_tests": "found", 
                 "utests": [
                     {
+                        "arch": "slc6_amd64_gcc530", 
+                        "passed": "failed", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.0-sun-00/CMSSW_8_0_X_2021-04-04-0000/unitTests-summary.log", 
+                        "details": {
+                            "num_fails": "25"
+                        }
+                    }, 
+                    {
                         "arch": "slc7_amd64_gcc530", 
                         "passed": "failed", 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc530/www/sun/8.0-sun-00/CMSSW_8_0_X_2021-04-04-0000/unitTests-summary.log", 
                         "details": {
                             "num_fails": "25"
                         }
-                    }, 
-                    {
-                        "arch": "slc6_amd64_gcc530", 
-                        "passed": "unknown", 
-                        "file": "['/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.0-sun-00/CMSSW_8_0_X_2021-04-04-0000/new/logAnalysis.pkl']", 
-                        "details": {}
                     }
                 ], 
                 "ib_date": "2021-04-04-0000-0000", 
@@ -43742,7 +44021,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.0-sun-00/CMSSW_8_0_X_2021-04-04-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 140, 
+                            "num_passed": 206, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -47498,9 +47777,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/9.3-sun-00/CMSSW_9_3_X_2021-04-04-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1628, 
-                            "known_failed": 0, 
-                            "num_failed": 13
+                            "num_passed": 1811, 
+                            "known_failed": 8, 
+                            "num_failed": 6
                         }
                     }
                 ], 
@@ -47808,7 +48087,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.4-sun-00/CMSSW_9_4_X_2021-04-04-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 3, 
+                            "num_passed": 6, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -47819,7 +48098,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/9.4-sun-00/CMSSW_9_4_X_2021-04-04-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 179, 
+                            "num_passed": 289, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
