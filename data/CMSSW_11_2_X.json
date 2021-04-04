@@ -130,7 +130,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.2-sun-00/CMSSW_11_2_X_2021-04-04-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 11, 
+                        "num_passed": 24, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -141,7 +141,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/sun/11.2-sun-00/CMSSW_11_2_X_2021-04-04-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1402, 
+                        "num_passed": 1709, 
                         "known_failed": 0, 
                         "num_failed": 1
                     }
@@ -1428,17 +1428,7 @@
                 "slc7_amd64_gcc900"
             ], 
             "cmsdist_merged_prs": {
-                "cc8_amd64_gcc9": [
-                    {
-                        "hash": "a29d0b687d33bfa418e26b443a7f252d555ab266", 
-                        "title": "[Coral] Bug fix for the DB connection lifetime", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/6774", 
-                        "number": "6774", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "qliphy"
-                    }
-                ], 
+                "cc8_amd64_gcc9": [], 
                 "slc7_amd64_gcc900": [
                     {
                         "hash": "a29d0b687d33bfa418e26b443a7f252d555ab266", 
@@ -1452,7 +1442,7 @@
                 ]
             }, 
             "cmsdist_compared_tags": {
-                "cc8_amd64_gcc9": "IB/CMSSW_11_2_X_2021-03-28-0000/cc8_amd64_gcc9..IB/CMSSW_11_2_X_2021-03-31-2300/cc8_amd64_gcc9", 
+                "cc8_amd64_gcc9": "IB/CMSSW_11_2_X_2021-03-31-2300/cc8_amd64_gcc9..IB/CMSSW_11_2_X_2021-03-31-2300/cc8_amd64_gcc9", 
                 "slc7_amd64_gcc900": "IB/CMSSW_11_2_X_2021-03-28-0000/slc7_amd64_gcc900..IB/CMSSW_11_2_X_2021-03-31-2300/slc7_amd64_gcc900"
             }, 
             "static_checks_failures": "not-found", 
@@ -2599,15 +2589,12 @@
                 }
             ], 
             "tests_archs": [
-                "cc8_amd64_gcc9", 
                 "slc7_amd64_gcc900"
             ], 
             "cmsdist_merged_prs": {
-                "cc8_amd64_gcc9": [], 
                 "slc7_amd64_gcc900": []
             }, 
             "cmsdist_compared_tags": {
-                "cc8_amd64_gcc9": "IB/CMSSW_11_2_X_2021-03-28-0000/cc8_amd64_gcc9..IB/CMSSW_11_2_X_2021-03-28-0000/cc8_amd64_gcc9", 
                 "slc7_amd64_gcc900": "IB/CMSSW_11_2_X_2021-03-28-0000/slc7_amd64_gcc900..IB/CMSSW_11_2_X_2021-03-28-0000/slc7_amd64_gcc900"
             }, 
             "static_checks_failures": "not-found", 
@@ -2639,14 +2626,6 @@
                     "details": {
                         "num_fails": "0"
                     }
-                }, 
-                {
-                    "arch": "cc8_amd64_gcc9", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/sun/11.2-sun-00/CMSSW_11_2_X_2021-03-28-0000/unitTests-summary.log", 
-                    "details": {
-                        "num_fails": "0"
-                    }
                 }
             ], 
             "ib_date": "2021-03-28-0000-0000", 
@@ -2660,17 +2639,6 @@
                         "num_passed": 3394, 
                         "known_failed": 0, 
                         "num_failed": 0
-                    }
-                }, 
-                {
-                    "done": true, 
-                    "arch": "cc8_amd64_gcc9", 
-                    "passed": false, 
-                    "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/sun/11.2-sun-00/CMSSW_11_2_X_2021-03-28-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                    "details": {
-                        "num_passed": 3322, 
-                        "known_failed": 0, 
-                        "num_failed": 24
                     }
                 }
             ], 
@@ -8359,14 +8327,6 @@
                     "details": {
                         "ignoreWarning": 3
                     }
-                }, 
-                {
-                    "arch": "cc8_amd64_gcc9", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/sun/11.2-sun-00/CMSSW_11_2_X_2021-03-28-0000/new/logAnalysis.pkl", 
-                    "details": {
-                        "ignoreWarning": 3
-                    }
                 }
             ], 
             "material_budget_v2": "not-found", 
@@ -8378,10 +8338,6 @@
             "valgrind": "not-found", 
             "material_budget": "not-found", 
             "dupDict": [
-                {
-                    "arch": "cc8_amd64_gcc9", 
-                    "passed": "passed"
-                }, 
                 {
                     "arch": "slc7_amd64_gcc900", 
                     "passed": "passed"
@@ -8396,12 +8352,6 @@
                     "arch": "slc7_amd64_gcc900", 
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.2-sun-00/CMSSW_11_2_X_2021-03-28-0000/addOnTests.log", 
-                    "details": {}
-                }, 
-                {
-                    "arch": "cc8_amd64_gcc9", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/sun/11.2-sun-00/CMSSW_11_2_X_2021-03-28-0000/addOnTests.log", 
                     "details": {}
                 }
             ], 
