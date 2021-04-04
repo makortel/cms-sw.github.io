@@ -1,0 +1,1170 @@
+{
+  "OpenBLAS": {
+    "build_dependencies": [],
+    "checksum": "a2167b325c9ce6115094fb7ac3df5fd1",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "OpenBLAS",
+    "package_name": "external+OpenBLAS+0.3.9-ljfedo",
+    "patches": [
+      "OpenBLAS-fix-dynamic-arch.patch",
+      "OpenBLAS-disable-tests.patch"
+    ],
+    "realversion": "0.3.9",
+    "revision": "1",
+    "sources": [
+      "https://github.com/xianyi/OpenBLAS/archive/v0.3.9.tar.gz"
+    ],
+    "version": "0.3.9-ljfedo"
+  },
+  "bz2lib": {
+    "build_dependencies": [],
+    "checksum": "acf2897cb2b9727bfbf932c11cc72bf7",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "bz2lib",
+    "package_name": "external+bz2lib+1.0.6",
+    "patches": [],
+    "realversion": "1.0.6",
+    "revision": "1",
+    "sources": [
+      "http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz"
+    ],
+    "version": "1.0.6"
+  },
+  "cuda": {
+    "build_dependencies": [],
+    "checksum": "eb6d9e158c825f784dacfebf9c090173",
+    "dependencies": [
+      "gcc",
+      "python"
+    ],
+    "doc": "",
+    "name": "cuda",
+    "package_name": "external+cuda+11.2.2-eb6d9e158c825f784dacfebf9c090173",
+    "patches": [],
+    "realversion": "11.2.2",
+    "revision": "1",
+    "sources": [
+      "https://developer.download.nvidia.com/compute/cuda/11.2.2/local_installers/cuda_11.2.2_460.32.03_linux_sbsa.run"
+    ],
+    "version": "11.2.2-eb6d9e158c825f784dacfebf9c090173"
+  },
+  "db6": {
+    "build_dependencies": [],
+    "checksum": "8cfa28ff7d3e78188bfcc23fc02c71c6",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "db6",
+    "package_name": "external+db6+6.2.32",
+    "patches": [],
+    "realversion": "6.2.32",
+    "revision": "1",
+    "sources": [
+      "http://cmsrep.cern.ch/cmssw/download/db-6.2.32.tar.gz"
+    ],
+    "version": "6.2.32"
+  },
+  "expat": {
+    "build_dependencies": [],
+    "checksum": "b174473c0445cc260267c9e4e44719c1",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "expat",
+    "package_name": "external+expat+2.1.0",
+    "patches": [],
+    "realversion": "2.1.0",
+    "revision": "1",
+    "sources": [
+      "http://downloads.sourceforge.net/project/expat/expat/2.1.0/expat-2.1.0.tar.gz"
+    ],
+    "version": "2.1.0"
+  },
+  "gcc": {
+    "build_dependencies": [],
+    "checksum": "610f04827ed0f827de9b8700ad3d9670",
+    "dependencies": [],
+    "doc": "",
+    "name": "gcc",
+    "package_name": "external+gcc+9.3.0",
+    "patches": [
+      "gcc-flex-nonfull-path-m4.patch",
+      "gcc-flex-disable-doc.patch"
+    ],
+    "realversion": "9.3.0",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/gcc-mirror/gcc.git?obj=releases/gcc-9/4212a6a3e44f870412d9025eeb323fd4f50a61da&export=gcc-9.3.0&output=/gcc-9.3.0-4212a6a3e44f870412d9025eeb323fd4f50a61da.tgz",
+      "https://gmplib.org/download/gmp/gmp-6.2.0.tar.bz2",
+      "http://www.mpfr.org/mpfr-4.0.2/mpfr-4.0.2.tar.bz2",
+      "https://ftp.gnu.org/gnu/mpc/mpc-1.1.0.tar.gz",
+      "http://isl.gforge.inria.fr/isl-0.21.tar.bz2",
+      "http://zlib.net/zlib-1.2.11.tar.gz",
+      "http://ftp.gnu.org/gnu/bison/bison-3.5.tar.gz",
+      "https://sourceware.org/pub/binutils/releases/binutils-2.32.tar.bz2",
+      "https://sourceware.org/pub/elfutils/0.177/elfutils-0.177.tar.bz2",
+      "http://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.gz",
+      "https://github.com/westes/flex/releases/download/v2.6.4/flex-2.6.4.tar.gz"
+    ],
+    "version": "9.3.0"
+  },
+  "gdbm": {
+    "build_dependencies": [],
+    "checksum": "1b1e7fda812e8b0cd77e389a2d1cf51e",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "gdbm",
+    "package_name": "external+gdbm+1.10",
+    "patches": [],
+    "realversion": "1.10",
+    "revision": "1",
+    "sources": [
+      "http://ftp.gnu.org/gnu/gdbm/gdbm-1.10.tar.gz"
+    ],
+    "version": "1.10"
+  },
+  "libffi": {
+    "build_dependencies": [],
+    "checksum": "e67e3e5be269ebb6de560ac98fe20523",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "libffi",
+    "package_name": "external+libffi+3.2.1",
+    "patches": [
+      "libffi-3.2.1-fix-include-path.patch"
+    ],
+    "realversion": "3.2.1",
+    "revision": "1",
+    "sources": [
+      "ftp://sourceware.org/pub/libffi/libffi-3.2.1.tar.gz"
+    ],
+    "version": "3.2.1"
+  },
+  "libuuid": {
+    "build_dependencies": [],
+    "checksum": "ef05d3c46b7885b1327329484e2c3f93",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "libuuid",
+    "package_name": "external+libuuid+2.34",
+    "patches": [
+      "libuuid-2.34-disable-get_uuid_via_daemon.patch"
+    ],
+    "realversion": "2.34",
+    "revision": "1",
+    "sources": [
+      "http://www.kernel.org/pub/linux/utils/util-linux/v2.34/util-linux-2.34.tar.gz"
+    ],
+    "version": "2.34"
+  },
+  "openssl": {
+    "build_dependencies": [],
+    "checksum": "bf07b3f91ff878bb069ecac1ff7a51d4",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "openssl",
+    "package_name": "external+openssl+1.0.2d",
+    "patches": [
+      "openssl-1.0.2d-pr3979.patch",
+      "openssl-1.0.2d-disable-install-openssldir.patch"
+    ],
+    "realversion": "1.0.2d",
+    "revision": "1",
+    "sources": [
+      "http://davidlt.web.cern.ch/davidlt/vault/openssl-1.0.2d-5675d07a144aa1a6c85f488a95aeea7854e86059.tar.bz2"
+    ],
+    "version": "1.0.2d"
+  },
+  "py2-Mako": {
+    "build_dependencies": [],
+    "checksum": "7b5b0ceee452ecba376496a791a21756",
+    "dependencies": [
+      "gcc",
+      "py2-MarkupSafe",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-Mako",
+    "package_name": "external+py2-Mako+1.1.4",
+    "patches": [],
+    "realversion": "1.1.4",
+    "revision": "1",
+    "sources": [
+      "pip://Mako/1.1.4?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "1.1.4"
+  },
+  "py2-MarkupSafe": {
+    "build_dependencies": [],
+    "checksum": "0ecd1c77dec3af4e82689408e998a2bc",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-MarkupSafe",
+    "package_name": "external+py2-MarkupSafe+1.1.1-ljfedo",
+    "patches": [],
+    "realversion": "1.1.1",
+    "revision": "1",
+    "sources": [
+      "pip://MarkupSafe/1.1.1?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "1.1.1-ljfedo"
+  },
+  "py2-appdirs": {
+    "build_dependencies": [],
+    "checksum": "7de4e10599e0f79bc40fed53244c6402",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-appdirs",
+    "package_name": "external+py2-appdirs+1.4.4-ljfedo",
+    "patches": [],
+    "realversion": "1.4.4",
+    "revision": "1",
+    "sources": [
+      "pip://appdirs/1.4.4?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "1.4.4-ljfedo"
+  },
+  "py2-atomicwrites": {
+    "build_dependencies": [],
+    "checksum": "8a66c3642debc61324abe1ba3250c904",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-atomicwrites",
+    "package_name": "external+py2-atomicwrites+1.4.0-ljfedo",
+    "patches": [],
+    "realversion": "1.4.0",
+    "revision": "1",
+    "sources": [
+      "pip://atomicwrites/1.4.0?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "1.4.0-ljfedo"
+  },
+  "py2-attrs": {
+    "build_dependencies": [],
+    "checksum": "05c09dd8e4c8c2c59ea35d727eb659df",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py2-wheel",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-attrs",
+    "package_name": "external+py2-attrs+20.3.0-ljfedo",
+    "patches": [],
+    "realversion": "20.3.0",
+    "revision": "1",
+    "sources": [
+      "pip://attrs/20.3.0?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "20.3.0-ljfedo"
+  },
+  "py2-backports-functools_lru_cache": {
+    "build_dependencies": [],
+    "checksum": "4cd32b0ed6a95dc947d414d475bdd7c1",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py2-setuptools-scm",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-backports-functools_lru_cache",
+    "package_name": "external+py2-backports-functools_lru_cache+1.6.1-ljfedo",
+    "patches": [],
+    "realversion": "1.6.1",
+    "revision": "1",
+    "sources": [
+      "pip://backports.functools_lru_cache/1.6.1?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "1.6.1-ljfedo"
+  },
+  "py2-configparser": {
+    "build_dependencies": [],
+    "checksum": "a37f29b2e91ab4c271d9565bf0d20a01",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py2-setuptools-scm",
+      "python"
+    ],
+    "doc": "",
+    "name": "py2-configparser",
+    "package_name": "external+py2-configparser+4.0.2-ljfedo",
+    "patches": [],
+    "realversion": "4.0.2",
+    "revision": "1",
+    "sources": [
+      "pip://configparser/4.0.2?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "4.0.2-ljfedo"
+  },
+  "py2-contextlib2": {
+    "build_dependencies": [],
+    "checksum": "9b3cfd9d3e7c92eec8ba94a74dcfc5ce",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-contextlib2",
+    "package_name": "external+py2-contextlib2+0.6.0.post1-ljfedo",
+    "patches": [],
+    "realversion": "0.6.0.post1",
+    "revision": "1",
+    "sources": [
+      "pip://contextlib2/0.6.0.post1?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "0.6.0.post1-ljfedo"
+  },
+  "py2-cython": {
+    "build_dependencies": [],
+    "checksum": "1524cc99a7d3e09fdde9b60fbff2ba15",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-cython",
+    "package_name": "external+py2-cython+0.29.22",
+    "patches": [],
+    "realversion": "0.29.22",
+    "revision": "1",
+    "sources": [
+      "pip://Cython/0.29.22?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "0.29.22"
+  },
+  "py2-decorator": {
+    "build_dependencies": [],
+    "checksum": "32db6d6366955c20aa03cbe0996c8e57",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-decorator",
+    "package_name": "external+py2-decorator+4.4.2-ljfedo",
+    "patches": [],
+    "realversion": "4.4.2",
+    "revision": "1",
+    "sources": [
+      "pip://decorator/4.4.2?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "4.4.2-ljfedo"
+  },
+  "py2-funcsigs": {
+    "build_dependencies": [],
+    "checksum": "bc83b4d88317be61410662383aa29a6c",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-funcsigs",
+    "package_name": "external+py2-funcsigs+1.0.2-ljfedo",
+    "patches": [],
+    "realversion": "1.0.2",
+    "revision": "1",
+    "sources": [
+      "pip://funcsigs/1.0.2?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "1.0.2-ljfedo"
+  },
+  "py2-importlib-metadata": {
+    "build_dependencies": [],
+    "checksum": "cae92fc6dd8875f777fd00784bbf020e",
+    "dependencies": [
+      "gcc",
+      "py2-configparser",
+      "py2-contextlib2",
+      "py2-pathlib2",
+      "py2-pip",
+      "py2-setuptools",
+      "py2-zipp",
+      "py3-pip",
+      "py3-setuptools",
+      "py3-zipp",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-importlib-metadata",
+    "package_name": "external+py2-importlib-metadata+2.1.1-ljfedo",
+    "patches": [],
+    "realversion": "2.1.1",
+    "revision": "1",
+    "sources": [
+      "pip://importlib-metadata/2.1.1?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "2.1.1-ljfedo"
+  },
+  "py2-iniconfig": {
+    "build_dependencies": [],
+    "checksum": "f405f42ad465bd7fae879fc59d7f617e",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py2-wheel",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-iniconfig",
+    "package_name": "external+py2-iniconfig+1.1.1",
+    "patches": [],
+    "realversion": "1.1.1",
+    "revision": "1",
+    "sources": [
+      "pip://iniconfig/1.1.1?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "1.1.1"
+  },
+  "py2-more-itertools": {
+    "build_dependencies": [],
+    "checksum": "77e93c9da5f8c742990a08a0606ee4cb",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py2-six",
+      "py2-wheel",
+      "python"
+    ],
+    "doc": "",
+    "name": "py2-more-itertools",
+    "package_name": "external+py2-more-itertools+5.0.0-ljfedo",
+    "patches": [],
+    "realversion": "5.0.0",
+    "revision": "1",
+    "sources": [
+      "pip://more-itertools/5.0.0?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "5.0.0-ljfedo"
+  },
+  "py2-numpy": {
+    "build_dependencies": [],
+    "checksum": "a09235e88f262938cb5e565ca67db882",
+    "dependencies": [
+      "OpenBLAS",
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "python",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "py2-numpy",
+    "package_name": "external+py2-numpy+1.16.6-ljfedo2",
+    "patches": [],
+    "realversion": "1.16.6",
+    "revision": "1",
+    "sources": [
+      "https://github.com/numpy/numpy/releases/download/v1.16.6/numpy-1.16.6.tar.gz"
+    ],
+    "version": "1.16.6-ljfedo2"
+  },
+  "py2-packaging": {
+    "build_dependencies": [],
+    "checksum": "0060d5edd37bd31d09dd171a79e6242c",
+    "dependencies": [
+      "gcc",
+      "py2-attrs",
+      "py2-pip",
+      "py2-pyparsing",
+      "py2-setuptools",
+      "py2-six",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-packaging",
+    "package_name": "external+py2-packaging+20.9",
+    "patches": [],
+    "realversion": "20.9",
+    "revision": "1",
+    "sources": [
+      "pip://packaging/20.9?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "20.9"
+  },
+  "py2-pathlib2": {
+    "build_dependencies": [],
+    "checksum": "a2110d08bc91dae67e9fca80527a1948",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-scandir",
+      "py2-setuptools",
+      "py2-six",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-pathlib2",
+    "package_name": "external+py2-pathlib2+2.3.5-ljfedo",
+    "patches": [],
+    "realversion": "2.3.5",
+    "revision": "1",
+    "sources": [
+      "pip://pathlib2/2.3.5?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "2.3.5-ljfedo"
+  },
+  "py2-pip": {
+    "build_dependencies": [],
+    "checksum": "b961582dd95b7f944462337d3b39b2a9",
+    "dependencies": [
+      "gcc",
+      "py2-setuptools",
+      "python"
+    ],
+    "doc": "",
+    "name": "py2-pip",
+    "package_name": "external+py2-pip+9.0.3-ljfedo",
+    "patches": [],
+    "realversion": "9.0.3",
+    "revision": "1",
+    "sources": [
+      "https://github.com/pypa/pip/archive/9.0.3.tar.gz"
+    ],
+    "version": "9.0.3-ljfedo"
+  },
+  "py2-pluggy": {
+    "build_dependencies": [],
+    "checksum": "d33c62edc915d5658cc1049dd29c3f67",
+    "dependencies": [
+      "gcc",
+      "py2-importlib-metadata",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-pluggy",
+    "package_name": "external+py2-pluggy+0.13.1-ljfedo2",
+    "patches": [],
+    "realversion": "0.13.1",
+    "revision": "1",
+    "sources": [
+      "pip://pluggy/0.13.1?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "0.13.1-ljfedo2"
+  },
+  "py2-py": {
+    "build_dependencies": [],
+    "checksum": "36d55a4753aa11386c6c3b29ff2a4110",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py2-setuptools-scm",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-py",
+    "package_name": "external+py2-py+1.10.0",
+    "patches": [],
+    "realversion": "1.10.0",
+    "revision": "1",
+    "sources": [
+      "pip://py/1.10.0?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "1.10.0"
+  },
+  "py2-pycuda": {
+    "build_dependencies": [],
+    "checksum": "4d048f37168d6e0753d0c734c609124f",
+    "dependencies": [
+      "cuda",
+      "gcc",
+      "py2-Mako",
+      "py2-appdirs",
+      "py2-decorator",
+      "py2-numpy",
+      "py2-pip",
+      "py2-pytest",
+      "py2-pytools",
+      "py2-setuptools",
+      "py3-numpy",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-pycuda",
+    "package_name": "external+py2-pycuda+2019.1.2-4d048f37168d6e0753d0c734c609124f",
+    "patches": [],
+    "realversion": "2019.1.2",
+    "revision": "1",
+    "sources": [
+      "pip://pycuda/2019.1.2?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "2019.1.2-4d048f37168d6e0753d0c734c609124f"
+  },
+  "py2-pyparsing": {
+    "build_dependencies": [],
+    "checksum": "8f3d13c28b51b86c23ad3ff549fec3df",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-pyparsing",
+    "package_name": "external+py2-pyparsing+2.4.7-ljfedo",
+    "patches": [],
+    "realversion": "2.4.7",
+    "revision": "1",
+    "sources": [
+      "pip://pyparsing/2.4.7?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "2.4.7-ljfedo"
+  },
+  "py2-pytest": {
+    "build_dependencies": [],
+    "checksum": "188b1e2d6cd83c88cc45f6ade5951305",
+    "dependencies": [
+      "gcc",
+      "py2-atomicwrites",
+      "py2-attrs",
+      "py2-funcsigs",
+      "py2-iniconfig",
+      "py2-more-itertools",
+      "py2-packaging",
+      "py2-pathlib2",
+      "py2-pip",
+      "py2-pluggy",
+      "py2-py",
+      "py2-scandir",
+      "py2-setuptools",
+      "py2-toml",
+      "py2-wcwidth",
+      "python"
+    ],
+    "doc": "",
+    "name": "py2-pytest",
+    "package_name": "external+py2-pytest+4.6.11-ljfedo2",
+    "patches": [],
+    "realversion": "4.6.11",
+    "revision": "1",
+    "sources": [
+      "pip://pytest/4.6.11?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "4.6.11-ljfedo2"
+  },
+  "py2-pytools": {
+    "build_dependencies": [],
+    "checksum": "3fed3cc6d5bcab5e6013937702d42d4b",
+    "dependencies": [
+      "gcc",
+      "py2-appdirs",
+      "py2-decorator",
+      "py2-numpy",
+      "py2-pip",
+      "py2-setuptools",
+      "py2-six",
+      "py3-numpy",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-pytools",
+    "package_name": "external+py2-pytools+2020.3-ljfedo2",
+    "patches": [],
+    "realversion": "2020.3",
+    "revision": "1",
+    "sources": [
+      "pip://pytools/2020.3?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "2020.3-ljfedo2"
+  },
+  "py2-scandir": {
+    "build_dependencies": [],
+    "checksum": "ac60308558faae8b516217352addce6f",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-scandir",
+    "package_name": "external+py2-scandir+1.10.0-ljfedo",
+    "patches": [],
+    "realversion": "1.10.0",
+    "revision": "1",
+    "sources": [
+      "pip://scandir/1.10.0?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "1.10.0-ljfedo"
+  },
+  "py2-setuptools": {
+    "build_dependencies": [],
+    "checksum": "5ca40468680db231094a266c1e6cc0f4",
+    "dependencies": [
+      "gcc",
+      "python"
+    ],
+    "doc": "",
+    "name": "py2-setuptools",
+    "package_name": "external+py2-setuptools+44.1.1",
+    "patches": [],
+    "realversion": "44.1.1",
+    "revision": "1",
+    "sources": [
+      "https://github.com/pypa/setuptools/archive/v44.1.1.tar.gz"
+    ],
+    "version": "44.1.1"
+  },
+  "py2-setuptools-scm": {
+    "build_dependencies": [],
+    "checksum": "28e6dcb2eee8b97ce273146d60bd831b",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py2-wheel",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-setuptools-scm",
+    "package_name": "external+py2-setuptools-scm+3.5.0-ljfedo",
+    "patches": [],
+    "realversion": "3.5.0",
+    "revision": "1",
+    "sources": [
+      "pip://setuptools-scm/3.5.0?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "3.5.0-ljfedo"
+  },
+  "py2-six": {
+    "build_dependencies": [],
+    "checksum": "c2f68e724613aeb73f40bdcd4dabb10a",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-six",
+    "package_name": "external+py2-six+1.15.0-ljfedo",
+    "patches": [],
+    "realversion": "1.15.0",
+    "revision": "1",
+    "sources": [
+      "pip://six/1.15.0?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "1.15.0-ljfedo"
+  },
+  "py2-toml": {
+    "build_dependencies": [],
+    "checksum": "6b976d9948af12e29b5ee9e2c9849e94",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-toml",
+    "package_name": "external+py2-toml+0.10.2-ljfedo",
+    "patches": [],
+    "realversion": "0.10.2",
+    "revision": "1",
+    "sources": [
+      "pip://toml/0.10.2?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "0.10.2-ljfedo"
+  },
+  "py2-wcwidth": {
+    "build_dependencies": [],
+    "checksum": "2a37cb2307af2a8d8fb5fd103569a249",
+    "dependencies": [
+      "gcc",
+      "py2-backports-functools_lru_cache",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-wcwidth",
+    "package_name": "external+py2-wcwidth+0.2.5-ljfedo",
+    "patches": [],
+    "realversion": "0.2.5",
+    "revision": "1",
+    "sources": [
+      "pip://wcwidth/0.2.5?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "0.2.5-ljfedo"
+  },
+  "py2-wheel": {
+    "build_dependencies": [],
+    "checksum": "b8a0ba1536dfd2f1499c891de8ac0076",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-wheel",
+    "package_name": "external+py2-wheel+0.33.6-ljfedo",
+    "patches": [],
+    "realversion": "0.33.6",
+    "revision": "1",
+    "sources": [
+      "pip://wheel/0.33.6?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "0.33.6-ljfedo"
+  },
+  "py2-zipp": {
+    "build_dependencies": [],
+    "checksum": "bc685d98b36860676ffaa8f9413fe66e",
+    "dependencies": [
+      "gcc",
+      "py2-contextlib2",
+      "py2-more-itertools",
+      "py2-pip",
+      "py2-setuptools",
+      "py2-setuptools-scm",
+      "py3-more-itertools",
+      "python"
+    ],
+    "doc": "",
+    "name": "py2-zipp",
+    "package_name": "external+py2-zipp+1.2.0-ljfedo2",
+    "patches": [],
+    "realversion": "1.2.0",
+    "revision": "1",
+    "sources": [
+      "pip://zipp/1.2.0?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "1.2.0-ljfedo2"
+  },
+  "py3-more-itertools": {
+    "build_dependencies": [],
+    "checksum": "ac6acde43d7b441fb207056201374757",
+    "dependencies": [
+      "gcc",
+      "py2-six",
+      "py2-wheel",
+      "py3-pip",
+      "py3-setuptools",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py3-more-itertools",
+    "package_name": "external+py3-more-itertools+8.7.0",
+    "patches": [],
+    "realversion": "8.7.0",
+    "revision": "1",
+    "sources": [
+      "pip://more-itertools/8.7.0?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip3&package_dependency=py3-pip&output=/source.tar.gz"
+    ],
+    "version": "8.7.0"
+  },
+  "py3-numpy": {
+    "build_dependencies": [],
+    "checksum": "78068f7ef072a9fd1f6f271439724802",
+    "dependencies": [
+      "OpenBLAS",
+      "gcc",
+      "py2-cython",
+      "py3-pip",
+      "py3-setuptools",
+      "python3",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "py3-numpy",
+    "package_name": "external+py3-numpy+1.17.5-ljfedo",
+    "patches": [],
+    "realversion": "1.17.5",
+    "revision": "1",
+    "sources": [
+      "https://github.com/numpy/numpy/releases/download/v1.17.5/numpy-1.17.5.tar.gz"
+    ],
+    "version": "1.17.5-ljfedo"
+  },
+  "py3-pip": {
+    "build_dependencies": [],
+    "checksum": "f08cf764c6803e998f0926d7f67ecce4",
+    "dependencies": [
+      "gcc",
+      "py3-setuptools",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py3-pip",
+    "package_name": "external+py3-pip+20.3.3",
+    "patches": [],
+    "realversion": "20.3.3",
+    "revision": "1",
+    "sources": [
+      "https://github.com/pypa/pip/archive/20.3.3.tar.gz"
+    ],
+    "version": "20.3.3"
+  },
+  "py3-setuptools": {
+    "build_dependencies": [],
+    "checksum": "5b44d2cd3cfe3ed8163502c090df9b0a",
+    "dependencies": [
+      "gcc",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py3-setuptools",
+    "package_name": "external+py3-setuptools+51.3.3",
+    "patches": [],
+    "realversion": "51.3.3",
+    "revision": "1",
+    "sources": [
+      "https://github.com/pypa/setuptools/archive/v51.3.3.tar.gz"
+    ],
+    "version": "51.3.3"
+  },
+  "py3-zipp": {
+    "build_dependencies": [],
+    "checksum": "56e360ce270a28d29a08437688405b69",
+    "dependencies": [
+      "gcc",
+      "py2-contextlib2",
+      "py2-more-itertools",
+      "py2-setuptools-scm",
+      "py3-more-itertools",
+      "py3-pip",
+      "py3-setuptools",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py3-zipp",
+    "package_name": "external+py3-zipp+3.4.0-ljfedo2",
+    "patches": [],
+    "realversion": "3.4.0",
+    "revision": "1",
+    "sources": [
+      "pip://zipp/3.4.0?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip3&package_dependency=py3-pip&output=/source.tar.gz"
+    ],
+    "version": "3.4.0-ljfedo2"
+  },
+  "python": {
+    "build_dependencies": [],
+    "checksum": "cd19a5ead08829b93c8cc79c1b44a200",
+    "dependencies": [
+      "bz2lib",
+      "db6",
+      "expat",
+      "gcc",
+      "gdbm",
+      "libffi",
+      "openssl",
+      "sqlite",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "python",
+    "package_name": "external+python+2.7.15",
+    "patches": [],
+    "realversion": "2.7.15",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-externals/cpython.git?obj=cms/2.7/c40eeeb/583c0f2237aade97173702ac602b16f51eadde6d&export=python-2.7.15&output=/python-2.7.15.tgz",
+      "/home/cmsbuild/jenkins_a/workspace/build-any-ib/CMSDIST/valgrind-python.supp.file"
+    ],
+    "version": "2.7.15"
+  },
+  "python3": {
+    "build_dependencies": [],
+    "checksum": "0923d45facc02c507f248eced2e49422",
+    "dependencies": [
+      "bz2lib",
+      "db6",
+      "expat",
+      "gcc",
+      "gdbm",
+      "libffi",
+      "libuuid",
+      "openssl",
+      "sqlite",
+      "xz",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "python3",
+    "package_name": "external+python3+3.8.2",
+    "patches": [],
+    "realversion": "3.8.2",
+    "revision": "1",
+    "sources": [
+      "https://www.python.org/ftp/python/3.8.2/Python-3.8.2.tgz"
+    ],
+    "version": "3.8.2"
+  },
+  "sqlite": {
+    "build_dependencies": [],
+    "checksum": "c4c906c1e57bb9a584d7364f66307a71",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "sqlite",
+    "package_name": "external+sqlite+3.22.0",
+    "patches": [],
+    "realversion": "3.22.0",
+    "revision": "1",
+    "sources": [
+      "https://www.sqlite.org/2018/sqlite-autoconf-3220000.tar.gz"
+    ],
+    "version": "3.22.0"
+  },
+  "xz": {
+    "build_dependencies": [
+      "autotools"
+    ],
+    "checksum": "ec3d7affb0fc3a4c2a20d650a6254464",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "xz",
+    "package_name": "external+xz+5.2.4",
+    "patches": [],
+    "realversion": "5.2.4",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-externals/xz.git?obj=cms/v5.2.4/982e837ddd3da234f710870fa65ba8c14f381b8b&export=xz-5.2.4&output=/xz-5.2.4.tgz"
+    ],
+    "version": "5.2.4"
+  },
+  "zlib": {
+    "build_dependencies": [],
+    "checksum": "99271b1d98da3981abdd2087fe66ac21",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "zlib",
+    "package_name": "external+zlib+1.2.11",
+    "patches": [],
+    "realversion": "1.2.11",
+    "revision": "1",
+    "sources": [
+      "git://github.com/madler/zlib.git?obj=master/v1.2.11&export=zlib-1.2.11&output=/zlib-1.2.11.tgz"
+    ],
+    "version": "1.2.11"
+  }
+}
