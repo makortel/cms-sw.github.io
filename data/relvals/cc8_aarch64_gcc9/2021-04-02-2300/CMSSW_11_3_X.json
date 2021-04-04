@@ -261,6 +261,29 @@
         ]
     },
     {
+        "exitcode": 16896,
+        "id": "136.797",
+        "known_error": 0,
+        "name": "RunMuonEG2017C+RunMuonEG2017C+HLTDR2_2017+RECODR2_2017reHLT_skimMuonEG_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 77
+            },
+            {
+                "errors": 10,
+                "status": "FAILED",
+                "warnings": 47
+            }
+        ]
+    },
+    {
         "exitcode": 34304,
         "id": "136.802",
         "known_error": 0,
@@ -390,6 +413,29 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 30
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 8
+            }
+        ]
+    },
+    {
+        "exitcode": 34304,
+        "id": "1347.0",
+        "known_error": 0,
+        "name": "Upsilon1SToMuMu_13+Upsilon1SToMuMu_13INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 17
             },
             {
                 "errors": 0,
