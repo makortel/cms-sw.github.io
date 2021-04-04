@@ -100,29 +100,42 @@
             "dqm_tests": "inprogress", 
             "utests": [
                 {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.2-sun-00/CMSSW_11_2_X_2021-04-04-0000/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
+                }, 
+                {
                     "arch": "cc8_amd64_gcc9", 
                     "passed": "passed", 
                     "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/sun/11.2-sun-00/CMSSW_11_2_X_2021-04-04-0000/unitTests-summary.log", 
                     "details": {
                         "num_fails": "0"
                     }
-                }, 
-                {
-                    "arch": "slc7_amd64_gcc900", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.2-sun-00/CMSSW_11_2_X_2021-04-04-0000/new/logAnalysis.pkl']", 
-                    "details": {}
                 }
             ], 
             "ib_date": "2021-04-04-0000-0000", 
             "relvals": [
                 {
                     "done": false, 
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.2-sun-00/CMSSW_11_2_X_2021-04-04-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 6, 
+                        "known_failed": 0, 
+                        "num_failed": 0
+                    }
+                }, 
+                {
+                    "done": false, 
                     "arch": "cc8_amd64_gcc9", 
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/sun/11.2-sun-00/CMSSW_11_2_X_2021-04-04-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 328, 
+                        "num_passed": 618, 
                         "known_failed": 0, 
                         "num_failed": 1
                     }
@@ -130,7 +143,7 @@
             ], 
             "release_queue": "CMSSW_11_2_X", 
             "release_name": "CMSSW_11_2_X_2021-04-04-0000", 
-            "comp_baseline": "inprogress", 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_11_2_X_2021-04-04-0000/slc7_amd64_gcc900/-GenuineIntel/matrix-results", 
             "gpu_utests": [
                 {
                     "arch": "slc7_amd64_gcc900", 

@@ -117,7 +117,7 @@
             "flawfinder": "found", 
             "next_ib": false, 
             "RVExceptions": null, 
-            "igprof": "inprogress", 
+            "igprof": "found", 
             "reco_event_loop": "inprogress", 
             "profiling": "inprogress", 
             "base_branch": "CMSSW_11_3_X", 
@@ -125,15 +125,17 @@
             "dqm_tests": "inprogress", 
             "utests": [
                 {
+                    "arch": "slc7_ppc64le_gcc9", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/sun/11.3-sun-00/CMSSW_11_3_X_2021-04-04-0000/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "17"
+                    }
+                }, 
+                {
                     "arch": "slc7_amd64_gcc900", 
                     "passed": "unknown", 
                     "file": "['/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.3-sun-00/CMSSW_11_3_X_2021-04-04-0000/new/logAnalysis.pkl']", 
-                    "details": {}
-                }, 
-                {
-                    "arch": "slc7_ppc64le_gcc9", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/sun/11.3-sun-00/CMSSW_11_3_X_2021-04-04-0000/new/logAnalysis.pkl']", 
                     "details": {}
                 }, 
                 {
@@ -151,7 +153,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/sun/11.3-sun-00/CMSSW_11_3_X_2021-04-04-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 211, 
+                        "num_passed": 371, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -241,6 +243,12 @@
                     "arch": "slc7_ppc64le_gcc9", 
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/sun/11.3-sun-00/CMSSW_11_3_X_2021-04-04-0000/addOnTests.log", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "cc8_amd64_gcc9", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/sun/11.3-sun-00/CMSSW_11_3_X_2021-04-04-0000/addOnTests.log", 
                     "details": {}
                 }
             ], 
