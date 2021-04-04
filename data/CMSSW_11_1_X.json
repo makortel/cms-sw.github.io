@@ -98,15 +98,17 @@
             "dqm_tests": "inprogress", 
             "utests": [
                 {
+                    "arch": "cc8_amd64_gcc8", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/cc8_amd64_gcc8/www/sun/11.1-sun-00/CMSSW_11_1_X_2021-04-04-0000/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "29"
+                    }
+                }, 
+                {
                     "arch": "slc7_amd64_gcc820", 
                     "passed": "unknown", 
                     "file": "['/data/sdt/buildlogs/slc7_amd64_gcc820/www/sun/11.1-sun-00/CMSSW_11_1_X_2021-04-04-0000/new/logAnalysis.pkl']", 
-                    "details": {}
-                }, 
-                {
-                    "arch": "cc8_amd64_gcc8", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/cc8_amd64_gcc8/www/sun/11.1-sun-00/CMSSW_11_1_X_2021-04-04-0000/new/logAnalysis.pkl']", 
                     "details": {}
                 }
             ], 
@@ -182,7 +184,7 @@
                     "passed": "passed"
                 }
             ], 
-            "lizard": "inprogress", 
+            "lizard": "found", 
             "static_checks": "inprogress", 
             "isIB": true, 
             "inProgress": false, 

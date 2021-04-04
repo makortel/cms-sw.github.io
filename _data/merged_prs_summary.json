@@ -14897,15 +14897,17 @@
                 "dqm_tests": "inprogress", 
                 "utests": [
                     {
+                        "arch": "cc8_amd64_gcc8", 
+                        "passed": "failed", 
+                        "file": "/data/sdt/buildlogs/cc8_amd64_gcc8/www/sun/11.1-sun-00/CMSSW_11_1_X_2021-04-04-0000/unitTests-summary.log", 
+                        "details": {
+                            "num_fails": "29"
+                        }
+                    }, 
+                    {
                         "arch": "slc7_amd64_gcc820", 
                         "passed": "unknown", 
                         "file": "['/data/sdt/buildlogs/slc7_amd64_gcc820/www/sun/11.1-sun-00/CMSSW_11_1_X_2021-04-04-0000/new/logAnalysis.pkl']", 
-                        "details": {}
-                    }, 
-                    {
-                        "arch": "cc8_amd64_gcc8", 
-                        "passed": "unknown", 
-                        "file": "['/data/sdt/buildlogs/cc8_amd64_gcc8/www/sun/11.1-sun-00/CMSSW_11_1_X_2021-04-04-0000/new/logAnalysis.pkl']", 
                         "details": {}
                     }
                 ], 
@@ -14981,7 +14983,7 @@
                         "passed": "passed"
                     }
                 ], 
-                "lizard": "inprogress", 
+                "lizard": "found", 
                 "static_checks": "inprogress", 
                 "isIB": true, 
                 "inProgress": false, 
@@ -16032,7 +16034,19 @@
                     }
                 ], 
                 "ib_date": "2021-04-04-0000-0000", 
-                "relvals": [], 
+                "relvals": [
+                    {
+                        "done": false, 
+                        "arch": "cc8_amd64_gcc9", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/sun/11.2-sun-00/CMSSW_11_2_X_2021-04-04-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 46, 
+                            "known_failed": 0, 
+                            "num_failed": 0
+                        }
+                    }
+                ], 
                 "release_queue": "CMSSW_11_2_X", 
                 "release_name": "CMSSW_11_2_X_2021-04-04-0000", 
                 "comp_baseline": "inprogress", 
@@ -27107,6 +27121,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "60b0b66d5a12e0ec5ce3be7ba53c41725c252ae0", 
+                        "title": "[HGCAL] CaloParticleSelector selects non-converted CP", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33309", 
+                        "number": "33309", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ebrondol"
+                    }, 
+                    {
                         "hash": "9d30a110f010a46eafa7f71084da98b2c66dc57a", 
                         "title": "PPS Pixel charge share bug fix ", 
                         "url": "https://github.com/cms-sw/cmssw/pull/33329", 
@@ -27114,6 +27137,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "fabferro"
+                    }, 
+                    {
+                        "hash": "aa9e4a2958ce84151b1eda60a7d80460ff1cc065", 
+                        "title": "Add interactive option to runTheMatrix", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33082", 
+                        "number": "33082", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
                     }
                 ], 
                 "fwlite": [], 
@@ -28121,6 +28153,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "60b0b66d5a12e0ec5ce3be7ba53c41725c252ae0", 
+                        "title": "[HGCAL] CaloParticleSelector selects non-converted CP", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33309", 
+                        "number": "33309", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ebrondol"
+                    }, 
+                    {
                         "hash": "9d30a110f010a46eafa7f71084da98b2c66dc57a", 
                         "title": "PPS Pixel charge share bug fix ", 
                         "url": "https://github.com/cms-sw/cmssw/pull/33329", 
@@ -28128,6 +28169,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "fabferro"
+                    }, 
+                    {
+                        "hash": "aa9e4a2958ce84151b1eda60a7d80460ff1cc065", 
+                        "title": "Add interactive option to runTheMatrix", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33082", 
+                        "number": "33082", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
                     }
                 ], 
                 "fwlite": [], 
@@ -29594,6 +29644,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "60b0b66d5a12e0ec5ce3be7ba53c41725c252ae0", 
+                        "title": "[HGCAL] CaloParticleSelector selects non-converted CP", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33309", 
+                        "number": "33309", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "ebrondol"
+                    }, 
+                    {
                         "hash": "9d30a110f010a46eafa7f71084da98b2c66dc57a", 
                         "title": "PPS Pixel charge share bug fix ", 
                         "url": "https://github.com/cms-sw/cmssw/pull/33329", 
@@ -29601,6 +29660,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "fabferro"
+                    }, 
+                    {
+                        "hash": "aa9e4a2958ce84151b1eda60a7d80460ff1cc065", 
+                        "title": "Add interactive option to runTheMatrix", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33082", 
+                        "number": "33082", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "rovere"
                     }
                 ], 
                 "fwlite": [], 
@@ -31704,7 +31772,7 @@
                     "slc7_amd64_gcc900": []
                 }, 
                 "cmsdist_compared_tags": {
-                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_ROOT6_X_2021-04-02-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_X/rootmaster"
+                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_ROOT6_X_2021-04-04-0000/slc7_amd64_gcc900..IB/CMSSW_11_3_X/rootmaster"
                 }, 
                 "cmsdistTags": {}, 
                 "next_ib": true, 
@@ -31712,10 +31780,10 @@
                 "igprof": "not-found", 
                 "profiling": "not-found", 
                 "base_branch": "CMSSW_11_3_X", 
-                "compared_tags": "CMSSW_11_3_ROOT6_X_2021-04-02-2300-->CMSSW_11_3_X", 
+                "compared_tags": "CMSSW_11_3_ROOT6_X_2021-04-04-0000-->CMSSW_11_3_X", 
                 "dqm_tests": "inprogress", 
                 "utests": [], 
-                "ib_date": "2021-04-02-2300-0001", 
+                "ib_date": "2021-04-04-0000-0001", 
                 "relvals": [], 
                 "release_queue": "CMSSW_11_3_ROOT6_X", 
                 "release_name": "CMSSW_11_3_X", 
@@ -31731,15 +31799,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "ebrondol"
-                    }, 
-                    {
-                        "hash": "9d30a110f010a46eafa7f71084da98b2c66dc57a", 
-                        "title": "PPS Pixel charge share bug fix ", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33329", 
-                        "number": "33329", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "fabferro"
                     }, 
                     {
                         "hash": "aa9e4a2958ce84151b1eda60a7d80460ff1cc065", 
@@ -31762,6 +31821,83 @@
                 "static_checks_failures": "not-found", 
                 "static_checks": "not-found", 
                 "isIB": false, 
+                "inProgress": false, 
+                "addons": [], 
+                "hlt_tests": "not-found"
+            }, 
+            {
+                "comp_baseline_state": "errors", 
+                "python3_tests": [], 
+                "tests_archs": [
+                    "slc7_amd64_gcc900"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc900": []
+                }, 
+                "cmsdist_compared_tags": {
+                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_ROOT6_X_2021-04-02-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_ROOT6_X_2021-04-04-0000/slc7_amd64_gcc900"
+                }, 
+                "cmsdistTags": {
+                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_ROOT6_X_2021-04-04-0000/slc7_amd64_gcc900"
+                }, 
+                "next_ib": false, 
+                "RVExceptions": null, 
+                "igprof": "not-found", 
+                "profiling": "not-found", 
+                "base_branch": "CMSSW_11_3_X", 
+                "compared_tags": "CMSSW_11_3_ROOT6_X_2021-04-02-2300-->CMSSW_11_3_ROOT6_X_2021-04-04-0000", 
+                "dqm_tests": "inprogress", 
+                "utests": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.3.ROOT6-sun-00/CMSSW_11_3_ROOT6_X_2021-04-04-0000/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }
+                ], 
+                "ib_date": "2021-04-04-0000-0000", 
+                "relvals": [], 
+                "release_queue": "CMSSW_11_3_ROOT6_X", 
+                "release_name": "CMSSW_11_3_ROOT6_X_2021-04-04-0000", 
+                "comp_baseline": "not-found", 
+                "gpu_utests": [], 
+                "material_budget_comparison": "not-found", 
+                "merged_prs": [
+                    {
+                        "hash": "9d30a110f010a46eafa7f71084da98b2c66dc57a", 
+                        "title": "PPS Pixel charge share bug fix ", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33329", 
+                        "number": "33329", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "fabferro"
+                    }
+                ], 
+                "fwlite": [], 
+                "invalid_includes": [], 
+                "builds": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.3.ROOT6-sun-00/CMSSW_11_3_ROOT6_X_2021-04-04-0000/new/logAnalysis.pkl", 
+                        "details": {
+                            "ignoreWarning": 29
+                        }
+                    }
+                ], 
+                "material_budget_v2": "not-found", 
+                "static_checks_v2": "not-found", 
+                "valgrind": "not-found", 
+                "material_budget": "not-found", 
+                "dupDict": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "passed"
+                    }
+                ], 
+                "static_checks_failures": "not-found", 
+                "static_checks": "not-found", 
+                "isIB": true, 
                 "inProgress": false, 
                 "addons": [], 
                 "hlt_tests": "not-found"
@@ -34457,13 +34593,13 @@
                     "slc7_ppc64le_gcc9": []
                 }, 
                 "cmsdist_compared_tags": {
-                    "cc8_amd64_gcc9": "IB/CMSSW_11_3_X_2021-04-02-2300/cc8_amd64_gcc9..IB/CMSSW_11_3_X/cc8", 
+                    "cc8_amd64_gcc9": "IB/CMSSW_11_3_X_2021-04-04-0000/cc8_amd64_gcc9..IB/CMSSW_11_3_X/cc8", 
                     "cc8_aarch64_gcc9": "IB/CMSSW_11_3_X_2021-04-02-2300/cc8_aarch64_gcc9..IB/CMSSW_11_3_X/cc8", 
                     "slc7_aarch64_gcc9": "IB/CMSSW_11_3_X_2021-04-02-2300/slc7_aarch64_gcc9..IB/CMSSW_11_3_X/master", 
                     "cc8_ppc64le_gcc9": "IB/CMSSW_11_3_X_2021-04-02-2300/cc8_ppc64le_gcc9..IB/CMSSW_11_3_X/cc8", 
                     "slc7_amd64_gcc10": "IB/CMSSW_11_3_X_2021-04-02-2300/slc7_amd64_gcc10..IB/CMSSW_11_3_X/gcc10", 
-                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_X_2021-04-02-1800/slc7_amd64_gcc900..IB/CMSSW_11_3_X/master", 
-                    "slc7_ppc64le_gcc9": "IB/CMSSW_11_3_X_2021-04-02-2300/slc7_ppc64le_gcc9..IB/CMSSW_11_3_X/master"
+                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_X_2021-04-04-0000/slc7_amd64_gcc900..IB/CMSSW_11_3_X/master", 
+                    "slc7_ppc64le_gcc9": "IB/CMSSW_11_3_X_2021-04-04-0000/slc7_ppc64le_gcc9..IB/CMSSW_11_3_X/master"
                 }, 
                 "static_checks_failures": "not-found", 
                 "cmsdistTags": {}, 
@@ -34475,10 +34611,10 @@
                 "reco_event_loop": "inprogress", 
                 "profiling": "inprogress", 
                 "base_branch": "CMSSW_11_3_X", 
-                "compared_tags": "CMSSW_11_3_X_2021-04-03-1100-->CMSSW_11_3_X", 
+                "compared_tags": "CMSSW_11_3_X_2021-04-04-0000-->CMSSW_11_3_X", 
                 "dqm_tests": "inprogress", 
                 "utests": [], 
-                "ib_date": "2021-04-03-1100-0001", 
+                "ib_date": "2021-04-04-0000-0001", 
                 "relvals": [], 
                 "release_queue": "CMSSW_11_3_X", 
                 "release_name": "CMSSW_11_3_X", 
@@ -34517,6 +34653,129 @@
                 "lizard": "inprogress", 
                 "static_checks": "inprogress", 
                 "isIB": false, 
+                "inProgress": false, 
+                "addons": [], 
+                "hlt_tests": "inprogress"
+            }, 
+            {
+                "comp_baseline_state": "ok", 
+                "python3_tests": [], 
+                "tests_archs": [
+                    "slc7_ppc64le_gcc9", 
+                    "cc8_amd64_gcc9", 
+                    "slc7_amd64_gcc900"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_ppc64le_gcc9": [], 
+                    "cc8_amd64_gcc9": [], 
+                    "slc7_amd64_gcc900": []
+                }, 
+                "cmsdist_compared_tags": {
+                    "slc7_ppc64le_gcc9": "IB/CMSSW_11_3_X_2021-04-02-2300/slc7_ppc64le_gcc9..IB/CMSSW_11_3_X_2021-04-04-0000/slc7_ppc64le_gcc9", 
+                    "cc8_amd64_gcc9": "IB/CMSSW_11_3_X_2021-04-02-2300/cc8_amd64_gcc9..IB/CMSSW_11_3_X_2021-04-04-0000/cc8_amd64_gcc9", 
+                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_X_2021-04-02-1800/slc7_amd64_gcc900..IB/CMSSW_11_3_X_2021-04-04-0000/slc7_amd64_gcc900"
+                }, 
+                "static_checks_failures": "not-found", 
+                "cmsdistTags": {
+                    "slc7_ppc64le_gcc9": "IB/CMSSW_11_3_X_2021-04-04-0000/slc7_ppc64le_gcc9", 
+                    "cc8_amd64_gcc9": "IB/CMSSW_11_3_X_2021-04-04-0000/cc8_amd64_gcc9", 
+                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_X_2021-04-04-0000/slc7_amd64_gcc900"
+                }, 
+                "piechart": "inprogress", 
+                "flawfinder": "inprogress", 
+                "next_ib": false, 
+                "RVExceptions": null, 
+                "igprof": "inprogress", 
+                "reco_event_loop": "inprogress", 
+                "profiling": "inprogress", 
+                "base_branch": "CMSSW_11_3_X", 
+                "compared_tags": "CMSSW_11_3_X_2021-04-03-1100-->CMSSW_11_3_X_2021-04-04-0000", 
+                "dqm_tests": "inprogress", 
+                "utests": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.3-sun-00/CMSSW_11_3_X_2021-04-04-0000/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }, 
+                    {
+                        "arch": "slc7_ppc64le_gcc9", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/sun/11.3-sun-00/CMSSW_11_3_X_2021-04-04-0000/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }, 
+                    {
+                        "arch": "cc8_amd64_gcc9", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/cc8_amd64_gcc9/www/sun/11.3-sun-00/CMSSW_11_3_X_2021-04-04-0000/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }
+                ], 
+                "ib_date": "2021-04-04-0000-0000", 
+                "relvals": [], 
+                "release_queue": "CMSSW_11_3_X", 
+                "release_name": "CMSSW_11_3_X_2021-04-04-0000", 
+                "comp_baseline": "inprogress", 
+                "gpu_utests": [], 
+                "material_budget_comparison": "not-found", 
+                "merged_prs": [], 
+                "fwlite": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.3-sun-00/CMSSW_11_3_X_2021-04-04-0000/new_FWLITE/logAnalysis.pkl", 
+                        "details": {}
+                    }
+                ], 
+                "invalid_includes": [], 
+                "builds": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.3-sun-00/CMSSW_11_3_X_2021-04-04-0000/new/logAnalysis.pkl", 
+                        "details": {
+                            "ignoreWarning": 29
+                        }
+                    }, 
+                    {
+                        "arch": "slc7_ppc64le_gcc9", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/sun/11.3-sun-00/CMSSW_11_3_X_2021-04-04-0000/new/logAnalysis.pkl", 
+                        "details": {
+                            "ignoreWarning": 36
+                        }
+                    }, 
+                    {
+                        "arch": "cc8_amd64_gcc9", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/sun/11.3-sun-00/CMSSW_11_3_X_2021-04-04-0000/new/logAnalysis.pkl", 
+                        "details": {
+                            "ignoreWarning": 29
+                        }
+                    }
+                ], 
+                "material_budget_v2": "not-found", 
+                "check-headers": "inprogress", 
+                "static_checks_v2": "inprogress", 
+                "valgrind": "not-found", 
+                "material_budget": "not-found", 
+                "dupDict": [
+                    {
+                        "arch": "slc7_ppc64le_gcc9", 
+                        "passed": "passed"
+                    }, 
+                    {
+                        "arch": "cc8_amd64_gcc9", 
+                        "passed": "passed"
+                    }, 
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "passed"
+                    }
+                ], 
+                "lizard": "inprogress", 
+                "static_checks": "inprogress", 
+                "isIB": true, 
                 "inProgress": false, 
                 "addons": [], 
                 "hlt_tests": "inprogress"
@@ -34881,8 +35140,8 @@
                         "file": "/data/sdt/buildlogs/cc8_aarch64_gcc9/www/fri/11.3-fri-23/CMSSW_11_3_X_2021-04-02-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
                             "num_passed": 2077, 
-                            "known_failed": 0, 
-                            "num_failed": 95
+                            "known_failed": 51, 
+                            "num_failed": 44
                         }
                     }, 
                     {
@@ -44021,7 +44280,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc530/www/sun/8.0-sun-00/CMSSW_8_0_X_2021-04-04-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 206, 
+                            "num_passed": 464, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -47766,7 +48025,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.3-sun-00/CMSSW_9_3_X_2021-04-04-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1, 
+                            "num_passed": 2, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -47777,9 +48036,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/9.3-sun-00/CMSSW_9_3_X_2021-04-04-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1811, 
-                            "known_failed": 8, 
-                            "num_failed": 6
+                            "num_passed": 1869, 
+                            "known_failed": 0, 
+                            "num_failed": 17
                         }
                     }
                 ], 
@@ -48095,12 +48354,12 @@
                     {
                         "done": false, 
                         "arch": "slc7_amd64_gcc630", 
-                        "passed": true, 
+                        "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/9.4-sun-00/CMSSW_9_4_X_2021-04-04-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 289, 
+                            "num_passed": 786, 
                             "known_failed": 0, 
-                            "num_failed": 0
+                            "num_failed": 7
                         }
                     }
                 ], 
