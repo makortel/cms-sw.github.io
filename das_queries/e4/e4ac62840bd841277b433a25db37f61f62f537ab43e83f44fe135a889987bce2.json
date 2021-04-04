@@ -1,0 +1,79 @@
+{
+  "ctime": 0,
+  "data": [
+    {
+      "das": {
+        "expire": 1617304205,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "e96bea4e",
+          "bytes": 107129420,
+          "md5": null,
+          "name": "/store/relval/CMSSW_7_1_0_pre7/RelValSingleMuPt1/GEN-SIM/PRE_STA71_V3-v1/00000/14B3D561-36D1-E311-86CC-002618FDA250.root",
+          "pfns": {
+            "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/relval/CMSSW_7_1_0_pre7/RelValSingleMuPt1/GEN-SIM/PRE_STA71_V3-v1/00000/14B3D561-36D1-E311-86CC-002618FDA250.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T2_CH_CERN": [
+              "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/relval/CMSSW_7_1_0_pre7/RelValSingleMuPt1/GEN-SIM/PRE_STA71_V3-v1/00000/14B3D561-36D1-E311-86CC-002618FDA250.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 107129420,
+          "states": {
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "d7bd028b577ae8ae67d6427d9837b606"
+    }
+  ],
+  "ecode": "",
+  "mongo_query": {
+    "aggregators": [],
+    "detail": true,
+    "error": "",
+    "fields": [
+      "file"
+    ],
+    "filters": {
+      "grep": [
+        "file.name"
+      ],
+      "sort": [
+        "file.name"
+      ],
+      "unique": [
+        "1"
+      ]
+    },
+    "hash": "d7bd028b577ae8ae67d6427d9837b606",
+    "instance": "prod/global",
+    "pipe": "grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValSingleMuPt1/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
+    "spec": {
+      "dataset": "/RelValSingleMuPt1/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM",
+      "site": "T2_CH_CERN"
+    },
+    "system": "",
+    "tstamp": 1617304204
+  },
+  "nresults": 1,
+  "status": "ok",
+  "timestamp": 1617304205
+}

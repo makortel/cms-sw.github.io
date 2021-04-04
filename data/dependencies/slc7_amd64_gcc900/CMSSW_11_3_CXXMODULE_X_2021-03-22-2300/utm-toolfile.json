@@ -1,0 +1,474 @@
+{
+  "boost": {
+    "build_dependencies": [],
+    "checksum": "80632ac60a3f6cb4ed51551536f5f339",
+    "dependencies": [
+      "bz2lib",
+      "gcc",
+      "openmpi",
+      "python",
+      "xz",
+      "zlib",
+      "zstd"
+    ],
+    "doc": "",
+    "name": "boost",
+    "package_name": "external+boost+1.72.0-80632ac60a3f6cb4ed51551536f5f339",
+    "patches": [],
+    "realversion": "1.72.0",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-externals/boost.git?obj=cms/v1.75.0.modules/6c8df4387d7a7f81f6614ec1a3edf8be13e10364&export=boost-1.72.0&output=/boost-1.72.0.tgz"
+    ],
+    "version": "1.72.0-80632ac60a3f6cb4ed51551536f5f339"
+  },
+  "bz2lib": {
+    "build_dependencies": [],
+    "checksum": "acf2897cb2b9727bfbf932c11cc72bf7",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "bz2lib",
+    "package_name": "external+bz2lib+1.0.6-bcolbf2",
+    "patches": [],
+    "realversion": "1.0.6",
+    "revision": "1",
+    "sources": [
+      "http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz"
+    ],
+    "version": "1.0.6-bcolbf2"
+  },
+  "cuda": {
+    "build_dependencies": [],
+    "checksum": "3d1007d9114f0161301c5887c994f3e4",
+    "dependencies": [
+      "gcc",
+      "python"
+    ],
+    "doc": "",
+    "name": "cuda",
+    "package_name": "external+cuda+11.2.1",
+    "patches": [],
+    "realversion": "11.2.1",
+    "revision": "1",
+    "sources": [
+      "https://developer.download.nvidia.com/compute/cuda/11.2.1/local_installers/cuda_11.2.1_460.32.03_linux.run"
+    ],
+    "version": "11.2.1"
+  },
+  "db6": {
+    "build_dependencies": [],
+    "checksum": "8cfa28ff7d3e78188bfcc23fc02c71c6",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "db6",
+    "package_name": "external+db6+6.2.32-bcolbf",
+    "patches": [],
+    "realversion": "6.2.32",
+    "revision": "1",
+    "sources": [
+      "http://cmsrep.cern.ch/cmssw/download/db-6.2.32.tar.gz"
+    ],
+    "version": "6.2.32-bcolbf"
+  },
+  "expat": {
+    "build_dependencies": [],
+    "checksum": "b174473c0445cc260267c9e4e44719c1",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "expat",
+    "package_name": "external+expat+2.1.0-bcolbf2",
+    "patches": [],
+    "realversion": "2.1.0",
+    "revision": "1",
+    "sources": [
+      "http://downloads.sourceforge.net/project/expat/expat/2.1.0/expat-2.1.0.tar.gz"
+    ],
+    "version": "2.1.0-bcolbf2"
+  },
+  "gcc": {
+    "build_dependencies": [],
+    "checksum": "610f04827ed0f827de9b8700ad3d9670",
+    "dependencies": [],
+    "doc": "",
+    "name": "gcc",
+    "package_name": "external+gcc+9.3.0",
+    "patches": [
+      "gcc-flex-nonfull-path-m4.patch",
+      "gcc-flex-disable-doc.patch"
+    ],
+    "realversion": "9.3.0",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/gcc-mirror/gcc.git?obj=releases/gcc-9/4212a6a3e44f870412d9025eeb323fd4f50a61da&export=gcc-9.3.0&output=/gcc-9.3.0-4212a6a3e44f870412d9025eeb323fd4f50a61da.tgz",
+      "https://gmplib.org/download/gmp/gmp-6.2.0.tar.bz2",
+      "http://www.mpfr.org/mpfr-4.0.2/mpfr-4.0.2.tar.bz2",
+      "https://ftp.gnu.org/gnu/mpc/mpc-1.1.0.tar.gz",
+      "http://isl.gforge.inria.fr/isl-0.21.tar.bz2",
+      "http://zlib.net/zlib-1.2.11.tar.gz",
+      "http://ftp.gnu.org/gnu/bison/bison-3.5.tar.gz",
+      "https://sourceware.org/pub/binutils/releases/binutils-2.32.tar.bz2",
+      "https://sourceware.org/pub/elfutils/0.177/elfutils-0.177.tar.bz2",
+      "http://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.gz",
+      "https://github.com/westes/flex/releases/download/v2.6.4/flex-2.6.4.tar.gz"
+    ],
+    "version": "9.3.0"
+  },
+  "gdbm": {
+    "build_dependencies": [],
+    "checksum": "1b1e7fda812e8b0cd77e389a2d1cf51e",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "gdbm",
+    "package_name": "external+gdbm+1.10-bcolbf2",
+    "patches": [],
+    "realversion": "1.10",
+    "revision": "1",
+    "sources": [
+      "http://ftp.gnu.org/gnu/gdbm/gdbm-1.10.tar.gz"
+    ],
+    "version": "1.10-bcolbf2"
+  },
+  "gdrcopy": {
+    "build_dependencies": [],
+    "checksum": "c86768586573d4e6b9406ecec74bca49",
+    "dependencies": [
+      "cuda",
+      "gcc"
+    ],
+    "doc": "",
+    "name": "gdrcopy",
+    "package_name": "external+gdrcopy+2.1-ljfedo",
+    "patches": [],
+    "realversion": "2.1",
+    "revision": "1",
+    "sources": [
+      "https://github.com/NVIDIA/gdrcopy/archive/v2.1.tar.gz"
+    ],
+    "version": "2.1-ljfedo"
+  },
+  "hwloc": {
+    "build_dependencies": [
+      "autotools"
+    ],
+    "checksum": "edc9c561c454cf3ead030b7c0ae6f5c0",
+    "dependencies": [
+      "cuda",
+      "gcc",
+      "libpciaccess",
+      "libxml2",
+      "numactl"
+    ],
+    "doc": "",
+    "name": "hwloc",
+    "package_name": "external+hwloc+2.4.0-ljfedo",
+    "patches": [],
+    "realversion": "2.4.0",
+    "revision": "1",
+    "sources": [
+      "https://download.open-mpi.org/release/hwloc/v2.4/hwloc-2.4.0.tar.bz2"
+    ],
+    "version": "2.4.0-ljfedo"
+  },
+  "libffi": {
+    "build_dependencies": [],
+    "checksum": "e67e3e5be269ebb6de560ac98fe20523",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "libffi",
+    "package_name": "external+libffi+3.2.1-bcolbf",
+    "patches": [
+      "libffi-3.2.1-fix-include-path.patch"
+    ],
+    "realversion": "3.2.1",
+    "revision": "1",
+    "sources": [
+      "ftp://sourceware.org/pub/libffi/libffi-3.2.1.tar.gz"
+    ],
+    "version": "3.2.1-bcolbf"
+  },
+  "libpciaccess": {
+    "build_dependencies": [
+      "autotools"
+    ],
+    "checksum": "08f18b38dcabe024d79833e8310266cb",
+    "dependencies": [
+      "gcc",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "libpciaccess",
+    "package_name": "external+libpciaccess+0.16",
+    "patches": [],
+    "realversion": "0.16",
+    "revision": "1",
+    "sources": [
+      "http://deb.debian.org/debian/pool/main/libp/libpciaccess/libpciaccess_0.16.orig.tar.gz"
+    ],
+    "version": "0.16"
+  },
+  "libxml2": {
+    "build_dependencies": [],
+    "checksum": "749725db422aed90a983196eed76c8a8",
+    "dependencies": [
+      "gcc",
+      "xz",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "libxml2",
+    "package_name": "external+libxml2+2.9.10",
+    "patches": [],
+    "realversion": "2.9.10",
+    "revision": "1",
+    "sources": [
+      "ftp://xmlsoft.org/libxml2/libxml2-2.9.10.tar.gz"
+    ],
+    "version": "2.9.10"
+  },
+  "numactl": {
+    "build_dependencies": [
+      "autotools"
+    ],
+    "checksum": "defb9ad529f4a2ebe4c62c1557bc231b",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "numactl",
+    "package_name": "external+numactl+2.0.14",
+    "patches": [],
+    "realversion": "2.0.14",
+    "revision": "1",
+    "sources": [
+      "https://github.com/numactl/numactl/archive/v2.0.14.tar.gz"
+    ],
+    "version": "2.0.14"
+  },
+  "openmpi": {
+    "build_dependencies": [
+      "autotools"
+    ],
+    "checksum": "5d09e5e16f1051f7d1bf4f21c6f68a53",
+    "dependencies": [
+      "cuda",
+      "gcc",
+      "hwloc",
+      "ucx",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "openmpi",
+    "package_name": "external+openmpi+4.1.0-ljfedo",
+    "patches": [],
+    "realversion": "4.1.0",
+    "revision": "1",
+    "sources": [
+      "https://download.open-mpi.org/release/open-mpi/v4.1/openmpi-4.1.0.tar.bz2"
+    ],
+    "version": "4.1.0-ljfedo"
+  },
+  "openssl": {
+    "build_dependencies": [],
+    "checksum": "bf07b3f91ff878bb069ecac1ff7a51d4",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "openssl",
+    "package_name": "external+openssl+1.0.2d-bcolbf",
+    "patches": [
+      "openssl-1.0.2d-pr3979.patch",
+      "openssl-1.0.2d-disable-install-openssldir.patch"
+    ],
+    "realversion": "1.0.2d",
+    "revision": "1",
+    "sources": [
+      "http://davidlt.web.cern.ch/davidlt/vault/openssl-1.0.2d-5675d07a144aa1a6c85f488a95aeea7854e86059.tar.bz2"
+    ],
+    "version": "1.0.2d-bcolbf"
+  },
+  "python": {
+    "build_dependencies": [],
+    "checksum": "cd19a5ead08829b93c8cc79c1b44a200",
+    "dependencies": [
+      "bz2lib",
+      "db6",
+      "expat",
+      "gcc",
+      "gdbm",
+      "libffi",
+      "openssl",
+      "sqlite",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "python",
+    "package_name": "external+python+2.7.15-bcolbf2",
+    "patches": [],
+    "realversion": "2.7.15",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-externals/cpython.git?obj=cms/2.7/c40eeeb/583c0f2237aade97173702ac602b16f51eadde6d&export=python-2.7.15&output=/python-2.7.15.tgz",
+      "/data/cmsbld/jenkins/workspace/build-any-ib/CMSDIST/valgrind-python.supp.file"
+    ],
+    "version": "2.7.15-bcolbf2"
+  },
+  "sqlite": {
+    "build_dependencies": [],
+    "checksum": "c4c906c1e57bb9a584d7364f66307a71",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "sqlite",
+    "package_name": "external+sqlite+3.22.0-bcolbf",
+    "patches": [],
+    "realversion": "3.22.0",
+    "revision": "1",
+    "sources": [
+      "https://www.sqlite.org/2018/sqlite-autoconf-3220000.tar.gz"
+    ],
+    "version": "3.22.0-bcolbf"
+  },
+  "ucx": {
+    "build_dependencies": [
+      "autotools"
+    ],
+    "checksum": "b3b9cc06afbb7229fd9650d58dd22dd5",
+    "dependencies": [
+      "cuda",
+      "gcc",
+      "gdrcopy",
+      "numactl"
+    ],
+    "doc": "",
+    "name": "ucx",
+    "package_name": "external+ucx+1.9.0-ljfedo",
+    "patches": [],
+    "realversion": "1.9.0",
+    "revision": "1",
+    "sources": [
+      "https://github.com/openucx/ucx/releases/download/v1.9.0/ucx-1.9.0.tar.gz"
+    ],
+    "version": "1.9.0-ljfedo"
+  },
+  "utm": {
+    "build_dependencies": [
+      "gmake"
+    ],
+    "checksum": "001ee0fa7fe29546946935674677dda7",
+    "dependencies": [
+      "boost",
+      "gcc",
+      "xerces-c"
+    ],
+    "doc": "",
+    "name": "utm",
+    "package_name": "external+utm+utm_0.8.1-001ee0fa7fe29546946935674677dda7",
+    "patches": [],
+    "realversion": "utm_0.8.1",
+    "revision": "1",
+    "sources": [
+      "git+https://gitlab.cern.ch/cms-l1t-utm/utm.git?obj=master/utm_0.8.1&export=utm-utm_0.8.1&output=/utm-utm_0.8.1.tgz"
+    ],
+    "version": "utm_0.8.1-001ee0fa7fe29546946935674677dda7"
+  },
+  "utm-toolfile": {
+    "build_dependencies": [],
+    "checksum": "564577eacd84999518935565d9c17fdf",
+    "dependencies": [
+      "utm"
+    ],
+    "doc": "",
+    "name": "utm-toolfile",
+    "package_name": "external+utm-toolfile+1.1-564577eacd84999518935565d9c17fdf",
+    "patches": [],
+    "realversion": "1.1",
+    "revision": "1",
+    "sources": [],
+    "version": "1.1-564577eacd84999518935565d9c17fdf"
+  },
+  "xerces-c": {
+    "build_dependencies": [],
+    "checksum": "c93a9d362e4d373e88eca364290e7022",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "xerces-c",
+    "package_name": "external+xerces-c+3.1.3-bcolbf2",
+    "patches": [],
+    "realversion": "3.1.3",
+    "revision": "1",
+    "sources": [
+      "http://www-us.apache.org/dist//xerces/c/3/sources/xerces-c-3.1.3.tar.gz"
+    ],
+    "version": "3.1.3-bcolbf2"
+  },
+  "xz": {
+    "build_dependencies": [
+      "autotools"
+    ],
+    "checksum": "ec3d7affb0fc3a4c2a20d650a6254464",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "xz",
+    "package_name": "external+xz+5.2.4-bcolbf2",
+    "patches": [],
+    "realversion": "5.2.4",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-externals/xz.git?obj=cms/v5.2.4/982e837ddd3da234f710870fa65ba8c14f381b8b&export=xz-5.2.4&output=/xz-5.2.4.tgz"
+    ],
+    "version": "5.2.4-bcolbf2"
+  },
+  "zlib": {
+    "build_dependencies": [],
+    "checksum": "99271b1d98da3981abdd2087fe66ac21",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "zlib",
+    "package_name": "external+zlib+1.2.11-bcolbf",
+    "patches": [],
+    "realversion": "1.2.11",
+    "revision": "1",
+    "sources": [
+      "git://github.com/cms-externals/zlib.git?obj=cms/v1.2.11/822f7f5a8c57802faf8bbfe16266be02eff8c2e2&export=zlib-1.2.11&output=/zlib-1.2.11.tgz"
+    ],
+    "version": "1.2.11-bcolbf"
+  },
+  "zstd": {
+    "build_dependencies": [
+      "cmake",
+      "gmake"
+    ],
+    "checksum": "07e2f43ee572c897490f33d4e1a15702",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "zstd",
+    "package_name": "external+zstd+1.4.5",
+    "patches": [],
+    "realversion": "1.4.5",
+    "revision": "1",
+    "sources": [
+      "https://github.com/facebook/zstd/releases/download/v1.4.5/zstd-1.4.5.tar.gz"
+    ],
+    "version": "1.4.5"
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "ctime": 0,
+  "data": [
+    {
+      "das": {
+        "expire": 1617304237,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "73d7f36b",
+          "bytes": 74748159,
+          "md5": null,
+          "name": "/store/relval/CMSSW_10_3_0_pre5/RelValPhotonJets_Pt_10_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/8E3EABFD-FC9D-E74E-9CA8-1D1742BEF070.root",
+          "pfns": {
+            "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/relval/CMSSW_10_3_0_pre5/RelValPhotonJets_Pt_10_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/8E3EABFD-FC9D-E74E-9CA8-1D1742BEF070.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            },
+            "srm://ccsrm.in2p3.fr:8443/srm/managerv2?SFN=/pnfs/in2p3.fr/data/cms/disk/data/store/relval/CMSSW_10_3_0_pre5/RelValPhotonJets_Pt_10_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/8E3EABFD-FC9D-E74E-9CA8-1D1742BEF070.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T1_FR_CCIN2P3_Disk",
+              "rse_id": "112105749e764d9b8df8f6ca866e4ef8",
+              "type": "DISK",
+              "volatile": false
+            },
+            "srm://cmsdcadisk.fnal.gov:8443/srm/managerv2?SFN=/dcache/uscmsdisk/store/relval/CMSSW_10_3_0_pre5/RelValPhotonJets_Pt_10_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/8E3EABFD-FC9D-E74E-9CA8-1D1742BEF070.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 3,
+              "rse": "T1_US_FNAL_Disk",
+              "rse_id": "087ee3383b9d45f6b31814af07b2c56d",
+              "type": "DISK",
+              "volatile": false
+            },
+            "srm://cmssrm-kit.gridka.de:8443/srm/managerv2?SFN=/pnfs/gridka.de/cms/disk-only/store/relval/CMSSW_10_3_0_pre5/RelValPhotonJets_Pt_10_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/8E3EABFD-FC9D-E74E-9CA8-1D1742BEF070.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 4,
+              "rse": "T1_DE_KIT_Disk",
+              "rse_id": "16eef8c8359d47c985c5cc48dd1a1a56",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_DE_KIT_Disk": [
+              "srm://cmssrm-kit.gridka.de:8443/srm/managerv2?SFN=/pnfs/gridka.de/cms/disk-only/store/relval/CMSSW_10_3_0_pre5/RelValPhotonJets_Pt_10_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/8E3EABFD-FC9D-E74E-9CA8-1D1742BEF070.root"
+            ],
+            "T1_FR_CCIN2P3_Disk": [
+              "srm://ccsrm.in2p3.fr:8443/srm/managerv2?SFN=/pnfs/in2p3.fr/data/cms/disk/data/store/relval/CMSSW_10_3_0_pre5/RelValPhotonJets_Pt_10_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/8E3EABFD-FC9D-E74E-9CA8-1D1742BEF070.root"
+            ],
+            "T1_US_FNAL_Disk": [
+              "srm://cmsdcadisk.fnal.gov:8443/srm/managerv2?SFN=/dcache/uscmsdisk/store/relval/CMSSW_10_3_0_pre5/RelValPhotonJets_Pt_10_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/8E3EABFD-FC9D-E74E-9CA8-1D1742BEF070.root"
+            ],
+            "T2_CH_CERN": [
+              "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/relval/CMSSW_10_3_0_pre5/RelValPhotonJets_Pt_10_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/8E3EABFD-FC9D-E74E-9CA8-1D1742BEF070.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 74748159,
+          "space_token": null,
+          "states": {
+            "T1_DE_KIT_Disk": "AVAILABLE",
+            "T1_FR_CCIN2P3_Disk": "AVAILABLE",
+            "T1_US_FNAL_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "b8a2f297ca9550ade91dc1008af7a45d"
+    },
+    {
+      "das": {
+        "expire": 1617304237,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "53466c33",
+          "bytes": 4216071626,
+          "md5": null,
+          "name": "/store/relval/CMSSW_10_3_0_pre5/RelValPhotonJets_Pt_10_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/B13B49F7-611B-F34B-839C-0077B0EE5116.root",
+          "pfns": {
+            "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/relval/CMSSW_10_3_0_pre5/RelValPhotonJets_Pt_10_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/B13B49F7-611B-F34B-839C-0077B0EE5116.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            },
+            "srm://ccsrm.in2p3.fr:8443/srm/managerv2?SFN=/pnfs/in2p3.fr/data/cms/disk/data/store/relval/CMSSW_10_3_0_pre5/RelValPhotonJets_Pt_10_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/B13B49F7-611B-F34B-839C-0077B0EE5116.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T1_FR_CCIN2P3_Disk",
+              "rse_id": "112105749e764d9b8df8f6ca866e4ef8",
+              "type": "DISK",
+              "volatile": false
+            },
+            "srm://cmsdcadisk.fnal.gov:8443/srm/managerv2?SFN=/dcache/uscmsdisk/store/relval/CMSSW_10_3_0_pre5/RelValPhotonJets_Pt_10_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/B13B49F7-611B-F34B-839C-0077B0EE5116.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 3,
+              "rse": "T1_US_FNAL_Disk",
+              "rse_id": "087ee3383b9d45f6b31814af07b2c56d",
+              "type": "DISK",
+              "volatile": false
+            },
+            "srm://cmssrm-kit.gridka.de:8443/srm/managerv2?SFN=/pnfs/gridka.de/cms/disk-only/store/relval/CMSSW_10_3_0_pre5/RelValPhotonJets_Pt_10_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/B13B49F7-611B-F34B-839C-0077B0EE5116.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 4,
+              "rse": "T1_DE_KIT_Disk",
+              "rse_id": "16eef8c8359d47c985c5cc48dd1a1a56",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_DE_KIT_Disk": [
+              "srm://cmssrm-kit.gridka.de:8443/srm/managerv2?SFN=/pnfs/gridka.de/cms/disk-only/store/relval/CMSSW_10_3_0_pre5/RelValPhotonJets_Pt_10_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/B13B49F7-611B-F34B-839C-0077B0EE5116.root"
+            ],
+            "T1_FR_CCIN2P3_Disk": [
+              "srm://ccsrm.in2p3.fr:8443/srm/managerv2?SFN=/pnfs/in2p3.fr/data/cms/disk/data/store/relval/CMSSW_10_3_0_pre5/RelValPhotonJets_Pt_10_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/B13B49F7-611B-F34B-839C-0077B0EE5116.root"
+            ],
+            "T1_US_FNAL_Disk": [
+              "srm://cmsdcadisk.fnal.gov:8443/srm/managerv2?SFN=/dcache/uscmsdisk/store/relval/CMSSW_10_3_0_pre5/RelValPhotonJets_Pt_10_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/B13B49F7-611B-F34B-839C-0077B0EE5116.root"
+            ],
+            "T2_CH_CERN": [
+              "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/relval/CMSSW_10_3_0_pre5/RelValPhotonJets_Pt_10_13_HI/GEN-SIM/103X_upgrade2018_realistic_v7-v1/10000/B13B49F7-611B-F34B-839C-0077B0EE5116.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 4216071626,
+          "space_token": null,
+          "states": {
+            "T1_DE_KIT_Disk": "AVAILABLE",
+            "T1_FR_CCIN2P3_Disk": "AVAILABLE",
+            "T1_US_FNAL_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "b8a2f297ca9550ade91dc1008af7a45d"
+    }
+  ],
+  "ecode": "",
+  "mongo_query": {
+    "aggregators": [],
+    "detail": true,
+    "error": "",
+    "fields": [
+      "file"
+    ],
+    "filters": {
+      "grep": [
+        "file.name"
+      ],
+      "sort": [
+        "file.name"
+      ],
+      "unique": [
+        "1"
+      ]
+    },
+    "hash": "b8a2f297ca9550ade91dc1008af7a45d",
+    "instance": "prod/global",
+    "pipe": "grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValPhotonJets_Pt_10_13_HI/CMSSW_10_3_0_pre5-103X_upgrade2018_realistic_v7-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
+    "spec": {
+      "dataset": "/RelValPhotonJets_Pt_10_13_HI/CMSSW_10_3_0_pre5-103X_upgrade2018_realistic_v7-v1/GEN-SIM",
+      "site": "T2_CH_CERN"
+    },
+    "system": "",
+    "tstamp": 1617304236
+  },
+  "nresults": 2,
+  "status": "ok",
+  "timestamp": 1617304237
+}

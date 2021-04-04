@@ -1,0 +1,120 @@
+{
+  "ctime": 0,
+  "data": [
+    {
+      "das": {
+        "expire": 1617131352,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "037a3939",
+          "bytes": 2215476301,
+          "md5": null,
+          "name": "/store/relval/CMSSW_7_1_0_pre7/RelValZpMM/GEN-SIM/PRE_STA71_V3-v1/00000/2C67914E-3AD1-E311-8B3C-002618943858.root",
+          "pfns": {
+            "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/relval/CMSSW_7_1_0_pre7/RelValZpMM/GEN-SIM/PRE_STA71_V3-v1/00000/2C67914E-3AD1-E311-8B3C-002618943858.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T2_CH_CERN": [
+              "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/relval/CMSSW_7_1_0_pre7/RelValZpMM/GEN-SIM/PRE_STA71_V3-v1/00000/2C67914E-3AD1-E311-8B3C-002618943858.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 2215476301,
+          "states": {
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "73791ab31c8b986b3af156c85a76a977"
+    },
+    {
+      "das": {
+        "expire": 1617131352,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "e7b2a0eb",
+          "bytes": 1231807787,
+          "md5": null,
+          "name": "/store/relval/CMSSW_7_1_0_pre7/RelValZpMM/GEN-SIM/PRE_STA71_V3-v1/00000/68918F53-67D1-E311-A787-0026189438E1.root",
+          "pfns": {
+            "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/relval/CMSSW_7_1_0_pre7/RelValZpMM/GEN-SIM/PRE_STA71_V3-v1/00000/68918F53-67D1-E311-A787-0026189438E1.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T2_CH_CERN": [
+              "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/relval/CMSSW_7_1_0_pre7/RelValZpMM/GEN-SIM/PRE_STA71_V3-v1/00000/68918F53-67D1-E311-A787-0026189438E1.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 1231807787,
+          "states": {
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "73791ab31c8b986b3af156c85a76a977"
+    }
+  ],
+  "ecode": "",
+  "mongo_query": {
+    "aggregators": [],
+    "detail": true,
+    "error": "",
+    "fields": [
+      "file"
+    ],
+    "filters": {
+      "grep": [
+        "file.name"
+      ],
+      "sort": [
+        "file.name"
+      ],
+      "unique": [
+        "1"
+      ]
+    },
+    "hash": "73791ab31c8b986b3af156c85a76a977",
+    "instance": "prod/global",
+    "pipe": "grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValZpMM/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
+    "spec": {
+      "dataset": "/RelValZpMM/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM",
+      "site": "T2_CH_CERN"
+    },
+    "system": "",
+    "tstamp": 1617131351
+  },
+  "nresults": 2,
+  "status": "ok",
+  "timestamp": 1617131352
+}

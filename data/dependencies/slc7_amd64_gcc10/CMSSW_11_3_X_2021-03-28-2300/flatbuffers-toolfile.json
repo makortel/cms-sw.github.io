@@ -1,0 +1,65 @@
+{
+  "flatbuffers": {
+    "build_dependencies": [
+      "cmake",
+      "gmake"
+    ],
+    "checksum": "122d8119b3c0f0b6ba7a7f7ab9b3e840",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "flatbuffers",
+    "package_name": "external+flatbuffers+1.12.0-122d8119b3c0f0b6ba7a7f7ab9b3e840",
+    "patches": [],
+    "realversion": "1.12.0",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/google/flatbuffers.git?obj=master/v1.12.0&export=flatbuffers-1.12.0&output=/flatbuffers-1.12.0-v1.12.0.tgz"
+    ],
+    "version": "1.12.0-122d8119b3c0f0b6ba7a7f7ab9b3e840"
+  },
+  "flatbuffers-toolfile": {
+    "build_dependencies": [],
+    "checksum": "f62a04128278032204bf5f97dafbed75",
+    "dependencies": [
+      "flatbuffers"
+    ],
+    "doc": "",
+    "name": "flatbuffers-toolfile",
+    "package_name": "external+flatbuffers-toolfile+1.0-f62a04128278032204bf5f97dafbed75",
+    "patches": [],
+    "realversion": "1.0",
+    "revision": "1",
+    "sources": [],
+    "version": "1.0-f62a04128278032204bf5f97dafbed75"
+  },
+  "gcc": {
+    "build_dependencies": [],
+    "checksum": "6af2184a61ae4a90cb849a228a342f29",
+    "dependencies": [],
+    "doc": "",
+    "name": "gcc",
+    "package_name": "external+gcc+10.2.0",
+    "patches": [
+      "gcc-flex-nonfull-path-m4.patch",
+      "gcc-flex-disable-doc.patch"
+    ],
+    "realversion": "10.2.0",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/gcc-mirror/gcc.git?obj=releases/gcc-10/fd7f82855134bc40c46f06c66413f1ec78404eca&export=gcc-10.2.0&output=/gcc-10.2.0-fd7f82855134bc40c46f06c66413f1ec78404eca.tgz",
+      "https://gmplib.org/download/gmp/gmp-6.2.0.tar.bz2",
+      "http://www.mpfr.org/mpfr-4.0.2/mpfr-4.0.2.tar.bz2",
+      "https://ftp.gnu.org/gnu/mpc/mpc-1.1.0.tar.gz",
+      "http://isl.gforge.inria.fr/isl-0.22.tar.bz2",
+      "http://zlib.net/zlib-1.2.11.tar.gz",
+      "http://ftp.gnu.org/gnu/bison/bison-3.6.1.tar.gz",
+      "https://sourceware.org/pub/binutils/releases/binutils-2.32.tar.bz2",
+      "https://sourceware.org/pub/elfutils/0.177/elfutils-0.177.tar.bz2",
+      "http://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.gz",
+      "https://github.com/westes/flex/releases/download/v2.6.4/flex-2.6.4.tar.gz"
+    ],
+    "version": "10.2.0"
+  }
+}

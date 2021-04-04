@@ -1,0 +1,163 @@
+{
+  "davix": {
+    "build_dependencies": [
+      "cmake",
+      "git",
+      "gmake"
+    ],
+    "checksum": "d4332f045eb9d99a6b3b93953e97b4bb",
+    "dependencies": [
+      "gcc",
+      "libuuid",
+      "libxml2",
+      "openssl"
+    ],
+    "doc": "",
+    "name": "davix",
+    "package_name": "external+davix+0.7.6-d4332f045eb9d99a6b3b93953e97b4bb",
+    "patches": [],
+    "realversion": "0.7.6",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cern-it-sdc-id/davix.git?obj=master/R_0_7_6&export=davix-0.7.6&output=/davix-0.7.6.tgz"
+    ],
+    "version": "0.7.6-d4332f045eb9d99a6b3b93953e97b4bb"
+  },
+  "davix-toolfile": {
+    "build_dependencies": [],
+    "checksum": "1feca57b45dca0d9125bd55307d8be25",
+    "dependencies": [
+      "davix"
+    ],
+    "doc": "",
+    "name": "davix-toolfile",
+    "package_name": "external+davix-toolfile+1.1-1feca57b45dca0d9125bd55307d8be25",
+    "patches": [],
+    "realversion": "1.1",
+    "revision": "1",
+    "sources": [],
+    "version": "1.1-1feca57b45dca0d9125bd55307d8be25"
+  },
+  "gcc": {
+    "build_dependencies": [],
+    "checksum": "6af2184a61ae4a90cb849a228a342f29",
+    "dependencies": [],
+    "doc": "",
+    "name": "gcc",
+    "package_name": "external+gcc+10.2.0",
+    "patches": [
+      "gcc-flex-nonfull-path-m4.patch",
+      "gcc-flex-disable-doc.patch"
+    ],
+    "realversion": "10.2.0",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/gcc-mirror/gcc.git?obj=releases/gcc-10/fd7f82855134bc40c46f06c66413f1ec78404eca&export=gcc-10.2.0&output=/gcc-10.2.0-fd7f82855134bc40c46f06c66413f1ec78404eca.tgz",
+      "https://gmplib.org/download/gmp/gmp-6.2.0.tar.bz2",
+      "http://www.mpfr.org/mpfr-4.0.2/mpfr-4.0.2.tar.bz2",
+      "https://ftp.gnu.org/gnu/mpc/mpc-1.1.0.tar.gz",
+      "http://isl.gforge.inria.fr/isl-0.22.tar.bz2",
+      "http://zlib.net/zlib-1.2.11.tar.gz",
+      "http://ftp.gnu.org/gnu/bison/bison-3.6.1.tar.gz",
+      "https://sourceware.org/pub/binutils/releases/binutils-2.32.tar.bz2",
+      "https://sourceware.org/pub/elfutils/0.177/elfutils-0.177.tar.bz2",
+      "http://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.gz",
+      "https://github.com/westes/flex/releases/download/v2.6.4/flex-2.6.4.tar.gz"
+    ],
+    "version": "10.2.0"
+  },
+  "libuuid": {
+    "build_dependencies": [],
+    "checksum": "27d9e9bbd117ec1f9d238e2100303299",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "libuuid",
+    "package_name": "external+libuuid+2.34-cms",
+    "patches": [
+      "libuuid-2.34-disable-get_uuid_via_daemon.patch"
+    ],
+    "realversion": "2.34",
+    "revision": "1",
+    "sources": [
+      "http://www.kernel.org/pub/linux/utils/util-linux/v2.34/util-linux-2.34.tar.gz"
+    ],
+    "version": "2.34-cms"
+  },
+  "libxml2": {
+    "build_dependencies": [],
+    "checksum": "eb192b1f0f5ef9067f7eb94b96b870d6",
+    "dependencies": [
+      "gcc",
+      "xz",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "libxml2",
+    "package_name": "external+libxml2+2.9.10-cms",
+    "patches": [],
+    "realversion": "2.9.10",
+    "revision": "1",
+    "sources": [
+      "ftp://xmlsoft.org/libxml2/libxml2-2.9.10.tar.gz"
+    ],
+    "version": "2.9.10-cms"
+  },
+  "openssl": {
+    "build_dependencies": [],
+    "checksum": "533cecf3f2161895852d9f2ddb944359",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "openssl",
+    "package_name": "external+openssl+1.0.2d-cms",
+    "patches": [
+      "openssl-1.0.2d-pr3979.patch",
+      "openssl-1.0.2d-disable-install-openssldir.patch"
+    ],
+    "realversion": "1.0.2d",
+    "revision": "1",
+    "sources": [
+      "http://davidlt.web.cern.ch/davidlt/vault/openssl-1.0.2d-5675d07a144aa1a6c85f488a95aeea7854e86059.tar.bz2"
+    ],
+    "version": "1.0.2d-cms"
+  },
+  "xz": {
+    "build_dependencies": [
+      "autotools"
+    ],
+    "checksum": "479d3db7767efa1826a65b2bbe9c3bae",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "xz",
+    "package_name": "external+xz+5.2.4-cms",
+    "patches": [],
+    "realversion": "5.2.4",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-externals/xz.git?obj=cms/v5.2.4/982e837ddd3da234f710870fa65ba8c14f381b8b&export=xz-5.2.4&output=/xz-5.2.4.tgz"
+    ],
+    "version": "5.2.4-cms"
+  },
+  "zlib": {
+    "build_dependencies": [],
+    "checksum": "59d409abd1f6238c56c4d1e161006d92",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "zlib",
+    "package_name": "external+zlib+1.2.11-cms",
+    "patches": [],
+    "realversion": "1.2.11",
+    "revision": "1",
+    "sources": [
+      "git://github.com/cms-externals/zlib.git?obj=cms/v1.2.11/822f7f5a8c57802faf8bbfe16266be02eff8c2e2&export=zlib-1.2.11&output=/zlib-1.2.11.tgz"
+    ],
+    "version": "1.2.11-cms"
+  }
+}

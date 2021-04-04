@@ -1,0 +1,80 @@
+{
+  "gcc": {
+    "build_dependencies": [],
+    "checksum": "6af2184a61ae4a90cb849a228a342f29",
+    "dependencies": [],
+    "doc": "",
+    "name": "gcc",
+    "package_name": "external+gcc+10.2.0",
+    "patches": [
+      "gcc-flex-nonfull-path-m4.patch",
+      "gcc-flex-disable-doc.patch"
+    ],
+    "realversion": "10.2.0",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/gcc-mirror/gcc.git?obj=releases/gcc-10/fd7f82855134bc40c46f06c66413f1ec78404eca&export=gcc-10.2.0&output=/gcc-10.2.0-fd7f82855134bc40c46f06c66413f1ec78404eca.tgz",
+      "https://gmplib.org/download/gmp/gmp-6.2.0.tar.bz2",
+      "http://www.mpfr.org/mpfr-4.0.2/mpfr-4.0.2.tar.bz2",
+      "https://ftp.gnu.org/gnu/mpc/mpc-1.1.0.tar.gz",
+      "http://isl.gforge.inria.fr/isl-0.22.tar.bz2",
+      "http://zlib.net/zlib-1.2.11.tar.gz",
+      "http://ftp.gnu.org/gnu/bison/bison-3.6.1.tar.gz",
+      "https://sourceware.org/pub/binutils/releases/binutils-2.32.tar.bz2",
+      "https://sourceware.org/pub/elfutils/0.177/elfutils-0.177.tar.bz2",
+      "http://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.gz",
+      "https://github.com/westes/flex/releases/download/v2.6.4/flex-2.6.4.tar.gz"
+    ],
+    "version": "10.2.0"
+  },
+  "millepede": {
+    "build_dependencies": [],
+    "checksum": "a172132acf3fb5bf2868996acdbd7569",
+    "dependencies": [
+      "gcc",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "millepede",
+    "package_name": "external+millepede+V04-08-00-a172132acf3fb5bf2868996acdbd7569",
+    "patches": [],
+    "realversion": "V04-08-00",
+    "revision": "1",
+    "sources": [
+      "svn://svnsrv.desy.de/public/MillepedeII/tags/V04-08-00/?scheme=http&module=V04-08-00&output=/millepede-V04-08-00.tgz"
+    ],
+    "version": "V04-08-00-a172132acf3fb5bf2868996acdbd7569"
+  },
+  "millepede-toolfile": {
+    "build_dependencies": [],
+    "checksum": "4cbdf1f480c4a8038c628633ca5d1d1b",
+    "dependencies": [
+      "millepede"
+    ],
+    "doc": "",
+    "name": "millepede-toolfile",
+    "package_name": "external+millepede-toolfile+1.0-4cbdf1f480c4a8038c628633ca5d1d1b",
+    "patches": [],
+    "realversion": "1.0",
+    "revision": "1",
+    "sources": [],
+    "version": "1.0-4cbdf1f480c4a8038c628633ca5d1d1b"
+  },
+  "zlib": {
+    "build_dependencies": [],
+    "checksum": "59d409abd1f6238c56c4d1e161006d92",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "zlib",
+    "package_name": "external+zlib+1.2.11-cms",
+    "patches": [],
+    "realversion": "1.2.11",
+    "revision": "1",
+    "sources": [
+      "git://github.com/cms-externals/zlib.git?obj=cms/v1.2.11/822f7f5a8c57802faf8bbfe16266be02eff8c2e2&export=zlib-1.2.11&output=/zlib-1.2.11.tgz"
+    ],
+    "version": "1.2.11-cms"
+  }
+}

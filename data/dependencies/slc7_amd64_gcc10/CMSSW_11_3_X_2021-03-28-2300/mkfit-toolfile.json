@@ -1,0 +1,86 @@
+{
+  "gcc": {
+    "build_dependencies": [],
+    "checksum": "6af2184a61ae4a90cb849a228a342f29",
+    "dependencies": [],
+    "doc": "",
+    "name": "gcc",
+    "package_name": "external+gcc+10.2.0",
+    "patches": [
+      "gcc-flex-nonfull-path-m4.patch",
+      "gcc-flex-disable-doc.patch"
+    ],
+    "realversion": "10.2.0",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/gcc-mirror/gcc.git?obj=releases/gcc-10/fd7f82855134bc40c46f06c66413f1ec78404eca&export=gcc-10.2.0&output=/gcc-10.2.0-fd7f82855134bc40c46f06c66413f1ec78404eca.tgz",
+      "https://gmplib.org/download/gmp/gmp-6.2.0.tar.bz2",
+      "http://www.mpfr.org/mpfr-4.0.2/mpfr-4.0.2.tar.bz2",
+      "https://ftp.gnu.org/gnu/mpc/mpc-1.1.0.tar.gz",
+      "http://isl.gforge.inria.fr/isl-0.22.tar.bz2",
+      "http://zlib.net/zlib-1.2.11.tar.gz",
+      "http://ftp.gnu.org/gnu/bison/bison-3.6.1.tar.gz",
+      "https://sourceware.org/pub/binutils/releases/binutils-2.32.tar.bz2",
+      "https://sourceware.org/pub/elfutils/0.177/elfutils-0.177.tar.bz2",
+      "http://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.gz",
+      "https://github.com/westes/flex/releases/download/v2.6.4/flex-2.6.4.tar.gz"
+    ],
+    "version": "10.2.0"
+  },
+  "mkfit": {
+    "build_dependencies": [
+      "gmake"
+    ],
+    "checksum": "fee704571dbec57fa2b7be3351f7826a",
+    "dependencies": [
+      "gcc",
+      "tbb"
+    ],
+    "doc": "",
+    "name": "mkfit",
+    "package_name": "external+mkfit+2.1.0-fee704571dbec57fa2b7be3351f7826a",
+    "patches": [
+      "mkfit-2.0.0-non-x86_64-fix.patch"
+    ],
+    "realversion": "2.1.0",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/trackreco/mkfit.git?obj=devel/V2.1.0-0+pr291&export=mkfit-2.1.0&output=/mkfit-2.1.0.tgz"
+    ],
+    "version": "2.1.0-fee704571dbec57fa2b7be3351f7826a"
+  },
+  "mkfit-toolfile": {
+    "build_dependencies": [],
+    "checksum": "c973f7275c4319440814db22868506b3",
+    "dependencies": [
+      "mkfit"
+    ],
+    "doc": "",
+    "name": "mkfit-toolfile",
+    "package_name": "external+mkfit-toolfile+3.0-c973f7275c4319440814db22868506b3",
+    "patches": [],
+    "realversion": "3.0",
+    "revision": "1",
+    "sources": [],
+    "version": "3.0-c973f7275c4319440814db22868506b3"
+  },
+  "tbb": {
+    "build_dependencies": [
+      "cmake"
+    ],
+    "checksum": "9d706b02c663fabfca73a4861853afea",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "tbb",
+    "package_name": "external+tbb+2020_U3-9d706b02c663fabfca73a4861853afea",
+    "patches": [],
+    "realversion": "2020_U3",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/oneapi-src/oneTBB.git?obj=tbb_2020/2020_U3&export=tbb-2020_U3&output=/tbb-2020_U3-2020_U3.tgz"
+    ],
+    "version": "2020_U3-9d706b02c663fabfca73a4861853afea"
+  }
+}

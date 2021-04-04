@@ -1,0 +1,1575 @@
+{
+    "base_branch": "CMSSW_11_3_Patatrack_X", 
+    "release_name": "CMSSW_11_3_Patatrack_X", 
+    "comparisons": [
+        {
+            "comp_baseline_state": "errors", 
+            "python3_tests": [], 
+            "tests_archs": [], 
+            "cmsdist_merged_prs": {
+                "cc8_amd64_gcc9": [], 
+                "slc7_aarch64_gcc9": [], 
+                "slc7_ppc64le_gcc9": [], 
+                "slc7_amd64_gcc900": []
+            }, 
+            "cmsdist_compared_tags": {
+                "cc8_amd64_gcc9": "remotes/origin/IB/CMSSW_11_3_X/cc8..IB/CMSSW_11_3_X/cc8", 
+                "slc7_aarch64_gcc9": "remotes/origin/IB/CMSSW_11_3_X/master..IB/CMSSW_11_3_X/master", 
+                "slc7_ppc64le_gcc9": "remotes/origin/IB/CMSSW_11_3_X/master..IB/CMSSW_11_3_X/master", 
+                "slc7_amd64_gcc900": "IB/CMSSW_11_3_Patatrack_X_2021-04-02-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_X/master"
+            }, 
+            "cmsdistTags": {}, 
+            "next_ib": true, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "profiling": "not-found", 
+            "base_branch": "CMSSW_11_3_Patatrack_X", 
+            "compared_tags": "CMSSW_11_3_Patatrack_X_2021-04-02-2300-->CMSSW_11_3_Patatrack_X", 
+            "dqm_tests": "inprogress", 
+            "utests": [], 
+            "ib_date": "2021-04-02-2300-0001", 
+            "relvals": [], 
+            "release_queue": "CMSSW_11_3_Patatrack_X", 
+            "release_name": "CMSSW_11_3_Patatrack_X", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [], 
+            "fwlite": [], 
+            "invalid_includes": [], 
+            "builds": [], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "dupDict": [], 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": false, 
+            "inProgress": false, 
+            "addons": [], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "python3_tests": [], 
+            "tests_archs": [
+                "slc7_amd64_gcc900"
+            ], 
+            "cmsdist_merged_prs": {
+                "slc7_amd64_gcc900": [
+                    {
+                        "hash": "4c3537deb6b9a14fc9c9451a2bae8ce1222ad73b", 
+                        "title": "[BuildRules] Fixes for multi-target releases", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/6781", 
+                        "number": "6781", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "302054a8ba1f00102a204b1979c2ba4a8ba82ab2", 
+                        "title": "Update tag for GeneratorInterface-EvtGenInterface to V02-02-00", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/6780", 
+                        "number": "6780", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }
+                ]
+            }, 
+            "cmsdist_compared_tags": {
+                "slc7_amd64_gcc900": "IB/CMSSW_11_3_Patatrack_X_2021-03-31-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_Patatrack_X_2021-04-02-2300/slc7_amd64_gcc900"
+            }, 
+            "cmsdistTags": {
+                "slc7_amd64_gcc900": "IB/CMSSW_11_3_Patatrack_X_2021-04-02-2300/slc7_amd64_gcc900"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "profiling": "not-found", 
+            "base_branch": "CMSSW_11_3_Patatrack_X", 
+            "compared_tags": "CMSSW_11_3_Patatrack_X_2021-03-31-2300-->CMSSW_11_3_Patatrack_X_2021-04-02-2300", 
+            "dqm_tests": "inprogress", 
+            "utests": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/fri/11.3.Patatrack-fri-23/CMSSW_11_3_Patatrack_X_2021-04-02-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "3"
+                    }
+                }
+            ], 
+            "ib_date": "2021-04-02-2300-0000", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/fri/11.3.Patatrack-fri-23/CMSSW_11_3_Patatrack_X_2021-04-02-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 2206, 
+                        "known_failed": 0, 
+                        "num_failed": 391
+                    }
+                }
+            ], 
+            "release_queue": "CMSSW_11_3_Patatrack_X", 
+            "release_name": "CMSSW_11_3_Patatrack_X_2021-04-02-2300", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [], 
+            "fwlite": [], 
+            "invalid_includes": [], 
+            "builds": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/fri/11.3.Patatrack-fri-23/CMSSW_11_3_Patatrack_X_2021-04-02-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 29
+                    }
+                }
+            ], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "dupDict": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "error"
+                }
+            ], 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "inProgress": false, 
+            "addons": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/fri/11.3.Patatrack-fri-23/CMSSW_11_3_Patatrack_X_2021-04-02-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "python3_tests": [], 
+            "tests_archs": [
+                "slc7_amd64_gcc900"
+            ], 
+            "cmsdist_merged_prs": {
+                "slc7_amd64_gcc900": [
+                    {
+                        "hash": "4ec6a6cc886f5b1903987f120283dd6765aa4c6f", 
+                        "title": "patching CLEO model for production studies", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/6775", 
+                        "number": "6775", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "e2d53dcec8e9102ea5b14db6c3005b4432c9cd7a", 
+                        "title": "Update tag for RecoHGCal-TICL to V00-02-01", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/6769", 
+                        "number": "6769", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "f2ac5c9c84b98a8cd3d84ce004f3bca7044df221", 
+                        "title": "[GitTools] enable -A for git-cms-merge/checkout-topic", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/6779", 
+                        "number": "6779", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "738d5176fca1bcd6a09a372d9321e260faf70c8c", 
+                        "title": "Update tag for L1Trigger-L1TMuon to V01-04-00", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/6772", 
+                        "number": "6772", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "b63f909adb9b3f893f013eef32573d93c334d534", 
+                        "title": "[Coral] Bug fix for the DB connection lifetime", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/6771", 
+                        "number": "6771", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }
+                ]
+            }, 
+            "cmsdist_compared_tags": {
+                "slc7_amd64_gcc900": "IB/CMSSW_11_3_Patatrack_X_2021-03-29-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_Patatrack_X_2021-03-31-2300/slc7_amd64_gcc900"
+            }, 
+            "cmsdistTags": {
+                "slc7_amd64_gcc900": "IB/CMSSW_11_3_Patatrack_X_2021-03-31-2300/slc7_amd64_gcc900"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "profiling": "not-found", 
+            "base_branch": "CMSSW_11_3_Patatrack_X", 
+            "compared_tags": "CMSSW_11_3_Patatrack_X_2021-03-29-2300-->CMSSW_11_3_Patatrack_X_2021-03-31-2300", 
+            "dqm_tests": "inprogress", 
+            "utests": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/wed/11.3.Patatrack-wed-23/CMSSW_11_3_Patatrack_X_2021-03-31-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "2"
+                    }
+                }
+            ], 
+            "ib_date": "2021-03-31-2300-0000", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/wed/11.3.Patatrack-wed-23/CMSSW_11_3_Patatrack_X_2021-03-31-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 2192, 
+                        "known_failed": 0, 
+                        "num_failed": 395
+                    }
+                }
+            ], 
+            "release_queue": "CMSSW_11_3_Patatrack_X", 
+            "release_name": "CMSSW_11_3_Patatrack_X_2021-03-31-2300", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [], 
+            "fwlite": [], 
+            "invalid_includes": [], 
+            "builds": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/wed/11.3.Patatrack-wed-23/CMSSW_11_3_Patatrack_X_2021-03-31-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 29
+                    }
+                }
+            ], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "dupDict": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "error"
+                }
+            ], 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "inProgress": false, 
+            "addons": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/wed/11.3.Patatrack-wed-23/CMSSW_11_3_Patatrack_X_2021-03-31-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "python3_tests": [], 
+            "tests_archs": [
+                "slc7_amd64_gcc900"
+            ], 
+            "cmsdist_merged_prs": {
+                "slc7_amd64_gcc900": []
+            }, 
+            "cmsdist_compared_tags": {
+                "slc7_amd64_gcc900": "IB/CMSSW_11_3_Patatrack_X_2021-03-29-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_Patatrack_X_2021-03-29-2300/slc7_amd64_gcc900"
+            }, 
+            "cmsdistTags": {
+                "slc7_amd64_gcc900": "IB/CMSSW_11_3_Patatrack_X_2021-03-29-2300/slc7_amd64_gcc900"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "profiling": "not-found", 
+            "base_branch": "CMSSW_11_3_Patatrack_X", 
+            "compared_tags": "CMSSW_11_3_Patatrack_X_2021-03-26-2300-->CMSSW_11_3_Patatrack_X_2021-03-29-2300", 
+            "dqm_tests": "inprogress", 
+            "utests": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.Patatrack-mon-23/CMSSW_11_3_Patatrack_X_2021-03-29-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
+                }
+            ], 
+            "ib_date": "2021-03-29-2300-0000", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.Patatrack-mon-23/CMSSW_11_3_Patatrack_X_2021-03-29-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 3454, 
+                        "known_failed": 0, 
+                        "num_failed": 1
+                    }
+                }
+            ], 
+            "release_queue": "CMSSW_11_3_Patatrack_X", 
+            "release_name": "CMSSW_11_3_Patatrack_X_2021-03-29-2300", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [], 
+            "fwlite": [], 
+            "invalid_includes": [], 
+            "builds": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.Patatrack-mon-23/CMSSW_11_3_Patatrack_X_2021-03-29-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 29
+                    }
+                }
+            ], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "dupDict": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "error"
+                }
+            ], 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "inProgress": false, 
+            "addons": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.Patatrack-mon-23/CMSSW_11_3_Patatrack_X_2021-03-29-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "python3_tests": [], 
+            "tests_archs": [], 
+            "cmsdist_merged_prs": {}, 
+            "cmsdist_compared_tags": {}, 
+            "cmsdistTags": {
+                "slc7_amd64_gcc900": "IB/CMSSW_11_3_Patatrack_X_2021-03-26-2300/slc7_amd64_gcc900"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "profiling": "not-found", 
+            "base_branch": "CMSSW_11_3_Patatrack_X", 
+            "compared_tags": "CMSSW_11_3_Patatrack_X_2021-03-23-1100-->CMSSW_11_3_Patatrack_X_2021-03-26-2300", 
+            "dqm_tests": "inprogress", 
+            "utests": [], 
+            "ib_date": "2021-03-26-2300-0000", 
+            "relvals": [], 
+            "release_queue": "CMSSW_11_3_Patatrack_X", 
+            "release_name": "CMSSW_11_3_Patatrack_X_2021-03-26-2300", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [], 
+            "fwlite": [], 
+            "invalid_includes": [], 
+            "builds": [], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "dupDict": [], 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "inProgress": false, 
+            "addons": [], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "python3_tests": [], 
+            "tests_archs": [], 
+            "cmsdist_merged_prs": {}, 
+            "cmsdist_compared_tags": {}, 
+            "cmsdistTags": {
+                "slc7_amd64_gcc900": "IB/CMSSW_11_3_Patatrack_X_2021-03-23-1100/slc7_amd64_gcc900"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "profiling": "not-found", 
+            "base_branch": "CMSSW_11_3_Patatrack_X", 
+            "compared_tags": "CMSSW_11_3_Patatrack_X_2021-03-22-2300-->CMSSW_11_3_Patatrack_X_2021-03-23-1100", 
+            "dqm_tests": "inprogress", 
+            "utests": [], 
+            "ib_date": "2021-03-23-1100-0000", 
+            "relvals": [], 
+            "release_queue": "CMSSW_11_3_Patatrack_X", 
+            "release_name": "CMSSW_11_3_Patatrack_X_2021-03-23-1100", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [
+                {
+                    "hash": "d0ce485705af32f86f22bb856812241ecc38eec7", 
+                    "title": "Caloparticle debugger improvements", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33081", 
+                    "number": "33081", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "rovere"
+                }, 
+                {
+                    "hash": "244440a7d6d29d707e397607dc7226eace0d36ed", 
+                    "title": "Update DD4Hep workflow to accept all Run-3 and Phase-2 wfs. Add README.md to runTheMatrix", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33087", 
+                    "number": "33087", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "srimanob"
+                }, 
+                {
+                    "hash": "ff519801c7bd0ed834def3e881ca4c03b1065ec1", 
+                    "title": "Efficiencies of CSC trigger primitives in validation step and clean-up", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33086", 
+                    "number": "33086", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "dildick"
+                }, 
+                {
+                    "hash": "53755125279008082dd7c86ec73d4798f0d2a5c7", 
+                    "title": "Run3-hcx290 Use ESGetToken in CaloOnlineTools/HcalOnlineDb", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33089", 
+                    "number": "33089", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "c61b46b53c1bb2651129bb7b07550feded76ad51", 
+                    "title": "fix to KineParticleFilter::acceptParticle", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33088", 
+                    "number": "33088", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "missirol"
+                }, 
+                {
+                    "hash": "8b1c3b06a1498b3c09d96dab2d42ea8a04d8c45b", 
+                    "title": "Update new Phase2C11xx eras by adding the etlV4 modifier", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33139", 
+                    "number": "33139", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "fabiocos"
+                }, 
+                {
+                    "hash": "872bd45814767051bc1b1b015e6e7b866cc3291e", 
+                    "title": "Update HLT common customisations to handle SwitchProducers", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33137", 
+                    "number": "33137", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "fwyzard"
+                }, 
+                {
+                    "hash": "c1ce9de852d6e48ca542c50e3ba66fba84377fc0", 
+                    "title": "Removed unnecessary temporary variable in Callback", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33136", 
+                    "number": "33136", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "69d159b711ed7db2a1452e7279fba862d0f4fc8c", 
+                    "title": "Update the HLT customisation for running over 2018 data", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33133", 
+                    "number": "33133", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "fwyzard"
+                }, 
+                {
+                    "hash": "ea74e02dfbfc87537e403f200628bdb424b0e5ec", 
+                    "title": "RecoMuon Validation update for phase2 ", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33132", 
+                    "number": "33132", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "calderona"
+                }, 
+                {
+                    "hash": "879f90b90576cfd7cbadbb1cbc57d2e1c6526903", 
+                    "title": "[HGCAL] Updates on the RelVal campaign scripts", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33131", 
+                    "number": "33131", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "apsallid"
+                }, 
+                {
+                    "hash": "722a167c68146a5f25b5512e3c55ac62f4c9bfe4", 
+                    "title": " Bump of CLHEP::Hep3Vector ClassVersion needed for GEANT4 10.7.1", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33234", 
+                    "number": "33234", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "silviodonato"
+                }, 
+                {
+                    "hash": "6041c891583bcbb0c454f0eb610e0262be645aa9", 
+                    "title": "migrate Validation/RecoTrack to esConsumes", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33235", 
+                    "number": "33235", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mmusich"
+                }, 
+                {
+                    "hash": "0b80e875da447420c5fa698d6518c639c07d506a", 
+                    "title": "Migrated Validation/*Tracker* to esConsumes", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33238", 
+                    "number": "33238", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mmusich"
+                }, 
+                {
+                    "hash": "85ec5d4934b09363f2268529d738ee414a111345", 
+                    "title": "ProdLike workflow for premixing ", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33037", 
+                    "number": "33037", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "kpedro88"
+                }, 
+                {
+                    "hash": "a4d4a4152d8918b793134c4a2d55ec53d27d869f", 
+                    "title": "Change ROOT::TF1 class def version from 10 to 12*", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/32890", 
+                    "number": "32890", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mrodozov"
+                }, 
+                {
+                    "hash": "dcc4f56658975c527ae89a484419e712a1df75f7", 
+                    "title": "Migration to DD4hep for ME0 db Loader", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33098", 
+                    "number": "33098", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "slomeo"
+                }, 
+                {
+                    "hash": "9bb6f6dcedf9e6ead1cb5d3ad4dd616d0fa2aa71", 
+                    "title": "correct Buildfiles in FWCore", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33094", 
+                    "number": "33094", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "3454c34a65539c18fec98fed5f43cf8983101f32", 
+                    "title": "correct Buildfiles in SimDataFormats", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33095", 
+                    "number": "33095", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "1e8fdbc2986c48ab6c3ded6ce0aa1c486145c1e4", 
+                    "title": "correct Buildfiles in DataFormats", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33096", 
+                    "number": "33096", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "df509f6dd03b5be654a94322a17487e034bd3b36", 
+                    "title": "improving PixelVertexCollectionTrimmer", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33091", 
+                    "number": "33091", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "missirol"
+                }, 
+                {
+                    "hash": "21eb5e143d7db945a862d2e5730ef61c81b633f3", 
+                    "title": "cleanup includes in SimDataFormats/GeneratorProducts", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33092", 
+                    "number": "33092", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "a199589b223186644628a0b96f452426b3d4b3ce", 
+                    "title": "correct dependencies and includes", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33093", 
+                    "number": "33093", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "431c39088ec995f84e3939bf99d32ad0dd80d52d", 
+                    "title": "Remove dead assignments in DataFormats/L1TrackTrigger", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33128", 
+                    "number": "33128", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "perrotta"
+                }, 
+                {
+                    "hash": "2ded973d3a4ab0c65515221cd0c31a06e823c34e", 
+                    "title": "Run3-gex62 Add debug statement to find issues in geometry definition of EB in dd4hep", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33129", 
+                    "number": "33129", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "d02de12588dd4b47361876920cdb3e5d374f020d", 
+                    "title": "Move DTDriftTimeParameters.icc", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33049", 
+                    "number": "33049", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "57b88a1f7537a7499de8458daae5a70a08c31a44", 
+                    "title": "migrate RecoPixelVertexing/PixelLowPtUtilities to esConsumes", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33121", 
+                    "number": "33121", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mmusich"
+                }, 
+                {
+                    "hash": "85a575c8fc6b03731dd57589f08ac19281973e08", 
+                    "title": "Utilities/StaticAnalyzers: group callstacks in EventSetupRecord::get report by package directory and producer", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33122", 
+                    "number": "33122", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "gartung"
+                }, 
+                {
+                    "hash": "0a8736c64f82856bede4fd54c21a73759e5cc548", 
+                    "title": "Migrate rest of RecoLocalTracker to esConsumes", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33123", 
+                    "number": "33123", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mmusich"
+                }, 
+                {
+                    "hash": "e32beb44fe0ebe470d0ca25e7f9508351be90022", 
+                    "title": "Tracker DQM: Phase2 module binning and range updates", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33124", 
+                    "number": "33124", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "gabriel-rmrz"
+                }, 
+                {
+                    "hash": "9461d3ac89119bbf838efd8230ef80240b99f8d7", 
+                    "title": "If SecondaryEventProvider has no modules do not create a task", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33125", 
+                    "number": "33125", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "191b2d1d7b83478ecac037ac53b4a118a592a02e", 
+                    "title": "Devirtualize PFBlockElement daughter classes", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33127", 
+                    "number": "33127", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "marksan87"
+                }, 
+                {
+                    "hash": "b1df50fc79e474c27e6d5e11fcd5151f5cf69112", 
+                    "title": "HFNose: ticl updates", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33001", 
+                    "number": "33001", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mariadalfonso"
+                }, 
+                {
+                    "hash": "87d3a631e7841b736683730a5f42f05cc82a7c05", 
+                    "title": "Ecal DB PayloadInspector with one or two tags", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33006", 
+                    "number": "33006", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "depasse"
+                }, 
+                {
+                    "hash": "4aef1c5caa19f5a9e46b948e281a9e26490d8268", 
+                    "title": "Apply esConsumes to DeDxEstimatorProducer", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33015", 
+                    "number": "33015", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "51ce68f24fc9b12e6d544fb943cd309192e8a902", 
+                    "title": "Remove not needed RooFit dependencies from BuildFiles", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33019", 
+                    "number": "33019", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "guitargeek"
+                }, 
+                {
+                    "hash": "c7c54cbeb3bf28f274c76611263c5858bede7ff6", 
+                    "title": "Use tbb::task_arena to keep SecondaryEventProvider on same thread", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33155", 
+                    "number": "33155", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "cdb22b926c469c28cd8f3d3c7e767de554043e59", 
+                    "title": "Run4-hgx278 Correct material budget plot for V14", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33154", 
+                    "number": "33154", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "8a51ab25a90c7f538c9055a3d17ff20dfc622944", 
+                    "title": "return valid only finite pathLength in plane crossings algorithms in TrackingTools", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33157", 
+                    "number": "33157", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "slava77"
+                }, 
+                {
+                    "hash": "73ec200c3b7fa9f40cc1738d9a5aa6d14bd2e96e", 
+                    "title": "Migrate to tbb::task_group", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/32804", 
+                    "number": "32804", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "2d30dc63012c90692c71887b68794c917a77a4e5", 
+                    "title": "Add esConsumes to EcalTrigPrimProducer", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33062", 
+                    "number": "33062", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "0bb1f8d5e17fcc8b60f9939f1fef6bfec02ca885", 
+                    "title": "warn when no data is available for CalibTracker/SiStripChannelGain unit test", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33065", 
+                    "number": "33065", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mmusich"
+                }, 
+                {
+                    "hash": "158ab21ac3e7c1c65f959b87be4a775b942d7f04", 
+                    "title": "FileInPath: replace boost::filesystem by std::filesystem ", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33066", 
+                    "number": "33066", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "2c8748691cf4019590628ba2cb8c92328a459800", 
+                    "title": "Get rid of hardcoded GEM fedid's", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33068", 
+                    "number": "33068", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "perrotta"
+                }, 
+                {
+                    "hash": "ca1fd48995d452351282090c724620bf215c4b93", 
+                    "title": "add missing buildfile dependencies to HeterogeneousCore", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33149", 
+                    "number": "33149", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "24d6ff9ea161ec707792b559cffb59c15ed644a4", 
+                    "title": "Add displaced muon info from EMTF to RegionalMuonCand (un)packing and to uGMT DQM", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33146", 
+                    "number": "33146", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "dinyar"
+                }, 
+                {
+                    "hash": "d6a1b8ed191dc95a7b2e55305d3715d55c0c5ac3", 
+                    "title": "remove boost/filesystem usage", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33144", 
+                    "number": "33144", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "smuzaffar"
+                }, 
+                {
+                    "hash": "19d3730ad5a951d92a985da73b2ed01eab9e753f", 
+                    "title": "Update GTs with Ecal supercluster parameters", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33142", 
+                    "number": "33142", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "francescobrivio"
+                }, 
+                {
+                    "hash": "8ebe0680a868358c1085f23c702faf79f9cb2447", 
+                    "title": "Clean BuildFiles, fix typo and add source_only flags to fix warnings", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33143", 
+                    "number": "33143", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "guitargeek"
+                }, 
+                {
+                    "hash": "6d13b7db0f6e4c0b3dbea3e887a3b15527886a18", 
+                    "title": "move TBB_PREVIEW_RESUMABLE_TASKS macro in tbb tool definition", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33140", 
+                    "number": "33140", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "smuzaffar"
+                }, 
+                {
+                    "hash": "bf86777a3010dc89e5d2036f53e06de9a3d3ac9a", 
+                    "title": "Remove 11634.911 (DD4HEP) from the limited matrix", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33141", 
+                    "number": "33141", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "silviodonato"
+                }, 
+                {
+                    "hash": "0621711cc60490e8ef22605e4307f6986d188a6b", 
+                    "title": "Adding variable to Muon and IsoTrack table in NanoAOD", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33208", 
+                    "number": "33208", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "sroychow"
+                }, 
+                {
+                    "hash": "9832dd43fa69c2249b0a2f530f4fd349b6fa8060", 
+                    "title": "drop type spec and move sequence to task in CommonTools", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33201", 
+                    "number": "33201", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "jeongeun"
+                }, 
+                {
+                    "hash": "c9e21b73938d133b385578ae3f88db2f354453d3", 
+                    "title": "Removing global variables from EcalDQMCommonUtils", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33200", 
+                    "number": "33200", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "alejands"
+                }, 
+                {
+                    "hash": "d5d5ee0fe901122c240d883d28c8b0e488b56c51", 
+                    "title": "Rewrite SimActivityRegistryEnroller with variadic types", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33202", 
+                    "number": "33202", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "6f15bd7dc8a469a3b6f8ccea36b638f0eefa7fa4", 
+                    "title": "adding MultiplicityValueProducers (HLT Phase-2 TDR)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33204", 
+                    "number": "33204", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "missirol"
+                }, 
+                {
+                    "hash": "162ce95137a973de5ab332a1af533363f6f083df", 
+                    "title": "replace explicit configuration of puppi with a reference from cfipython/, generated by PuppiProducer::fillDescriptions", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33207", 
+                    "number": "33207", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "slava77"
+                }, 
+                {
+                    "hash": "d0144881ee9a47a9cfe18b25ee8ab69dee2f9c8b", 
+                    "title": "Run3-gex60 Try to resolve overlap in preshower detector for dd4hep", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33072", 
+                    "number": "33072", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "56eef41b9c62dbdbec239738a2c0ba64882fe001", 
+                    "title": "Switch resolution from Gaussian sigma to stdev for Phase2 L1T tracks", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33073", 
+                    "number": "33073", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "emacdonald16"
+                }, 
+                {
+                    "hash": "69500a942cf099bd4006a47303412267d115d284", 
+                    "title": "Add more pixel payload inspections", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33070", 
+                    "number": "33070", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mmusich"
+                }, 
+                {
+                    "hash": "d1d7899ceac473257cb7b5addc5247441bb2f666", 
+                    "title": "#ifdef debug stringstream operations in SimMuon/RPCDigitizer", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33071", 
+                    "number": "33071", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "dan131riley"
+                }, 
+                {
+                    "hash": "083fc79b37696e362556e0bd06e95b4a14fa470f", 
+                    "title": "[DD4hep] Enable DD4hep workflows to use DD4hep for the magnetic field", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33076", 
+                    "number": "33076", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cvuosalo"
+                }, 
+                {
+                    "hash": "0465632320e79cf35d116cfc84659060a66ca7ed", 
+                    "title": "Use run-dependent bad channels for CSC, HCAL and strips", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33074", 
+                    "number": "33074", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "christopheralanwest"
+                }, 
+                {
+                    "hash": "bea91b38c256caedae6e419c479faceadf051188", 
+                    "title": "Separate Algorithms for GE0 and GE1/1 GE2/1 Segments", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/32972", 
+                    "number": "32972", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "watson-ij"
+                }, 
+                {
+                    "hash": "60065d94cf6a15e19f71c389bb9f000fbb7fed0e", 
+                    "title": "Run3-gex61 Add the correction to HO volume names to the scenarios", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33079", 
+                    "number": "33079", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "d368441e0bb97541a4142f97779e92a4dcb244da", 
+                    "title": "Updates to Tracksters visualization in Fireworks", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/32975", 
+                    "number": "32975", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "chrispap95"
+                }, 
+                {
+                    "hash": "531310a300c54a13f786f48f653801dbeb9c3c9a", 
+                    "title": "Move FFTJet to JetMETCorrections/FFTJetObjects", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33179", 
+                    "number": "33179", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "7089310fda9ff037a4da852a2e1ff2fb270dcc6a", 
+                    "title": "[DD4Hep] Use Placement instead of TGeoCombiTrans", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33178", 
+                    "number": "33178", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ianna"
+                }, 
+                {
+                    "hash": "c0946e2ad9a1016cbb076e97c70ab7d8772627cd", 
+                    "title": "Run4-278X Bug fix for allowing more scintillator cells beyond Digi", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33173", 
+                    "number": "33173", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "3ccbf505584190e66963246c634e626cdeb9cdf9", 
+                    "title": "initialize variables to fix compiler warnings", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33171", 
+                    "number": "33171", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "smuzaffar"
+                }, 
+                {
+                    "hash": "d9d60ce01908be82b2de18ad7cda66ff11fdd7f4", 
+                    "title": "[UBSAN] Added missing deps to fix UBSAN build errors", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33170", 
+                    "number": "33170", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "smuzaffar"
+                }, 
+                {
+                    "hash": "c98eae27e4121a263b19d1583a053f05e556c931", 
+                    "title": "HLT menu fixes (11_3_X)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33176", 
+                    "number": "33176", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-tsg-storm"
+                }, 
+                {
+                    "hash": "2a7a16c235b77599bad024dcdaf74a40dc84f99e", 
+                    "title": "Run3-hcx291 Recover SimHits in HF for geometries defined by DD4Hep", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33175", 
+                    "number": "33175", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "882e8f86ccf3dfed2db2f722129f7f2980d9dbc7", 
+                    "title": "small fixes to hltDiff", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33174", 
+                    "number": "33174", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "missirol"
+                }, 
+                {
+                    "hash": "5899517995519932693585c066a66d7d3f875590", 
+                    "title": "Run3-hcx294 Update HCAL code in material budget studies for DD4HEP", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33199", 
+                    "number": "33199", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "cf6d18b6e1fa3d0cf2ff3462430ef0d123c9651a", 
+                    "title": "DAQ: input source update and new output module for tests (11_3_X)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33198", 
+                    "number": "33198", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "smorovic"
+                }, 
+                {
+                    "hash": "c13313b243559e8d72b97e257d76056e80e9950b", 
+                    "title": "Annotate EventSetupImpl::taskArena() as thread safe", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33218", 
+                    "number": "33218", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "makortel"
+                }, 
+                {
+                    "hash": "70e05fa278a548296913664333fd85b9843b97fe", 
+                    "title": "Mark dependence on FWCore/SOA as source-only in DataFormats/TestObjects/BuildFile.xml", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33219", 
+                    "number": "33219", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "makortel"
+                }, 
+                {
+                    "hash": "f051705f91c4a49fd9df4fa42c0018c1afcde7b5", 
+                    "title": "Fix on the indexing of VFATs in GEM onlineDQM", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33193", 
+                    "number": "33193", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "quark2"
+                }, 
+                {
+                    "hash": "5a245f5398897ef3517942d84658bf762cfd8069", 
+                    "title": "Run3-gex63 Clean up the debug statements for ECAL algos", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33195", 
+                    "number": "33195", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "5fefea515da3a4f565bc53d4dd4e36e94b569aa1", 
+                    "title": "Make auto:phase2_realistic key usable", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33036", 
+                    "number": "33036", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mmusich"
+                }, 
+                {
+                    "hash": "0544d910d4cd36df8848227440b5d7fc3a280f19", 
+                    "title": "Fix G4 logical volumes assignments to production cuts regions with DD4hep", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33164", 
+                    "number": "33164", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ghugo83"
+                }, 
+                {
+                    "hash": "e5efbd27a3b56ef3d990db622687156ea5c1c2ce", 
+                    "title": "Utilities/StaticAnalyzer: EventSetupRecord::get static check: Add calls to get made in non-member functions", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33165", 
+                    "number": "33165", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "gartung"
+                }, 
+                {
+                    "hash": "cf9163db297d9cd594ef069322cf784591572b6f", 
+                    "title": "Touchables: can stop search at first occurence with DD4hep", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33166", 
+                    "number": "33166", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ghugo83"
+                }, 
+                {
+                    "hash": "9ed919d6db498f0c8274da39e0e6451965ab8893", 
+                    "title": "Run3-gex62z Update PrintGeomInfo to give statistics for touchables", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33167", 
+                    "number": "33167", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "7fc2ce4c36ca87e3b8612b478478765e934054a8", 
+                    "title": "DAQ FastMonitoringService refactoring and monitoring of module acquire state (11_3_X)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33160", 
+                    "number": "33160", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "smorovic"
+                }, 
+                {
+                    "hash": "7be372c11bae18c22cbd405d50db5114ef6215aa", 
+                    "title": "Run3-gex62x Update the debug printing for EB geometry algorithm", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33161", 
+                    "number": "33161", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "9aeb7c4504e9f5a34ce2573420ca70e52bc6270e", 
+                    "title": "[DD4Hep] Make sure the test runs on dd4hep-based geometry", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33162", 
+                    "number": "33162", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ianna"
+                }, 
+                {
+                    "hash": "f156f9964af44f59d6f68663ecdf1ed7e82f6703", 
+                    "title": "Run3-gex62y Correct the scripts for running tests with ddd/dd4hep", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33163", 
+                    "number": "33163", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "be8dc1e574e20c28db3291b7b7aff4b511117399", 
+                    "title": "drop type specs and change deepcopy to clone in TrackingTools", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33046", 
+                    "number": "33046", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "jeongeun"
+                }, 
+                {
+                    "hash": "114c3703de70881c50a73c0031446b088fc7668b", 
+                    "title": "treat a predicted state too far as invalid in CosmicMuonSmoother", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33168", 
+                    "number": "33168", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "slava77"
+                }, 
+                {
+                    "hash": "f43a7c475236e6e663049276387354dd0e08e364", 
+                    "title": "clean includes in PhotonMIPHaloTagger.h", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33169", 
+                    "number": "33169", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "93a7d33714fe0316bdb0350915d429b612eccfff", 
+                    "title": "move TTTrackTruthPair to SimDataFormats/Associations", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33188", 
+                    "number": "33188", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "davidlange6"
+                }, 
+                {
+                    "hash": "5f77aa8e228db15ff5f11b43f644f41a68fad2ef", 
+                    "title": "Run3-hcx292 Update the test cfg's for simulation parameters", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33182", 
+                    "number": "33182", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "4bdc602d66b2f398d208afdca0366a69fb38ff9e", 
+                    "title": "Remove ESProducers for ECAL Mustache parameters from configuration", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33183", 
+                    "number": "33183", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "thomreis"
+                }, 
+                {
+                    "hash": "bc4619b4f2be318f0ba19af0561f19bd8a14cd4d", 
+                    "title": "MTD geometry/reconstruction: update tests, invert order of forward DetLayers", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33181", 
+                    "number": "33181", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "fabiocos"
+                }, 
+                {
+                    "hash": "883cad19293e2b7b4ea67d4a5aa4669c80c14866", 
+                    "title": "Improve the execution speed of the DA clusterizers for primary vertex finding", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/32994", 
+                    "number": "32994", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "werdmann"
+                }, 
+                {
+                    "hash": "ab5bf7a38f1663da6ae770c8267f6d6524ed2a7d", 
+                    "title": "Clean header includes and BuildFile in PhotonIdentification", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33187", 
+                    "number": "33187", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "perrotta"
+                }, 
+                {
+                    "hash": "8f9ff89b41c624882a7293db6e80685a9758d92c", 
+                    "title": "Run3-hcx293 Take care of different of levels in G4 tree between DDD & DD4Hep", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33185", 
+                    "number": "33185", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "921195a229ed31e7b198caac10e7063b904c58c5", 
+                    "title": "Update unit tests for LLVM 11", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33110", 
+                    "number": "33110", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mrodozov"
+                }, 
+                {
+                    "hash": "1d47c8fe9b70d84cd9951b882221f8a0f0923e5d", 
+                    "title": "Cleaning of ElectroWeakAnalysis in CMSSWReleaseDependency.rules", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33113", 
+                    "number": "33113", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "silviodonato"
+                }, 
+                {
+                    "hash": "384af2e4f3611cfaeb5244d10191af61035cef9a", 
+                    "title": "Removal of git-publish", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33112", 
+                    "number": "33112", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "silviodonato"
+                }, 
+                {
+                    "hash": "953847a483753ff071a243dbcde522fd4e4fbd58", 
+                    "title": "[RPC] Bug fix DQM/RPCMonitorClient crash due to type conversion -1 to unsigned int", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33115", 
+                    "number": "33115", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "jhgoh"
+                }, 
+                {
+                    "hash": "c6467af81585576aa0af58976059de00256e6f0b", 
+                    "title": "migrate CosmicGenFilterHelix to esConsumes", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33114", 
+                    "number": "33114", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mmusich"
+                }, 
+                {
+                    "hash": "b57d7991a503e02fbea60ecb7bce6a4032f64aba", 
+                    "title": "[HGCAL] TiclDebugger Analyzer", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33117", 
+                    "number": "33117", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ebrondol"
+                }, 
+                {
+                    "hash": "e10760ce9dff761be5f16b1f0950a94d8a311b03", 
+                    "title": "Cross-correlation algorithm for the ECAL timing reconstruction", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33119", 
+                    "number": "33119", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "nminafra"
+                }, 
+                {
+                    "hash": "9c46f5a64ab59909c4079760ea55b0c17f1a7089", 
+                    "title": "FastSim number of photoelectrons in HF simulation", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33051", 
+                    "number": "33051", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "sbein"
+                }, 
+                {
+                    "hash": "e8bfa7625171444559dca2afe9b626c0d4366b22", 
+                    "title": "migrate Alignment/LaserAlignment to esConsumes", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33054", 
+                    "number": "33054", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mmusich"
+                }, 
+                {
+                    "hash": "7abcd85577b4dcb3106e45e37a6dc2f133baf8f4", 
+                    "title": "Production cuts: DD4hep needs to reproduce same behavior as DDD.", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33101", 
+                    "number": "33101", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ghugo83"
+                }, 
+                {
+                    "hash": "c978005e2a6990d8d71367570450c1a16a4f9f45", 
+                    "title": "Fix LogDebug(...); not compiling", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33106", 
+                    "number": "33106", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "Dr15Jones"
+                }, 
+                {
+                    "hash": "29de3a4c0bff2207905ccd75a5c09976fce3e736", 
+                    "title": "Add per-file fillPsetDescription in RecoVertex/PrimaryVertexProducer", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33104", 
+                    "number": "33104", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mmusich"
+                }, 
+                {
+                    "hash": "0e22d13c15a19455f5e2015e8903c53554e19111", 
+                    "title": "Better destructor behavior for SiPixelTemplateStore2D", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33105", 
+                    "number": "33105", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "OzAmram"
+                }, 
+                {
+                    "hash": "8eff978e85f5f8323b2e9e3f317fe8c321dd07a5", 
+                    "title": "Fix Run-2 equivalent pattern assignment (CCLUT-11)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33108", 
+                    "number": "33108", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "dildick"
+                }, 
+                {
+                    "hash": "fba23cdf9352589a50c80fbaa439834b032e581d", 
+                    "title": "HLT menu migration to 11_3_0_pre4", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33109", 
+                    "number": "33109", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-tsg-storm"
+                }, 
+                {
+                    "hash": "0e0270ce08f89f50ba2f1393ffa59c78674a2afc", 
+                    "title": "Hcal - packing HB TDC", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33050", 
+                    "number": "33050", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "lwang046"
+                }, 
+                {
+                    "hash": "6552faf87e2fceea1f6a4d7e78a0399f43897ed9", 
+                    "title": "Replace roll to ieta in GEM", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33029", 
+                    "number": "33029", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "yeckang"
+                }, 
+                {
+                    "hash": "6bfc6139dd23c885f3dbd1a466be37fddbaef587", 
+                    "title": "Adding Phase2 tracker T25 and T26 (for IT sensor technology studies)", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33222", 
+                    "number": "33222", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "adewit"
+                }, 
+                {
+                    "hash": "4cce27716587e339e7b8afdfe30d91d6e9f15e77", 
+                    "title": "HBHEgpu: add correlated noise", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33025", 
+                    "number": "33025", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mariadalfonso"
+                }, 
+                {
+                    "hash": "335e4aaddfe64b300dd12ac9ae8e229027949102", 
+                    "title": "Utilities/StaticAnalyzer: update scan-build report to have a column for the number of reports for a file and line combination.", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/33229", 
+                    "number": "33229", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "gartung"
+                }
+            ], 
+            "fwlite": [], 
+            "invalid_includes": [], 
+            "builds": [], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "dupDict": [], 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "inProgress": false, 
+            "addons": [], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "python3_tests": [], 
+            "tests_archs": [], 
+            "cmsdist_merged_prs": {}, 
+            "cmsdist_compared_tags": {}, 
+            "cmsdistTags": {
+                "slc7_amd64_gcc900": "ERR/CMSSW_11_3_Patatrack_X_2021-03-22-2300/slc7_amd64_gcc900"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "profiling": "not-found", 
+            "base_branch": "CMSSW_11_3_Patatrack_X", 
+            "compared_tags": "CMSSW_11_3_Patatrack_X_2021-03-22-2300-->CMSSW_11_3_Patatrack_X_2021-03-22-2300", 
+            "dqm_tests": "inprogress", 
+            "utests": [], 
+            "ib_date": "2021-03-22-2300-0000", 
+            "relvals": [], 
+            "release_queue": "CMSSW_11_3_Patatrack_X", 
+            "release_name": "CMSSW_11_3_Patatrack_X_2021-03-22-2300", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [], 
+            "fwlite": [], 
+            "invalid_includes": [], 
+            "builds": [], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "dupDict": [], 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "inProgress": false, 
+            "addons": [], 
+            "hlt_tests": "not-found"
+        }
+    ]
+}

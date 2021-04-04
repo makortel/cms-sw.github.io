@@ -1,0 +1,623 @@
+{
+  "OpenBLAS": {
+    "build_dependencies": [],
+    "checksum": "21f6631058bdfd0ddc5d13ce0f4d0693",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "OpenBLAS",
+    "package_name": "external+OpenBLAS+0.2.20-omkpbe2",
+    "patches": [],
+    "realversion": "0.2.20",
+    "revision": "1",
+    "sources": [
+      "https://github.com/xianyi/OpenBLAS/archive/v0.2.20.tar.gz"
+    ],
+    "version": "0.2.20-omkpbe2"
+  },
+  "bz2lib": {
+    "build_dependencies": [],
+    "checksum": "8b53e0547f4c7f785b978b2833dbb77f",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "bz2lib",
+    "package_name": "external+bz2lib+1.0.6-omkpbe2",
+    "patches": [],
+    "realversion": "1.0.6",
+    "revision": "1",
+    "sources": [
+      "http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz"
+    ],
+    "version": "1.0.6-omkpbe2"
+  },
+  "davix": {
+    "build_dependencies": [
+      "cmake",
+      "gmake"
+    ],
+    "checksum": "9cd019bb0c57bcd1e184f5f8a302d409",
+    "dependencies": [
+      "gcc",
+      "libuuid",
+      "libxml2",
+      "openssl"
+    ],
+    "doc": "",
+    "name": "davix",
+    "package_name": "external+davix+0.6.7-gnimlf2",
+    "patches": [],
+    "realversion": "0.6.7",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cern-it-sdc-id/davix.git?obj=master/R_0_6_7&export=davix-0.6.7&output=/davix-0.6.7.tgz"
+    ],
+    "version": "0.6.7-gnimlf2"
+  },
+  "db6": {
+    "build_dependencies": [],
+    "checksum": "15d17ca0c8c748068a8a8d63221f8c03",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "db6",
+    "package_name": "external+db6+6.0.30-omkpbe2",
+    "patches": [],
+    "realversion": "6.0.30",
+    "revision": "1",
+    "sources": [
+      "http://davidlt.web.cern.ch/davidlt/sources/db-6.0.30.tar.gz"
+    ],
+    "version": "6.0.30-omkpbe2"
+  },
+  "dcap": {
+    "build_dependencies": [
+      "autotools"
+    ],
+    "checksum": "bbba037af135fc7d9df6d08eac85de9a",
+    "dependencies": [
+      "gcc",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "dcap",
+    "package_name": "external+dcap+2.47.8-omkpbe2",
+    "patches": [],
+    "realversion": "2.47.8",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-externals/dcap.git?obj=cms/2.47.8/43223fda3a042&export=dcap-2.47.8&output=/dcap-2.47.8-43223fda3a042.tgz"
+    ],
+    "version": "2.47.8-omkpbe2"
+  },
+  "expat": {
+    "build_dependencies": [],
+    "checksum": "86857eb4e2d9ef1e3bea1145bd41c5e3",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "expat",
+    "package_name": "external+expat+2.1.0-omkpbe2",
+    "patches": [],
+    "realversion": "2.1.0",
+    "revision": "1",
+    "sources": [
+      "http://downloads.sourceforge.net/project/expat/expat/2.1.0/expat-2.1.0.tar.gz"
+    ],
+    "version": "2.1.0-omkpbe2"
+  },
+  "fftw3": {
+    "build_dependencies": [],
+    "checksum": "d9d2cfa4f7487fef73e9f52da7287a0b",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "fftw3",
+    "package_name": "external+fftw3+3.3.2-omkpbe2",
+    "patches": [],
+    "realversion": "3.3.2",
+    "revision": "1",
+    "sources": [
+      "http://www.fftw.org/fftw-3.3.2.tar.gz"
+    ],
+    "version": "3.3.2-omkpbe2"
+  },
+  "gcc": {
+    "build_dependencies": [],
+    "checksum": "8ed230187c2a06a277ca03ddf192b0cd",
+    "dependencies": [],
+    "doc": "",
+    "name": "gcc",
+    "package_name": "external+gcc+7.0.0-omkpbe2",
+    "patches": [
+      "gcc-flex-nonfull-path-m4.patch",
+      "gcc-flex-disable-doc.patch",
+      "gcc-remove-LWG2825-LWG2756-r245024.patch",
+      "0001-Revert-r248245-breaks-ROOT.patch"
+    ],
+    "realversion": "7.0.0",
+    "revision": "1",
+    "sources": [
+      "svn://gcc.gnu.org/svn/gcc/branches/gcc-7-branch?module=gcc-branches_gcc-7-branch-257125&revision=257125&output=/gcc-branches_gcc-7-branch-257125.tar.gz",
+      "https://gmplib.org/download/gmp/gmp-6.1.2.tar.bz2",
+      "http://www.mpfr.org/mpfr-3.1.6/mpfr-3.1.6.tar.bz2",
+      "http://www.multiprecision.org/mpc/download/mpc-1.0.3.tar.gz",
+      "ftp://gcc.gnu.org/pub/gcc/infrastructure/isl-0.16.1.tar.bz2",
+      "http://zlib.net/zlib-1.2.11.tar.gz",
+      "http://ftp.gnu.org/gnu/bison/bison-3.0.4.tar.gz",
+      "https://sourceware.org/pub/binutils/releases/binutils-2.30.tar.bz2",
+      "https://fedorahosted.org/releases/e/l/elfutils/0.170/elfutils-0.170.tar.bz2",
+      "http://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.gz",
+      "https://github.com/westes/flex/releases/download/v2.6.4/flex-2.6.4.tar.gz"
+    ],
+    "version": "7.0.0-omkpbe2"
+  },
+  "gdbm": {
+    "build_dependencies": [],
+    "checksum": "0491cb5670106a6a91730d1ace33292f",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "gdbm",
+    "package_name": "external+gdbm+1.10-omkpbe2",
+    "patches": [],
+    "realversion": "1.10",
+    "revision": "1",
+    "sources": [
+      "http://ftp.gnu.org/gnu/gdbm/gdbm-1.10.tar.gz"
+    ],
+    "version": "1.10-omkpbe2"
+  },
+  "giflib": {
+    "build_dependencies": [
+      "autotools"
+    ],
+    "checksum": "5909727f6e98418a56deb454783e118b",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "giflib",
+    "package_name": "external+giflib+4.2.3-omkpbe2",
+    "patches": [],
+    "realversion": "4.2.3",
+    "revision": "1",
+    "sources": [
+      "http://heanet.dl.sourceforge.net/project/giflib/giflib-4.x/giflib-4.2.3.tar.bz2"
+    ],
+    "version": "4.2.3-omkpbe2"
+  },
+  "gsl": {
+    "build_dependencies": [],
+    "checksum": "66003a600f9c876cc8a21fbc22b0dadf",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "gsl",
+    "package_name": "external+gsl+2.2.1-omkpbe2",
+    "patches": [],
+    "realversion": "2.2.1",
+    "revision": "1",
+    "sources": [
+      "ftp://ftp.gnu.org/gnu/gsl/gsl-2.2.1.tar.gz"
+    ],
+    "version": "2.2.1-omkpbe2"
+  },
+  "libffi": {
+    "build_dependencies": [],
+    "checksum": "5736c4bca63ca8fb19c0aa56a3ce0270",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "libffi",
+    "package_name": "external+libffi+3.2.1-omkpbe2",
+    "patches": [
+      "libffi-3.2.1-fix-include-path.patch"
+    ],
+    "realversion": "3.2.1",
+    "revision": "1",
+    "sources": [
+      "ftp://sourceware.org/pub/libffi/libffi-3.2.1.tar.gz"
+    ],
+    "version": "3.2.1-omkpbe2"
+  },
+  "libjpeg-turbo": {
+    "build_dependencies": [
+      "autotools",
+      "gmake",
+      "nasm"
+    ],
+    "checksum": "328ca47ed9dc4ee2f1d78b990e1b4ec8",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "libjpeg-turbo",
+    "package_name": "external+libjpeg-turbo+1.5.3",
+    "patches": [],
+    "realversion": "1.5.3",
+    "revision": "1",
+    "sources": [
+      "https://github.com/libjpeg-turbo/libjpeg-turbo/archive/1.5.3.tar.gz"
+    ],
+    "version": "1.5.3"
+  },
+  "libpng": {
+    "build_dependencies": [
+      "autotools"
+    ],
+    "checksum": "6bd42791b9f31abc2dad3993805b21fc",
+    "dependencies": [
+      "gcc",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "libpng",
+    "package_name": "external+libpng+1.6.16-omkpbe2",
+    "patches": [],
+    "realversion": "1.6.16",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-externals/libpng.git?obj=cms/v1.6.16/88dd30b232362b65cca374dda39096888163dd6b&export=libpng-1.6.16&output=/libpng-1.6.16.tgz"
+    ],
+    "version": "1.6.16-omkpbe2"
+  },
+  "libtiff": {
+    "build_dependencies": [],
+    "checksum": "5e621187269a83d10ea3026eb7598289",
+    "dependencies": [
+      "gcc",
+      "libjpeg-turbo",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "libtiff",
+    "package_name": "external+libtiff+4.0.3-ogkkac",
+    "patches": [],
+    "realversion": "4.0.3",
+    "revision": "1",
+    "sources": [
+      "http://download.osgeo.org/libtiff/tiff-4.0.3.zip"
+    ],
+    "version": "4.0.3-ogkkac"
+  },
+  "libuuid": {
+    "build_dependencies": [],
+    "checksum": "010213423ee705ee7655727e0874a7f6",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "libuuid",
+    "package_name": "external+libuuid+2.22.2-omkpbe2",
+    "patches": [
+      "libuuid-2.22.2-disable-get_uuid_via_daemon.patch"
+    ],
+    "realversion": "2.22.2",
+    "revision": "1",
+    "sources": [
+      "http://www.kernel.org/pub/linux/utils/util-linux/v2.22/util-linux-2.22.2.tar.gz"
+    ],
+    "version": "2.22.2-omkpbe2"
+  },
+  "libxml2": {
+    "build_dependencies": [],
+    "checksum": "4c49cd29ae046b4e6698ba379df4e84b",
+    "dependencies": [
+      "gcc",
+      "xz",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "libxml2",
+    "package_name": "external+libxml2+2.9.1-omkpbe2",
+    "patches": [],
+    "realversion": "2.9.1",
+    "revision": "1",
+    "sources": [
+      "ftp://xmlsoft.org/libxml2/libxml2-2.9.1.tar.gz"
+    ],
+    "version": "2.9.1-omkpbe2"
+  },
+  "lz4": {
+    "build_dependencies": [],
+    "checksum": "681b56c0ad6fa1bfe0ce82be797dfaae",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "lz4",
+    "package_name": "external+lz4+1.9.2",
+    "patches": [],
+    "realversion": "1.9.2",
+    "revision": "1",
+    "sources": [
+      "https://github.com/lz4/lz4/archive/v1.9.2.tar.gz"
+    ],
+    "version": "1.9.2"
+  },
+  "openssl": {
+    "build_dependencies": [],
+    "checksum": "2ac35be2d79fabb2b2184e5695801da1",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "openssl",
+    "package_name": "external+openssl+1.0.2d-omkpbe2",
+    "patches": [
+      "openssl-1.0.2d-pr3979.patch",
+      "openssl-1.0.2d-disable-install-openssldir.patch"
+    ],
+    "realversion": "1.0.2d",
+    "revision": "1",
+    "sources": [
+      "http://davidlt.web.cern.ch/davidlt/vault/openssl-1.0.2d-5675d07a144aa1a6c85f488a95aeea7854e86059.tar.bz2"
+    ],
+    "version": "1.0.2d-omkpbe2"
+  },
+  "pcre": {
+    "build_dependencies": [],
+    "checksum": "739169caa1f52da77af2f9d611f2ca06",
+    "dependencies": [
+      "bz2lib",
+      "gcc",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "pcre",
+    "package_name": "external+pcre+8.37-omkpbe2",
+    "patches": [],
+    "realversion": "8.37",
+    "revision": "1",
+    "sources": [
+      "http://downloads.sourceforge.net/pcre/pcre-8.37.tar.bz2"
+    ],
+    "version": "8.37-omkpbe2"
+  },
+  "py2-numpy": {
+    "build_dependencies": [
+      "py2-pip"
+    ],
+    "checksum": "00a2d691de82e68dec5a4a45af51c347",
+    "dependencies": [
+      "OpenBLAS",
+      "gcc",
+      "python",
+      "python3",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "py2-numpy",
+    "package_name": "external+py2-numpy+1.15.1",
+    "patches": [],
+    "realversion": "1.15.1",
+    "revision": "1",
+    "sources": [
+      "https://github.com/numpy/numpy/releases/download/v1.15.1/numpy-1.15.1.tar.gz"
+    ],
+    "version": "1.15.1"
+  },
+  "python": {
+    "build_dependencies": [],
+    "checksum": "f69739b7d5805afcec68a0b4ab92bb62",
+    "dependencies": [
+      "bz2lib",
+      "db6",
+      "expat",
+      "gcc",
+      "gdbm",
+      "libffi",
+      "openssl",
+      "sqlite",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "python",
+    "package_name": "external+python+2.7.14-omkpbe4",
+    "patches": [],
+    "realversion": "2.7.14",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-externals/cpython.git?obj=cms/107f3cc/f6d7a735c8650a8f37ffefb5270e43d7a31676bc&export=python-2.7.14&output=/python-2.7.14.tgz",
+      "/data/cmsbld/jenkins/workspace/build-any-ib/CMSDIST/valgrind-python.supp.file"
+    ],
+    "version": "2.7.14-omkpbe4"
+  },
+  "python3": {
+    "build_dependencies": [],
+    "checksum": "f3aa54597788dc65ec62962d0eb3ba07",
+    "dependencies": [
+      "bz2lib",
+      "db6",
+      "expat",
+      "gcc",
+      "gdbm",
+      "libffi",
+      "openssl",
+      "sqlite",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "python3",
+    "package_name": "external+python3+3.6.4-gnimlf",
+    "patches": [],
+    "realversion": "3.6.4",
+    "revision": "1",
+    "sources": [
+      "https://www.python.org/ftp/python/3.6.4/Python-3.6.4.tgz"
+    ],
+    "version": "3.6.4-gnimlf"
+  },
+  "root": {
+    "build_dependencies": [
+      "cmake",
+      "ninja"
+    ],
+    "checksum": "644507ea5a61abd7ce8dddf356213888",
+    "dependencies": [
+      "OpenBLAS",
+      "davix",
+      "dcap",
+      "fftw3",
+      "gcc",
+      "giflib",
+      "gsl",
+      "libjpeg-turbo",
+      "libpng",
+      "libtiff",
+      "libxml2",
+      "lz4",
+      "openssl",
+      "pcre",
+      "py2-numpy",
+      "python",
+      "tbb",
+      "xrootd",
+      "xz",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "root",
+    "package_name": "lcg+root+6.12.07-644507ea5a61abd7ce8dddf356213888",
+    "patches": [],
+    "realversion": "6.12.07",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-sw/root.git?obj=cms/v6-12-00-patches/34f75bf/e322ecf869fdf9c226186552efdeb6a3e50d19bc&export=root-6.12.07&output=/root-6.12.07-e322ecf869fdf9c226186552efdeb6a3e50d19bc.tgz"
+    ],
+    "version": "6.12.07-644507ea5a61abd7ce8dddf356213888"
+  },
+  "root-toolfile": {
+    "build_dependencies": [],
+    "checksum": "c0bdd89b501e43fb69859d8261b60676",
+    "dependencies": [
+      "gcc",
+      "root"
+    ],
+    "doc": "",
+    "name": "root-toolfile",
+    "package_name": "lcg+root-toolfile+2.1-c0bdd89b501e43fb69859d8261b60676",
+    "patches": [],
+    "realversion": "2.1",
+    "revision": "1",
+    "sources": [],
+    "version": "2.1-c0bdd89b501e43fb69859d8261b60676"
+  },
+  "sqlite": {
+    "build_dependencies": [],
+    "checksum": "2c17ed77f8641f6eecd8e104ffa37b0a",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "sqlite",
+    "package_name": "external+sqlite+3.22.0-omkpbe",
+    "patches": [],
+    "realversion": "3.22.0",
+    "revision": "1",
+    "sources": [
+      "https://www.sqlite.org/2018/sqlite-autoconf-3220000.tar.gz"
+    ],
+    "version": "3.22.0-omkpbe"
+  },
+  "tbb": {
+    "build_dependencies": [],
+    "checksum": "07272db986b9eb6867d750241f49b8c4",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "tbb",
+    "package_name": "external+tbb+2018_U1-omkpbe2",
+    "patches": [],
+    "realversion": "2018_U1",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/01org/tbb.git?obj=tbb_2018/2018_U1&export=tbb-2018_U1&output=/tbb-2018_U1-2018_U1.tgz"
+    ],
+    "version": "2018_U1-omkpbe2"
+  },
+  "xrootd": {
+    "build_dependencies": [
+      "cmake"
+    ],
+    "checksum": "9a175ac0b8f8444495237af1530602b6",
+    "dependencies": [
+      "gcc",
+      "openssl",
+      "python",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "xrootd",
+    "package_name": "external+xrootd+4.8.4",
+    "patches": [],
+    "realversion": "4.8.4",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-externals/xrootd.git?obj=cms/v4.8.4/cc69ac1ce30546a1d3d7111a543ad3e39d970b1d&export=xrootd-4.8.4&output=/xrootd-4.8.4.tgz"
+    ],
+    "version": "4.8.4"
+  },
+  "xz": {
+    "build_dependencies": [
+      "autotools"
+    ],
+    "checksum": "91ea341e6dc010169f15baa69740181d",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "xz",
+    "package_name": "external+xz+5.2.2-omkpbe2",
+    "patches": [],
+    "realversion": "5.2.2",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-externals/xz.git?obj=cms/v5.2.2/c430948daefd58f01ac444af2aeb9850c191fa1d&export=xz-5.2.2&output=/xz-5.2.2.tgz"
+    ],
+    "version": "5.2.2-omkpbe2"
+  },
+  "zlib": {
+    "build_dependencies": [],
+    "checksum": "bb367646b0e6e65cbd429e67b5c4e59d",
+    "dependencies": [
+      "gcc",
+      "zlib-x86_64"
+    ],
+    "doc": "",
+    "name": "zlib",
+    "package_name": "external+zlib+1.0-omkpbe2",
+    "patches": [],
+    "realversion": "1.0",
+    "revision": "1",
+    "sources": [],
+    "version": "1.0-omkpbe2"
+  },
+  "zlib-x86_64": {
+    "build_dependencies": [],
+    "checksum": "d8e821abc84edb0ab4064fbc821c30cc",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "zlib-x86_64",
+    "package_name": "external+zlib-x86_64+1.2.11-omkpbe2",
+    "patches": [],
+    "realversion": "1.2.11",
+    "revision": "1",
+    "sources": [
+      "git://github.com/cms-externals/zlib.git?obj=cms/v1.2.11/822f7f5a8c57802faf8bbfe16266be02eff8c2e2&export=zlib-1.2.11&output=/zlib-1.2.11.tgz"
+    ],
+    "version": "1.2.11-omkpbe2"
+  }
+}

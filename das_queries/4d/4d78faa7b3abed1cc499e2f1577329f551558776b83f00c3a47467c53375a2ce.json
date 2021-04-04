@@ -1,0 +1,589 @@
+{
+  "ctime": 10,
+  "data": [
+    {
+      "das": {
+        "expire": 1617131348,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "ebe43359",
+          "bytes": 1692823025,
+          "md5": null,
+          "name": "/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/0F90F012-3C97-344E-8E2F-F459A798FA74.root",
+          "pfns": {
+            "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/0F90F012-3C97-344E-8E2F-F459A798FA74.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            },
+            "srm://cmsdcadisk.fnal.gov:8443/srm/managerv2?SFN=/dcache/uscmsdisk/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/0F90F012-3C97-344E-8E2F-F459A798FA74.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T1_US_FNAL_Disk",
+              "rse_id": "087ee3383b9d45f6b31814af07b2c56d",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_US_FNAL_Disk": [
+              "srm://cmsdcadisk.fnal.gov:8443/srm/managerv2?SFN=/dcache/uscmsdisk/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/0F90F012-3C97-344E-8E2F-F459A798FA74.root"
+            ],
+            "T2_CH_CERN": [
+              "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/0F90F012-3C97-344E-8E2F-F459A798FA74.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 1692823025,
+          "space_token": null,
+          "states": {
+            "T1_US_FNAL_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "d646aceb28c77fa330fc6bb69a3b78bf"
+    },
+    {
+      "das": {
+        "expire": 1617131348,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "cc3198fd",
+          "bytes": 2605922986,
+          "md5": null,
+          "name": "/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/232339E1-43B5-DC46-8E4A-70DFDDBC1968.root",
+          "pfns": {
+            "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/232339E1-43B5-DC46-8E4A-70DFDDBC1968.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            },
+            "srm://cmsdcadisk.fnal.gov:8443/srm/managerv2?SFN=/dcache/uscmsdisk/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/232339E1-43B5-DC46-8E4A-70DFDDBC1968.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T1_US_FNAL_Disk",
+              "rse_id": "087ee3383b9d45f6b31814af07b2c56d",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_US_FNAL_Disk": [
+              "srm://cmsdcadisk.fnal.gov:8443/srm/managerv2?SFN=/dcache/uscmsdisk/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/232339E1-43B5-DC46-8E4A-70DFDDBC1968.root"
+            ],
+            "T2_CH_CERN": [
+              "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/232339E1-43B5-DC46-8E4A-70DFDDBC1968.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 2605922986,
+          "space_token": null,
+          "states": {
+            "T1_US_FNAL_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "d646aceb28c77fa330fc6bb69a3b78bf"
+    },
+    {
+      "das": {
+        "expire": 1617131348,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "65ddef22",
+          "bytes": 4103295479,
+          "md5": null,
+          "name": "/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/27EF1BE1-E32B-3E4C-9645-AA55C80613AF.root",
+          "pfns": {
+            "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/27EF1BE1-E32B-3E4C-9645-AA55C80613AF.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            },
+            "srm://cmsdcadisk.fnal.gov:8443/srm/managerv2?SFN=/dcache/uscmsdisk/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/27EF1BE1-E32B-3E4C-9645-AA55C80613AF.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T1_US_FNAL_Disk",
+              "rse_id": "087ee3383b9d45f6b31814af07b2c56d",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_US_FNAL_Disk": [
+              "srm://cmsdcadisk.fnal.gov:8443/srm/managerv2?SFN=/dcache/uscmsdisk/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/27EF1BE1-E32B-3E4C-9645-AA55C80613AF.root"
+            ],
+            "T2_CH_CERN": [
+              "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/27EF1BE1-E32B-3E4C-9645-AA55C80613AF.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 4103295479,
+          "space_token": null,
+          "states": {
+            "T1_US_FNAL_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "d646aceb28c77fa330fc6bb69a3b78bf"
+    },
+    {
+      "das": {
+        "expire": 1617131348,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "0452ce6b",
+          "bytes": 2154683496,
+          "md5": null,
+          "name": "/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/68F469A3-B150-F84D-B2DE-D93BC6C91CC7.root",
+          "pfns": {
+            "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/68F469A3-B150-F84D-B2DE-D93BC6C91CC7.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            },
+            "srm://cmsdcadisk.fnal.gov:8443/srm/managerv2?SFN=/dcache/uscmsdisk/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/68F469A3-B150-F84D-B2DE-D93BC6C91CC7.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T1_US_FNAL_Disk",
+              "rse_id": "087ee3383b9d45f6b31814af07b2c56d",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_US_FNAL_Disk": [
+              "srm://cmsdcadisk.fnal.gov:8443/srm/managerv2?SFN=/dcache/uscmsdisk/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/68F469A3-B150-F84D-B2DE-D93BC6C91CC7.root"
+            ],
+            "T2_CH_CERN": [
+              "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/68F469A3-B150-F84D-B2DE-D93BC6C91CC7.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 2154683496,
+          "space_token": null,
+          "states": {
+            "T1_US_FNAL_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "d646aceb28c77fa330fc6bb69a3b78bf"
+    },
+    {
+      "das": {
+        "expire": 1617131348,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "ddeaf860",
+          "bytes": 2377435709,
+          "md5": null,
+          "name": "/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/696C6891-8A99-1F48-B1C2-57A642F1D4E0.root",
+          "pfns": {
+            "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/696C6891-8A99-1F48-B1C2-57A642F1D4E0.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            },
+            "srm://cmsdcadisk.fnal.gov:8443/srm/managerv2?SFN=/dcache/uscmsdisk/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/696C6891-8A99-1F48-B1C2-57A642F1D4E0.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T1_US_FNAL_Disk",
+              "rse_id": "087ee3383b9d45f6b31814af07b2c56d",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_US_FNAL_Disk": [
+              "srm://cmsdcadisk.fnal.gov:8443/srm/managerv2?SFN=/dcache/uscmsdisk/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/696C6891-8A99-1F48-B1C2-57A642F1D4E0.root"
+            ],
+            "T2_CH_CERN": [
+              "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/696C6891-8A99-1F48-B1C2-57A642F1D4E0.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 2377435709,
+          "space_token": null,
+          "states": {
+            "T1_US_FNAL_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "d646aceb28c77fa330fc6bb69a3b78bf"
+    },
+    {
+      "das": {
+        "expire": 1617131348,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "b9a8bb0d",
+          "bytes": 3611208384,
+          "md5": null,
+          "name": "/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/CAF165C8-0D3E-3341-B6D0-CABD3CCBB32B.root",
+          "pfns": {
+            "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/CAF165C8-0D3E-3341-B6D0-CABD3CCBB32B.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            },
+            "srm://cmsdcadisk.fnal.gov:8443/srm/managerv2?SFN=/dcache/uscmsdisk/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/CAF165C8-0D3E-3341-B6D0-CABD3CCBB32B.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T1_US_FNAL_Disk",
+              "rse_id": "087ee3383b9d45f6b31814af07b2c56d",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_US_FNAL_Disk": [
+              "srm://cmsdcadisk.fnal.gov:8443/srm/managerv2?SFN=/dcache/uscmsdisk/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/CAF165C8-0D3E-3341-B6D0-CABD3CCBB32B.root"
+            ],
+            "T2_CH_CERN": [
+              "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/CAF165C8-0D3E-3341-B6D0-CABD3CCBB32B.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 3611208384,
+          "space_token": null,
+          "states": {
+            "T1_US_FNAL_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "d646aceb28c77fa330fc6bb69a3b78bf"
+    },
+    {
+      "das": {
+        "expire": 1617131348,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "ceb5f627",
+          "bytes": 2270602675,
+          "md5": null,
+          "name": "/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/D7083CCF-2037-BA4B-8F5B-A27BAEE80290.root",
+          "pfns": {
+            "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/D7083CCF-2037-BA4B-8F5B-A27BAEE80290.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            },
+            "srm://cmsdcadisk.fnal.gov:8443/srm/managerv2?SFN=/dcache/uscmsdisk/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/D7083CCF-2037-BA4B-8F5B-A27BAEE80290.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T1_US_FNAL_Disk",
+              "rse_id": "087ee3383b9d45f6b31814af07b2c56d",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_US_FNAL_Disk": [
+              "srm://cmsdcadisk.fnal.gov:8443/srm/managerv2?SFN=/dcache/uscmsdisk/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/D7083CCF-2037-BA4B-8F5B-A27BAEE80290.root"
+            ],
+            "T2_CH_CERN": [
+              "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/D7083CCF-2037-BA4B-8F5B-A27BAEE80290.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 2270602675,
+          "space_token": null,
+          "states": {
+            "T1_US_FNAL_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "d646aceb28c77fa330fc6bb69a3b78bf"
+    },
+    {
+      "das": {
+        "expire": 1617131348,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "5f783596",
+          "bytes": 3220341085,
+          "md5": null,
+          "name": "/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/E42EBCC8-1C15-2A4E-86CA-423CD1728C2C.root",
+          "pfns": {
+            "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/E42EBCC8-1C15-2A4E-86CA-423CD1728C2C.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            },
+            "srm://cmsdcadisk.fnal.gov:8443/srm/managerv2?SFN=/dcache/uscmsdisk/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/E42EBCC8-1C15-2A4E-86CA-423CD1728C2C.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T1_US_FNAL_Disk",
+              "rse_id": "087ee3383b9d45f6b31814af07b2c56d",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_US_FNAL_Disk": [
+              "srm://cmsdcadisk.fnal.gov:8443/srm/managerv2?SFN=/dcache/uscmsdisk/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/E42EBCC8-1C15-2A4E-86CA-423CD1728C2C.root"
+            ],
+            "T2_CH_CERN": [
+              "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/E42EBCC8-1C15-2A4E-86CA-423CD1728C2C.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 3220341085,
+          "space_token": null,
+          "states": {
+            "T1_US_FNAL_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "d646aceb28c77fa330fc6bb69a3b78bf"
+    },
+    {
+      "das": {
+        "expire": 1617131348,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "6025af76",
+          "bytes": 2373434150,
+          "md5": null,
+          "name": "/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/E7D6235D-EA7A-F74B-A885-3AB015BDF32B.root",
+          "pfns": {
+            "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/E7D6235D-EA7A-F74B-A885-3AB015BDF32B.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            },
+            "srm://cmsdcadisk.fnal.gov:8443/srm/managerv2?SFN=/dcache/uscmsdisk/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/E7D6235D-EA7A-F74B-A885-3AB015BDF32B.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T1_US_FNAL_Disk",
+              "rse_id": "087ee3383b9d45f6b31814af07b2c56d",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_US_FNAL_Disk": [
+              "srm://cmsdcadisk.fnal.gov:8443/srm/managerv2?SFN=/dcache/uscmsdisk/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/E7D6235D-EA7A-F74B-A885-3AB015BDF32B.root"
+            ],
+            "T2_CH_CERN": [
+              "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/E7D6235D-EA7A-F74B-A885-3AB015BDF32B.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 2373434150,
+          "space_token": null,
+          "states": {
+            "T1_US_FNAL_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "d646aceb28c77fa330fc6bb69a3b78bf"
+    },
+    {
+      "das": {
+        "expire": 1617131348,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "rucio:file4dataset_site"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "cc19cd55",
+          "bytes": 2210277096,
+          "md5": null,
+          "name": "/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/FA0E94B5-3A60-084F-80A0-F069239CFC52.root",
+          "pfns": {
+            "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/FA0E94B5-3A60-084F-80A0-F069239CFC52.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 1,
+              "rse": "T2_CH_CERN",
+              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
+              "type": "DISK",
+              "volatile": false
+            },
+            "srm://cmsdcadisk.fnal.gov:8443/srm/managerv2?SFN=/dcache/uscmsdisk/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/FA0E94B5-3A60-084F-80A0-F069239CFC52.root": {
+              "client_extract": false,
+              "domain": "wan",
+              "priority": 2,
+              "rse": "T1_US_FNAL_Disk",
+              "rse_id": "087ee3383b9d45f6b31814af07b2c56d",
+              "type": "DISK",
+              "volatile": false
+            }
+          },
+          "rses": {
+            "T1_US_FNAL_Disk": [
+              "srm://cmsdcadisk.fnal.gov:8443/srm/managerv2?SFN=/dcache/uscmsdisk/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/FA0E94B5-3A60-084F-80A0-F069239CFC52.root"
+            ],
+            "T2_CH_CERN": [
+              "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/data/Run2018A/ZeroBias/ALCARECO/SiStripCalMinBias-12Nov2019_UL2018-v1/260000/FA0E94B5-3A60-084F-80A0-F069239CFC52.root"
+            ]
+          },
+          "scope": "cms",
+          "size": 2210277096,
+          "space_token": null,
+          "states": {
+            "T1_US_FNAL_Disk": "AVAILABLE",
+            "T2_CH_CERN": "AVAILABLE"
+          }
+        }
+      ],
+      "qhash": "d646aceb28c77fa330fc6bb69a3b78bf"
+    }
+  ],
+  "ecode": "",
+  "mongo_query": {
+    "aggregators": [],
+    "detail": true,
+    "error": "",
+    "fields": [
+      "file"
+    ],
+    "filters": {
+      "grep": [
+        "file.name",
+        "file.name"
+      ],
+      "sort": [
+        "file.name"
+      ],
+      "unique": [
+        "1"
+      ]
+    },
+    "hash": "d646aceb28c77fa330fc6bb69a3b78bf",
+    "instance": "prod/global",
+    "pipe": "grep file.name | grep file.name | sort file.name | unique",
+    "query": "file dataset=/ZeroBias/Run2018A-SiStripCalMinBias-12Nov2019_UL2018-v1/ALCARECO site=T2_CH_CERN  detail=true | grep file.name | grep file.name | sort file.name | unique",
+    "spec": {
+      "dataset": "/ZeroBias/Run2018A-SiStripCalMinBias-12Nov2019_UL2018-v1/ALCARECO",
+      "site": "T2_CH_CERN"
+    },
+    "system": "",
+    "tstamp": 1617131337
+  },
+  "nresults": 10,
+  "status": "ok",
+  "timestamp": 1617131348
+}

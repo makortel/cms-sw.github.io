@@ -1,0 +1,40 @@
+{
+  "cmsmon-tools": {
+    "build_dependencies": [
+      "go"
+    ],
+    "checksum": "17088d5eeae5f529735f376c3c7fea36",
+    "dependencies": [],
+    "doc": "",
+    "name": "cmsmon-tools",
+    "package_name": "cms+cmsmon-tools+0.5.32-17088d5eeae5f529735f376c3c7fea36",
+    "patches": [],
+    "realversion": "0.5.32",
+    "revision": "1",
+    "sources": [
+      "https://github.com/dmwm/CMSMonitoring/releases/download/0.5.32/cmsmon-tools.tar.gz",
+      "https://github.com/prometheus/prometheus/releases/download/v2.25.1/prometheus-2.25.1.linux-amd64.tar.gz",
+      "https://github.com/prometheus/alertmanager/releases/download/v0.21.0/alertmanager-0.21.0.linux-amd64.tar.gz",
+      "https://github.com/vkuznet/hey/archive/x509-csv-fixes.tar.gz",
+      "https://github.com/wercker/stern/releases/download/1.11.0/stern_linux_amd64",
+      "https://github.com/vkuznet/auth-proxy-server/releases/download/0.1.85/auth-proxy-tools.tar.gz",
+      "https://raw.githubusercontent.com/dmwm/CMSKubernetes/master/kubernetes/tools/k8s_info.go"
+    ],
+    "version": "0.5.32-17088d5eeae5f529735f376c3c7fea36"
+  },
+  "go": {
+    "build_dependencies": [],
+    "checksum": "649f1cf7fc232acd6c0d6fea60680d6b",
+    "dependencies": [],
+    "doc": "",
+    "name": "go",
+    "package_name": "external+go+1.16-649f1cf7fc232acd6c0d6fea60680d6b",
+    "patches": [],
+    "realversion": "1.16",
+    "revision": "1",
+    "sources": [
+      "https://storage.googleapis.com/golang/go1.16.linux-amd64.tar.gz"
+    ],
+    "version": "1.16-649f1cf7fc232acd6c0d6fea60680d6b"
+  }
+}

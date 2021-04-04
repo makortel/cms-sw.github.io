@@ -1,0 +1,82 @@
+{
+  "gcc": {
+    "build_dependencies": [],
+    "checksum": "6af2184a61ae4a90cb849a228a342f29",
+    "dependencies": [],
+    "doc": "",
+    "name": "gcc",
+    "package_name": "external+gcc+10.2.0",
+    "patches": [
+      "gcc-flex-nonfull-path-m4.patch",
+      "gcc-flex-disable-doc.patch"
+    ],
+    "realversion": "10.2.0",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/gcc-mirror/gcc.git?obj=releases/gcc-10/fd7f82855134bc40c46f06c66413f1ec78404eca&export=gcc-10.2.0&output=/gcc-10.2.0-fd7f82855134bc40c46f06c66413f1ec78404eca.tgz",
+      "https://gmplib.org/download/gmp/gmp-6.2.0.tar.bz2",
+      "http://www.mpfr.org/mpfr-4.0.2/mpfr-4.0.2.tar.bz2",
+      "https://ftp.gnu.org/gnu/mpc/mpc-1.1.0.tar.gz",
+      "http://isl.gforge.inria.fr/isl-0.22.tar.bz2",
+      "http://zlib.net/zlib-1.2.11.tar.gz",
+      "http://ftp.gnu.org/gnu/bison/bison-3.6.1.tar.gz",
+      "https://sourceware.org/pub/binutils/releases/binutils-2.32.tar.bz2",
+      "https://sourceware.org/pub/elfutils/0.177/elfutils-0.177.tar.bz2",
+      "http://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.gz",
+      "https://github.com/westes/flex/releases/download/v2.6.4/flex-2.6.4.tar.gz"
+    ],
+    "version": "10.2.0"
+  },
+  "heppdt": {
+    "build_dependencies": [],
+    "checksum": "f792bc9c6cddb574001924413e07495a",
+    "dependencies": [
+      "gcc",
+      "tbb"
+    ],
+    "doc": "",
+    "name": "heppdt",
+    "package_name": "external+heppdt+3.04.01-f792bc9c6cddb574001924413e07495a",
+    "patches": [],
+    "realversion": "3.04.01",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-externals/heppdt.git?obj=cms/3.04.01/2b499cfb4302d48d1fd91911fddec88e94219a44&export=heppdt-3.04.01&output=/heppdt-3.04.01-2b499cfb4302d48d1fd91911fddec88e94219a44.tgz"
+    ],
+    "version": "3.04.01-f792bc9c6cddb574001924413e07495a"
+  },
+  "heppdt-toolfile": {
+    "build_dependencies": [],
+    "checksum": "3fb903dc0da3cca731c87bde4c616fe2",
+    "dependencies": [
+      "heppdt"
+    ],
+    "doc": "",
+    "name": "heppdt-toolfile",
+    "package_name": "external+heppdt-toolfile+1.0-3fb903dc0da3cca731c87bde4c616fe2",
+    "patches": [],
+    "realversion": "1.0",
+    "revision": "1",
+    "sources": [],
+    "version": "1.0-3fb903dc0da3cca731c87bde4c616fe2"
+  },
+  "tbb": {
+    "build_dependencies": [
+      "cmake"
+    ],
+    "checksum": "9d706b02c663fabfca73a4861853afea",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "tbb",
+    "package_name": "external+tbb+2020_U3-9d706b02c663fabfca73a4861853afea",
+    "patches": [],
+    "realversion": "2020_U3",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/oneapi-src/oneTBB.git?obj=tbb_2020/2020_U3&export=tbb-2020_U3&output=/tbb-2020_U3-2020_U3.tgz"
+    ],
+    "version": "2020_U3-9d706b02c663fabfca73a4861853afea"
+  }
+}

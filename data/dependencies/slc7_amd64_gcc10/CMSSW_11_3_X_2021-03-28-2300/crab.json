@@ -1,0 +1,80 @@
+{
+  "crab": {
+    "build_dependencies": [],
+    "checksum": "afc74a466283ac0d03a9ded4dbeee244",
+    "dependencies": [
+      "crab-dev",
+      "crab-pre",
+      "crab-prod"
+    ],
+    "doc": "",
+    "name": "crab",
+    "package_name": "cms+crab+1.0-afc74a466283ac0d03a9ded4dbeee244",
+    "patches": [],
+    "realversion": "1.0",
+    "revision": "1",
+    "sources": [
+      "/data/cmsbld/jenkins/workspace/build-any-ib/CMSDIST/crab/crab.sh.file",
+      "/data/cmsbld/jenkins/workspace/build-any-ib/CMSDIST/crab/crab-proxy-package.file",
+      "/data/cmsbld/jenkins/workspace/build-any-ib/CMSDIST/crab/crab-setup.csh.file",
+      "/data/cmsbld/jenkins/workspace/build-any-ib/CMSDIST/crab/crab-setup.sh.file",
+      "/data/cmsbld/jenkins/workspace/build-any-ib/CMSDIST/crab/crab-env.csh.file",
+      "/data/cmsbld/jenkins/workspace/build-any-ib/CMSDIST/crab/crab-env.sh.file"
+    ],
+    "version": "1.0-afc74a466283ac0d03a9ded4dbeee244"
+  },
+  "crab-dev": {
+    "build_dependencies": [],
+    "checksum": "25b12be6503a1e3befdb8474d572c892",
+    "dependencies": [],
+    "doc": "",
+    "name": "crab-dev",
+    "package_name": "cms+crab-dev+v3.210323.00",
+    "patches": [],
+    "realversion": "v3.210323.00",
+    "revision": "1",
+    "sources": [
+      "git://github.com/dmwm/CRABClient.git?obj=master/v3.210323&export=CRABClient&output=/CRABClient-v3.210323.tar.gz",
+      "git://github.com/dmwm/WMCore.git?obj=master/1.4.6&export=WMCore&output=/WMCore-1.4.6.tar.gz",
+      "git://github.com/dmwm/CRABServer.git?obj=master/v3.210318&export=CRABServer&output=/CRABServer-v3.210318.tar.gz",
+      "git://github.com/dmwm/DBS.git?obj=master/3.14.0&export=DBS&output=/DBS-3.14.0.tar.gz"
+    ],
+    "version": "v3.210323.00"
+  },
+  "crab-pre": {
+    "build_dependencies": [],
+    "checksum": "edfea5fae7c5dad385626b0ac325a259",
+    "dependencies": [],
+    "doc": "",
+    "name": "crab-pre",
+    "package_name": "cms+crab-pre+v3.201110.01",
+    "patches": [],
+    "realversion": "v3.201110.01",
+    "revision": "1",
+    "sources": [
+      "git://github.com/dmwm/CRABClient.git?obj=master/v3.201110&export=CRABClient&output=/CRABClient-v3.201110.tar.gz",
+      "git://github.com/dmwm/WMCore.git?obj=master/1.3.6.crab5&export=WMCore&output=/WMCore-1.3.6.crab5.tar.gz",
+      "git://github.com/dmwm/CRABServer.git?obj=master/v3.201210&export=CRABServer&output=/CRABServer-v3.201210.tar.gz",
+      "git://github.com/dmwm/DBS.git?obj=master/3.14.0&export=DBS&output=/DBS-3.14.0.tar.gz"
+    ],
+    "version": "v3.201110.01"
+  },
+  "crab-prod": {
+    "build_dependencies": [],
+    "checksum": "a8a6f10f5203a3ce198991a23c54dd50",
+    "dependencies": [],
+    "doc": "",
+    "name": "crab-prod",
+    "package_name": "cms+crab-prod+v3.210127.00",
+    "patches": [],
+    "realversion": "v3.210127.00",
+    "revision": "1",
+    "sources": [
+      "git://github.com/dmwm/CRABClient.git?obj=master/v3.210127&export=CRABClient&output=/CRABClient-v3.210127.tar.gz",
+      "git://github.com/dmwm/WMCore.git?obj=master/1.3.6.crab6&export=WMCore&output=/WMCore-1.3.6.crab6.tar.gz",
+      "git://github.com/dmwm/CRABServer.git?obj=master/v3.210128&export=CRABServer&output=/CRABServer-v3.210128.tar.gz",
+      "git://github.com/dmwm/DBS.git?obj=master/3.14.0&export=DBS&output=/DBS-3.14.0.tar.gz"
+    ],
+    "version": "v3.210127.00"
+  }
+}
