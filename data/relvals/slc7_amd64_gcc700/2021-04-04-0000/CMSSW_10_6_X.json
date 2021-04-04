@@ -169,6 +169,34 @@
     },
     {
         "exitcode": 0,
+        "id": "136.856",
+        "known_error": 0,
+        "name": "RunZeroBias2018A+RunZeroBias2018A+HLTDR2_2018+RECODR2_2018reHLT_Offline+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 453
+            },
+            {
+                "errors": 63,
+                "status": "PASSED",
+                "warnings": 1260
+            },
+            {
+                "errors": 35,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "511.0",
         "known_error": 0,
         "name": "QCD_Pt-30_13TeV_aMCatNLO_herwig7+QCD_Pt-30_13TeV_aMCatNLO_herwig7+HARVESTGEN",
@@ -626,6 +654,29 @@
                 "errors": 16,
                 "status": "PASSED",
                 "warnings": 118
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250408.17",
+        "known_error": 0,
+        "name": "QCD_FlatPt_15_3000HS_13+FS_QCD_FlatPt_15_3000HS_13_PRMXUP17_PU50+HARVESTUP17FS+MINIAODMCUP17FS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 29
+            },
+            {
+                "errors": 24,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 114
             }
         ]
     },
