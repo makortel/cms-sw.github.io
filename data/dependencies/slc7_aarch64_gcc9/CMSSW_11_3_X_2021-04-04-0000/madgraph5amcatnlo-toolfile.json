@@ -1,0 +1,1000 @@
+{
+  "OpenBLAS": {
+    "build_dependencies": [],
+    "checksum": "a2167b325c9ce6115094fb7ac3df5fd1",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "OpenBLAS",
+    "package_name": "external+OpenBLAS+0.3.9-ljfedo",
+    "patches": [
+      "OpenBLAS-fix-dynamic-arch.patch",
+      "OpenBLAS-disable-tests.patch"
+    ],
+    "realversion": "0.3.9",
+    "revision": "1",
+    "sources": [
+      "https://github.com/xianyi/OpenBLAS/archive/v0.3.9.tar.gz"
+    ],
+    "version": "0.3.9-ljfedo"
+  },
+  "bz2lib": {
+    "build_dependencies": [],
+    "checksum": "acf2897cb2b9727bfbf932c11cc72bf7",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "bz2lib",
+    "package_name": "external+bz2lib+1.0.6",
+    "patches": [],
+    "realversion": "1.0.6",
+    "revision": "1",
+    "sources": [
+      "http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz"
+    ],
+    "version": "1.0.6"
+  },
+  "davix": {
+    "build_dependencies": [
+      "cmake",
+      "git",
+      "gmake"
+    ],
+    "checksum": "39c144233d4f06e62170d17ccd361d89",
+    "dependencies": [
+      "gcc",
+      "libuuid",
+      "libxml2",
+      "openssl"
+    ],
+    "doc": "",
+    "name": "davix",
+    "package_name": "external+davix+0.7.6",
+    "patches": [],
+    "realversion": "0.7.6",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cern-it-sdc-id/davix.git?obj=master/R_0_7_6&export=davix-0.7.6&output=/davix-0.7.6.tgz"
+    ],
+    "version": "0.7.6"
+  },
+  "db6": {
+    "build_dependencies": [],
+    "checksum": "8cfa28ff7d3e78188bfcc23fc02c71c6",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "db6",
+    "package_name": "external+db6+6.2.32",
+    "patches": [],
+    "realversion": "6.2.32",
+    "revision": "1",
+    "sources": [
+      "http://cmsrep.cern.ch/cmssw/download/db-6.2.32.tar.gz"
+    ],
+    "version": "6.2.32"
+  },
+  "dcap": {
+    "build_dependencies": [
+      "autotools"
+    ],
+    "checksum": "87c2c5152057f33d9326b2ec1b2f76db",
+    "dependencies": [
+      "gcc",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "dcap",
+    "package_name": "external+dcap+2.47.12",
+    "patches": [],
+    "realversion": "2.47.12",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-externals/dcap.git?obj=cms/2.47.12/5753eec777a47908a40de670094903ce6b13176b&export=dcap-2.47.12&output=/dcap-2.47.12-5753eec777a47908a40de670094903ce6b13176b.tgz"
+    ],
+    "version": "2.47.12"
+  },
+  "expat": {
+    "build_dependencies": [],
+    "checksum": "b174473c0445cc260267c9e4e44719c1",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "expat",
+    "package_name": "external+expat+2.1.0",
+    "patches": [],
+    "realversion": "2.1.0",
+    "revision": "1",
+    "sources": [
+      "http://downloads.sourceforge.net/project/expat/expat/2.1.0/expat-2.1.0.tar.gz"
+    ],
+    "version": "2.1.0"
+  },
+  "fastjet": {
+    "build_dependencies": [
+      "autotools"
+    ],
+    "checksum": "3eaa6971696c977d6aba76987702a6bf",
+    "dependencies": [
+      "gcc",
+      "python"
+    ],
+    "doc": "",
+    "name": "fastjet",
+    "package_name": "external+fastjet+3.4.0-beta",
+    "patches": [],
+    "realversion": "3.4.0-beta",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-externals/fastjet.git?obj=cms/v3.4.0-beta/65f948f075860df1fddf7b819f60c3346710ebf1&export=fastjet-3.4.0-beta&output=/fastjet-3.4.0-beta.tgz"
+    ],
+    "version": "3.4.0-beta"
+  },
+  "fftw3": {
+    "build_dependencies": [],
+    "checksum": "eac7240065652d3603e8301d2cecf032",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "fftw3",
+    "package_name": "external+fftw3+3.3.8",
+    "patches": [],
+    "realversion": "3.3.8",
+    "revision": "1",
+    "sources": [
+      "http://www.fftw.org/fftw-3.3.8.tar.gz"
+    ],
+    "version": "3.3.8"
+  },
+  "form": {
+    "build_dependencies": [
+      "gmake"
+    ],
+    "checksum": "3f5b7a46aacfdc62bd24ada3d9f36246",
+    "dependencies": [
+      "gcc",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "form",
+    "package_name": "external+form+4.1.033e",
+    "patches": [],
+    "realversion": "4.1.033e",
+    "revision": "1",
+    "sources": [
+      "https://gosam.hepforge.org/gosam-installer/form-4.1.033e.tar.gz"
+    ],
+    "version": "4.1.033e"
+  },
+  "freetype": {
+    "build_dependencies": [],
+    "checksum": "8413c4e509461955d92c595cc2e7083e",
+    "dependencies": [
+      "bz2lib",
+      "gcc",
+      "libpng",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "freetype",
+    "package_name": "external+freetype+2.10.0",
+    "patches": [],
+    "realversion": "2.10.0",
+    "revision": "1",
+    "sources": [
+      "http://download.savannah.gnu.org/releases/freetype/freetype-2.10.0.tar.bz2"
+    ],
+    "version": "2.10.0"
+  },
+  "gcc": {
+    "build_dependencies": [],
+    "checksum": "610f04827ed0f827de9b8700ad3d9670",
+    "dependencies": [],
+    "doc": "",
+    "name": "gcc",
+    "package_name": "external+gcc+9.3.0",
+    "patches": [
+      "gcc-flex-nonfull-path-m4.patch",
+      "gcc-flex-disable-doc.patch"
+    ],
+    "realversion": "9.3.0",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/gcc-mirror/gcc.git?obj=releases/gcc-9/4212a6a3e44f870412d9025eeb323fd4f50a61da&export=gcc-9.3.0&output=/gcc-9.3.0-4212a6a3e44f870412d9025eeb323fd4f50a61da.tgz",
+      "https://gmplib.org/download/gmp/gmp-6.2.0.tar.bz2",
+      "http://www.mpfr.org/mpfr-4.0.2/mpfr-4.0.2.tar.bz2",
+      "https://ftp.gnu.org/gnu/mpc/mpc-1.1.0.tar.gz",
+      "http://isl.gforge.inria.fr/isl-0.21.tar.bz2",
+      "http://zlib.net/zlib-1.2.11.tar.gz",
+      "http://ftp.gnu.org/gnu/bison/bison-3.5.tar.gz",
+      "https://sourceware.org/pub/binutils/releases/binutils-2.32.tar.bz2",
+      "https://sourceware.org/pub/elfutils/0.177/elfutils-0.177.tar.bz2",
+      "http://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.gz",
+      "https://github.com/westes/flex/releases/download/v2.6.4/flex-2.6.4.tar.gz"
+    ],
+    "version": "9.3.0"
+  },
+  "gdbm": {
+    "build_dependencies": [],
+    "checksum": "1b1e7fda812e8b0cd77e389a2d1cf51e",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "gdbm",
+    "package_name": "external+gdbm+1.10",
+    "patches": [],
+    "realversion": "1.10",
+    "revision": "1",
+    "sources": [
+      "http://ftp.gnu.org/gnu/gdbm/gdbm-1.10.tar.gz"
+    ],
+    "version": "1.10"
+  },
+  "giflib": {
+    "build_dependencies": [
+      "autotools"
+    ],
+    "checksum": "6f4a887b748dd81660ac53259c9b390d",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "giflib",
+    "package_name": "external+giflib+5.2.0",
+    "patches": [],
+    "realversion": "5.2.0",
+    "revision": "1",
+    "sources": [
+      "https://sourceforge.net/projects/giflib/files/giflib-5.2.0.tar.gz"
+    ],
+    "version": "5.2.0"
+  },
+  "gosamcontrib": {
+    "build_dependencies": [],
+    "checksum": "2f9e02a39d6462ec8e14b1d4bb6993b4",
+    "dependencies": [
+      "form",
+      "gcc",
+      "qgraf"
+    ],
+    "doc": "",
+    "name": "gosamcontrib",
+    "package_name": "external+gosamcontrib+2.0-20150803",
+    "patches": [],
+    "realversion": "2.0-20150803",
+    "revision": "1",
+    "sources": [
+      "http://www.hepforge.org/archive/gosam/gosam-contrib-2.0-20150803.tar.gz"
+    ],
+    "version": "2.0-20150803"
+  },
+  "gsl": {
+    "build_dependencies": [],
+    "checksum": "d474fd80edf482782b524aef2325ba69",
+    "dependencies": [
+      "OpenBLAS",
+      "gcc"
+    ],
+    "doc": "",
+    "name": "gsl",
+    "package_name": "external+gsl+2.6-ljfedo",
+    "patches": [],
+    "realversion": "2.6",
+    "revision": "1",
+    "sources": [
+      "ftp://ftp.gnu.org/gnu/gsl/gsl-2.6.tar.gz"
+    ],
+    "version": "2.6-ljfedo"
+  },
+  "hepmc": {
+    "build_dependencies": [
+      "cmake"
+    ],
+    "checksum": "377daf71eb1f2d12c08bc6242ce9d25d",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "hepmc",
+    "package_name": "external+hepmc+2.06.10-ljfedo",
+    "patches": [],
+    "realversion": "2.06.10",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-externals/hepmc.git?obj=cms/2.06.10/91c4c217572ac25669e9ad8fdc0111d1d5c82289&export=HepMC-2.06.10&output=/HepMC-2.06.10.tgz"
+    ],
+    "version": "2.06.10-ljfedo"
+  },
+  "lhapdf": {
+    "build_dependencies": [
+      "py2-cython"
+    ],
+    "checksum": "5927d5e280ac00d6596604239c33ec67",
+    "dependencies": [
+      "gcc",
+      "python"
+    ],
+    "doc": "",
+    "name": "lhapdf",
+    "package_name": "external+lhapdf+6.2.3-ljfedo2",
+    "patches": [],
+    "realversion": "6.2.3",
+    "revision": "1",
+    "sources": [
+      "http://www.hepforge.org/archive/lhapdf/LHAPDF-6.2.3.tar.gz",
+      "http://www.hepforge.org/archive/lhapdf/pdfsets/6.1/cteq6l1.tar.gz",
+      "http://www.hepforge.org/archive/lhapdf/pdfsets/6.1/CT10.tar.gz",
+      "http://www.hepforge.org/archive/lhapdf/pdfsets/6.1/MSTW2008nlo68cl.tar.gz",
+      "https://www.hepforge.org/archive/lhapdf/pdfsets/6.1/MMHT2014lo68cl.tar.gz",
+      "https://www.hepforge.org/archive/lhapdf/pdfsets/6.1/MMHT2014nlo68cl.tar.gz",
+      "/home/cmsbuild/jenkins_a/workspace/build-any-ib/CMSDIST/lhapdf_makeLinks.file",
+      "/home/cmsbuild/jenkins_a/workspace/build-any-ib/CMSDIST/lhapdf_pdfsetsindex.file"
+    ],
+    "version": "6.2.3-ljfedo2"
+  },
+  "libffi": {
+    "build_dependencies": [],
+    "checksum": "e67e3e5be269ebb6de560ac98fe20523",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "libffi",
+    "package_name": "external+libffi+3.2.1",
+    "patches": [
+      "libffi-3.2.1-fix-include-path.patch"
+    ],
+    "realversion": "3.2.1",
+    "revision": "1",
+    "sources": [
+      "ftp://sourceware.org/pub/libffi/libffi-3.2.1.tar.gz"
+    ],
+    "version": "3.2.1"
+  },
+  "libjpeg-turbo": {
+    "build_dependencies": [
+      "autotools",
+      "cmake",
+      "gmake",
+      "nasm"
+    ],
+    "checksum": "b069df0eee575c1f005aa7bca090aa80",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "libjpeg-turbo",
+    "package_name": "external+libjpeg-turbo+2.0.2",
+    "patches": [],
+    "realversion": "2.0.2",
+    "revision": "1",
+    "sources": [
+      "https://github.com/libjpeg-turbo/libjpeg-turbo/archive/2.0.2.tar.gz"
+    ],
+    "version": "2.0.2"
+  },
+  "libpng": {
+    "build_dependencies": [
+      "autotools"
+    ],
+    "checksum": "e305d5f3f58d0b9a83623f32536d39c0",
+    "dependencies": [
+      "gcc",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "libpng",
+    "package_name": "external+libpng+1.6.37",
+    "patches": [],
+    "realversion": "1.6.37",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-externals/libpng.git?obj=cms/v1.6.37/a40189cf881e9f0db80511c382292a5604c3c3d1&export=libpng-1.6.37&output=/libpng-1.6.37.tgz"
+    ],
+    "version": "1.6.37"
+  },
+  "libtiff": {
+    "build_dependencies": [],
+    "checksum": "77c06badd968d669ffb0bb8c009a5f86",
+    "dependencies": [
+      "gcc",
+      "libjpeg-turbo",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "libtiff",
+    "package_name": "external+libtiff+4.0.10",
+    "patches": [],
+    "realversion": "4.0.10",
+    "revision": "1",
+    "sources": [
+      "http://download.osgeo.org/libtiff/tiff-4.0.10.zip"
+    ],
+    "version": "4.0.10"
+  },
+  "libuuid": {
+    "build_dependencies": [],
+    "checksum": "ef05d3c46b7885b1327329484e2c3f93",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "libuuid",
+    "package_name": "external+libuuid+2.34",
+    "patches": [
+      "libuuid-2.34-disable-get_uuid_via_daemon.patch"
+    ],
+    "realversion": "2.34",
+    "revision": "1",
+    "sources": [
+      "http://www.kernel.org/pub/linux/utils/util-linux/v2.34/util-linux-2.34.tar.gz"
+    ],
+    "version": "2.34"
+  },
+  "libxml2": {
+    "build_dependencies": [],
+    "checksum": "749725db422aed90a983196eed76c8a8",
+    "dependencies": [
+      "gcc",
+      "xz",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "libxml2",
+    "package_name": "external+libxml2+2.9.10",
+    "patches": [],
+    "realversion": "2.9.10",
+    "revision": "1",
+    "sources": [
+      "ftp://xmlsoft.org/libxml2/libxml2-2.9.10.tar.gz"
+    ],
+    "version": "2.9.10"
+  },
+  "lz4": {
+    "build_dependencies": [],
+    "checksum": "ae34c1107fd5df43981b899e3cffb041",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "lz4",
+    "package_name": "external+lz4+1.9.2",
+    "patches": [],
+    "realversion": "1.9.2",
+    "revision": "1",
+    "sources": [
+      "https://github.com/lz4/lz4/archive/v1.9.2.tar.gz"
+    ],
+    "version": "1.9.2"
+  },
+  "madgraph5amcatnlo": {
+    "build_dependencies": [],
+    "checksum": "1eaab9c58d5726f512d1d88df0deb16b",
+    "dependencies": [
+      "fastjet",
+      "gcc",
+      "gosamcontrib",
+      "hepmc",
+      "lhapdf",
+      "py2-six",
+      "pythia8",
+      "python3",
+      "root",
+      "thepeg"
+    ],
+    "doc": "",
+    "name": "madgraph5amcatnlo",
+    "package_name": "external+madgraph5amcatnlo+2.7.3-1eaab9c58d5726f512d1d88df0deb16b",
+    "patches": [
+      "madgraph5amcatnlo-config.patch",
+      "madgraph5amcatnlo-compile.patch"
+    ],
+    "realversion": "2.7.3",
+    "revision": "1",
+    "sources": [
+      "https://launchpad.net/mg5amcnlo/2.0/2.7.x/+download/MG5_aMC_v2.7.3.py3.tar.gz"
+    ],
+    "version": "2.7.3-1eaab9c58d5726f512d1d88df0deb16b"
+  },
+  "madgraph5amcatnlo-toolfile": {
+    "build_dependencies": [],
+    "checksum": "bf81efff7e8ef202b09ebcd148055981",
+    "dependencies": [
+      "madgraph5amcatnlo"
+    ],
+    "doc": "",
+    "name": "madgraph5amcatnlo-toolfile",
+    "package_name": "external+madgraph5amcatnlo-toolfile+1.0-bf81efff7e8ef202b09ebcd148055981",
+    "patches": [],
+    "realversion": "1.0",
+    "revision": "1",
+    "sources": [],
+    "version": "1.0-bf81efff7e8ef202b09ebcd148055981"
+  },
+  "openssl": {
+    "build_dependencies": [],
+    "checksum": "bf07b3f91ff878bb069ecac1ff7a51d4",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "openssl",
+    "package_name": "external+openssl+1.0.2d",
+    "patches": [
+      "openssl-1.0.2d-pr3979.patch",
+      "openssl-1.0.2d-disable-install-openssldir.patch"
+    ],
+    "realversion": "1.0.2d",
+    "revision": "1",
+    "sources": [
+      "http://davidlt.web.cern.ch/davidlt/vault/openssl-1.0.2d-5675d07a144aa1a6c85f488a95aeea7854e86059.tar.bz2"
+    ],
+    "version": "1.0.2d"
+  },
+  "pcre": {
+    "build_dependencies": [],
+    "checksum": "8c1dd3674662facab9e6e3314cd61fd3",
+    "dependencies": [
+      "bz2lib",
+      "gcc",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "pcre",
+    "package_name": "external+pcre+8.43",
+    "patches": [],
+    "realversion": "8.43",
+    "revision": "1",
+    "sources": [
+      "http://downloads.sourceforge.net/pcre/pcre-8.43.tar.bz2"
+    ],
+    "version": "8.43"
+  },
+  "py2-cython": {
+    "build_dependencies": [],
+    "checksum": "1524cc99a7d3e09fdde9b60fbff2ba15",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-cython",
+    "package_name": "external+py2-cython+0.29.22",
+    "patches": [],
+    "realversion": "0.29.22",
+    "revision": "1",
+    "sources": [
+      "pip://Cython/0.29.22?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "0.29.22"
+  },
+  "py2-numpy": {
+    "build_dependencies": [],
+    "checksum": "a09235e88f262938cb5e565ca67db882",
+    "dependencies": [
+      "OpenBLAS",
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "python",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "py2-numpy",
+    "package_name": "external+py2-numpy+1.16.6-ljfedo2",
+    "patches": [],
+    "realversion": "1.16.6",
+    "revision": "1",
+    "sources": [
+      "https://github.com/numpy/numpy/releases/download/v1.16.6/numpy-1.16.6.tar.gz"
+    ],
+    "version": "1.16.6-ljfedo2"
+  },
+  "py2-pip": {
+    "build_dependencies": [],
+    "checksum": "b961582dd95b7f944462337d3b39b2a9",
+    "dependencies": [
+      "gcc",
+      "py2-setuptools",
+      "python"
+    ],
+    "doc": "",
+    "name": "py2-pip",
+    "package_name": "external+py2-pip+9.0.3-ljfedo",
+    "patches": [],
+    "realversion": "9.0.3",
+    "revision": "1",
+    "sources": [
+      "https://github.com/pypa/pip/archive/9.0.3.tar.gz"
+    ],
+    "version": "9.0.3-ljfedo"
+  },
+  "py2-setuptools": {
+    "build_dependencies": [],
+    "checksum": "5ca40468680db231094a266c1e6cc0f4",
+    "dependencies": [
+      "gcc",
+      "python"
+    ],
+    "doc": "",
+    "name": "py2-setuptools",
+    "package_name": "external+py2-setuptools+44.1.1",
+    "patches": [],
+    "realversion": "44.1.1",
+    "revision": "1",
+    "sources": [
+      "https://github.com/pypa/setuptools/archive/v44.1.1.tar.gz"
+    ],
+    "version": "44.1.1"
+  },
+  "py2-six": {
+    "build_dependencies": [],
+    "checksum": "c2f68e724613aeb73f40bdcd4dabb10a",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-six",
+    "package_name": "external+py2-six+1.15.0-ljfedo",
+    "patches": [],
+    "realversion": "1.15.0",
+    "revision": "1",
+    "sources": [
+      "pip://six/1.15.0?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "1.15.0-ljfedo"
+  },
+  "py3-numpy": {
+    "build_dependencies": [],
+    "checksum": "78068f7ef072a9fd1f6f271439724802",
+    "dependencies": [
+      "OpenBLAS",
+      "gcc",
+      "py2-cython",
+      "py3-pip",
+      "py3-setuptools",
+      "python3",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "py3-numpy",
+    "package_name": "external+py3-numpy+1.17.5-ljfedo",
+    "patches": [],
+    "realversion": "1.17.5",
+    "revision": "1",
+    "sources": [
+      "https://github.com/numpy/numpy/releases/download/v1.17.5/numpy-1.17.5.tar.gz"
+    ],
+    "version": "1.17.5-ljfedo"
+  },
+  "py3-pip": {
+    "build_dependencies": [],
+    "checksum": "f08cf764c6803e998f0926d7f67ecce4",
+    "dependencies": [
+      "gcc",
+      "py3-setuptools",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py3-pip",
+    "package_name": "external+py3-pip+20.3.3",
+    "patches": [],
+    "realversion": "20.3.3",
+    "revision": "1",
+    "sources": [
+      "https://github.com/pypa/pip/archive/20.3.3.tar.gz"
+    ],
+    "version": "20.3.3"
+  },
+  "py3-setuptools": {
+    "build_dependencies": [],
+    "checksum": "5b44d2cd3cfe3ed8163502c090df9b0a",
+    "dependencies": [
+      "gcc",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py3-setuptools",
+    "package_name": "external+py3-setuptools+51.3.3",
+    "patches": [],
+    "realversion": "51.3.3",
+    "revision": "1",
+    "sources": [
+      "https://github.com/pypa/setuptools/archive/v51.3.3.tar.gz"
+    ],
+    "version": "51.3.3"
+  },
+  "pythia8": {
+    "build_dependencies": [],
+    "checksum": "b182f211d06440c9dce5558bbfddbc88",
+    "dependencies": [
+      "gcc",
+      "hepmc",
+      "lhapdf"
+    ],
+    "doc": "",
+    "name": "pythia8",
+    "package_name": "external+pythia8+303-ljfedo3",
+    "patches": [],
+    "realversion": "303",
+    "revision": "1",
+    "sources": [
+      "http://home.thep.lu.se/~torbjorn/pythia8/pythia8303.tgz"
+    ],
+    "version": "303-ljfedo3"
+  },
+  "python": {
+    "build_dependencies": [],
+    "checksum": "cd19a5ead08829b93c8cc79c1b44a200",
+    "dependencies": [
+      "bz2lib",
+      "db6",
+      "expat",
+      "gcc",
+      "gdbm",
+      "libffi",
+      "openssl",
+      "sqlite",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "python",
+    "package_name": "external+python+2.7.15",
+    "patches": [],
+    "realversion": "2.7.15",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-externals/cpython.git?obj=cms/2.7/c40eeeb/583c0f2237aade97173702ac602b16f51eadde6d&export=python-2.7.15&output=/python-2.7.15.tgz",
+      "/home/cmsbuild/jenkins_a/workspace/build-any-ib/CMSDIST/valgrind-python.supp.file"
+    ],
+    "version": "2.7.15"
+  },
+  "python3": {
+    "build_dependencies": [],
+    "checksum": "0923d45facc02c507f248eced2e49422",
+    "dependencies": [
+      "bz2lib",
+      "db6",
+      "expat",
+      "gcc",
+      "gdbm",
+      "libffi",
+      "libuuid",
+      "openssl",
+      "sqlite",
+      "xz",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "python3",
+    "package_name": "external+python3+3.8.2",
+    "patches": [],
+    "realversion": "3.8.2",
+    "revision": "1",
+    "sources": [
+      "https://www.python.org/ftp/python/3.8.2/Python-3.8.2.tgz"
+    ],
+    "version": "3.8.2"
+  },
+  "qgraf": {
+    "build_dependencies": [],
+    "checksum": "5e2ed5c5316a0de2567db466a219e4bd",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "qgraf",
+    "package_name": "external+qgraf+3.1.4",
+    "patches": [],
+    "realversion": "3.1.4",
+    "revision": "1",
+    "sources": [
+      "https://gosam.hepforge.org/gosam-installer/qgraf-3.1.4.tgz"
+    ],
+    "version": "3.1.4"
+  },
+  "root": {
+    "build_dependencies": [
+      "cmake",
+      "ninja"
+    ],
+    "checksum": "57aeea5872fd0a1a90f7cff43ab09d64",
+    "dependencies": [
+      "OpenBLAS",
+      "davix",
+      "dcap",
+      "fftw3",
+      "freetype",
+      "gcc",
+      "giflib",
+      "gsl",
+      "libjpeg-turbo",
+      "libpng",
+      "libtiff",
+      "libxml2",
+      "lz4",
+      "openssl",
+      "pcre",
+      "py2-numpy",
+      "py3-numpy",
+      "python",
+      "python3",
+      "tbb",
+      "xrootd",
+      "xz",
+      "zlib",
+      "zstd"
+    ],
+    "doc": "",
+    "name": "root",
+    "package_name": "lcg+root+6.22.08",
+    "patches": [],
+    "realversion": "6.22.08",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-sw/root.git?obj=cms/v6-22-00-patches/c9cd6c6/f1d39fe376f4de4f6f10e76437f0cf8b138365ef&export=root-6.22.08&output=/root-6.22.08-f1d39fe376f4de4f6f10e76437f0cf8b138365ef.tgz"
+    ],
+    "version": "6.22.08"
+  },
+  "sqlite": {
+    "build_dependencies": [],
+    "checksum": "c4c906c1e57bb9a584d7364f66307a71",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "sqlite",
+    "package_name": "external+sqlite+3.22.0",
+    "patches": [],
+    "realversion": "3.22.0",
+    "revision": "1",
+    "sources": [
+      "https://www.sqlite.org/2018/sqlite-autoconf-3220000.tar.gz"
+    ],
+    "version": "3.22.0"
+  },
+  "tbb": {
+    "build_dependencies": [
+      "cmake"
+    ],
+    "checksum": "5258fedd9fffde60ada58ee7ca415623",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "tbb",
+    "package_name": "external+tbb+2020_U3-ljfedo",
+    "patches": [],
+    "realversion": "2020_U3",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/oneapi-src/oneTBB.git?obj=tbb_2020/2020_U3&export=tbb-2020_U3&output=/tbb-2020_U3-2020_U3.tgz"
+    ],
+    "version": "2020_U3-ljfedo"
+  },
+  "thepeg": {
+    "build_dependencies": [
+      "autotools",
+      "lhapdf"
+    ],
+    "checksum": "a99eeaf180ababa92e74969635cbb251",
+    "dependencies": [
+      "OpenBLAS",
+      "fastjet",
+      "gcc",
+      "gsl",
+      "hepmc",
+      "lhapdf",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "thepeg",
+    "package_name": "external+thepeg+2.2.2",
+    "patches": [
+      "LesHouchesFileReader.patch"
+    ],
+    "realversion": "2.2.2",
+    "revision": "1",
+    "sources": [
+      "http://www.hepforge.org/archive/thepeg/ThePEG-2.2.2.tar.bz2"
+    ],
+    "version": "2.2.2"
+  },
+  "xrootd": {
+    "build_dependencies": [
+      "cmake"
+    ],
+    "checksum": "006c8c87f75be6db9e28014b489d697f",
+    "dependencies": [
+      "gcc",
+      "libxml2",
+      "openssl",
+      "python",
+      "python3",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "xrootd",
+    "package_name": "external+xrootd+4.12.3",
+    "patches": [],
+    "realversion": "4.12.3",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/xrootd/xrootd.git?obj=stable-4.12.x/b122d662f80a46a570876afd32cdaa9f4370dc1d&export=xrootd-4.12.3&output=/xrootd-4.12.3.tgz"
+    ],
+    "version": "4.12.3"
+  },
+  "xz": {
+    "build_dependencies": [
+      "autotools"
+    ],
+    "checksum": "ec3d7affb0fc3a4c2a20d650a6254464",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "xz",
+    "package_name": "external+xz+5.2.4",
+    "patches": [],
+    "realversion": "5.2.4",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-externals/xz.git?obj=cms/v5.2.4/982e837ddd3da234f710870fa65ba8c14f381b8b&export=xz-5.2.4&output=/xz-5.2.4.tgz"
+    ],
+    "version": "5.2.4"
+  },
+  "zlib": {
+    "build_dependencies": [],
+    "checksum": "99271b1d98da3981abdd2087fe66ac21",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "zlib",
+    "package_name": "external+zlib+1.2.11",
+    "patches": [],
+    "realversion": "1.2.11",
+    "revision": "1",
+    "sources": [
+      "git://github.com/madler/zlib.git?obj=master/v1.2.11&export=zlib-1.2.11&output=/zlib-1.2.11.tgz"
+    ],
+    "version": "1.2.11"
+  },
+  "zstd": {
+    "build_dependencies": [
+      "cmake",
+      "gmake"
+    ],
+    "checksum": "07e2f43ee572c897490f33d4e1a15702",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "zstd",
+    "package_name": "external+zstd+1.4.5",
+    "patches": [],
+    "realversion": "1.4.5",
+    "revision": "1",
+    "sources": [
+      "https://github.com/facebook/zstd/releases/download/v1.4.5/zstd-1.4.5.tar.gz"
+    ],
+    "version": "1.4.5"
+  }
+}

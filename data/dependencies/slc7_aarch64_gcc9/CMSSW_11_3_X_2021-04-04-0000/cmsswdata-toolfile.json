@@ -1,0 +1,1158 @@
+{
+  "cmsswdata": {
+    "build_dependencies": [],
+    "checksum": "884ecfd74957da9e6d6fe402a719df38",
+    "dependencies": [
+      "data-Alignment-OfflineValidation",
+      "data-CalibCalorimetry-CaloMiscalibTools",
+      "data-CalibCalorimetry-EcalTrivialCondModules",
+      "data-CalibPPS-ESProducers",
+      "data-CalibTracker-SiPixelESProducers",
+      "data-CalibTracker-SiStripDCS",
+      "data-Calibration-Tools",
+      "data-CondFormats-JetMETObjects",
+      "data-CondTools-SiPhase2Tracker",
+      "data-Configuration-Generator",
+      "data-DQM-DTMonitorClient",
+      "data-DQM-PhysicsHWW",
+      "data-DQM-SiStripMonitorClient",
+      "data-DataFormats-PatCandidates",
+      "data-DetectorDescription-Schema",
+      "data-EgammaAnalysis-ElectronTools",
+      "data-EventFilter-L1TRawToDigi",
+      "data-FWCore-Modules",
+      "data-FastSimulation-MaterialEffects",
+      "data-FastSimulation-TrackingRecHitProducer",
+      "data-Fireworks-Geometry",
+      "data-GeneratorInterface-EvtGenInterface",
+      "data-GeneratorInterface-ReggeGribovPartonMCInterface",
+      "data-Geometry-DTGeometryBuilder",
+      "data-Geometry-TestReference",
+      "data-HLTrigger-JetMET",
+      "data-HeterogeneousCore-SonicTriton",
+      "data-IOPool-Input",
+      "data-IOPool-Input",
+      "data-L1Trigger-CSCTriggerPrimitives",
+      "data-L1Trigger-DTTriggerPhase2",
+      "data-L1Trigger-L1TCalorimeter",
+      "data-L1Trigger-L1TGlobal",
+      "data-L1Trigger-L1THGCal",
+      "data-L1Trigger-L1TMuon",
+      "data-L1Trigger-Phase2L1ParticleFlow",
+      "data-L1Trigger-RPCTrigger",
+      "data-L1Trigger-TrackFindingTMTT",
+      "data-L1Trigger-TrackFindingTracklet",
+      "data-L1Trigger-TrackTrigger",
+      "data-MagneticField-Engine",
+      "data-MagneticField-Interpolation",
+      "data-MagneticField-Interpolation",
+      "data-PhysicsTools-NanoAOD",
+      "data-PhysicsTools-PatUtils",
+      "data-RecoBTag-CTagging",
+      "data-RecoBTag-Combined",
+      "data-RecoBTag-SecondaryVertex",
+      "data-RecoBTag-SoftLepton",
+      "data-RecoCTPPS-TotemRPLocal",
+      "data-RecoEgamma-ElectronIdentification",
+      "data-RecoEgamma-PhotonIdentification",
+      "data-RecoHGCal-TICL",
+      "data-RecoHI-HiJetAlgos",
+      "data-RecoJets-JetProducers",
+      "data-RecoLocalCalo-EcalDeadChannelRecoveryAlgos",
+      "data-RecoMET-METPUSubtraction",
+      "data-RecoMTD-TimingIDTools",
+      "data-RecoMuon-MuonIdentification",
+      "data-RecoParticleFlow-PFBlockProducer",
+      "data-RecoParticleFlow-PFProducer",
+      "data-RecoParticleFlow-PFTracking",
+      "data-RecoTauTag-TrainingFiles",
+      "data-RecoTracker-FinalTrackSelectors",
+      "data-RecoTracker-TkSeedGenerator",
+      "data-SLHCUpgradeSimulations-Geometry",
+      "data-SimG4CMS-Calo",
+      "data-SimG4CMS-Forward",
+      "data-SimG4CMS-HGCalTestBeam",
+      "data-SimPPS-PPSPixelDigiProducer",
+      "data-SimTracker-SiStripDigitizer",
+      "data-SimTransport-HectorProducer",
+      "data-SimTransport-PPSProtonTransport",
+      "data-SimTransport-TotemRPProtonTransportParametrization",
+      "data-Validation-Geometry"
+    ],
+    "doc": "",
+    "name": "cmsswdata",
+    "package_name": "cms+cmsswdata+36-884ecfd74957da9e6d6fe402a719df38",
+    "patches": [],
+    "realversion": "36",
+    "revision": "1",
+    "sources": [
+      "/home/cmsbuild/jenkins_a/workspace/build-any-ib/CMSDIST/none.file"
+    ],
+    "version": "36-884ecfd74957da9e6d6fe402a719df38"
+  },
+  "cmsswdata-toolfile": {
+    "build_dependencies": [],
+    "checksum": "ae7da5aa53c2583c0bf480ea1f9dec71",
+    "dependencies": [
+      "cmsswdata"
+    ],
+    "doc": "",
+    "name": "cmsswdata-toolfile",
+    "package_name": "cms+cmsswdata-toolfile+3.0-ae7da5aa53c2583c0bf480ea1f9dec71",
+    "patches": [],
+    "realversion": "3.0",
+    "revision": "1",
+    "sources": [],
+    "version": "3.0-ae7da5aa53c2583c0bf480ea1f9dec71"
+  },
+  "data-Alignment-OfflineValidation": {
+    "build_dependencies": [],
+    "checksum": "40e62689069f6832851a70d38541de77",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-Alignment-OfflineValidation",
+    "package_name": "cms+data-Alignment-OfflineValidation+V00-01-00",
+    "patches": [],
+    "realversion": "V00-01-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/Alignment-OfflineValidation.git?obj=master/V00-01-00&no-cmssdt-cache=1&export=data-Alignment-OfflineValidation-V00-01-00&output=/data-Alignment-OfflineValidation-V00-01-00.tgz"
+    ],
+    "version": "V00-01-00"
+  },
+  "data-CalibCalorimetry-CaloMiscalibTools": {
+    "build_dependencies": [],
+    "checksum": "75f54aa6dd4a525391cf7b6869001759",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-CalibCalorimetry-CaloMiscalibTools",
+    "package_name": "cms+data-CalibCalorimetry-CaloMiscalibTools+V01-00-00",
+    "patches": [],
+    "realversion": "V01-00-00",
+    "revision": "1",
+    "sources": [],
+    "version": "V01-00-00"
+  },
+  "data-CalibCalorimetry-EcalTrivialCondModules": {
+    "build_dependencies": [],
+    "checksum": "8797afb325b8c9176b2e55467709aa79",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-CalibCalorimetry-EcalTrivialCondModules",
+    "package_name": "cms+data-CalibCalorimetry-EcalTrivialCondModules+V00-03-00",
+    "patches": [],
+    "realversion": "V00-03-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/CalibCalorimetry-EcalTrivialCondModules.git?obj=master/V00-03-00&no-cmssdt-cache=1&export=data-CalibCalorimetry-EcalTrivialCondModules-V00-03-00&output=/data-CalibCalorimetry-EcalTrivialCondModules-V00-03-00.tgz"
+    ],
+    "version": "V00-03-00"
+  },
+  "data-CalibPPS-ESProducers": {
+    "build_dependencies": [],
+    "checksum": "5bb373f133ec9e6f7263722054b3863b",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-CalibPPS-ESProducers",
+    "package_name": "cms+data-CalibPPS-ESProducers+V01-03-00",
+    "patches": [],
+    "realversion": "V01-03-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/CalibPPS-ESProducers.git?obj=master/V01-03-00&no-cmssdt-cache=1&export=data-CalibPPS-ESProducers-V01-03-00&output=/data-CalibPPS-ESProducers-V01-03-00.tgz"
+    ],
+    "version": "V01-03-00"
+  },
+  "data-CalibTracker-SiPixelESProducers": {
+    "build_dependencies": [],
+    "checksum": "bdd0cfd8ce2c3c9c456ea248cb2b4189",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-CalibTracker-SiPixelESProducers",
+    "package_name": "cms+data-CalibTracker-SiPixelESProducers+V02-02-00",
+    "patches": [],
+    "realversion": "V02-02-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/CalibTracker-SiPixelESProducers.git?obj=master/V02-02-00&no-cmssdt-cache=1&export=data-CalibTracker-SiPixelESProducers-V02-02-00&output=/data-CalibTracker-SiPixelESProducers-V02-02-00.tgz"
+    ],
+    "version": "V02-02-00"
+  },
+  "data-CalibTracker-SiStripDCS": {
+    "build_dependencies": [],
+    "checksum": "4df63bf3869d8776bc0371070e8300f7",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-CalibTracker-SiStripDCS",
+    "package_name": "cms+data-CalibTracker-SiStripDCS+V01-00-00",
+    "patches": [],
+    "realversion": "V01-00-00",
+    "revision": "1",
+    "sources": [],
+    "version": "V01-00-00"
+  },
+  "data-Calibration-Tools": {
+    "build_dependencies": [],
+    "checksum": "fb31e1d8a02f69fdf6250561ede35d86",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-Calibration-Tools",
+    "package_name": "cms+data-Calibration-Tools+V01-00-00",
+    "patches": [],
+    "realversion": "V01-00-00",
+    "revision": "1",
+    "sources": [],
+    "version": "V01-00-00"
+  },
+  "data-CondFormats-JetMETObjects": {
+    "build_dependencies": [],
+    "checksum": "f5c22247c2de10772edcc1590ff9ecfa",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-CondFormats-JetMETObjects",
+    "package_name": "cms+data-CondFormats-JetMETObjects+V01-00-03",
+    "patches": [],
+    "realversion": "V01-00-03",
+    "revision": "1",
+    "sources": [],
+    "version": "V01-00-03"
+  },
+  "data-CondTools-SiPhase2Tracker": {
+    "build_dependencies": [],
+    "checksum": "f537b7a5adf9d10e3b83b5a4e098470e",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-CondTools-SiPhase2Tracker",
+    "package_name": "cms+data-CondTools-SiPhase2Tracker+V00-01-00",
+    "patches": [],
+    "realversion": "V00-01-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/CondTools-SiPhase2Tracker.git?obj=master/V00-01-00&no-cmssdt-cache=1&export=data-CondTools-SiPhase2Tracker-V00-01-00&output=/data-CondTools-SiPhase2Tracker-V00-01-00.tgz"
+    ],
+    "version": "V00-01-00"
+  },
+  "data-Configuration-Generator": {
+    "build_dependencies": [],
+    "checksum": "d634468435f24b92badc5cc2545f593b",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-Configuration-Generator",
+    "package_name": "cms+data-Configuration-Generator+V01-02-00",
+    "patches": [],
+    "realversion": "V01-02-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/Configuration-Generator.git?obj=master/V01-02-00&no-cmssdt-cache=1&export=data-Configuration-Generator-V01-02-00&output=/data-Configuration-Generator-V01-02-00.tgz"
+    ],
+    "version": "V01-02-00"
+  },
+  "data-DQM-DTMonitorClient": {
+    "build_dependencies": [],
+    "checksum": "c0299c7c9f804cdf96673a504a36fd38",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-DQM-DTMonitorClient",
+    "package_name": "cms+data-DQM-DTMonitorClient+V00-01-00",
+    "patches": [],
+    "realversion": "V00-01-00",
+    "revision": "1",
+    "sources": [],
+    "version": "V00-01-00"
+  },
+  "data-DQM-PhysicsHWW": {
+    "build_dependencies": [],
+    "checksum": "a90da874566bc4a930e05fbe221e4250",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-DQM-PhysicsHWW",
+    "package_name": "cms+data-DQM-PhysicsHWW+V01-00-00",
+    "patches": [],
+    "realversion": "V01-00-00",
+    "revision": "1",
+    "sources": [],
+    "version": "V01-00-00"
+  },
+  "data-DQM-SiStripMonitorClient": {
+    "build_dependencies": [],
+    "checksum": "a8e56c38bf80367a2c3cb9deb6c97601",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-DQM-SiStripMonitorClient",
+    "package_name": "cms+data-DQM-SiStripMonitorClient+V01-01-00",
+    "patches": [],
+    "realversion": "V01-01-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/DQM-SiStripMonitorClient.git?obj=master/V01-01-00&no-cmssdt-cache=1&export=data-DQM-SiStripMonitorClient-V01-01-00&output=/data-DQM-SiStripMonitorClient-V01-01-00.tgz"
+    ],
+    "version": "V01-01-00"
+  },
+  "data-DataFormats-PatCandidates": {
+    "build_dependencies": [],
+    "checksum": "8b772a63f3166fca234a35b8575ffa4b",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-DataFormats-PatCandidates",
+    "package_name": "cms+data-DataFormats-PatCandidates+V01-00-01",
+    "patches": [],
+    "realversion": "V01-00-01",
+    "revision": "1",
+    "sources": [],
+    "version": "V01-00-01"
+  },
+  "data-DetectorDescription-Schema": {
+    "build_dependencies": [],
+    "checksum": "8b63dac9220ed7806978ad5e49b7a438",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-DetectorDescription-Schema",
+    "package_name": "cms+data-DetectorDescription-Schema+V02-02-01",
+    "patches": [],
+    "realversion": "V02-02-01",
+    "revision": "1",
+    "sources": [
+      "cvs://:pserver:anonymous@cmscvs.cern.ch:2401/local/reps/CMSSW?passwd=AA_:yZZ3e&tag=-rV02-02-01&export=DetectorDescription&module=DetectorDescription/Schema&output=/data.tar.gz"
+    ],
+    "version": "V02-02-01"
+  },
+  "data-EgammaAnalysis-ElectronTools": {
+    "build_dependencies": [],
+    "checksum": "d7469a3191cd5dbc61d855d4406bfde0",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-EgammaAnalysis-ElectronTools",
+    "package_name": "cms+data-EgammaAnalysis-ElectronTools+V00-03-01",
+    "patches": [],
+    "realversion": "V00-03-01",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/EgammaAnalysis-ElectronTools.git?obj=master/V00-03-01&no-cmssdt-cache=1&export=data-EgammaAnalysis-ElectronTools-V00-03-01&output=/data-EgammaAnalysis-ElectronTools-V00-03-01.tgz"
+    ],
+    "version": "V00-03-01"
+  },
+  "data-EventFilter-L1TRawToDigi": {
+    "build_dependencies": [],
+    "checksum": "078fe1c2a62eff9a4ef12aa19308bdce",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-EventFilter-L1TRawToDigi",
+    "package_name": "cms+data-EventFilter-L1TRawToDigi+V01-00-00",
+    "patches": [],
+    "realversion": "V01-00-00",
+    "revision": "1",
+    "sources": [],
+    "version": "V01-00-00"
+  },
+  "data-FWCore-Modules": {
+    "build_dependencies": [],
+    "checksum": "a131e17f042f09a250073ae561bea2de",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-FWCore-Modules",
+    "package_name": "cms+data-FWCore-Modules+V00-01-00",
+    "patches": [],
+    "realversion": "V00-01-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/FWCore-Modules.git?obj=master/V00-01-00&no-cmssdt-cache=1&export=data-FWCore-Modules-V00-01-00&output=/data-FWCore-Modules-V00-01-00.tgz"
+    ],
+    "version": "V00-01-00"
+  },
+  "data-FastSimulation-MaterialEffects": {
+    "build_dependencies": [],
+    "checksum": "2055097ed9b4fdf99a3cda090da6a99e",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-FastSimulation-MaterialEffects",
+    "package_name": "cms+data-FastSimulation-MaterialEffects+V05-00-00",
+    "patches": [],
+    "realversion": "V05-00-00",
+    "revision": "1",
+    "sources": [],
+    "version": "V05-00-00"
+  },
+  "data-FastSimulation-TrackingRecHitProducer": {
+    "build_dependencies": [],
+    "checksum": "e1089736743941f5870a6868b361df4d",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-FastSimulation-TrackingRecHitProducer",
+    "package_name": "cms+data-FastSimulation-TrackingRecHitProducer+V01-00-03",
+    "patches": [],
+    "realversion": "V01-00-03",
+    "revision": "1",
+    "sources": [],
+    "version": "V01-00-03"
+  },
+  "data-Fireworks-Geometry": {
+    "build_dependencies": [],
+    "checksum": "dc50cfdac1ab33bd1060e5ea9b85ea4a",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-Fireworks-Geometry",
+    "package_name": "cms+data-Fireworks-Geometry+V07-06-00",
+    "patches": [],
+    "realversion": "V07-06-00",
+    "revision": "1",
+    "sources": [
+      "http://cmsrep.cern.ch/cmssw/download/Fireworks-Geometry/20200401/cmsGeom2026.root?no-cmssdt-cache=1&output=/cmsGeom2026.root",
+      "git+https://github.com/cms-data/Fireworks-Geometry.git?obj=master/V07-06-00&no-cmssdt-cache=1&export=data-Fireworks-Geometry-V07-06-00&output=/data-Fireworks-Geometry-V07-06-00.tgz"
+    ],
+    "version": "V07-06-00"
+  },
+  "data-GeneratorInterface-EvtGenInterface": {
+    "build_dependencies": [],
+    "checksum": "c5cca1877f8452d1d4d0354e8b743d29",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-GeneratorInterface-EvtGenInterface",
+    "package_name": "cms+data-GeneratorInterface-EvtGenInterface+V02-02-00-c5cca1877f8452d1d4d0354e8b743d29",
+    "patches": [],
+    "realversion": "V02-02-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/GeneratorInterface-EvtGenInterface.git?obj=master/V02-02-00&no-cmssdt-cache=1&export=data-GeneratorInterface-EvtGenInterface-V02-02-00&output=/data-GeneratorInterface-EvtGenInterface-V02-02-00.tgz"
+    ],
+    "version": "V02-02-00-c5cca1877f8452d1d4d0354e8b743d29"
+  },
+  "data-GeneratorInterface-ReggeGribovPartonMCInterface": {
+    "build_dependencies": [],
+    "checksum": "e220ede8b60b6bd33f451bcbdca0df9d",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-GeneratorInterface-ReggeGribovPartonMCInterface",
+    "package_name": "cms+data-GeneratorInterface-ReggeGribovPartonMCInterface+V00-00-02",
+    "patches": [],
+    "realversion": "V00-00-02",
+    "revision": "1",
+    "sources": [
+      "cvs://:pserver:anonymous@cmscvs.cern.ch:2401/local/reps/CMSSW?passwd=AA_:yZZ3e&tag=-rV00-00-02&module=GeneratorInterface/ReggeGribovPartonMCInterface/data/download.url&export=GeneratorInterface&output=/src.tar.gz"
+    ],
+    "version": "V00-00-02"
+  },
+  "data-Geometry-DTGeometryBuilder": {
+    "build_dependencies": [],
+    "checksum": "b7eb49cd58e73c9894b1b77eafde30ff",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-Geometry-DTGeometryBuilder",
+    "package_name": "cms+data-Geometry-DTGeometryBuilder+V00-01-00",
+    "patches": [],
+    "realversion": "V00-01-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/Geometry-DTGeometryBuilder.git?obj=master/V00-01-00&no-cmssdt-cache=1&export=data-Geometry-DTGeometryBuilder-V00-01-00&output=/data-Geometry-DTGeometryBuilder-V00-01-00.tgz"
+    ],
+    "version": "V00-01-00"
+  },
+  "data-Geometry-TestReference": {
+    "build_dependencies": [],
+    "checksum": "f071b2fd46d670c68e3ec57d8c5ddec1",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-Geometry-TestReference",
+    "package_name": "cms+data-Geometry-TestReference+V00-04-00",
+    "patches": [],
+    "realversion": "V00-04-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/Geometry-TestReference.git?obj=master/V00-04-00&no-cmssdt-cache=1&export=data-Geometry-TestReference-V00-04-00&output=/data-Geometry-TestReference-V00-04-00.tgz"
+    ],
+    "version": "V00-04-00"
+  },
+  "data-HLTrigger-JetMET": {
+    "build_dependencies": [],
+    "checksum": "9d7d8743a80be5dd7dd6fcce591cc06e",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-HLTrigger-JetMET",
+    "package_name": "cms+data-HLTrigger-JetMET+V01-00-00",
+    "patches": [],
+    "realversion": "V01-00-00",
+    "revision": "1",
+    "sources": [],
+    "version": "V01-00-00"
+  },
+  "data-HeterogeneousCore-SonicTriton": {
+    "build_dependencies": [],
+    "checksum": "8c81ebb3c8cb5e8ce535565afc5660a4",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-HeterogeneousCore-SonicTriton",
+    "package_name": "cms+data-HeterogeneousCore-SonicTriton+V00-01-00",
+    "patches": [],
+    "realversion": "V00-01-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/HeterogeneousCore-SonicTriton.git?obj=master/V00-01-00&no-cmssdt-cache=1&export=data-HeterogeneousCore-SonicTriton-V00-01-00&output=/data-HeterogeneousCore-SonicTriton-V00-01-00.tgz"
+    ],
+    "version": "V00-01-00"
+  },
+  "data-IOPool-Input": {
+    "build_dependencies": [],
+    "checksum": "d4f3f79a2863c098564b60940c23bfea",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-IOPool-Input",
+    "package_name": "cms+data-IOPool-Input+V00-01-00",
+    "patches": [],
+    "realversion": "V00-01-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/IOPool-Input.git?obj=master/V00-01-00&no-cmssdt-cache=1&export=data-IOPool-Input-V00-01-00&output=/data-IOPool-Input-V00-01-00.tgz"
+    ],
+    "version": "V00-01-00"
+  },
+  "data-L1Trigger-CSCTriggerPrimitives": {
+    "build_dependencies": [],
+    "checksum": "b0c79f8aacbd5c87ce04a482fb5bf046",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-L1Trigger-CSCTriggerPrimitives",
+    "package_name": "cms+data-L1Trigger-CSCTriggerPrimitives+V00-04-00",
+    "patches": [],
+    "realversion": "V00-04-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/L1Trigger-CSCTriggerPrimitives.git?obj=master/V00-04-00&no-cmssdt-cache=1&export=data-L1Trigger-CSCTriggerPrimitives-V00-04-00&output=/data-L1Trigger-CSCTriggerPrimitives-V00-04-00.tgz"
+    ],
+    "version": "V00-04-00"
+  },
+  "data-L1Trigger-DTTriggerPhase2": {
+    "build_dependencies": [],
+    "checksum": "31e764328047c79a11e1dc8de9db8be6",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-L1Trigger-DTTriggerPhase2",
+    "package_name": "cms+data-L1Trigger-DTTriggerPhase2+V00-01-00",
+    "patches": [],
+    "realversion": "V00-01-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/L1Trigger-DTTriggerPhase2.git?obj=master/V00-01-00&no-cmssdt-cache=1&export=data-L1Trigger-DTTriggerPhase2-V00-01-00&output=/data-L1Trigger-DTTriggerPhase2-V00-01-00.tgz"
+    ],
+    "version": "V00-01-00"
+  },
+  "data-L1Trigger-L1TCalorimeter": {
+    "build_dependencies": [],
+    "checksum": "ffdac37edc2dcd487ed675cf0d17f333",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-L1Trigger-L1TCalorimeter",
+    "package_name": "cms+data-L1Trigger-L1TCalorimeter+V01-01-00",
+    "patches": [],
+    "realversion": "V01-01-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/L1Trigger-L1TCalorimeter.git?obj=master/V01-01-00&no-cmssdt-cache=1&export=data-L1Trigger-L1TCalorimeter-V01-01-00&output=/data-L1Trigger-L1TCalorimeter-V01-01-00.tgz"
+    ],
+    "version": "V01-01-00"
+  },
+  "data-L1Trigger-L1TGlobal": {
+    "build_dependencies": [],
+    "checksum": "7304214955d792e634a3a3971559a350",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-L1Trigger-L1TGlobal",
+    "package_name": "cms+data-L1Trigger-L1TGlobal+V00-00-07",
+    "patches": [],
+    "realversion": "V00-00-07",
+    "revision": "1",
+    "sources": [],
+    "version": "V00-00-07"
+  },
+  "data-L1Trigger-L1THGCal": {
+    "build_dependencies": [],
+    "checksum": "6af35dc1933ff71e606fc82323124831",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-L1Trigger-L1THGCal",
+    "package_name": "cms+data-L1Trigger-L1THGCal+V01-04-00",
+    "patches": [],
+    "realversion": "V01-04-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/L1Trigger-L1THGCal.git?obj=master/V01-04-00&no-cmssdt-cache=1&export=data-L1Trigger-L1THGCal-V01-04-00&output=/data-L1Trigger-L1THGCal-V01-04-00.tgz"
+    ],
+    "version": "V01-04-00"
+  },
+  "data-L1Trigger-L1TMuon": {
+    "build_dependencies": [],
+    "checksum": "44931c1dec8d361df1a97058592a3a53",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-L1Trigger-L1TMuon",
+    "package_name": "cms+data-L1Trigger-L1TMuon+V01-04-00-44931c1dec8d361df1a97058592a3a53",
+    "patches": [],
+    "realversion": "V01-04-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/L1Trigger-L1TMuon.git?obj=master/V01-04-00&no-cmssdt-cache=1&export=data-L1Trigger-L1TMuon-V01-04-00&output=/data-L1Trigger-L1TMuon-V01-04-00.tgz"
+    ],
+    "version": "V01-04-00-44931c1dec8d361df1a97058592a3a53"
+  },
+  "data-L1Trigger-Phase2L1ParticleFlow": {
+    "build_dependencies": [],
+    "checksum": "6de06b70060fe17f93f0ee1d4076f5c6",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-L1Trigger-Phase2L1ParticleFlow",
+    "package_name": "cms+data-L1Trigger-Phase2L1ParticleFlow+V00-03-00",
+    "patches": [],
+    "realversion": "V00-03-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/L1Trigger-Phase2L1ParticleFlow.git?obj=master/V00-03-00&no-cmssdt-cache=1&export=data-L1Trigger-Phase2L1ParticleFlow-V00-03-00&output=/data-L1Trigger-Phase2L1ParticleFlow-V00-03-00.tgz"
+    ],
+    "version": "V00-03-00"
+  },
+  "data-L1Trigger-RPCTrigger": {
+    "build_dependencies": [],
+    "checksum": "6c8fc4f05e790ad496e7a9735b8ac1db",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-L1Trigger-RPCTrigger",
+    "package_name": "cms+data-L1Trigger-RPCTrigger+V00-15-00",
+    "patches": [],
+    "realversion": "V00-15-00",
+    "revision": "1",
+    "sources": [],
+    "version": "V00-15-00"
+  },
+  "data-L1Trigger-TrackFindingTMTT": {
+    "build_dependencies": [],
+    "checksum": "4b752305371711df27865973639220b2",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-L1Trigger-TrackFindingTMTT",
+    "package_name": "cms+data-L1Trigger-TrackFindingTMTT+V00-02-00",
+    "patches": [],
+    "realversion": "V00-02-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/L1Trigger-TrackFindingTMTT.git?obj=master/V00-02-00&no-cmssdt-cache=1&export=data-L1Trigger-TrackFindingTMTT-V00-02-00&output=/data-L1Trigger-TrackFindingTMTT-V00-02-00.tgz"
+    ],
+    "version": "V00-02-00"
+  },
+  "data-L1Trigger-TrackFindingTracklet": {
+    "build_dependencies": [],
+    "checksum": "e10c05b5d7e85c33fbf8fd770c9159e4",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-L1Trigger-TrackFindingTracklet",
+    "package_name": "cms+data-L1Trigger-TrackFindingTracklet+V00-01-00",
+    "patches": [],
+    "realversion": "V00-01-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/L1Trigger-TrackFindingTracklet.git?obj=master/V00-01-00&no-cmssdt-cache=1&export=data-L1Trigger-TrackFindingTracklet-V00-01-00&output=/data-L1Trigger-TrackFindingTracklet-V00-01-00.tgz"
+    ],
+    "version": "V00-01-00"
+  },
+  "data-L1Trigger-TrackTrigger": {
+    "build_dependencies": [],
+    "checksum": "7bdc752d16c0299c4d55c8cee989ab78",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-L1Trigger-TrackTrigger",
+    "package_name": "cms+data-L1Trigger-TrackTrigger+V00-01-00",
+    "patches": [],
+    "realversion": "V00-01-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/L1Trigger-TrackTrigger.git?obj=master/V00-01-00&no-cmssdt-cache=1&export=data-L1Trigger-TrackTrigger-V00-01-00&output=/data-L1Trigger-TrackTrigger-V00-01-00.tgz"
+    ],
+    "version": "V00-01-00"
+  },
+  "data-MagneticField-Engine": {
+    "build_dependencies": [],
+    "checksum": "2af9391cfa5e411ed2d18d3461d4ffc4",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-MagneticField-Engine",
+    "package_name": "cms+data-MagneticField-Engine+V00-01-00",
+    "patches": [],
+    "realversion": "V00-01-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/MagneticField-Engine.git?obj=master/V00-01-00&no-cmssdt-cache=1&export=data-MagneticField-Engine-V00-01-00&output=/data-MagneticField-Engine-V00-01-00.tgz"
+    ],
+    "version": "V00-01-00"
+  },
+  "data-MagneticField-Interpolation": {
+    "build_dependencies": [],
+    "checksum": "73eb877a8df71171ed77938097040d0c",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-MagneticField-Interpolation",
+    "package_name": "cms+data-MagneticField-Interpolation+V01-01-00",
+    "patches": [],
+    "realversion": "V01-01-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/MagneticField-Interpolation.git?obj=master/V01-01-00&no-cmssdt-cache=1&export=data-MagneticField-Interpolation-V01-01-00&output=/data-MagneticField-Interpolation-V01-01-00.tgz"
+    ],
+    "version": "V01-01-00"
+  },
+  "data-PhysicsTools-NanoAOD": {
+    "build_dependencies": [],
+    "checksum": "8f8278e528328f2239e52f2487d52ea5",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-PhysicsTools-NanoAOD",
+    "package_name": "cms+data-PhysicsTools-NanoAOD+V01-01-00",
+    "patches": [],
+    "realversion": "V01-01-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/PhysicsTools-NanoAOD.git?obj=master/V01-01-00&no-cmssdt-cache=1&export=data-PhysicsTools-NanoAOD-V01-01-00&output=/data-PhysicsTools-NanoAOD-V01-01-00.tgz"
+    ],
+    "version": "V01-01-00"
+  },
+  "data-PhysicsTools-PatUtils": {
+    "build_dependencies": [],
+    "checksum": "b5e8eded3f6c1b29d4fcfae1839c9241",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-PhysicsTools-PatUtils",
+    "package_name": "cms+data-PhysicsTools-PatUtils+V00-02-00",
+    "patches": [],
+    "realversion": "V00-02-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/PhysicsTools-PatUtils.git?obj=master/V00-02-00&no-cmssdt-cache=1&export=data-PhysicsTools-PatUtils-V00-02-00&output=/data-PhysicsTools-PatUtils-V00-02-00.tgz"
+    ],
+    "version": "V00-02-00"
+  },
+  "data-RecoBTag-CTagging": {
+    "build_dependencies": [],
+    "checksum": "2d44813ece4862c76c9eb67c8b2a2f74",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-RecoBTag-CTagging",
+    "package_name": "cms+data-RecoBTag-CTagging+V01-00-03",
+    "patches": [],
+    "realversion": "V01-00-03",
+    "revision": "1",
+    "sources": [],
+    "version": "V01-00-03"
+  },
+  "data-RecoBTag-Combined": {
+    "build_dependencies": [],
+    "checksum": "3643b8241930c19a2f41ca9bec563efc",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-RecoBTag-Combined",
+    "package_name": "cms+data-RecoBTag-Combined+V01-10-00",
+    "patches": [],
+    "realversion": "V01-10-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/RecoBTag-Combined.git?obj=master/V01-10-00&no-cmssdt-cache=1&export=data-RecoBTag-Combined-V01-10-00&output=/data-RecoBTag-Combined-V01-10-00.tgz"
+    ],
+    "version": "V01-10-00"
+  },
+  "data-RecoBTag-SecondaryVertex": {
+    "build_dependencies": [],
+    "checksum": "abd9189c9bcf54a494d1f9af458e9b61",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-RecoBTag-SecondaryVertex",
+    "package_name": "cms+data-RecoBTag-SecondaryVertex+V02-00-04",
+    "patches": [],
+    "realversion": "V02-00-04",
+    "revision": "1",
+    "sources": [],
+    "version": "V02-00-04"
+  },
+  "data-RecoBTag-SoftLepton": {
+    "build_dependencies": [],
+    "checksum": "3c203ad6b7b7f4ce6bc359f4b702dd67",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-RecoBTag-SoftLepton",
+    "package_name": "cms+data-RecoBTag-SoftLepton+V01-00-01",
+    "patches": [],
+    "realversion": "V01-00-01",
+    "revision": "1",
+    "sources": [],
+    "version": "V01-00-01"
+  },
+  "data-RecoCTPPS-TotemRPLocal": {
+    "build_dependencies": [],
+    "checksum": "6478eca5475df9d4aae1bbef1f62a055",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-RecoCTPPS-TotemRPLocal",
+    "package_name": "cms+data-RecoCTPPS-TotemRPLocal+V00-02-00",
+    "patches": [],
+    "realversion": "V00-02-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/RecoCTPPS-TotemRPLocal.git?obj=master/V00-02-00&no-cmssdt-cache=1&export=data-RecoCTPPS-TotemRPLocal-V00-02-00&output=/data-RecoCTPPS-TotemRPLocal-V00-02-00.tgz"
+    ],
+    "version": "V00-02-00"
+  },
+  "data-RecoEgamma-ElectronIdentification": {
+    "build_dependencies": [],
+    "checksum": "41485d02b38b1a680565cbf0d43e9a6e",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-RecoEgamma-ElectronIdentification",
+    "package_name": "cms+data-RecoEgamma-ElectronIdentification+V01-04-00",
+    "patches": [],
+    "realversion": "V01-04-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/RecoEgamma-ElectronIdentification.git?obj=master/V01-04-00&no-cmssdt-cache=1&export=data-RecoEgamma-ElectronIdentification-V01-04-00&output=/data-RecoEgamma-ElectronIdentification-V01-04-00.tgz"
+    ],
+    "version": "V01-04-00"
+  },
+  "data-RecoEgamma-PhotonIdentification": {
+    "build_dependencies": [],
+    "checksum": "8e6a49372f8fd8a930da531708565d87",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-RecoEgamma-PhotonIdentification",
+    "package_name": "cms+data-RecoEgamma-PhotonIdentification+V01-00-06",
+    "patches": [],
+    "realversion": "V01-00-06",
+    "revision": "1",
+    "sources": [],
+    "version": "V01-00-06"
+  },
+  "data-RecoHGCal-TICL": {
+    "build_dependencies": [],
+    "checksum": "d6c4d17da4fa348181da601980ef85c9",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-RecoHGCal-TICL",
+    "package_name": "cms+data-RecoHGCal-TICL+V00-02-01-d6c4d17da4fa348181da601980ef85c9",
+    "patches": [],
+    "realversion": "V00-02-01",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/RecoHGCal-TICL.git?obj=master/V00-02-01&no-cmssdt-cache=1&export=data-RecoHGCal-TICL-V00-02-01&output=/data-RecoHGCal-TICL-V00-02-01.tgz"
+    ],
+    "version": "V00-02-01-d6c4d17da4fa348181da601980ef85c9"
+  },
+  "data-RecoHI-HiJetAlgos": {
+    "build_dependencies": [],
+    "checksum": "7c55699bca31c8e83a446ca1704b18a7",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-RecoHI-HiJetAlgos",
+    "package_name": "cms+data-RecoHI-HiJetAlgos+V01-00-01",
+    "patches": [],
+    "realversion": "V01-00-01",
+    "revision": "1",
+    "sources": [],
+    "version": "V01-00-01"
+  },
+  "data-RecoJets-JetProducers": {
+    "build_dependencies": [],
+    "checksum": "4a3021895bd74a9af17829b21457a3e8",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-RecoJets-JetProducers",
+    "package_name": "cms+data-RecoJets-JetProducers+V05-13-00",
+    "patches": [],
+    "realversion": "V05-13-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/RecoJets-JetProducers.git?obj=master/V05-13-00&no-cmssdt-cache=1&export=data-RecoJets-JetProducers-V05-13-00&output=/data-RecoJets-JetProducers-V05-13-00.tgz"
+    ],
+    "version": "V05-13-00"
+  },
+  "data-RecoLocalCalo-EcalDeadChannelRecoveryAlgos": {
+    "build_dependencies": [],
+    "checksum": "d0afbfae8532da2b8e1c1d43df8b331f",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-RecoLocalCalo-EcalDeadChannelRecoveryAlgos",
+    "package_name": "cms+data-RecoLocalCalo-EcalDeadChannelRecoveryAlgos+V01-01-00",
+    "patches": [],
+    "realversion": "V01-01-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/RecoLocalCalo-EcalDeadChannelRecoveryAlgos.git?obj=master/V01-01-00&no-cmssdt-cache=1&export=data-RecoLocalCalo-EcalDeadChannelRecoveryAlgos-V01-01-00&output=/data-RecoLocalCalo-EcalDeadChannelRecoveryAlgos-V01-01-00.tgz"
+    ],
+    "version": "V01-01-00"
+  },
+  "data-RecoMET-METPUSubtraction": {
+    "build_dependencies": [],
+    "checksum": "cc044159cbc1e675cf06b3479aaeebbc",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-RecoMET-METPUSubtraction",
+    "package_name": "cms+data-RecoMET-METPUSubtraction+V01-01-00",
+    "patches": [],
+    "realversion": "V01-01-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/RecoMET-METPUSubtraction.git?obj=master/V01-01-00&no-cmssdt-cache=1&export=data-RecoMET-METPUSubtraction-V01-01-00&output=/data-RecoMET-METPUSubtraction-V01-01-00.tgz"
+    ],
+    "version": "V01-01-00"
+  },
+  "data-RecoMTD-TimingIDTools": {
+    "build_dependencies": [],
+    "checksum": "df71e413884fab03dc6de5d9b525dca3",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-RecoMTD-TimingIDTools",
+    "package_name": "cms+data-RecoMTD-TimingIDTools+V00-01-00",
+    "patches": [],
+    "realversion": "V00-01-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/RecoMTD-TimingIDTools.git?obj=master/V00-01-00&no-cmssdt-cache=1&export=data-RecoMTD-TimingIDTools-V00-01-00&output=/data-RecoMTD-TimingIDTools-V00-01-00.tgz"
+    ],
+    "version": "V00-01-00"
+  },
+  "data-RecoMuon-MuonIdentification": {
+    "build_dependencies": [],
+    "checksum": "fe704425cb659c4585eaccb5f4d21950",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-RecoMuon-MuonIdentification",
+    "package_name": "cms+data-RecoMuon-MuonIdentification+V01-12-05",
+    "patches": [],
+    "realversion": "V01-12-05",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/RecoMuon-MuonIdentification.git?obj=master/V01-12-05&no-cmssdt-cache=1&export=data-RecoMuon-MuonIdentification-V01-12-05&output=/data-RecoMuon-MuonIdentification-V01-12-05.tgz"
+    ],
+    "version": "V01-12-05"
+  },
+  "data-RecoParticleFlow-PFBlockProducer": {
+    "build_dependencies": [],
+    "checksum": "03abd20d5d1a9b73835644e8d14a2da3",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-RecoParticleFlow-PFBlockProducer",
+    "package_name": "cms+data-RecoParticleFlow-PFBlockProducer+V02-04-02",
+    "patches": [],
+    "realversion": "V02-04-02",
+    "revision": "1",
+    "sources": [],
+    "version": "V02-04-02"
+  },
+  "data-RecoParticleFlow-PFProducer": {
+    "build_dependencies": [],
+    "checksum": "b6a0093a820885769c4ca350b73a98c4",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-RecoParticleFlow-PFProducer",
+    "package_name": "cms+data-RecoParticleFlow-PFProducer+V16-01-00",
+    "patches": [],
+    "realversion": "V16-01-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/RecoParticleFlow-PFProducer.git?obj=master/V16-01-00&no-cmssdt-cache=1&export=data-RecoParticleFlow-PFProducer-V16-01-00&output=/data-RecoParticleFlow-PFProducer-V16-01-00.tgz"
+    ],
+    "version": "V16-01-00"
+  },
+  "data-RecoParticleFlow-PFTracking": {
+    "build_dependencies": [],
+    "checksum": "9aae3d657020870c8c0db5f1e0ad6716",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-RecoParticleFlow-PFTracking",
+    "package_name": "cms+data-RecoParticleFlow-PFTracking+V13-01-00",
+    "patches": [],
+    "realversion": "V13-01-00",
+    "revision": "1",
+    "sources": [],
+    "version": "V13-01-00"
+  },
+  "data-RecoTauTag-TrainingFiles": {
+    "build_dependencies": [],
+    "checksum": "84b8de4e4f39715f003d083f87773802",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-RecoTauTag-TrainingFiles",
+    "package_name": "cms+data-RecoTauTag-TrainingFiles+V00-02-00",
+    "patches": [],
+    "realversion": "V00-02-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/RecoTauTag-TrainingFiles.git?obj=master/V00-02-00&no-cmssdt-cache=1&export=data-RecoTauTag-TrainingFiles-V00-02-00&output=/data-RecoTauTag-TrainingFiles-V00-02-00.tgz"
+    ],
+    "version": "V00-02-00"
+  },
+  "data-RecoTracker-FinalTrackSelectors": {
+    "build_dependencies": [],
+    "checksum": "c1f41a00df0b92a719570c4beed80ba6",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-RecoTracker-FinalTrackSelectors",
+    "package_name": "cms+data-RecoTracker-FinalTrackSelectors+V01-01-00",
+    "patches": [],
+    "realversion": "V01-01-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/RecoTracker-FinalTrackSelectors.git?obj=master/V01-01-00&no-cmssdt-cache=1&export=data-RecoTracker-FinalTrackSelectors-V01-01-00&output=/data-RecoTracker-FinalTrackSelectors-V01-01-00.tgz"
+    ],
+    "version": "V01-01-00"
+  },
+  "data-RecoTracker-TkSeedGenerator": {
+    "build_dependencies": [],
+    "checksum": "bb108c9ed9ae41c77ff363c9b96a2739",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-RecoTracker-TkSeedGenerator",
+    "package_name": "cms+data-RecoTracker-TkSeedGenerator+V00-02-00",
+    "patches": [],
+    "realversion": "V00-02-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/RecoTracker-TkSeedGenerator.git?obj=master/V00-02-00&no-cmssdt-cache=1&export=data-RecoTracker-TkSeedGenerator-V00-02-00&output=/data-RecoTracker-TkSeedGenerator-V00-02-00.tgz"
+    ],
+    "version": "V00-02-00"
+  },
+  "data-SLHCUpgradeSimulations-Geometry": {
+    "build_dependencies": [],
+    "checksum": "cfe6949abd5981ec8b1d4430498bacf2",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-SLHCUpgradeSimulations-Geometry",
+    "package_name": "cms+data-SLHCUpgradeSimulations-Geometry+V01-00-10",
+    "patches": [],
+    "realversion": "V01-00-10",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/SLHCUpgradeSimulations-Geometry.git?obj=master/V01-00-10&no-cmssdt-cache=1&export=data-SLHCUpgradeSimulations-Geometry-V01-00-10&output=/data-SLHCUpgradeSimulations-Geometry-V01-00-10.tgz"
+    ],
+    "version": "V01-00-10"
+  },
+  "data-SimG4CMS-Calo": {
+    "build_dependencies": [],
+    "checksum": "327e8ae7cba67a43bb1bfde76da9bf2d",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-SimG4CMS-Calo",
+    "package_name": "cms+data-SimG4CMS-Calo+V03-01-00",
+    "patches": [],
+    "realversion": "V03-01-00",
+    "revision": "1",
+    "sources": [],
+    "version": "V03-01-00"
+  },
+  "data-SimG4CMS-Forward": {
+    "build_dependencies": [],
+    "checksum": "a62c5a119dbfee49c393b404e29fde0c",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-SimG4CMS-Forward",
+    "package_name": "cms+data-SimG4CMS-Forward+V02-04-00",
+    "patches": [],
+    "realversion": "V02-04-00",
+    "revision": "1",
+    "sources": [
+      "http://cmsrep.cern.ch/cmssw/download/data/SimG4CMS-Forward.tar.gz?no-cmssdt-cache=1&output=/SimG4CMS-Forward.tar.gz"
+    ],
+    "version": "V02-04-00"
+  },
+  "data-SimG4CMS-HGCalTestBeam": {
+    "build_dependencies": [],
+    "checksum": "8fa401083f5dae9faca8f0b647e2d7f6",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-SimG4CMS-HGCalTestBeam",
+    "package_name": "cms+data-SimG4CMS-HGCalTestBeam+V01-00-00",
+    "patches": [],
+    "realversion": "V01-00-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/SimG4CMS-HGCalTestBeam.git?obj=master/V01-00-00&no-cmssdt-cache=1&export=data-SimG4CMS-HGCalTestBeam-V01-00-00&output=/data-SimG4CMS-HGCalTestBeam-V01-00-00.tgz"
+    ],
+    "version": "V01-00-00"
+  },
+  "data-SimPPS-PPSPixelDigiProducer": {
+    "build_dependencies": [],
+    "checksum": "b20c22512eb0206ac0bd99a99a2589db",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-SimPPS-PPSPixelDigiProducer",
+    "package_name": "cms+data-SimPPS-PPSPixelDigiProducer+V00-00-02",
+    "patches": [],
+    "realversion": "V00-00-02",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/SimPPS-PPSPixelDigiProducer.git?obj=master/V00-00-02&no-cmssdt-cache=1&export=data-SimPPS-PPSPixelDigiProducer-V00-00-02&output=/data-SimPPS-PPSPixelDigiProducer-V00-00-02.tgz"
+    ],
+    "version": "V00-00-02"
+  },
+  "data-SimTracker-SiStripDigitizer": {
+    "build_dependencies": [],
+    "checksum": "c2d88a0738770148d9bf7c957e1ad5d8",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-SimTracker-SiStripDigitizer",
+    "package_name": "cms+data-SimTracker-SiStripDigitizer+V01-01-00",
+    "patches": [],
+    "realversion": "V01-01-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/SimTracker-SiStripDigitizer.git?obj=master/V01-01-00&no-cmssdt-cache=1&export=data-SimTracker-SiStripDigitizer-V01-01-00&output=/data-SimTracker-SiStripDigitizer-V01-01-00.tgz"
+    ],
+    "version": "V01-01-00"
+  },
+  "data-SimTransport-HectorProducer": {
+    "build_dependencies": [],
+    "checksum": "f6c95192639c6acdfffce653e9a77938",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-SimTransport-HectorProducer",
+    "package_name": "cms+data-SimTransport-HectorProducer+V01-00-01",
+    "patches": [],
+    "realversion": "V01-00-01",
+    "revision": "1",
+    "sources": [],
+    "version": "V01-00-01"
+  },
+  "data-SimTransport-PPSProtonTransport": {
+    "build_dependencies": [],
+    "checksum": "f4d26a6361859b496f843c6fbad061eb",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-SimTransport-PPSProtonTransport",
+    "package_name": "cms+data-SimTransport-PPSProtonTransport+V00-02-00",
+    "patches": [],
+    "realversion": "V00-02-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/SimTransport-PPSProtonTransport.git?obj=master/V00-02-00&no-cmssdt-cache=1&export=data-SimTransport-PPSProtonTransport-V00-02-00&output=/data-SimTransport-PPSProtonTransport-V00-02-00.tgz"
+    ],
+    "version": "V00-02-00"
+  },
+  "data-SimTransport-TotemRPProtonTransportParametrization": {
+    "build_dependencies": [],
+    "checksum": "ba5334461fceeca2283f4430bb296c4d",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-SimTransport-TotemRPProtonTransportParametrization",
+    "package_name": "cms+data-SimTransport-TotemRPProtonTransportParametrization+V00-01-00",
+    "patches": [],
+    "realversion": "V00-01-00",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-data/SimTransport-TotemRPProtonTransportParametrization.git?obj=master/V00-01-00&no-cmssdt-cache=1&export=data-SimTransport-TotemRPProtonTransportParametrization-V00-01-00&output=/data-SimTransport-TotemRPProtonTransportParametrization-V00-01-00.tgz"
+    ],
+    "version": "V00-01-00"
+  },
+  "data-Validation-Geometry": {
+    "build_dependencies": [],
+    "checksum": "bcfe191179d4d874edbe78e9a07b8dd0",
+    "dependencies": [],
+    "doc": "",
+    "name": "data-Validation-Geometry",
+    "package_name": "cms+data-Validation-Geometry+V00-07-00",
+    "patches": [],
+    "realversion": "V00-07-00",
+    "revision": "1",
+    "sources": [],
+    "version": "V00-07-00"
+  }
+}
