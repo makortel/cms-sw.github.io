@@ -11041,7 +11041,7 @@
                 "relvals": [], 
                 "release_queue": "CMSSW_10_6_X", 
                 "release_name": "CMSSW_10_6_X_2021-04-04-2300", 
-                "comp_baseline": "inprogress", 
+                "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_10_6_X_2021-04-04-2300/slc7_amd64_gcc700/-GenuineIntel/matrix-results", 
                 "gpu_utests": [
                     {
                         "arch": "slc7_amd64_gcc700", 
@@ -15784,9 +15784,9 @@
                 "flawfinder": "found", 
                 "next_ib": false, 
                 "RVExceptions": null, 
-                "igprof": "inprogress", 
+                "igprof": "found", 
                 "reco_event_loop": "inprogress", 
-                "profiling": "inprogress", 
+                "profiling": "found", 
                 "base_branch": "CMSSW_11_2_X", 
                 "compared_tags": "CMSSW_11_2_X_2021-04-04-0000-->CMSSW_11_2_X_2021-04-04-2300", 
                 "dqm_tests": "inprogress", 
@@ -15802,7 +15802,7 @@
                 "relvals": [], 
                 "release_queue": "CMSSW_11_2_X", 
                 "release_name": "CMSSW_11_2_X_2021-04-04-2300", 
-                "comp_baseline": "inprogress", 
+                "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_11_2_X_2021-04-04-2300/slc7_amd64_gcc900/-GenuineIntel/matrix-results", 
                 "gpu_utests": [
                     {
                         "arch": "slc7_amd64_gcc900", 
@@ -15842,7 +15842,7 @@
                     }
                 ], 
                 "material_budget_v2": "not-found", 
-                "check-headers": "inprogress", 
+                "check-headers": "passed", 
                 "static_checks_v2": "inprogress", 
                 "valgrind": "not-found", 
                 "material_budget": "not-found", 
@@ -34375,7 +34375,19 @@
                     }
                 ], 
                 "ib_date": "2021-04-04-2300-0000", 
-                "relvals": [], 
+                "relvals": [
+                    {
+                        "done": false, 
+                        "arch": "slc7_ppc64le_gcc9", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/sun/11.3-sun-23/CMSSW_11_3_X_2021-04-04-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 1, 
+                            "known_failed": 0, 
+                            "num_failed": 0
+                        }
+                    }
+                ], 
                 "release_queue": "CMSSW_11_3_X", 
                 "release_name": "CMSSW_11_3_X_2021-04-04-2300", 
                 "comp_baseline": "inprogress", 
@@ -34453,7 +34465,14 @@
                 "static_checks": "inprogress", 
                 "isIB": true, 
                 "inProgress": false, 
-                "addons": [], 
+                "addons": [
+                    {
+                        "arch": "slc7_ppc64le_gcc9", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/sun/11.3-sun-23/CMSSW_11_3_X_2021-04-04-2300/addOnTests.log", 
+                        "details": {}
+                    }
+                ], 
                 "hlt_tests": "inprogress"
             }, 
             {
