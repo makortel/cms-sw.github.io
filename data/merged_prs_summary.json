@@ -78,13 +78,15 @@
                 ], 
                 "profiling": "not-found", 
                 "compared_tags": "CMSSW_10_2_X_2021-03-28-0000-->CMSSW_10_2_X_2021-04-04-0000", 
-                "dqm_tests": "inprogress", 
+                "dqm_tests": "found", 
                 "utests": [
                     {
                         "arch": "slc7_amd64_gcc700", 
-                        "passed": "unknown", 
-                        "file": "['/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.2-sun-00/CMSSW_10_2_X_2021-04-04-0000/new/logAnalysis.pkl']", 
-                        "details": {}
+                        "passed": "failed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/10.2-sun-00/CMSSW_10_2_X_2021-04-04-0000/unitTests-summary.log", 
+                        "details": {
+                            "num_fails": "5"
+                        }
                     }, 
                     {
                         "arch": "slc6_amd64_gcc700", 
