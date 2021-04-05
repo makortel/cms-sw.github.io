@@ -142,6 +142,90 @@
     },
     {
         "exitcode": 0,
+        "id": "136.794",
+        "known_error": 0,
+        "name": "RunDoubleMuon2017C+RunDoubleMuon2017C+HLTDR2_2017+RECODR2_2017reHLT_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 82
+            },
+            {
+                "errors": 10,
+                "status": "PASSED",
+                "warnings": 250
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.88",
+        "known_error": 0,
+        "name": "RunZeroBias2018C+RunZeroBias2018C+HLTDR2_2018+RECODR2_2018reHLT_ZBOffline+HARVEST2018ZB",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 63
+            },
+            {
+                "errors": 12,
+                "status": "PASSED",
+                "warnings": 381
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "149.0",
+        "known_error": 0,
+        "name": "QCD_Pt_80_120_13_PPREF+QCD_Pt_80_120_13_PPREF+DIGIPPREF2017+RECOPPREF2017+HARVESTPPREF2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 2
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 6
+            },
+            {
+                "errors": 46,
+                "status": "PASSED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "504.0",
         "known_error": 0,
         "name": "QCD_Pt-30_13TeV_pythia8+QCD_Pt-30_13TeV_pythia8+HARVESTGEN",
@@ -460,6 +544,196 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "10801.0",
+        "known_error": 0,
+        "name": "SingleElectronPt10+2018+SingleElectronPt10_pythia8_GenSimINPUT+Digi+RecoFakeHLT+HARVESTFakeHLT+ALCA+Nano",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 16
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 49
+            },
+            {
+                "errors": 46,
+                "status": "PASSED",
+                "warnings": 4
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 22
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 20
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "10804.0",
+        "known_error": 0,
+        "name": "SingleGammaPt10+2018+SingleGammaPt10_pythia8_GenSimINPUT+Digi+RecoFakeHLT+HARVESTFakeHLT+ALCA+Nano",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 20
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 74
+            },
+            {
+                "errors": 46,
+                "status": "PASSED",
+                "warnings": 4
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 38
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 45
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "10807.0",
+        "known_error": 0,
+        "name": "SingleMuPt10+2018+SingleMuPt10_Eta2p85_GenSimINPUT+Digi+RecoFakeHLT+HARVESTFakeHLT+ALCA+Nano",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 36
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 53
+            },
+            {
+                "errors": 46,
+                "status": "PASSED",
+                "warnings": 4
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 33
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 34
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "10825.0",
+        "known_error": 0,
+        "name": "ZEE_13+2018+ZEE_13TeV_TuneCUETP8M1_GenSimINPUT+Digi+RecoFakeHLT+HARVESTFakeHLT+ALCA+Nano",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 31
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 26
+            },
+            {
+                "errors": 46,
+                "status": "PASSED",
+                "warnings": 4
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 23
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 30
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "10842.0",
+        "known_error": 0,
+        "name": "ZMM_13+2018+ZMM_13TeV_TuneCUETP8M1_GenSimINPUT+Digi+RecoFakeHLT+HARVESTFakeHLT+ALCA+Nano",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 8
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 50
+            },
+            {
+                "errors": 46,
+                "status": "PASSED",
+                "warnings": 4
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 27
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 49
             }
         ]
     },
