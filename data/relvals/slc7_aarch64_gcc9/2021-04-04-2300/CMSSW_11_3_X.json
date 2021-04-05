@@ -123,6 +123,29 @@
         ]
     },
     {
+        "exitcode": 35584,
+        "id": "31.0",
+        "known_error": 0,
+        "name": "ZTT+ZTTINPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
         "exitcode": 34304,
         "id": "134.804",
         "known_error": 0,
@@ -206,6 +229,29 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 54
+            },
+            {
+                "errors": 9,
+                "status": "FAILED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 35584,
+        "id": "136.837",
+        "known_error": 0,
+        "name": "RunZeroBias2017F+RunZeroBias2017F+HLTDR2_2017+RECODR2_2017reHLT_ZBPrompt+HARVEST2017ZB",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 47
             },
             {
                 "errors": 9,
@@ -520,6 +566,29 @@
     },
     {
         "exitcode": 35584,
+        "id": "10024.5",
+        "known_error": 0,
+        "name": "TTbar_13+2017_pixelTrackingOnly+TTbar_13TeV_TuneCUETP8M1_GenSimINPUT+Digi+RecoFakeHLT+HARVESTFakeHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 44
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 35584,
         "id": "10025.0",
         "known_error": 0,
         "name": "ZEE_13+2017+ZEE_13TeV_TuneCUETP8M1_GenSimINPUT+Digi+RecoFakeHLT+HARVESTFakeHLT+ALCA+Nano",
@@ -812,6 +881,29 @@
             },
             {
                 "errors": 1,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
+        "id": "11602.0",
+        "known_error": 0,
+        "name": "SingleElectronPt35+2021+SingleElectronPt35_pythia8_GenSimINPUT+Digi+Reco+HARVEST+ALCA",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 55
+            },
+            {
+                "errors": 4,
                 "status": "FAILED",
                 "warnings": 0
             }
