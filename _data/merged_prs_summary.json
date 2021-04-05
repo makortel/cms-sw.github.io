@@ -11065,7 +11065,14 @@
                     }
                 ], 
                 "material_budget_v2": "not-found", 
-                "addons": [], 
+                "addons": [
+                    {
+                        "arch": "slc7_amd64_gcc700", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/10.6-mon-23/CMSSW_10_6_X_2021-04-05-2300/addOnTests.log", 
+                        "details": {}
+                    }
+                ], 
                 "static_checks_v2": "inprogress", 
                 "valgrind": "inprogress", 
                 "material_budget": "not-found", 
@@ -15913,7 +15920,7 @@
                     }
                 ], 
                 "material_budget_v2": "not-found", 
-                "check-headers": "inprogress", 
+                "check-headers": "passed", 
                 "static_checks_v2": "inprogress", 
                 "valgrind": "not-found", 
                 "material_budget": "not-found", 
@@ -35281,9 +35288,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/sun/11.3-sun-23/CMSSW_11_3_X_2021-04-04-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 901, 
+                            "num_passed": 913, 
                             "known_failed": 51, 
-                            "num_failed": 55
+                            "num_failed": 61
                         }
                     }, 
                     {
