@@ -1,6 +1,39 @@
 [
     {
         "exitcode": 0,
+        "id": "7.22",
+        "known_error": 0,
+        "name": "Cosmics_UP16+Cosmics_UP16+DIGICOS_UP16+RECOCOS_UP16+ALCACOS_UP16+HARVESTCOS_UP16",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 42
+            },
+            {
+                "errors": -1,
+                "status": "PASSED",
+                "warnings": -1
+            },
+            {
+                "errors": -1,
+                "status": "PASSED",
+                "warnings": -1
+            },
+            {
+                "errors": -1,
+                "status": "PASSED",
+                "warnings": -1
+            },
+            {
+                "errors": -1,
+                "status": "PASSED",
+                "warnings": -1
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "111.0",
         "known_error": 0,
         "name": "JpsiMM_Pt_20_inf+JpsiMM_Pt_20_inf+DIGI+RECO",
@@ -424,6 +457,39 @@
     },
     {
         "exitcode": 0,
+        "id": "10225.0",
+        "known_error": 0,
+        "name": "ZEE_13+2017PU+ZEE_13TeV_TuneCUETP8M1_GenSimINPUT+DigiPU+RecoFakeHLTPU+HARVESTFakeHLTPU+Nano",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 55
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 274
+            },
+            {
+                "errors": 46,
+                "status": "PASSED",
+                "warnings": 4
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 67
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "10824.0",
         "known_error": 0,
         "name": "TTbar_13+2018+TTbar_13TeV_TuneCUETP8M1_GenSimINPUT+Digi+RecoFakeHLT+HARVESTFakeHLT+ALCA+Nano",
@@ -495,6 +561,39 @@
     },
     {
         "exitcode": 0,
+        "id": "11025.0",
+        "known_error": 0,
+        "name": "ZEE_13+2018PU+ZEE_13TeV_TuneCUETP8M1_GenSimINPUT+DigiPU+RecoFakeHLTPU+HARVESTFakeHLTPU+Nano",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 77
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 280
+            },
+            {
+                "errors": 46,
+                "status": "PASSED",
+                "warnings": 4
+            },
+            {
+                "errors": -1,
+                "status": "PASSED",
+                "warnings": -1
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "23461.97",
         "known_error": 0,
         "name": "PREMIXUP26D49_PU25+2026D49PU_PMXS1+PREMIX_PremixHLBeamSpotPU",
@@ -503,6 +602,39 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 30
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "25200.0",
+        "known_error": 0,
+        "name": "ZEE_13+ZEE_13INPUT+DIGIUP15_PU25+RECOUP15_PU25_L1TEgDQM+HARVESTUP15_PU25_L1TEgDQM+NANOUP15_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 45
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 454
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 4
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 87
             }
         ]
     },
