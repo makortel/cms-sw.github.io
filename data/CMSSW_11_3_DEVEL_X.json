@@ -136,7 +136,14 @@
             "static_checks": "not-found", 
             "isIB": true, 
             "inProgress": false, 
-            "addons": [], 
+            "addons": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": true, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.3.DEVEL-sun-23/CMSSW_11_3_DEVEL_X_2021-04-04-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
             "hlt_tests": "not-found"
         }, 
         {
