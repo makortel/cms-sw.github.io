@@ -69,9 +69,11 @@
             "utests": [
                 {
                     "arch": "slc7_amd64_gcc900", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.3.PY3-sun-23/CMSSW_11_3_PY3_X_2021-04-04-2300/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.3.PY3-sun-23/CMSSW_11_3_PY3_X_2021-04-04-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "3"
+                    }
                 }
             ], 
             "ib_date": "2021-04-04-2300-0000", 
@@ -818,29 +820,10 @@
                 "slc7_amd64_gcc900"
             ], 
             "cmsdist_merged_prs": {
-                "slc7_amd64_gcc900": [
-                    {
-                        "hash": "415fa4496199bf271e1c59c2e3469d95e0c08ef0", 
-                        "title": "Dip add platform dependent", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/6765", 
-                        "number": "6765", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "cms-sw"
-                    }, 
-                    {
-                        "hash": "0787b3af2b4240b128fed477809b5f91e99737e1", 
-                        "title": "Update to CUDA 11.2 Update 2", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/6764", 
-                        "number": "6764", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "fwyzard"
-                    }
-                ]
+                "slc7_amd64_gcc900": []
             }, 
             "cmsdist_compared_tags": {
-                "slc7_amd64_gcc900": "IB/CMSSW_11_3_PY3_X_2021-03-28-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_PY3_X_2021-03-29-2300/slc7_amd64_gcc900"
+                "slc7_amd64_gcc900": "IB/CMSSW_11_3_PY3_X_2021-03-29-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_PY3_X_2021-03-29-2300/slc7_amd64_gcc900"
             }, 
             "cmsdistTags": {
                 "slc7_amd64_gcc900": "IB/CMSSW_11_3_PY3_X_2021-03-29-2300/slc7_amd64_gcc900"
@@ -1012,15 +995,9 @@
         {
             "comp_baseline_state": "errors", 
             "python3_tests": [], 
-            "tests_archs": [
-                "slc7_amd64_gcc900"
-            ], 
-            "cmsdist_merged_prs": {
-                "slc7_amd64_gcc900": []
-            }, 
-            "cmsdist_compared_tags": {
-                "slc7_amd64_gcc900": "IB/CMSSW_11_3_PY3_X_2021-03-28-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_PY3_X_2021-03-28-2300/slc7_amd64_gcc900"
-            }, 
+            "tests_archs": [], 
+            "cmsdist_merged_prs": {}, 
+            "cmsdist_compared_tags": {}, 
             "cmsdistTags": {
                 "slc7_amd64_gcc900": "IB/CMSSW_11_3_PY3_X_2021-03-28-2300/slc7_amd64_gcc900"
             }, 
@@ -1031,30 +1008,9 @@
             "base_branch": "CMSSW_11_3_DEVEL_X", 
             "compared_tags": "CMSSW_11_3_PY3_X_2021-03-28-2300-->CMSSW_11_3_PY3_X_2021-03-28-2300", 
             "dqm_tests": "inprogress", 
-            "utests": [
-                {
-                    "arch": "slc7_amd64_gcc900", 
-                    "passed": "failed", 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.3.PY3-sun-23/CMSSW_11_3_PY3_X_2021-03-28-2300/unitTests-summary.log", 
-                    "details": {
-                        "num_fails": "3"
-                    }
-                }
-            ], 
+            "utests": [], 
             "ib_date": "2021-03-28-2300-0000", 
-            "relvals": [
-                {
-                    "done": true, 
-                    "arch": "slc7_amd64_gcc900", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.3.PY3-sun-23/CMSSW_11_3_PY3_X_2021-03-28-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                    "details": {
-                        "num_passed": 3450, 
-                        "known_failed": 0, 
-                        "num_failed": 0
-                    }
-                }
-            ], 
+            "relvals": [], 
             "release_queue": "CMSSW_11_3_PY3_X", 
             "release_name": "CMSSW_11_3_PY3_X_2021-03-28-2300", 
             "comp_baseline": "not-found", 
@@ -1063,38 +1019,17 @@
             "merged_prs": [], 
             "fwlite": [], 
             "invalid_includes": [], 
-            "builds": [
-                {
-                    "arch": "slc7_amd64_gcc900", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.3.PY3-sun-23/CMSSW_11_3_PY3_X_2021-03-28-2300/new/logAnalysis.pkl", 
-                    "details": {
-                        "ignoreWarning": 19
-                    }
-                }
-            ], 
+            "builds": [], 
             "material_budget_v2": "not-found", 
             "static_checks_v2": "not-found", 
             "valgrind": "not-found", 
             "material_budget": "not-found", 
-            "dupDict": [
-                {
-                    "arch": "slc7_amd64_gcc900", 
-                    "passed": "passed"
-                }
-            ], 
+            "dupDict": [], 
             "static_checks_failures": "not-found", 
             "static_checks": "not-found", 
             "isIB": true, 
             "inProgress": false, 
-            "addons": [
-                {
-                    "arch": "slc7_amd64_gcc900", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.3.PY3-sun-23/CMSSW_11_3_PY3_X_2021-03-28-2300/addOnTests.log", 
-                    "details": {}
-                }
-            ], 
+            "addons": [], 
             "hlt_tests": "not-found"
         }
     ]
