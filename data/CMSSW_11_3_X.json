@@ -96,12 +96,18 @@
             "cmsdistTags": {
                 "slc7_amd64_gcc900": "IB/CMSSW_11_3_X_2021-04-04-0000/slc7_amd64_gcc900"
             }, 
-            "piechart": "inprogress", 
+            "piechart": {
+                "status": "passed", 
+                "data": "slc7_amd64_gcc900/23434.21/step3_RAW2DIGI_L1Reco_RECO_RECOSIM_PU.resources"
+            }, 
             "flawfinder": "found", 
             "next_ib": false, 
             "RVExceptions": null, 
             "igprof": "found", 
-            "reco_event_loop": "inprogress", 
+            "reco_event_loop": {
+                "status": "passed", 
+                "data": "slc7_amd64_gcc900/profiling/23434.21/sorted_RES_CPU_step3.txt"
+            }, 
             "profiling": "found", 
             "base_branch": "CMSSW_11_3_X", 
             "compared_tags": "CMSSW_11_3_X_2021-04-04-2300-->CMSSW_11_3_X_2021-04-05-1100", 
@@ -124,7 +130,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3-mon-11/CMSSW_11_3_X_2021-04-05-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1034, 
+                        "num_passed": 1692, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -164,7 +170,10 @@
             ], 
             "material_budget_v2": "not-found", 
             "check-headers": "passed", 
-            "static_checks_v2": "inprogress", 
+            "static_checks_v2": {
+                "status": "passed", 
+                "arch": "slc7_amd64_gcc900"
+            }, 
             "valgrind": "not-found", 
             "material_budget": "not-found", 
             "dupDict": [
@@ -174,7 +183,7 @@
                 }
             ], 
             "lizard": "found", 
-            "static_checks": "inprogress", 
+            "static_checks": "slc7_amd64_gcc900:", 
             "isIB": true, 
             "inProgress": false, 
             "addons": [
@@ -185,7 +194,7 @@
                     "details": {}
                 }
             ], 
-            "hlt_tests": "inprogress"
+            "hlt_tests": "found"
         }, 
         {
             "comp_baseline_state": "ok", 
@@ -316,9 +325,9 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/sun/11.3-sun-23/CMSSW_11_3_X_2021-04-04-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 4, 
+                        "num_passed": 20, 
                         "known_failed": 25, 
-                        "num_failed": 2
+                        "num_failed": 10
                     }
                 }, 
                 {
