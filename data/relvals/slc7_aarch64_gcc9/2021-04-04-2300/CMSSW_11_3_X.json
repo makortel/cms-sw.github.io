@@ -111,6 +111,29 @@
     },
     {
         "exitcode": 35584,
+        "id": "136.881",
+        "known_error": 0,
+        "name": "RunMuOnia2018C+RunMuOnia2018C+HLTDR2_2018+RECODR2_2018reHLT_skimMuOnia_Offline+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 35
+            },
+            {
+                "errors": 10,
+                "status": "FAILED",
+                "warnings": 8
+            }
+        ]
+    },
+    {
+        "exitcode": 35584,
         "id": "137.8",
         "known_error": 0,
         "name": "RunEGamma2018C+RunEGamma2018C+HLTDR2_2018+RECODR2_2018reHLT_skimEGamma_Offline_L1TEgDQM+RunEGamma2018D+HLTDR2_2018+RECODR2_2018reHLT_skimEGamma_Prompt_L1TEgDQM+HARVEST2018_L1TEgDQM_MULTIRUN",
@@ -548,6 +571,29 @@
                 "errors": 4,
                 "status": "FAILED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 34304,
+        "id": "11646.0",
+        "known_error": 0,
+        "name": "ZEE_14+2021+ZEE_14TeV_TuneCP5_GenSimINPUT+Digi+Reco+HARVEST+ALCA",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 102
+            },
+            {
+                "errors": 6,
+                "status": "FAILED",
+                "warnings": 161
             }
         ]
     },
