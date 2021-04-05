@@ -362,6 +362,29 @@
     },
     {
         "exitcode": 35584,
+        "id": "136.883",
+        "known_error": 0,
+        "name": "RunDisplacedJet2018C+RunDisplacedJet2018C+HLTDR2_2018+RECODR2_2018reHLT_skimDisplacedJet_Offline+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 36
+            },
+            {
+                "errors": 10,
+                "status": "FAILED",
+                "warnings": 8
+            }
+        ]
+    },
+    {
+        "exitcode": 35584,
         "id": "10002.0",
         "known_error": 0,
         "name": "SingleElectronPt35+2017+SingleElectronPt35_pythia8_GenSimINPUT+Digi+RecoFakeHLT+HARVESTFakeHLT+ALCA+Nano",
