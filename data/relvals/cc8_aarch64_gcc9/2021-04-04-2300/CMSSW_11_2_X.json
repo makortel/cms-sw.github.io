@@ -500,6 +500,29 @@
     },
     {
         "exitcode": 34304,
+        "id": "159.4",
+        "known_error": 0,
+        "name": "ZEE_14_HI_2021+ZEE_14_HI_2021+DIGIHI2021PPRECO+RECOHI2021PPRECO+HARVESTHI2021PPRECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "FAILED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 34304,
         "id": "1322.0",
         "known_error": 0,
         "name": "SingleMuPt1000_UP15+SingleMuPt1000_UP15INPUT+DIGIUP15+RECOUP15+HARVESTUP15+NANOUP15",
@@ -518,6 +541,29 @@
                 "errors": 0,
                 "status": "FAILED",
                 "warnings": 24
+            }
+        ]
+    },
+    {
+        "exitcode": 34304,
+        "id": "1344.0",
+        "known_error": 0,
+        "name": "ZpEE_2250_13+ZpEE_2250_13INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 9
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 39
             }
         ]
     },
