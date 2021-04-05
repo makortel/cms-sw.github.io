@@ -16003,19 +16003,19 @@
                         "file": "/data/sdt/buildlogs/cc8_aarch64_gcc9/www/sun/11.2-sun-23/CMSSW_11_2_X_2021-04-04-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
                             "num_passed": 37, 
-                            "known_failed": 0, 
-                            "num_failed": 94
+                            "known_failed": 50, 
+                            "num_failed": 44
                         }
                     }, 
                     {
-                        "done": false, 
+                        "done": true, 
                         "arch": "cc8_ppc64le_gcc9", 
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/cc8_ppc64le_gcc9/www/sun/11.2-sun-23/CMSSW_11_2_X_2021-04-04-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
                             "num_passed": 3203, 
-                            "known_failed": 0, 
-                            "num_failed": 54
+                            "known_failed": 51, 
+                            "num_failed": 3
                         }
                     }
                 ], 
@@ -38119,26 +38119,7 @@
                         }
                     ], 
                     "cc8_ppc64le_gcc9": [], 
-                    "slc7_amd64_gcc10": [
-                        {
-                            "hash": "415fa4496199bf271e1c59c2e3469d95e0c08ef0", 
-                            "title": "Dip add platform dependent", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/6765", 
-                            "number": "6765", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": true, 
-                            "author_login": "cms-sw"
-                        }, 
-                        {
-                            "hash": "0787b3af2b4240b128fed477809b5f91e99737e1", 
-                            "title": "Update to CUDA 11.2 Update 2", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/6764", 
-                            "number": "6764", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": true, 
-                            "author_login": "fwyzard"
-                        }
-                    ], 
+                    "slc7_amd64_gcc10": [], 
                     "slc7_amd64_gcc900": [
                         {
                             "hash": "0787b3af2b4240b128fed477809b5f91e99737e1", 
@@ -38157,7 +38138,7 @@
                     "cc8_aarch64_gcc9": "IB/CMSSW_11_3_X_2021-03-29-2300/cc8_aarch64_gcc9..IB/CMSSW_11_3_X_2021-03-29-2300/cc8_aarch64_gcc9", 
                     "slc7_aarch64_gcc9": "IB/CMSSW_11_3_X_2021-03-29-1100/slc7_aarch64_gcc9..IB/CMSSW_11_3_X_2021-03-29-2300/slc7_aarch64_gcc9", 
                     "cc8_ppc64le_gcc9": "IB/CMSSW_11_3_X_2021-03-29-2300/cc8_ppc64le_gcc9..IB/CMSSW_11_3_X_2021-03-29-2300/cc8_ppc64le_gcc9", 
-                    "slc7_amd64_gcc10": "IB/CMSSW_11_3_X_2021-03-28-2300/slc7_amd64_gcc10..IB/CMSSW_11_3_X_2021-03-29-2300/slc7_amd64_gcc10", 
+                    "slc7_amd64_gcc10": "IB/CMSSW_11_3_X_2021-03-29-2300/slc7_amd64_gcc10..IB/CMSSW_11_3_X_2021-03-29-2300/slc7_amd64_gcc10", 
                     "slc7_amd64_gcc900": "IB/CMSSW_11_3_X_2021-03-29-1100/slc7_amd64_gcc900..IB/CMSSW_11_3_X_2021-03-29-2300/slc7_amd64_gcc900", 
                     "slc7_ppc64le_gcc9": "IB/CMSSW_11_3_X_2021-03-29-2300/slc7_ppc64le_gcc9..IB/CMSSW_11_3_X_2021-03-29-2300/slc7_ppc64le_gcc9"
                 }, 
@@ -38758,15 +38739,9 @@
             {
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
-                "tests_archs": [
-                    "slc7_amd64_gcc10"
-                ], 
-                "cmsdist_merged_prs": {
-                    "slc7_amd64_gcc10": []
-                }, 
-                "cmsdist_compared_tags": {
-                    "slc7_amd64_gcc10": "IB/CMSSW_11_3_X_2021-03-28-2300/slc7_amd64_gcc10..IB/CMSSW_11_3_X_2021-03-28-2300/slc7_amd64_gcc10"
-                }, 
+                "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": {}, 
                 "static_checks_failures": "not-found", 
                 "cmsdistTags": {
                     "slc7_amd64_gcc10": "IB/CMSSW_11_3_X_2021-03-28-2300/slc7_amd64_gcc10"
@@ -38787,30 +38762,9 @@
                 "base_branch": "CMSSW_11_3_X", 
                 "compared_tags": "CMSSW_11_3_X_2021-03-28-0000-->CMSSW_11_3_X_2021-03-28-2300", 
                 "dqm_tests": "inprogress", 
-                "utests": [
-                    {
-                        "arch": "slc7_amd64_gcc10", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc10/www/sun/11.3-sun-23/CMSSW_11_3_X_2021-03-28-2300/unitTests-summary.log", 
-                        "details": {
-                            "num_fails": "0"
-                        }
-                    }
-                ], 
+                "utests": [], 
                 "ib_date": "2021-03-28-2300-0000", 
-                "relvals": [
-                    {
-                        "done": true, 
-                        "arch": "slc7_amd64_gcc10", 
-                        "passed": true, 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc10/www/sun/11.3-sun-23/CMSSW_11_3_X_2021-03-28-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                        "details": {
-                            "num_passed": 3450, 
-                            "known_failed": 0, 
-                            "num_failed": 0
-                        }
-                    }
-                ], 
+                "relvals": [], 
                 "release_queue": "CMSSW_11_3_X", 
                 "release_name": "CMSSW_11_3_X_2021-03-28-2300", 
                 "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_11_3_X_2021-03-28-2300/slc7_amd64_gcc900/-GenuineIntel/matrix-results", 
@@ -38838,16 +38792,7 @@
                         }
                     }
                 ], 
-                "builds": [
-                    {
-                        "arch": "slc7_amd64_gcc10", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc10/www/sun/11.3-sun-23/CMSSW_11_3_X_2021-03-28-2300/new/logAnalysis.pkl", 
-                        "details": {
-                            "ignoreWarning": 19
-                        }
-                    }
-                ], 
+                "builds": [], 
                 "material_budget_v2": "not-found", 
                 "check-headers": "passed", 
                 "static_checks_v2": {
@@ -38856,24 +38801,12 @@
                 }, 
                 "valgrind": "not-found", 
                 "material_budget": "not-found", 
-                "dupDict": [
-                    {
-                        "arch": "slc7_amd64_gcc10", 
-                        "passed": "passed"
-                    }
-                ], 
+                "dupDict": [], 
                 "lizard": "found", 
                 "static_checks": "slc7_amd64_gcc900:", 
                 "isIB": true, 
                 "inProgress": false, 
-                "addons": [
-                    {
-                        "arch": "slc7_amd64_gcc10", 
-                        "passed": true, 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc10/www/sun/11.3-sun-23/CMSSW_11_3_X_2021-03-28-2300/addOnTests.log", 
-                        "details": {}
-                    }
-                ], 
+                "addons": [], 
                 "hlt_tests": "found"
             }, 
             {
