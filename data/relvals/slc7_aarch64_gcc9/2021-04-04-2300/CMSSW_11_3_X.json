@@ -42,6 +42,29 @@
     },
     {
         "exitcode": 35584,
+        "id": "136.845",
+        "known_error": 0,
+        "name": "RunCharmonium2017C+RunCharmonium2017C+HLTDR2_2017+RECODR2_2017reHLT_skimCharmonium_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 52
+            },
+            {
+                "errors": 10,
+                "status": "FAILED",
+                "warnings": 3
+            }
+        ]
+    },
+    {
+        "exitcode": 35584,
         "id": "136.86",
         "known_error": 0,
         "name": "RunCharmonium2018A+RunCharmonium2018A+HLTDR2_2018+RECODR2_2018reHLT_skimCharmonium_Offline+HARVEST2018",
@@ -111,6 +134,29 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 34304,
+        "id": "1356.0",
+        "known_error": 0,
+        "name": "ZEE_13_DBLMINIAOD+ZEE_13_DBLMINIAOD+DIGIUP15+RECOAODUP15+HARVESTUP15+DBLMINIAODMCUP15NODQM",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 9
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 9
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 8
             }
         ]
     },
@@ -477,6 +523,29 @@
             },
             {
                 "errors": 1,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 34304,
+        "id": "11603.0",
+        "known_error": 0,
+        "name": "SingleElectronPt1000+2021+SingleElectronPt1000_pythia8_GenSimINPUT+Digi+Reco+HARVEST+ALCA",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 42
+            },
+            {
+                "errors": 4,
                 "status": "FAILED",
                 "warnings": 0
             }
