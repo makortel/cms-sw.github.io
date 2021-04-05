@@ -431,6 +431,29 @@
     },
     {
         "exitcode": 35584,
+        "id": "134.707",
+        "known_error": 0,
+        "name": "RunSingleEl2015B+RunSingleEl2015B+HLTDR2_50ns+RECODR2_50nsreHLT_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 8
+            },
+            {
+                "errors": 10,
+                "status": "FAILED",
+                "warnings": 7
+            }
+        ]
+    },
+    {
+        "exitcode": 35584,
         "id": "136.726",
         "known_error": 0,
         "name": "RunMuonEG2016B+RunMuonEG2016B+HLTDR2_2016+RECODR2_2016reHLT_skimMuonEG_HIPM+HARVESTDR2",
@@ -495,6 +518,29 @@
                 "errors": 10,
                 "status": "FAILED",
                 "warnings": 43
+            }
+        ]
+    },
+    {
+        "exitcode": 35584,
+        "id": "136.819",
+        "known_error": 0,
+        "name": "RunJetHT2017E+RunJetHT2017E+HLTDR2_2017+RECODR2_2017reHLT_skimJetHT_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 40
+            },
+            {
+                "errors": 9,
+                "status": "FAILED",
+                "warnings": 4
             }
         ]
     },
