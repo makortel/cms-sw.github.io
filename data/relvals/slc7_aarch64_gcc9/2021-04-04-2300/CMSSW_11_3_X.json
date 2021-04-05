@@ -54,6 +54,29 @@
         ]
     },
     {
+        "exitcode": 16896,
+        "id": "4.27",
+        "known_error": 0,
+        "name": "ZElSkim2011A+ZElSkim2011A+HLTDSKIM+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
+            },
+            {
+                "errors": 4,
+                "status": "FAILED",
+                "warnings": 80
+            }
+        ]
+    },
+    {
         "exitcode": 35584,
         "id": "4.43",
         "known_error": 0,
@@ -77,6 +100,29 @@
         ]
     },
     {
+        "exitcode": 34304,
+        "id": "4.67",
+        "known_error": 0,
+        "name": "ZElSkim2012C+ZElSkim2012C+HLTDSKIM+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 24
+            },
+            {
+                "errors": 4,
+                "status": "FAILED",
+                "warnings": 3
+            }
+        ]
+    },
+    {
         "exitcode": 35584,
         "id": "4.78",
         "known_error": 0,
@@ -96,6 +142,29 @@
                 "errors": 4,
                 "status": "FAILED",
                 "warnings": 7
+            }
+        ]
+    },
+    {
+        "exitcode": 35584,
+        "id": "22.0",
+        "known_error": 0,
+        "name": "SingleMuPt1000+SingleMuPt1000INPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 12
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 70
             }
         ]
     },
@@ -307,6 +376,29 @@
         ]
     },
     {
+        "exitcode": 34304,
+        "id": "136.844",
+        "known_error": 0,
+        "name": "RunCharmonium2017B+RunCharmonium2017B+HLTDR2_2017+RECODR2_2017reHLT_skimCharmonium_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 15
+            },
+            {
+                "errors": 9,
+                "status": "FAILED",
+                "warnings": 3
+            }
+        ]
+    },
+    {
         "exitcode": 35584,
         "id": "136.845",
         "known_error": 0,
@@ -423,6 +515,29 @@
     },
     {
         "exitcode": 35584,
+        "id": "136.894",
+        "known_error": 0,
+        "name": "RunNoBPTX2018D+RunNoBPTX2018D+HLTDR2_2018+RECODR2_2018reHLTAlCaTkCosmics_Prompt+HARVEST2018_Prompt",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 72
+            },
+            {
+                "errors": 9,
+                "status": "FAILED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 35584,
         "id": "137.8",
         "known_error": 0,
         "name": "RunEGamma2018C+RunEGamma2018C+HLTDR2_2018+RECODR2_2018reHLT_skimEGamma_Offline_L1TEgDQM+RunEGamma2018D+HLTDR2_2018+RECODR2_2018reHLT_skimEGamma_Prompt_L1TEgDQM+HARVEST2018_L1TEgDQM_MULTIRUN",
@@ -445,6 +560,29 @@
             {
                 "errors": 0,
                 "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 35584,
+        "id": "158.2",
+        "known_error": 0,
+        "name": "PhotonJets_Pt_10_13_HI+PhotonJets_Pt_10_13_HIINPUT+DIGIHI2018PPRECO+RECOHI2018PPRECO+HARVESTHI2018PPRECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 1
+            },
+            {
+                "errors": 1,
+                "status": "FAILED",
                 "warnings": 0
             }
         ]
