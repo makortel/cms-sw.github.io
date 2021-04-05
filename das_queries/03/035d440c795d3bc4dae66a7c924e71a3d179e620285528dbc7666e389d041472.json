@@ -3,85 +3,85 @@
   "data": [
     {
       "das": {
-        "expire": 1617304306,
+        "expire": 1617606696,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
         "services": [
-          "rucio:file4dataset_site"
-        ]
-      },
-      "file": [
-        {
-          "adler32": "04d37f92",
-          "bytes": 1002746427,
-          "md5": null,
-          "name": "/store/relval/CMSSW_5_2_1/RelValMinBias/GEN-SIM/START52_V4-v1/0002/5A081FCB-6772-E111-9623-0025B3244166.root",
-          "pfns": {
-            "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/relval/CMSSW_5_2_1/RelValMinBias/GEN-SIM/START52_V4-v1/0002/5A081FCB-6772-E111-9623-0025B3244166.root": {
-              "client_extract": false,
-              "domain": "wan",
-              "priority": 1,
-              "rse": "T2_CH_CERN",
-              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
-              "type": "DISK",
-              "volatile": false
-            }
-          },
-          "rses": {
-            "T2_CH_CERN": [
-              "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/relval/CMSSW_5_2_1/RelValMinBias/GEN-SIM/START52_V4-v1/0002/5A081FCB-6772-E111-9623-0025B3244166.root"
-            ]
-          },
-          "scope": "cms",
-          "size": 1002746427,
-          "states": {
-            "T2_CH_CERN": "AVAILABLE"
-          }
-        }
-      ],
-      "qhash": "a9d4f3b9e72b1187358df0ad7f7b7ae2"
-    },
-    {
-      "das": {
-        "expire": 1617304306,
-        "instance": "prod/global",
-        "primary_key": "file.name",
-        "record": 1,
-        "services": [
-          "rucio:file4dataset_site"
+          "dbs3:files_via_dataset"
         ]
       },
       "file": [
         {
           "adler32": "1738eab3",
-          "bytes": 825306495,
-          "md5": null,
+          "auto_cross_section": null,
+          "block.name": "/RelValMinBias/CMSSW_5_2_1-START52_V4-v1/GEN-SIM#b3acbb8d-ca38-408e-8758-d90c2162f2f8",
+          "block_id": 6310368,
+          "block_name": "/RelValMinBias/CMSSW_5_2_1-START52_V4-v1/GEN-SIM#b3acbb8d-ca38-408e-8758-d90c2162f2f8",
+          "branch_hash_id": null,
+          "check_sum": "3597745883",
+          "create_by": "/DC=org/DC=doegrids/OU=People/CN=Alan Malta Rodrigues 4861",
+          "created_by": "/DC=org/DC=doegrids/OU=People/CN=Alan Malta Rodrigues 4861",
+          "creation_date": 1332253901,
+          "creation_time": 1332253901,
+          "dataset": "/RelValMinBias/CMSSW_5_2_1-START52_V4-v1/GEN-SIM",
+          "dataset_id": 4357329,
+          "file_id": 40436538,
+          "file_type_id": 1,
+          "is_file_valid": 1,
+          "last_modification_date": 1332255229,
+          "last_modified_by": "/DC=org/DC=doegrids/OU=People/CN=Alan Malta Rodrigues 4861",
+          "md5": "NOTSET",
+          "modification_time": 1332255229,
+          "modified_by": "/DC=org/DC=doegrids/OU=People/CN=Alan Malta Rodrigues 4861",
           "name": "/store/relval/CMSSW_5_2_1/RelValMinBias/GEN-SIM/START52_V4-v1/0003/4C958749-9872-E111-A747-003048F1183E.root",
-          "pfns": {
-            "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/relval/CMSSW_5_2_1/RelValMinBias/GEN-SIM/START52_V4-v1/0003/4C958749-9872-E111-A747-003048F1183E.root": {
-              "client_extract": false,
-              "domain": "wan",
-              "priority": 1,
-              "rse": "T2_CH_CERN",
-              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
-              "type": "DISK",
-              "volatile": false
-            }
-          },
-          "rses": {
-            "T2_CH_CERN": [
-              "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/relval/CMSSW_5_2_1/RelValMinBias/GEN-SIM/START52_V4-v1/0003/4C958749-9872-E111-A747-003048F1183E.root"
-            ]
-          },
-          "scope": "cms",
+          "nevents": 3900,
           "size": 825306495,
-          "states": {
-            "T2_CH_CERN": "AVAILABLE"
-          }
+          "type": "EDM"
         }
       ],
-      "qhash": "a9d4f3b9e72b1187358df0ad7f7b7ae2"
+      "qhash": "ded194a2439eb128908c16fdce658207"
+    },
+    {
+      "das": {
+        "expire": 1617606696,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "dbs3:files_via_dataset"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "04d37f92",
+          "auto_cross_section": null,
+          "block.name": "/RelValMinBias/CMSSW_5_2_1-START52_V4-v1/GEN-SIM#b3acbb8d-ca38-408e-8758-d90c2162f2f8",
+          "block_id": 6310368,
+          "block_name": "/RelValMinBias/CMSSW_5_2_1-START52_V4-v1/GEN-SIM#b3acbb8d-ca38-408e-8758-d90c2162f2f8",
+          "branch_hash_id": null,
+          "check_sum": "791249002",
+          "create_by": "/DC=org/DC=doegrids/OU=People/CN=Alan Malta Rodrigues 4861",
+          "created_by": "/DC=org/DC=doegrids/OU=People/CN=Alan Malta Rodrigues 4861",
+          "creation_date": 1332232864,
+          "creation_time": 1332232864,
+          "dataset": "/RelValMinBias/CMSSW_5_2_1-START52_V4-v1/GEN-SIM",
+          "dataset_id": 4357329,
+          "file_id": 40436539,
+          "file_type_id": 1,
+          "is_file_valid": 1,
+          "last_modification_date": 1332255229,
+          "last_modified_by": "/DC=org/DC=doegrids/OU=People/CN=Alan Malta Rodrigues 4861",
+          "md5": "NOTSET",
+          "modification_time": 1332255229,
+          "modified_by": "/DC=org/DC=doegrids/OU=People/CN=Alan Malta Rodrigues 4861",
+          "name": "/store/relval/CMSSW_5_2_1/RelValMinBias/GEN-SIM/START52_V4-v1/0002/5A081FCB-6772-E111-9623-0025B3244166.root",
+          "nevents": 5100,
+          "size": 1002746427,
+          "type": "EDM"
+        }
+      ],
+      "qhash": "ded194a2439eb128908c16fdce658207"
     }
   ],
   "ecode": "",
@@ -103,18 +103,17 @@
         "1"
       ]
     },
-    "hash": "a9d4f3b9e72b1187358df0ad7f7b7ae2",
+    "hash": "ded194a2439eb128908c16fdce658207",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValMinBias/CMSSW_5_2_1-START52_V4-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValMinBias/CMSSW_5_2_1-START52_V4-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
-      "dataset": "/RelValMinBias/CMSSW_5_2_1-START52_V4-v1/GEN-SIM",
-      "site": "T2_CH_CERN"
+      "dataset": "/RelValMinBias/CMSSW_5_2_1-START52_V4-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1617304304
+    "tstamp": 1617606694
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1617304306
+  "timestamp": 1617606696
 }

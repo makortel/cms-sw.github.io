@@ -3,85 +3,85 @@
   "data": [
     {
       "das": {
-        "expire": 1617304247,
+        "expire": 1617606637,
         "instance": "prod/global",
         "primary_key": "file.name",
         "record": 1,
         "services": [
-          "rucio:file4dataset_site"
-        ]
-      },
-      "file": [
-        {
-          "adler32": "ff22a663",
-          "bytes": 659362377,
-          "md5": null,
-          "name": "/store/relval/CMSSW_7_1_0_pre7/RelValZEE/GEN-SIM/PRE_STA71_V3-v1/00000/34B86D62-55D1-E311-B9A0-0025905A60EE.root",
-          "pfns": {
-            "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/relval/CMSSW_7_1_0_pre7/RelValZEE/GEN-SIM/PRE_STA71_V3-v1/00000/34B86D62-55D1-E311-B9A0-0025905A60EE.root": {
-              "client_extract": false,
-              "domain": "wan",
-              "priority": 1,
-              "rse": "T2_CH_CERN",
-              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
-              "type": "DISK",
-              "volatile": false
-            }
-          },
-          "rses": {
-            "T2_CH_CERN": [
-              "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/relval/CMSSW_7_1_0_pre7/RelValZEE/GEN-SIM/PRE_STA71_V3-v1/00000/34B86D62-55D1-E311-B9A0-0025905A60EE.root"
-            ]
-          },
-          "scope": "cms",
-          "size": 659362377,
-          "states": {
-            "T2_CH_CERN": "AVAILABLE"
-          }
-        }
-      ],
-      "qhash": "5840861cfca0ef30d1969dd00217d13c"
-    },
-    {
-      "das": {
-        "expire": 1617304247,
-        "instance": "prod/global",
-        "primary_key": "file.name",
-        "record": 1,
-        "services": [
-          "rucio:file4dataset_site"
+          "dbs3:files_via_dataset"
         ]
       },
       "file": [
         {
           "adler32": "5a64d81d",
-          "bytes": 2627931931,
-          "md5": null,
+          "auto_cross_section": 0.0,
+          "block.name": "/RelValZEE/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM#1684fe6e-d137-11e3-9c8f-003048c9c3fe",
+          "block_id": 12123122,
+          "block_name": "/RelValZEE/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM#1684fe6e-d137-11e3-9c8f-003048c9c3fe",
+          "branch_hash_id": null,
+          "check_sum": "502591576",
+          "create_by": null,
+          "created_by": null,
+          "creation_date": null,
+          "creation_time": null,
+          "dataset": "/RelValZEE/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM",
+          "dataset_id": 9242592,
+          "file_id": 63415877,
+          "file_type_id": 1,
+          "is_file_valid": 1,
+          "last_modification_date": 1399127140,
+          "last_modified_by": "amaltaro",
+          "md5": "NOTSET",
+          "modification_time": 1399127140,
+          "modified_by": "amaltaro",
           "name": "/store/relval/CMSSW_7_1_0_pre7/RelValZEE/GEN-SIM/PRE_STA71_V3-v1/00000/C21781CC-35D1-E311-B66F-003048678B5E.root",
-          "pfns": {
-            "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/relval/CMSSW_7_1_0_pre7/RelValZEE/GEN-SIM/PRE_STA71_V3-v1/00000/C21781CC-35D1-E311-B66F-003048678B5E.root": {
-              "client_extract": false,
-              "domain": "wan",
-              "priority": 1,
-              "rse": "T2_CH_CERN",
-              "rse_id": "542ab69d82bf401e9218bbe375bb1fce",
-              "type": "DISK",
-              "volatile": false
-            }
-          },
-          "rses": {
-            "T2_CH_CERN": [
-              "gsiftp://eoscmsftp.cern.ch:2811/eos/cms/store/relval/CMSSW_7_1_0_pre7/RelValZEE/GEN-SIM/PRE_STA71_V3-v1/00000/C21781CC-35D1-E311-B66F-003048678B5E.root"
-            ]
-          },
-          "scope": "cms",
+          "nevents": 6400,
           "size": 2627931931,
-          "states": {
-            "T2_CH_CERN": "AVAILABLE"
-          }
+          "type": "EDM"
         }
       ],
-      "qhash": "5840861cfca0ef30d1969dd00217d13c"
+      "qhash": "12337c6fc1d8d7261b5134355efb2d49"
+    },
+    {
+      "das": {
+        "expire": 1617606637,
+        "instance": "prod/global",
+        "primary_key": "file.name",
+        "record": 1,
+        "services": [
+          "dbs3:files_via_dataset"
+        ]
+      },
+      "file": [
+        {
+          "adler32": "ff22a663",
+          "auto_cross_section": 0.0,
+          "block.name": "/RelValZEE/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM#1684fe6e-d137-11e3-9c8f-003048c9c3fe",
+          "block_id": 12123122,
+          "block_name": "/RelValZEE/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM#1684fe6e-d137-11e3-9c8f-003048c9c3fe",
+          "branch_hash_id": null,
+          "check_sum": "715166754",
+          "create_by": null,
+          "created_by": null,
+          "creation_date": null,
+          "creation_time": null,
+          "dataset": "/RelValZEE/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM",
+          "dataset_id": 9242592,
+          "file_id": 63415878,
+          "file_type_id": 1,
+          "is_file_valid": 1,
+          "last_modification_date": 1399127140,
+          "last_modified_by": "amaltaro",
+          "md5": "NOTSET",
+          "modification_time": 1399127140,
+          "modified_by": "amaltaro",
+          "name": "/store/relval/CMSSW_7_1_0_pre7/RelValZEE/GEN-SIM/PRE_STA71_V3-v1/00000/34B86D62-55D1-E311-B9A0-0025905A60EE.root",
+          "nevents": 1600,
+          "size": 659362377,
+          "type": "EDM"
+        }
+      ],
+      "qhash": "12337c6fc1d8d7261b5134355efb2d49"
     }
   ],
   "ecode": "",
@@ -103,18 +103,17 @@
         "1"
       ]
     },
-    "hash": "5840861cfca0ef30d1969dd00217d13c",
+    "hash": "12337c6fc1d8d7261b5134355efb2d49",
     "instance": "prod/global",
     "pipe": "grep file.name | sort file.name | unique",
-    "query": "file dataset=/RelValZEE/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM site=T2_CH_CERN  detail=true | grep file.name | sort file.name | unique",
+    "query": "file dataset=/RelValZEE/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM  detail=true | grep file.name | sort file.name | unique",
     "spec": {
-      "dataset": "/RelValZEE/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM",
-      "site": "T2_CH_CERN"
+      "dataset": "/RelValZEE/CMSSW_7_1_0_pre7-PRE_STA71_V3-v1/GEN-SIM"
     },
     "system": "",
-    "tstamp": 1617304246
+    "tstamp": 1617606636
   },
   "nresults": 2,
   "status": "ok",
-  "timestamp": 1617304247
+  "timestamp": 1617606637
 }
