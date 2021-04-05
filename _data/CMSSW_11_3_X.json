@@ -106,6 +106,14 @@
             "dqm_tests": "inprogress", 
             "utests": [
                 {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.3-sun-23/CMSSW_11_3_X_2021-04-04-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "1"
+                    }
+                }, 
+                {
                     "arch": "slc7_ppc64le_gcc9", 
                     "passed": "failed", 
                     "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/sun/11.3-sun-23/CMSSW_11_3_X_2021-04-04-2300/unitTests-summary.log", 
@@ -114,16 +122,12 @@
                     }
                 }, 
                 {
-                    "arch": "slc7_amd64_gcc900", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc7_amd64_gcc900/www/sun/11.3-sun-23/CMSSW_11_3_X_2021-04-04-2300/new/logAnalysis.pkl']", 
-                    "details": {}
-                }, 
-                {
                     "arch": "cc8_amd64_gcc9", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/cc8_amd64_gcc9/www/sun/11.3-sun-23/CMSSW_11_3_X_2021-04-04-2300/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/sun/11.3-sun-23/CMSSW_11_3_X_2021-04-04-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
                 }
             ], 
             "ib_date": "2021-04-04-2300-0000", 
@@ -142,12 +146,12 @@
                 {
                     "done": false, 
                     "arch": "slc7_ppc64le_gcc9", 
-                    "passed": true, 
+                    "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/sun/11.3-sun-23/CMSSW_11_3_X_2021-04-04-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 438, 
-                        "known_failed": 4, 
-                        "num_failed": 0
+                        "num_passed": 516, 
+                        "known_failed": 11, 
+                        "num_failed": 2
                     }
                 }, 
                 {
