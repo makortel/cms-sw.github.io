@@ -78,6 +78,29 @@
     },
     {
         "exitcode": 35584,
+        "id": "4.78",
+        "known_error": 0,
+        "name": "WElSkim2012D+WElSkim2012D+HLTDSKIM+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 17
+            },
+            {
+                "errors": 4,
+                "status": "FAILED",
+                "warnings": 7
+            }
+        ]
+    },
+    {
+        "exitcode": 35584,
         "id": "25.0",
         "known_error": 0,
         "name": "TTbar+TTbarINPUT+DIGI+RECOAlCaCalo+HARVEST+ALCATT",
@@ -96,6 +119,52 @@
                 "errors": 0,
                 "status": "FAILED",
                 "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 34304,
+        "id": "134.804",
+        "known_error": 0,
+        "name": "RunJetHT2015C+RunJetHT2015C+HLTDR2_25ns+RECODR2_25nsreHLT_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 18
+            },
+            {
+                "errors": 10,
+                "status": "FAILED",
+                "warnings": 11
+            }
+        ]
+    },
+    {
+        "exitcode": 34304,
+        "id": "134.808",
+        "known_error": 0,
+        "name": "RunSingleMuPrpt2015C+RunSingleMuPrpt2015C+HLTDR2_25ns+RECODR2_25nsreHLT_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 16
+            },
+            {
+                "errors": 3,
+                "status": "FAILED",
+                "warnings": 11
             }
         ]
     },
@@ -136,7 +205,7 @@
             {
                 "errors": 0,
                 "status": "PASSED",
-                "warnings": 51
+                "warnings": 24
             },
             {
                 "errors": 9,
@@ -883,6 +952,29 @@
                 "errors": 4,
                 "status": "FAILED",
                 "warnings": 12
+            }
+        ]
+    },
+    {
+        "exitcode": 34304,
+        "id": "23234.9",
+        "known_error": 0,
+        "name": "TTbar_14TeV+2026D49_vectorHits+TTbar_14TeV_TuneCP5_GenSimHLBeamSpot14INPUT+DigiTrigger+RecoGlobal+HARVESTGlobal",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 47
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 1
             }
         ]
     },
