@@ -477,6 +477,29 @@
     },
     {
         "exitcode": 34304,
+        "id": "136.884",
+        "known_error": 0,
+        "name": "RunCharmonium2018C+RunCharmonium2018C+HLTDR2_2018+RECODR2_2018reHLT_skimCharmonium_Offline+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 28
+            },
+            {
+                "errors": 10,
+                "status": "FAILED",
+                "warnings": 541
+            }
+        ]
+    },
+    {
+        "exitcode": 34304,
         "id": "1322.0",
         "known_error": 0,
         "name": "SingleMuPt1000_UP15+SingleMuPt1000_UP15INPUT+DIGIUP15+RECOUP15+HARVESTUP15+NANOUP15",
@@ -679,6 +702,34 @@
                 "errors": 0,
                 "status": "FAILED",
                 "warnings": 14
+            }
+        ]
+    },
+    {
+        "exitcode": 35584,
+        "id": "1370.0",
+        "known_error": 0,
+        "name": "GluGluHToGG_M125_Pow_MINLO_NNLOPS_py8_13+GluGluHToGG_M125_Pow_MINLO_NNLOPS_py8_13+Hadronizer_TuneCUETP8M1_13TeV_powhegEmissionVeto_2p_HToGG_M125_13+DIGIUP15+RECOUP15+HARVESTUP15+NANOUP15Had",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 2
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 27
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 8
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 8
             }
         ]
     },
