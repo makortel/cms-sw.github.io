@@ -1,6 +1,29 @@
 [
     {
         "exitcode": 0,
+        "id": "106.0",
+        "known_error": 0,
+        "name": "bJpsiX+bJpsiX+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 4
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "144.6",
         "known_error": 0,
         "name": "MinimumBias2010A+MinimumBias2010A+RECOSKIMALCAR1",
@@ -139,6 +162,39 @@
                 "errors": 50,
                 "status": "PASSED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "11834.0",
+        "known_error": 0,
+        "name": "TTbar_14TeV+2021PU+TTbar_14TeV_TuneCP5_GenSimINPUT+DigiPU+RecoPU+HARVESTPU+Nano",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 145,
+                "status": "PASSED",
+                "warnings": 251
+            },
+            {
+                "errors": 9,
+                "status": "PASSED",
+                "warnings": 569
+            },
+            {
+                "errors": 50,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 40
             }
         ]
     },
