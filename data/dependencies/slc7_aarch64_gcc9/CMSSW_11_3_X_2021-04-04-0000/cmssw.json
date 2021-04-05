@@ -16,21 +16,6 @@
     ],
     "version": "1.2"
   },
-  "CSCTrackFinderEmulation-toolfile": {
-    "build_dependencies": [],
-    "checksum": "6595240016409ce0ae74580cf1aa1fb7",
-    "dependencies": [
-      "CSCTrackFinderEmulation"
-    ],
-    "doc": "",
-    "name": "CSCTrackFinderEmulation-toolfile",
-    "package_name": "cms+CSCTrackFinderEmulation-toolfile+2.0",
-    "patches": [],
-    "realversion": "2.0",
-    "revision": "1",
-    "sources": [],
-    "version": "2.0"
-  },
   "OpenBLAS": {
     "build_dependencies": [],
     "checksum": "a2167b325c9ce6115094fb7ac3df5fd1",
@@ -50,21 +35,6 @@
       "https://github.com/xianyi/OpenBLAS/archive/v0.3.9.tar.gz"
     ],
     "version": "0.3.9-ljfedo"
-  },
-  "OpenBLAS-toolfile": {
-    "build_dependencies": [],
-    "checksum": "70c9163242902d6cc7d7345618622bf7",
-    "dependencies": [
-      "OpenBLAS"
-    ],
-    "doc": "",
-    "name": "OpenBLAS-toolfile",
-    "package_name": "external+OpenBLAS-toolfile+2.0-ljfedo",
-    "patches": [],
-    "realversion": "2.0",
-    "revision": "1",
-    "sources": [],
-    "version": "2.0-ljfedo"
   },
   "SCRAMV1": {
     "build_dependencies": [
@@ -100,21 +70,6 @@
     ],
     "version": "0.6.0-c3fd4f4a51d8b1dd9b4d40036d5ebf1d"
   },
-  "alpaka-toolfile": {
-    "build_dependencies": [],
-    "checksum": "a55c08afff666bf0925f6e857a72d54b",
-    "dependencies": [
-      "alpaka"
-    ],
-    "doc": "",
-    "name": "alpaka-toolfile",
-    "package_name": "external+alpaka-toolfile+1.0-a55c08afff666bf0925f6e857a72d54b",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-a55c08afff666bf0925f6e857a72d54b"
-  },
   "alpgen": {
     "build_dependencies": [],
     "checksum": "e834c44ad32dcf7fca2c6f49396862a6",
@@ -136,21 +91,6 @@
     ],
     "version": "214"
   },
-  "alpgen-toolfile": {
-    "build_dependencies": [],
-    "checksum": "bfba722ceadaa568a166fe74cc194bbd",
-    "dependencies": [
-      "alpgen"
-    ],
-    "doc": "",
-    "name": "alpgen-toolfile",
-    "package_name": "external+alpgen-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "blackhat": {
     "build_dependencies": [],
     "checksum": "c8afec3a6b1903f91f1553a4e6b1766f",
@@ -170,21 +110,6 @@
       "git+https://github.com/cms-externals/blackhat.git?obj=cms/v0.9.9/3e8ac1f06ef3612088505de448c8e127157076a7&export=blackhat-0.9.9&output=/blackhat-0.9.9-3e8ac1f06ef3612088505de448c8e127157076a7.tgz"
     ],
     "version": "0.9.9"
-  },
-  "blackhat-toolfile": {
-    "build_dependencies": [],
-    "checksum": "1f1e2a6e6801eb179af126318ebdcf54",
-    "dependencies": [
-      "blackhat"
-    ],
-    "doc": "",
-    "name": "blackhat-toolfile",
-    "package_name": "external+blackhat-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "boost": {
     "build_dependencies": [],
@@ -211,21 +136,6 @@
     ],
     "version": "1.75.0-f7f275cd34a38d604525e560d59e54d1"
   },
-  "boost-toolfile": {
-    "build_dependencies": [],
-    "checksum": "33b31ca8234daa061e8655b9c24c5940",
-    "dependencies": [
-      "boost"
-    ],
-    "doc": "",
-    "name": "boost-toolfile",
-    "package_name": "external+boost-toolfile+1.4-33b31ca8234daa061e8655b9c24c5940",
-    "patches": [],
-    "realversion": "1.4",
-    "revision": "1",
-    "sources": [],
-    "version": "1.4-33b31ca8234daa061e8655b9c24c5940"
-  },
   "bz2lib": {
     "build_dependencies": [],
     "checksum": "acf2897cb2b9727bfbf932c11cc72bf7",
@@ -242,21 +152,6 @@
       "http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz"
     ],
     "version": "1.0.6"
-  },
-  "bz2lib-toolfile": {
-    "build_dependencies": [],
-    "checksum": "b73378b4e936ec6a39c11a09cf20c6a0",
-    "dependencies": [
-      "bz2lib"
-    ],
-    "doc": "",
-    "name": "bz2lib-toolfile",
-    "package_name": "external+bz2lib-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "cascade": {
     "build_dependencies": [],
@@ -281,21 +176,6 @@
     ],
     "version": "2.2.04-ljfedo2"
   },
-  "cascade-toolfile": {
-    "build_dependencies": [],
-    "checksum": "7b80e32549bc0fbc3270364bf1778b0e",
-    "dependencies": [
-      "cascade"
-    ],
-    "doc": "",
-    "name": "cascade-toolfile",
-    "package_name": "external+cascade-toolfile+1.0-ljfedo2",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo2"
-  },
   "catch2": {
     "build_dependencies": [],
     "checksum": "d21193fc9bfefb5dd2df6d66f128d567",
@@ -312,21 +192,6 @@
       "https://raw.githubusercontent.com/catchorg/Catch2/v2.2.2/single_include/catch.hpp"
     ],
     "version": "2.2.2"
-  },
-  "catch2-toolfile": {
-    "build_dependencies": [],
-    "checksum": "0cc1561d656bc300b997a9260cd24c9e",
-    "dependencies": [
-      "catch2"
-    ],
-    "doc": "",
-    "name": "catch2-toolfile",
-    "package_name": "external+catch2-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "ccache": {
     "build_dependencies": [],
@@ -385,21 +250,6 @@
     ],
     "version": "4.2-79e95d1297123df65dc4f4503af52a62"
   },
-  "cgal-toolfile": {
-    "build_dependencies": [],
-    "checksum": "3044d8b64dad2624e61ef3fd6dda1c49",
-    "dependencies": [
-      "cgal"
-    ],
-    "doc": "",
-    "name": "cgal-toolfile",
-    "package_name": "external+cgal-toolfile+1.0-3044d8b64dad2624e61ef3fd6dda1c49",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-3044d8b64dad2624e61ef3fd6dda1c49"
-  },
   "charybdis": {
     "build_dependencies": [],
     "checksum": "dd5734067861bc2209ab18f53ffc271b",
@@ -423,21 +273,6 @@
     ],
     "version": "1.003-ljfedo2"
   },
-  "charybdis-toolfile": {
-    "build_dependencies": [],
-    "checksum": "eec89c5700cd31ebf4b02c0f6d72e53b",
-    "dependencies": [
-      "charybdis"
-    ],
-    "doc": "",
-    "name": "charybdis-toolfile",
-    "package_name": "external+charybdis-toolfile+1.0-ljfedo2",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo2"
-  },
   "classlib": {
     "build_dependencies": [],
     "checksum": "51cebe08a94dfbee98ad83a147019eab",
@@ -455,21 +290,6 @@
       "git+https://github.com/cms-externals/classlib.git?obj=cms/3.1.3/b2569c29126780017b48b96d324fe73a05573bc5&export=classlib-3.1.3&output=/classlib-3.1.3.tgz"
     ],
     "version": "3.1.3"
-  },
-  "classlib-toolfile": {
-    "build_dependencies": [],
-    "checksum": "81ff0e4451a67f9f943e155551de7068",
-    "dependencies": [
-      "classlib"
-    ],
-    "doc": "",
-    "name": "classlib-toolfile",
-    "package_name": "external+classlib-toolfile+2.0",
-    "patches": [],
-    "realversion": "2.0",
-    "revision": "1",
-    "sources": [],
-    "version": "2.0"
   },
   "clhep": {
     "build_dependencies": [
@@ -490,21 +310,6 @@
       "git+https://github.com/cms-externals/clhep.git?obj=cms/v2.4.4.0/eb4138d955a4b923551fdd65788d9f48d8a57fbb&export=clhep-2.4.4.0&output=/clhep-2.4.4.0.tgz"
     ],
     "version": "2.4.4.0"
-  },
-  "clhep-toolfile": {
-    "build_dependencies": [],
-    "checksum": "b2c1354b85a2e8742fbaf4124a4718bd",
-    "dependencies": [
-      "clhep"
-    ],
-    "doc": "",
-    "name": "clhep-toolfile",
-    "package_name": "external+clhep-toolfile+2.0-ljfedo",
-    "patches": [],
-    "realversion": "2.0",
-    "revision": "1",
-    "sources": [],
-    "version": "2.0-ljfedo"
   },
   "cmake": {
     "build_dependencies": [],
@@ -558,6 +363,29 @@
       "https://raw.githubusercontent.com/cms-sw/cmssw/510976c9467a18686786e97c998ad7c255f3b432/GeneratorInterface/LHEInterface/scripts/cmsLHEtoEOSManager.py"
     ],
     "version": "2020111200"
+  },
+  "cmssw": {
+    "build_dependencies": [
+      "gcc"
+    ],
+    "checksum": "95efe1e6c3c08bbf4f1ec92285a42252",
+    "dependencies": [
+      "SCRAMV1",
+      "cmssw-tool-conf",
+      "gcc",
+      "python"
+    ],
+    "doc": "",
+    "name": "cmssw",
+    "package_name": "cms+cmssw+CMSSW_11_3_X_2021-04-04-0000",
+    "patches": [],
+    "realversion": "CMSSW_11_3_X_2021-04-04-0000",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-sw/cmssw-config.git?obj=master/V06-01-23&export=config&output=/cmssw-config-V06-01-23.tgz",
+      "git://github.com/cms-sw/cmssw.git?protocol=https&obj=master/CMSSW_11_3_X_2021-04-04-0000&module=CMSSW&export=src&output=/src.tar.gz"
+    ],
+    "version": "CMSSW_11_3_X_2021-04-04-0000"
   },
   "cmssw-osenv": {
     "build_dependencies": [],
@@ -869,21 +697,6 @@
     ],
     "version": "36-884ecfd74957da9e6d6fe402a719df38"
   },
-  "cmsswdata-toolfile": {
-    "build_dependencies": [],
-    "checksum": "ae7da5aa53c2583c0bf480ea1f9dec71",
-    "dependencies": [
-      "cmsswdata"
-    ],
-    "doc": "",
-    "name": "cmsswdata-toolfile",
-    "package_name": "cms+cmsswdata-toolfile+3.0-ae7da5aa53c2583c0bf480ea1f9dec71",
-    "patches": [],
-    "realversion": "3.0",
-    "revision": "1",
-    "sources": [],
-    "version": "3.0-ae7da5aa53c2583c0bf480ea1f9dec71"
-  },
   "coral": {
     "build_dependencies": [
       "gcc"
@@ -942,21 +755,6 @@
     ],
     "version": "2.1-b48669e52f5f99695c5a0de2421868eb"
   },
-  "coral-toolfile": {
-    "build_dependencies": [],
-    "checksum": "683a1722a00661aa8421a9d8c1080673",
-    "dependencies": [
-      "coral"
-    ],
-    "doc": "",
-    "name": "coral-toolfile",
-    "package_name": "external+coral-toolfile+1.0-683a1722a00661aa8421a9d8c1080673",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-683a1722a00661aa8421a9d8c1080673"
-  },
   "cppunit": {
     "build_dependencies": [
       "autotools",
@@ -978,21 +776,6 @@
       "git+https://anongit.freedesktop.org/git/libreoffice/cppunit.git?obj=master/78e64f0edb4f3271a6ddbcdf9cba05138597bfca&export=cppunit-1.15.x&output=/cppunit-1.15.x.tgz"
     ],
     "version": "1.15.x"
-  },
-  "cppunit-toolfile": {
-    "build_dependencies": [],
-    "checksum": "bfba6820f5691c297d62464a1d79c190",
-    "dependencies": [
-      "cppunit"
-    ],
-    "doc": "",
-    "name": "cppunit-toolfile",
-    "package_name": "external+cppunit-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "crab": {
     "build_dependencies": [],
@@ -1090,21 +873,6 @@
     ],
     "version": "11.2.2-eb6d9e158c825f784dacfebf9c090173"
   },
-  "cuda-toolfile": {
-    "build_dependencies": [],
-    "checksum": "1e0f1b879ef050bba9b4d12fdc862834",
-    "dependencies": [
-      "cuda"
-    ],
-    "doc": "",
-    "name": "cuda-toolfile",
-    "package_name": "external+cuda-toolfile+2.1-1e0f1b879ef050bba9b4d12fdc862834",
-    "patches": [],
-    "realversion": "2.1",
-    "revision": "1",
-    "sources": [],
-    "version": "2.1-1e0f1b879ef050bba9b4d12fdc862834"
-  },
   "cupla": {
     "build_dependencies": [],
     "checksum": "d4a77bf13788ea77e77a08a1a84e293b",
@@ -1125,21 +893,6 @@
     ],
     "version": "0.3.0-dev-d4a77bf13788ea77e77a08a1a84e293b"
   },
-  "cupla-toolfile": {
-    "build_dependencies": [],
-    "checksum": "cbd76975a01c3d067c65b9691d9f5b25",
-    "dependencies": [
-      "cupla"
-    ],
-    "doc": "",
-    "name": "cupla-toolfile",
-    "package_name": "external+cupla-toolfile+1.0-cbd76975a01c3d067c65b9691d9f5b25",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-cbd76975a01c3d067c65b9691d9f5b25"
-  },
   "curl": {
     "build_dependencies": [],
     "checksum": "0055bc6d00516d98afebdfee9bbcd17d",
@@ -1159,21 +912,6 @@
     ],
     "version": "7.70.0"
   },
-  "curl-toolfile": {
-    "build_dependencies": [],
-    "checksum": "3a73f1e27714e5cdf15bf0ecd1f78000",
-    "dependencies": [
-      "curl"
-    ],
-    "doc": "",
-    "name": "curl-toolfile",
-    "package_name": "external+curl-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "cvs2git": {
     "build_dependencies": [],
     "checksum": "7f5f2ef686579301dedd29e629f37895",
@@ -1192,21 +930,6 @@
     ],
     "version": "5419"
   },
-  "cvs2git-toolfile": {
-    "build_dependencies": [],
-    "checksum": "fa644f6e6f23daf012528e9685586f73",
-    "dependencies": [
-      "cvs2git"
-    ],
-    "doc": "",
-    "name": "cvs2git-toolfile",
-    "package_name": "external+cvs2git-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "dablooms": {
     "build_dependencies": [],
     "checksum": "29052a5e1b45a449a7c1563caa9f520d",
@@ -1223,21 +946,6 @@
       "https://github.com/bitly/dablooms/archive/v0.9.1.tar.gz"
     ],
     "version": "0.9.1"
-  },
-  "dablooms-toolfile": {
-    "build_dependencies": [],
-    "checksum": "3d4728d2ad96d91726133316d85c48b7",
-    "dependencies": [
-      "dablooms"
-    ],
-    "doc": "",
-    "name": "dablooms-toolfile",
-    "package_name": "external+dablooms-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "das_client": {
     "build_dependencies": [],
@@ -1256,21 +964,6 @@
       "git://github.com/dmwm/DAS?obj=master/v03.01.00&export=DAS&output=/DAS.tar.gz"
     ],
     "version": "v03.01.00"
-  },
-  "das_client-toolfile": {
-    "build_dependencies": [],
-    "checksum": "d7f00c18d9704cb991ace8ca3e456fea",
-    "dependencies": [
-      "das_client"
-    ],
-    "doc": "",
-    "name": "das_client-toolfile",
-    "package_name": "cms+das_client-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "dasgoclient": {
     "build_dependencies": [],
@@ -2363,21 +2056,6 @@
     ],
     "version": "0.7.6"
   },
-  "davix-toolfile": {
-    "build_dependencies": [],
-    "checksum": "a34fe0818cc5215b60d0dc9122064149",
-    "dependencies": [
-      "davix"
-    ],
-    "doc": "",
-    "name": "davix-toolfile",
-    "package_name": "external+davix-toolfile+1.1",
-    "patches": [],
-    "realversion": "1.1",
-    "revision": "1",
-    "sources": [],
-    "version": "1.1"
-  },
   "db6": {
     "build_dependencies": [],
     "checksum": "8cfa28ff7d3e78188bfcc23fc02c71c6",
@@ -2394,21 +2072,6 @@
       "http://cmsrep.cern.ch/cmssw/download/db-6.2.32.tar.gz"
     ],
     "version": "6.2.32"
-  },
-  "db6-toolfile": {
-    "build_dependencies": [],
-    "checksum": "c058320b0caf310febbf178373c90cc2",
-    "dependencies": [
-      "db6"
-    ],
-    "doc": "",
-    "name": "db6-toolfile",
-    "package_name": "external+db6-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "dcap": {
     "build_dependencies": [
@@ -2429,21 +2092,6 @@
       "git+https://github.com/cms-externals/dcap.git?obj=cms/2.47.12/5753eec777a47908a40de670094903ce6b13176b&export=dcap-2.47.12&output=/dcap-2.47.12-5753eec777a47908a40de670094903ce6b13176b.tgz"
     ],
     "version": "2.47.12"
-  },
-  "dcap-toolfile": {
-    "build_dependencies": [],
-    "checksum": "2d0c076d646e693db6e82cdbef4b8696",
-    "dependencies": [
-      "dcap"
-    ],
-    "doc": "",
-    "name": "dcap-toolfile",
-    "package_name": "external+dcap-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "dd4hep": {
     "build_dependencies": [
@@ -2468,21 +2116,6 @@
       "git+https://github.com/AIDASoft/DD4hep.git?obj=master/v01-16&export=dd4hep-v01-16x&output=/dd4hep-v01-16x.tgz"
     ],
     "version": "v01-16x-306cc0f8ff8e2fda90aad7ebb5397566"
-  },
-  "dd4hep-toolfile": {
-    "build_dependencies": [],
-    "checksum": "abffdfa25cf1f69d70448f0cba50bc44",
-    "dependencies": [
-      "dd4hep"
-    ],
-    "doc": "",
-    "name": "dd4hep-toolfile",
-    "package_name": "external+dd4hep-toolfile+1.0-abffdfa25cf1f69d70448f0cba50bc44",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-abffdfa25cf1f69d70448f0cba50bc44"
   },
   "distcc": {
     "build_dependencies": [],
@@ -2548,21 +2181,6 @@
     ],
     "version": "1.8.16"
   },
-  "doxygen-toolfile": {
-    "build_dependencies": [],
-    "checksum": "312cfb91ffed9fb72c16ddaf444c2829",
-    "dependencies": [
-      "doxygen"
-    ],
-    "doc": "",
-    "name": "doxygen-toolfile",
-    "package_name": "external+doxygen-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "dpm": {
     "build_dependencies": [],
     "checksum": "b03caba4081c0dd99c874c81e456dc03",
@@ -2583,21 +2201,6 @@
       "http://eticssoft.web.cern.ch/eticssoft/repository/org.glite/LCG-DM/1.8.0/src/DPM-mysql-1.8.0-1sec.sl5.src.rpm"
     ],
     "version": "1.8.0.1"
-  },
-  "dpm-toolfile": {
-    "build_dependencies": [],
-    "checksum": "e56648f17aface4785fd65886d78811b",
-    "dependencies": [
-      "dpm"
-    ],
-    "doc": "",
-    "name": "dpm-toolfile",
-    "package_name": "external+dpm-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "dqmgui": {
     "build_dependencies": [
@@ -2642,21 +2245,6 @@
     ],
     "version": "011e0db31d1bed8b7f73662be6d57d9f30fa457a"
   },
-  "eigen-toolfile": {
-    "build_dependencies": [],
-    "checksum": "6edd98a21f4e513b6e5b3e59324c48e9",
-    "dependencies": [
-      "eigen"
-    ],
-    "doc": "",
-    "name": "eigen-toolfile",
-    "package_name": "external+eigen-toolfile+1.0-ljfedo",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo"
-  },
   "evtgen": {
     "build_dependencies": [
       "cmake"
@@ -2681,21 +2269,6 @@
     ],
     "version": "2.0.0-a299856b8bb504be5950b41a831d2b7c"
   },
-  "evtgen-toolfile": {
-    "build_dependencies": [],
-    "checksum": "fcea1138b2c92b50775e366777962184",
-    "dependencies": [
-      "evtgen"
-    ],
-    "doc": "",
-    "name": "evtgen-toolfile",
-    "package_name": "external+evtgen-toolfile+1.0-fcea1138b2c92b50775e366777962184",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-fcea1138b2c92b50775e366777962184"
-  },
   "expat": {
     "build_dependencies": [],
     "checksum": "b174473c0445cc260267c9e4e44719c1",
@@ -2712,21 +2285,6 @@
       "http://downloads.sourceforge.net/project/expat/expat/2.1.0/expat-2.1.0.tar.gz"
     ],
     "version": "2.1.0"
-  },
-  "expat-toolfile": {
-    "build_dependencies": [],
-    "checksum": "e9925b408b8e6fcbef7fd0f26b6d72c9",
-    "dependencies": [
-      "expat"
-    ],
-    "doc": "",
-    "name": "expat-toolfile",
-    "package_name": "external+expat-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "fakesystem": {
     "build_dependencies": [],
@@ -2799,36 +2357,6 @@
     ],
     "version": "1.044-ljfedo"
   },
-  "fastjet-contrib-toolfile": {
-    "build_dependencies": [],
-    "checksum": "b04cff966cebf69833a0e20f37c15f3b",
-    "dependencies": [
-      "fastjet-contrib"
-    ],
-    "doc": "",
-    "name": "fastjet-contrib-toolfile",
-    "package_name": "external+fastjet-contrib-toolfile+1.0-ljfedo",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo"
-  },
-  "fastjet-toolfile": {
-    "build_dependencies": [],
-    "checksum": "f97fc7c7832f54cff0ae1cb2013b02cc",
-    "dependencies": [
-      "fastjet"
-    ],
-    "doc": "",
-    "name": "fastjet-toolfile",
-    "package_name": "external+fastjet-toolfile+2.0-ljfedo",
-    "patches": [],
-    "realversion": "2.0",
-    "revision": "1",
-    "sources": [],
-    "version": "2.0-ljfedo"
-  },
   "fftjet": {
     "build_dependencies": [],
     "checksum": "a456f1ddcc4d74af0585af9e98942e37",
@@ -2847,21 +2375,6 @@
     ],
     "version": "1.5.0"
   },
-  "fftjet-toolfile": {
-    "build_dependencies": [],
-    "checksum": "29a59cde108eaff76e11a2166f16f4c4",
-    "dependencies": [
-      "fftjet"
-    ],
-    "doc": "",
-    "name": "fftjet-toolfile",
-    "package_name": "external+fftjet-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "fftw3": {
     "build_dependencies": [],
     "checksum": "eac7240065652d3603e8301d2cecf032",
@@ -2878,21 +2391,6 @@
       "http://www.fftw.org/fftw-3.3.8.tar.gz"
     ],
     "version": "3.3.8"
-  },
-  "fftw3-toolfile": {
-    "build_dependencies": [],
-    "checksum": "c1e4529bd87f180c3f362a479b8f37c8",
-    "dependencies": [
-      "fftw3"
-    ],
-    "doc": "",
-    "name": "fftw3-toolfile",
-    "package_name": "external+fftw3-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "flatbuffers": {
     "build_dependencies": [
@@ -2914,21 +2412,6 @@
     ],
     "version": "1.12.0"
   },
-  "flatbuffers-toolfile": {
-    "build_dependencies": [],
-    "checksum": "6a818ba594a07e2ddefa88d433b76589",
-    "dependencies": [
-      "flatbuffers"
-    ],
-    "doc": "",
-    "name": "flatbuffers-toolfile",
-    "package_name": "external+flatbuffers-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "fmt": {
     "build_dependencies": [
       "cmake",
@@ -2948,21 +2431,6 @@
       "https://github.com/fmtlib/fmt/archive/7.0.1.tar.gz"
     ],
     "version": "7.0.1"
-  },
-  "fmt-toolfile": {
-    "build_dependencies": [],
-    "checksum": "aa2a834b7265b648761c45a2f26999a9",
-    "dependencies": [
-      "fmt"
-    ],
-    "doc": "",
-    "name": "fmt-toolfile",
-    "package_name": "external+fmt-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "form": {
     "build_dependencies": [
@@ -3004,21 +2472,6 @@
     ],
     "version": "2.10.0"
   },
-  "freetype-toolfile": {
-    "build_dependencies": [],
-    "checksum": "71d16ff7f042cedd54d1a1bf3ab86890",
-    "dependencies": [
-      "freetype"
-    ],
-    "doc": "",
-    "name": "freetype-toolfile",
-    "package_name": "external+freetype-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "frontier_client": {
     "build_dependencies": [],
     "checksum": "f116ba249d6220fba34c109ba62c5ebb",
@@ -3041,21 +2494,6 @@
     ],
     "version": "2.9.1"
   },
-  "frontier_client-toolfile": {
-    "build_dependencies": [],
-    "checksum": "05fc3403c17b7e37b55bf51ea9fcaa43",
-    "dependencies": [
-      "frontier_client"
-    ],
-    "doc": "",
-    "name": "frontier_client-toolfile",
-    "package_name": "external+frontier_client-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "gbl": {
     "build_dependencies": [
       "cmake"
@@ -3075,21 +2513,6 @@
       "svn://svnsrv.desy.de/public/GeneralBrokenLines/tags/V02-01-03/cpp/?scheme=http&module=V02-01-03&output=/gbl-V02-01-03.tgz"
     ],
     "version": "V02-01-03-ljfedo"
-  },
-  "gbl-toolfile": {
-    "build_dependencies": [],
-    "checksum": "e27011c264e7fd39d3d566830e1bfd93",
-    "dependencies": [
-      "gbl"
-    ],
-    "doc": "",
-    "name": "gbl-toolfile",
-    "package_name": "external+gbl-toolfile+1.0-ljfedo",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo"
   },
   "gcc": {
     "build_dependencies": [],
@@ -3135,23 +2558,6 @@
     "sources": [],
     "version": "1.0"
   },
-  "gcc-toolfile": {
-    "build_dependencies": [],
-    "checksum": "8fe7e7141e46171727892d8d5a6df306",
-    "dependencies": [
-      "gcc"
-    ],
-    "doc": "",
-    "name": "gcc-toolfile",
-    "package_name": "cms+gcc-toolfile+16.0-8fe7e7141e46171727892d8d5a6df306",
-    "patches": [],
-    "realversion": "16.0",
-    "revision": "1",
-    "sources": [
-      "/home/cmsbld/jenkins_c/workspace/build-any-ib/CMSDIST/none.file"
-    ],
-    "version": "16.0-8fe7e7141e46171727892d8d5a6df306"
-  },
   "gdb": {
     "build_dependencies": [
       "autotools"
@@ -3177,21 +2583,6 @@
     ],
     "version": "9.2"
   },
-  "gdb-toolfile": {
-    "build_dependencies": [],
-    "checksum": "d5762f79922bd1a7d1e511ceeab37d03",
-    "dependencies": [
-      "gdb"
-    ],
-    "doc": "",
-    "name": "gdb-toolfile",
-    "package_name": "external+gdb-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "gdbm": {
     "build_dependencies": [],
     "checksum": "1b1e7fda812e8b0cd77e389a2d1cf51e",
@@ -3208,21 +2599,6 @@
       "http://ftp.gnu.org/gnu/gdbm/gdbm-1.10.tar.gz"
     ],
     "version": "1.10"
-  },
-  "gdbm-toolfile": {
-    "build_dependencies": [],
-    "checksum": "8ff1576647116ae182ed116c48af0a9d",
-    "dependencies": [
-      "gdbm"
-    ],
-    "doc": "",
-    "name": "gdbm-toolfile",
-    "package_name": "external+gdbm-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "geant4": {
     "build_dependencies": [
@@ -3420,36 +2796,6 @@
     ],
     "version": "2014.01.27-ljfedo"
   },
-  "geant4-parfullcms-toolfile": {
-    "build_dependencies": [],
-    "checksum": "f2da472d3540907fd1bec4a40a2735c0",
-    "dependencies": [
-      "geant4-parfullcms"
-    ],
-    "doc": "",
-    "name": "geant4-parfullcms-toolfile",
-    "package_name": "external+geant4-parfullcms-toolfile+1.0-ljfedo",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo"
-  },
-  "geant4-toolfile": {
-    "build_dependencies": [],
-    "checksum": "36f2ca800ed06d4b28bf51dd1bad3e61",
-    "dependencies": [
-      "geant4"
-    ],
-    "doc": "",
-    "name": "geant4-toolfile",
-    "package_name": "external+geant4-toolfile+1.0-ljfedo",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo"
-  },
   "geant4data": {
     "build_dependencies": [],
     "checksum": "aa3f2aa648f526c432ce281e55ab10f2",
@@ -3474,21 +2820,6 @@
     "sources": [],
     "version": "2.0-ljfedo"
   },
-  "geant4data-toolfile": {
-    "build_dependencies": [],
-    "checksum": "96f89602bc60e2494226c8624b9ecd3f",
-    "dependencies": [
-      "geant4data"
-    ],
-    "doc": "",
-    "name": "geant4data-toolfile",
-    "package_name": "external+geant4data-toolfile+1.0-ljfedo",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo"
-  },
   "giflib": {
     "build_dependencies": [
       "autotools"
@@ -3507,21 +2838,6 @@
       "https://sourceforge.net/projects/giflib/files/giflib-5.2.0.tar.gz"
     ],
     "version": "5.2.0"
-  },
-  "giflib-toolfile": {
-    "build_dependencies": [],
-    "checksum": "c978343cc043a578f948ebab0dd990f5",
-    "dependencies": [
-      "giflib"
-    ],
-    "doc": "",
-    "name": "giflib-toolfile",
-    "package_name": "external+giflib-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "git": {
     "build_dependencies": [
@@ -3550,21 +2866,6 @@
     ],
     "version": "2.23.0"
   },
-  "git-toolfile": {
-    "build_dependencies": [],
-    "checksum": "401404a608b41652c484a41939734924",
-    "dependencies": [
-      "git"
-    ],
-    "doc": "",
-    "name": "git-toolfile",
-    "package_name": "external+git-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "glimpse": {
     "build_dependencies": [
       "autotools"
@@ -3584,21 +2885,6 @@
     ],
     "version": "4.18.5"
   },
-  "glimpse-toolfile": {
-    "build_dependencies": [],
-    "checksum": "86f756da9c2f2eccbb91784b620419cf",
-    "dependencies": [
-      "glimpse"
-    ],
-    "doc": "",
-    "name": "glimpse-toolfile",
-    "package_name": "external+glimpse-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "gmake": {
     "build_dependencies": [],
     "checksum": "2fb0ada6d223036731d08faf3d217e0a",
@@ -3615,21 +2901,6 @@
       "ftp://ftp.gnu.org/gnu/make/make-4.3.tar.gz"
     ],
     "version": "4.3"
-  },
-  "gmake-toolfile": {
-    "build_dependencies": [],
-    "checksum": "06e9fe1022f293f1bbe5ccf5f9648d40",
-    "dependencies": [
-      "gmake"
-    ],
-    "doc": "",
-    "name": "gmake-toolfile",
-    "package_name": "external+gmake-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "gmp-static": {
     "build_dependencies": [
@@ -3650,21 +2921,6 @@
     ],
     "version": "6.2.0"
   },
-  "gmp-static-toolfile": {
-    "build_dependencies": [],
-    "checksum": "fcac0155af0ae6facb8eccb98586f2c0",
-    "dependencies": [
-      "gmp-static"
-    ],
-    "doc": "",
-    "name": "gmp-static-toolfile",
-    "package_name": "external+gmp-static-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "gnuplot": {
     "build_dependencies": [],
     "checksum": "258dc53a0d315d169697d7e4dc8823ab",
@@ -3681,21 +2937,6 @@
       "http://downloads.sourceforge.net/project/gnuplot/gnuplot/4.6.5/gnuplot-4.6.5.tar.gz"
     ],
     "version": "4.6.5"
-  },
-  "gnuplot-toolfile": {
-    "build_dependencies": [],
-    "checksum": "57ed507ef1f7d3f230a2ff1f47dba48b",
-    "dependencies": [
-      "gnuplot"
-    ],
-    "doc": "",
-    "name": "gnuplot-toolfile",
-    "package_name": "external+gnuplot-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "google-benchmark": {
     "build_dependencies": [
@@ -3717,21 +2958,6 @@
       "git+https://github.com/google/googletest.git?obj=master/ba96d0b1161f540656efdaed035b3c062b60e006&export=googletest-1.4.x-ba96d0b1161f540656efdaed035b3c062b60e006&module=googletest-1.4.x-ba96d0b1161f540656efdaed035b3c062b60e006&output=/googletest-1.4.x-ba96d0b1161f540656efdaed035b3c062b60e006.tgz"
     ],
     "version": "1.4.x-ljfedo"
-  },
-  "google-benchmark-toolfile": {
-    "build_dependencies": [],
-    "checksum": "734a8822275a686e6211564bab1ad83a",
-    "dependencies": [
-      "google-benchmark"
-    ],
-    "doc": "",
-    "name": "google-benchmark-toolfile",
-    "package_name": "external+google-benchmark-toolfile+1.0-ljfedo",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo"
   },
   "gosam": {
     "build_dependencies": [],
@@ -3755,21 +2981,6 @@
     ],
     "version": "2.0.4-33b41ed-ljfedo2"
   },
-  "gosam-toolfile": {
-    "build_dependencies": [],
-    "checksum": "68782426723dab919bb8c88633317f8e",
-    "dependencies": [
-      "gosam"
-    ],
-    "doc": "",
-    "name": "gosam-toolfile",
-    "package_name": "external+gosam-toolfile+2.0-ljfedo2",
-    "patches": [],
-    "realversion": "2.0",
-    "revision": "1",
-    "sources": [],
-    "version": "2.0-ljfedo2"
-  },
   "gosamcontrib": {
     "build_dependencies": [],
     "checksum": "2f9e02a39d6462ec8e14b1d4bb6993b4",
@@ -3788,21 +2999,6 @@
       "http://www.hepforge.org/archive/gosam/gosam-contrib-2.0-20150803.tar.gz"
     ],
     "version": "2.0-20150803"
-  },
-  "gosamcontrib-toolfile": {
-    "build_dependencies": [],
-    "checksum": "333c3a3ebdbfa32a3a806f28c00c34a0",
-    "dependencies": [
-      "gosamcontrib"
-    ],
-    "doc": "",
-    "name": "gosamcontrib-toolfile",
-    "package_name": "external+gosamcontrib-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "gperftools": {
     "build_dependencies": [
@@ -3823,21 +3019,6 @@
       "https://github.com/gperftools/gperftools/archive/gperftools-2.7.tar.gz"
     ],
     "version": "2.7"
-  },
-  "gperftools-toolfile": {
-    "build_dependencies": [],
-    "checksum": "396614a2f681f73900cc9f8f154f7b79",
-    "dependencies": [
-      "gperftools"
-    ],
-    "doc": "",
-    "name": "gperftools-toolfile",
-    "package_name": "external+gperftools-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "graphviz": {
     "build_dependencies": [
@@ -3861,21 +3042,6 @@
       "http://www.graphviz.org/pub/graphviz/ARCHIVE/graphviz-2.38.0.tar.gz"
     ],
     "version": "2.38.0"
-  },
-  "graphviz-toolfile": {
-    "build_dependencies": [],
-    "checksum": "877d0d62fdfb9777f393d3d2590f77c7",
-    "dependencies": [
-      "graphviz"
-    ],
-    "doc": "",
-    "name": "graphviz-toolfile",
-    "package_name": "external+graphviz-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "grpc": {
     "build_dependencies": [
@@ -3903,21 +3069,6 @@
     ],
     "version": "1.35.0-ljfedo"
   },
-  "grpc-toolfile": {
-    "build_dependencies": [],
-    "checksum": "948d15c35de51a70cb08ec5a06cda5c4",
-    "dependencies": [
-      "grpc"
-    ],
-    "doc": "",
-    "name": "grpc-toolfile",
-    "package_name": "external+grpc-toolfile+1.0-ljfedo2",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo2"
-  },
   "gsl": {
     "build_dependencies": [],
     "checksum": "d474fd80edf482782b524aef2325ba69",
@@ -3935,21 +3086,6 @@
       "ftp://ftp.gnu.org/gnu/gsl/gsl-2.6.tar.gz"
     ],
     "version": "2.6-ljfedo"
-  },
-  "gsl-toolfile": {
-    "build_dependencies": [],
-    "checksum": "701b4f8fe8b3397480571cfa53d573e3",
-    "dependencies": [
-      "gsl"
-    ],
-    "doc": "",
-    "name": "gsl-toolfile",
-    "package_name": "external+gsl-toolfile+2.0-ljfedo",
-    "patches": [],
-    "realversion": "2.0",
-    "revision": "1",
-    "sources": [],
-    "version": "2.0-ljfedo"
   },
   "hdf5": {
     "build_dependencies": [],
@@ -3970,21 +3106,6 @@
     ],
     "version": "1.10.6-87e0001e8d4e845f8a9ff47a47c978fa"
   },
-  "hdf5-toolfile": {
-    "build_dependencies": [],
-    "checksum": "b3970b3655fd74482f6b9e5c079a06b8",
-    "dependencies": [
-      "hdf5"
-    ],
-    "doc": "",
-    "name": "hdf5-toolfile",
-    "package_name": "external+hdf5-toolfile+1.0-b3970b3655fd74482f6b9e5c079a06b8",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-b3970b3655fd74482f6b9e5c079a06b8"
-  },
   "hector": {
     "build_dependencies": [],
     "checksum": "28fffe12361885b0cb0f7b3dc25ba1b7",
@@ -4002,21 +3123,6 @@
       "git+https://github.com/cms-externals/hector.git?obj=cms/v1.3.4_patch1/7498d56fe88d7c26f7c871c55bb9f5d2f0255004&export=hector-1.3.4_patch1&output=/hector-1.3.4_patch1.tgz"
     ],
     "version": "1.3.4_patch1-ljfedo4"
-  },
-  "hector-toolfile": {
-    "build_dependencies": [],
-    "checksum": "136eeb2130beefa76fd85d9697d5eecb",
-    "dependencies": [
-      "hector"
-    ],
-    "doc": "",
-    "name": "hector-toolfile",
-    "package_name": "external+hector-toolfile+1.0-ljfedo4",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo4"
   },
   "hepmc": {
     "build_dependencies": [
@@ -4037,21 +3143,6 @@
     ],
     "version": "2.06.10-ljfedo"
   },
-  "hepmc-toolfile": {
-    "build_dependencies": [],
-    "checksum": "5e38762fe7e40f0526e179d8cbd2f713",
-    "dependencies": [
-      "hepmc"
-    ],
-    "doc": "",
-    "name": "hepmc-toolfile",
-    "package_name": "external+hepmc-toolfile+1.0-ljfedo2",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo2"
-  },
   "heppdt": {
     "build_dependencies": [],
     "checksum": "549e71750b19c79b90257be6e9cbe8da",
@@ -4069,21 +3160,6 @@
       "git+https://github.com/cms-externals/heppdt.git?obj=cms/3.04.01/2b499cfb4302d48d1fd91911fddec88e94219a44&export=heppdt-3.04.01&output=/heppdt-3.04.01-2b499cfb4302d48d1fd91911fddec88e94219a44.tgz"
     ],
     "version": "3.04.01-ljfedo"
-  },
-  "heppdt-toolfile": {
-    "build_dependencies": [],
-    "checksum": "7dd2051724f0dc95c69e7c4a9ac8191e",
-    "dependencies": [
-      "heppdt"
-    ],
-    "doc": "",
-    "name": "heppdt-toolfile",
-    "package_name": "external+heppdt-toolfile+1.0-ljfedo2",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo2"
   },
   "herwig": {
     "build_dependencies": [],
@@ -4105,21 +3181,6 @@
       "http://cern.ch/service-spi/external/MCGenerators/distribution/herwig/herwig-6.521-src.tgz"
     ],
     "version": "6.521-ljfedo2"
-  },
-  "herwig-toolfile": {
-    "build_dependencies": [],
-    "checksum": "d062fcc503a81ab546cbe2556308c323",
-    "dependencies": [
-      "herwig"
-    ],
-    "doc": "",
-    "name": "herwig-toolfile",
-    "package_name": "external+herwig-toolfile+1.0-ljfedo2",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo2"
   },
   "herwig7": {
     "build_dependencies": [
@@ -4152,21 +3213,6 @@
     ],
     "version": "7.2.2-1466f80d3a97d6afa8bb62ccb7de3839"
   },
-  "herwig7-toolfile": {
-    "build_dependencies": [],
-    "checksum": "e061a2d6e52ba50f8cb462084d7261d8",
-    "dependencies": [
-      "herwig7"
-    ],
-    "doc": "",
-    "name": "herwig7-toolfile",
-    "package_name": "external+herwig7-toolfile+1.0-e061a2d6e52ba50f8cb462084d7261d8",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-e061a2d6e52ba50f8cb462084d7261d8"
-  },
   "highfive": {
     "build_dependencies": [
       "cmake"
@@ -4188,21 +3234,6 @@
     ],
     "version": "2.0-218c9e03f48d9f40962c9589dcfcfe2e"
   },
-  "highfive-toolfile": {
-    "build_dependencies": [],
-    "checksum": "08921b6c713e5caa3412e86e25b6663d",
-    "dependencies": [
-      "highfive"
-    ],
-    "doc": "",
-    "name": "highfive-toolfile",
-    "package_name": "external+highfive-toolfile+1.0-08921b6c713e5caa3412e86e25b6663d",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-08921b6c713e5caa3412e86e25b6663d"
-  },
   "hls": {
     "build_dependencies": [],
     "checksum": "6293144af8126086127b071953404d4f",
@@ -4220,21 +3251,6 @@
       "git+https://github.com/Xilinx/HLS_arbitrary_Precision_Types.git?obj=master/200a9aecaadf471592558540dc5a88256cbf880f&export=hls-2019.08&output=/hls-2019.08-200a9aecaadf471592558540dc5a88256cbf880f.tgz"
     ],
     "version": "2019.08"
-  },
-  "hls-toolfile": {
-    "build_dependencies": [],
-    "checksum": "ae8bfa6ddf358d92218a76e20c849624",
-    "dependencies": [
-      "hls"
-    ],
-    "doc": "",
-    "name": "hls-toolfile",
-    "package_name": "external+hls-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "hwloc": {
     "build_dependencies": [
@@ -4259,21 +3275,6 @@
     ],
     "version": "2.4.0-f4c97045b75fd6124ad54e52dbac30d8"
   },
-  "hwloc-toolfile": {
-    "build_dependencies": [],
-    "checksum": "446c5979b062b59c6dd010f8b3dcd6de",
-    "dependencies": [
-      "hwloc"
-    ],
-    "doc": "",
-    "name": "hwloc-toolfile",
-    "package_name": "external+hwloc-toolfile+1.0-446c5979b062b59c6dd010f8b3dcd6de",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-446c5979b062b59c6dd010f8b3dcd6de"
-  },
   "hydjet": {
     "build_dependencies": [
       "cmake",
@@ -4296,21 +3297,6 @@
       "http://cern.ch/lokhtin/hydro/hydjet-1.9.1.tar.gz"
     ],
     "version": "1.9.1-ljfedo2"
-  },
-  "hydjet-toolfile": {
-    "build_dependencies": [],
-    "checksum": "fb20bc678aea5f9624b6f9dc28680f41",
-    "dependencies": [
-      "hydjet"
-    ],
-    "doc": "",
-    "name": "hydjet-toolfile",
-    "package_name": "external+hydjet-toolfile+1.0-ljfedo2",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo2"
   },
   "icc-gcc-toolfile": {
     "build_dependencies": [],
@@ -4384,21 +3370,6 @@
     ],
     "version": "5.9.16"
   },
-  "igprof-toolfile": {
-    "build_dependencies": [],
-    "checksum": "9f0ca8cb6a13c575f81ea560ab5002e9",
-    "dependencies": [
-      "igprof"
-    ],
-    "doc": "",
-    "name": "igprof-toolfile",
-    "package_name": "external+igprof-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "ittnotify": {
     "build_dependencies": [
       "cmake"
@@ -4417,21 +3388,6 @@
       "https://github.com/01org/IntelSEAPI/archive/16.06.18.tar.gz"
     ],
     "version": "16.06.18"
-  },
-  "ittnotify-toolfile": {
-    "build_dependencies": [],
-    "checksum": "b7ac22b0133946879b84b3a43d026a1f",
-    "dependencies": [
-      "ittnotify"
-    ],
-    "doc": "",
-    "name": "ittnotify-toolfile",
-    "package_name": "external+ittnotify-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "jemalloc": {
     "build_dependencies": [
@@ -4471,36 +3427,6 @@
     ],
     "version": "4.5.0"
   },
-  "jemalloc-debug-toolfile": {
-    "build_dependencies": [],
-    "checksum": "0108e08cc3611bb46377bfab103ebde9",
-    "dependencies": [
-      "jemalloc-debug"
-    ],
-    "doc": "",
-    "name": "jemalloc-debug-toolfile",
-    "package_name": "external+jemalloc-debug-toolfile+2.0",
-    "patches": [],
-    "realversion": "2.0",
-    "revision": "1",
-    "sources": [],
-    "version": "2.0"
-  },
-  "jemalloc-toolfile": {
-    "build_dependencies": [],
-    "checksum": "605ba290fd487a990d9b68b07cc8001c",
-    "dependencies": [
-      "jemalloc"
-    ],
-    "doc": "",
-    "name": "jemalloc-toolfile",
-    "package_name": "external+jemalloc-toolfile+3.0",
-    "patches": [],
-    "realversion": "3.0",
-    "revision": "1",
-    "sources": [],
-    "version": "3.0"
-  },
   "jimmy": {
     "build_dependencies": [],
     "checksum": "46b5a23d08211c8d1630588caa90d18b",
@@ -4521,21 +3447,6 @@
     ],
     "version": "4.2-ljfedo2"
   },
-  "jimmy-toolfile": {
-    "build_dependencies": [],
-    "checksum": "de9ae4a46e0cd09c5d0ab6b2f4d78313",
-    "dependencies": [
-      "jimmy"
-    ],
-    "doc": "",
-    "name": "jimmy-toolfile",
-    "package_name": "external+jimmy-toolfile+1.0-ljfedo2",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo2"
-  },
   "json": {
     "build_dependencies": [],
     "checksum": "11c761ef3c0678c4b3d4b29677b77f20",
@@ -4550,21 +3461,6 @@
       "https://github.com/nlohmann/json/releases/download/v3.7.3/include.zip"
     ],
     "version": "3.7.3"
-  },
-  "json-toolfile": {
-    "build_dependencies": [],
-    "checksum": "c6a7216186757b7d8180afe4ea32bbd7",
-    "dependencies": [
-      "json"
-    ],
-    "doc": "",
-    "name": "json-toolfile",
-    "package_name": "external+json-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "ktjet": {
     "build_dependencies": [],
@@ -4586,21 +3482,6 @@
     ],
     "version": "1.06-ljfedo"
   },
-  "ktjet-toolfile": {
-    "build_dependencies": [],
-    "checksum": "eb9c48222ab373ec5ac87f37fe9805b5",
-    "dependencies": [
-      "ktjet"
-    ],
-    "doc": "",
-    "name": "ktjet-toolfile",
-    "package_name": "external+ktjet-toolfile+1.0-ljfedo",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo"
-  },
   "lcov": {
     "build_dependencies": [],
     "checksum": "262bb8a1219e21e8fba11f3be58bcd3b",
@@ -4617,21 +3498,6 @@
       "http://heanet.dl.sourceforge.net/sourceforge/ltp/lcov-1.9.tar.gz"
     ],
     "version": "1.9"
-  },
-  "lcov-toolfile": {
-    "build_dependencies": [],
-    "checksum": "18a930c590c821ed4cde83501a65e3ef",
-    "dependencies": [
-      "lcov"
-    ],
-    "doc": "",
-    "name": "lcov-toolfile",
-    "package_name": "external+lcov-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "lhapdf": {
     "build_dependencies": [
@@ -4660,21 +3526,6 @@
     ],
     "version": "6.2.3-ljfedo2"
   },
-  "lhapdf-toolfile": {
-    "build_dependencies": [],
-    "checksum": "218151d5b9d1bdc2dd84ca3dd5e0b34e",
-    "dependencies": [
-      "lhapdf"
-    ],
-    "doc": "",
-    "name": "lhapdf-toolfile",
-    "package_name": "external+lhapdf-toolfile+1.0-ljfedo2",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo2"
-  },
   "libffi": {
     "build_dependencies": [],
     "checksum": "e67e3e5be269ebb6de560ac98fe20523",
@@ -4693,21 +3544,6 @@
       "ftp://sourceware.org/pub/libffi/libffi-3.2.1.tar.gz"
     ],
     "version": "3.2.1"
-  },
-  "libffi-toolfile": {
-    "build_dependencies": [],
-    "checksum": "5af118fca07c2f04a0a7a0c696cad010",
-    "dependencies": [
-      "libffi"
-    ],
-    "doc": "",
-    "name": "libffi-toolfile",
-    "package_name": "external+libffi-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "libjpeg-turbo": {
     "build_dependencies": [
@@ -4731,21 +3567,6 @@
     ],
     "version": "2.0.2"
   },
-  "libjpeg-turbo-toolfile": {
-    "build_dependencies": [],
-    "checksum": "c067dba10e2d2958291e8682e42d1a57",
-    "dependencies": [
-      "libjpeg-turbo"
-    ],
-    "doc": "",
-    "name": "libjpeg-turbo-toolfile",
-    "package_name": "external+libjpeg-turbo-toolfile+2.0-ljfedo",
-    "patches": [],
-    "realversion": "2.0",
-    "revision": "1",
-    "sources": [],
-    "version": "2.0-ljfedo"
-  },
   "libpciaccess": {
     "build_dependencies": [
       "autotools"
@@ -4765,21 +3586,6 @@
       "http://deb.debian.org/debian/pool/main/libp/libpciaccess/libpciaccess_0.16.orig.tar.gz"
     ],
     "version": "0.16"
-  },
-  "libpciaccess-toolfile": {
-    "build_dependencies": [],
-    "checksum": "c4b0521e0793e3aa06b701eedeaac68a",
-    "dependencies": [
-      "libpciaccess"
-    ],
-    "doc": "",
-    "name": "libpciaccess-toolfile",
-    "package_name": "external+libpciaccess-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "libpng": {
     "build_dependencies": [
@@ -4801,21 +3607,6 @@
     ],
     "version": "1.6.37"
   },
-  "libpng-toolfile": {
-    "build_dependencies": [],
-    "checksum": "f28b87b2b01fec1fe0ec5a9b8de833f2",
-    "dependencies": [
-      "libpng"
-    ],
-    "doc": "",
-    "name": "libpng-toolfile",
-    "package_name": "external+libpng-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "libtiff": {
     "build_dependencies": [],
     "checksum": "77c06badd968d669ffb0bb8c009a5f86",
@@ -4835,21 +3626,6 @@
     ],
     "version": "4.0.10"
   },
-  "libtiff-toolfile": {
-    "build_dependencies": [],
-    "checksum": "56ea1914a3f28d5e733b9e365cd6e463",
-    "dependencies": [
-      "libtiff"
-    ],
-    "doc": "",
-    "name": "libtiff-toolfile",
-    "package_name": "external+libtiff-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "libungif": {
     "build_dependencies": [],
     "checksum": "6fa907a213848f20cba80df68f8d78b2",
@@ -4866,21 +3642,6 @@
       "http://switch.dl.sourceforge.net/sourceforge/giflib/libungif-4.1.4.tar.gz"
     ],
     "version": "4.1.4"
-  },
-  "libungif-toolfile": {
-    "build_dependencies": [],
-    "checksum": "646517090ce85066ce171169f91e1fa5",
-    "dependencies": [
-      "libungif"
-    ],
-    "doc": "",
-    "name": "libungif-toolfile",
-    "package_name": "external+libungif-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "libunwind": {
     "build_dependencies": [
@@ -4904,21 +3665,6 @@
     ],
     "version": "1.4.0"
   },
-  "libunwind-toolfile": {
-    "build_dependencies": [],
-    "checksum": "1c017d24ec74adae1c5927390f92bf5e",
-    "dependencies": [
-      "libunwind"
-    ],
-    "doc": "",
-    "name": "libunwind-toolfile",
-    "package_name": "external+libunwind-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "libuuid": {
     "build_dependencies": [],
     "checksum": "ef05d3c46b7885b1327329484e2c3f93",
@@ -4938,21 +3684,6 @@
     ],
     "version": "2.34"
   },
-  "libuuid-toolfile": {
-    "build_dependencies": [],
-    "checksum": "47618905400ccc2489fa79c590d25015",
-    "dependencies": [
-      "libuuid"
-    ],
-    "doc": "",
-    "name": "libuuid-toolfile",
-    "package_name": "external+libuuid-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "libxml2": {
     "build_dependencies": [],
     "checksum": "749725db422aed90a983196eed76c8a8",
@@ -4971,21 +3702,6 @@
       "ftp://xmlsoft.org/libxml2/libxml2-2.9.10.tar.gz"
     ],
     "version": "2.9.10"
-  },
-  "libxml2-toolfile": {
-    "build_dependencies": [],
-    "checksum": "629942e37427c47a823cefaa3738800c",
-    "dependencies": [
-      "libxml2"
-    ],
-    "doc": "",
-    "name": "libxml2-toolfile",
-    "package_name": "external+libxml2-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "libxslt": {
     "build_dependencies": [
@@ -5007,21 +3723,6 @@
       "git+https://github.com/cms-externals/libxslt.git?obj=master/195f644cf7b5e93208b033fa7c5501c41cf82f59&export=libxslt-1.1.28&output=/libxslt-1.1.28.tgz"
     ],
     "version": "1.1.28"
-  },
-  "libxslt-toolfile": {
-    "build_dependencies": [],
-    "checksum": "e320070a9916754bb4e61be09dda6d55",
-    "dependencies": [
-      "libxslt"
-    ],
-    "doc": "",
-    "name": "libxslt-toolfile",
-    "package_name": "external+libxslt-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "llvm": {
     "build_dependencies": [
@@ -5091,21 +3792,6 @@
     ],
     "version": "2.10-98a12fb50424eb4dce319b83cdb93c2e"
   },
-  "lwtnn-toolfile": {
-    "build_dependencies": [],
-    "checksum": "dc6e38dfb7e8b7e2a56910ec6b990ebf",
-    "dependencies": [
-      "lwtnn"
-    ],
-    "doc": "",
-    "name": "lwtnn-toolfile",
-    "package_name": "external+lwtnn-toolfile+1.0-dc6e38dfb7e8b7e2a56910ec6b990ebf",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-dc6e38dfb7e8b7e2a56910ec6b990ebf"
-  },
   "lz4": {
     "build_dependencies": [],
     "checksum": "ae34c1107fd5df43981b899e3cffb041",
@@ -5122,21 +3808,6 @@
       "https://github.com/lz4/lz4/archive/v1.9.2.tar.gz"
     ],
     "version": "1.9.2"
-  },
-  "lz4-toolfile": {
-    "build_dependencies": [],
-    "checksum": "372ab4e144985db24ad65f3d06cb4450",
-    "dependencies": [
-      "lz4"
-    ],
-    "doc": "",
-    "name": "lz4-toolfile",
-    "package_name": "external+lz4-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "madgraph5amcatnlo": {
     "build_dependencies": [],
@@ -5167,21 +3838,6 @@
     ],
     "version": "2.7.3-1eaab9c58d5726f512d1d88df0deb16b"
   },
-  "madgraph5amcatnlo-toolfile": {
-    "build_dependencies": [],
-    "checksum": "bf81efff7e8ef202b09ebcd148055981",
-    "dependencies": [
-      "madgraph5amcatnlo"
-    ],
-    "doc": "",
-    "name": "madgraph5amcatnlo-toolfile",
-    "package_name": "external+madgraph5amcatnlo-toolfile+1.0-bf81efff7e8ef202b09ebcd148055981",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-bf81efff7e8ef202b09ebcd148055981"
-  },
   "mctester": {
     "build_dependencies": [
       "autotools"
@@ -5206,21 +3862,6 @@
     ],
     "version": "1.25.0a-ljfedo4"
   },
-  "mctester-toolfile": {
-    "build_dependencies": [],
-    "checksum": "f47f37a3837d61b96e0dfddeaf368baa",
-    "dependencies": [
-      "mctester"
-    ],
-    "doc": "",
-    "name": "mctester-toolfile",
-    "package_name": "external+mctester-toolfile+1.0-ljfedo4",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo4"
-  },
   "md5": {
     "build_dependencies": [],
     "checksum": "01a4dd286db804a7ccf9fb966b2d8970",
@@ -5237,21 +3878,6 @@
       "git+https://github.com/cms-externals/md5.git?obj=cms/1.0.0/d97a571864a119cd5408d2670d095b4410e926cc&export=md5.1.0.0&output=/md5.1.0.0-d97a571864a119cd5408d2670d095b4410e926cc.tgz"
     ],
     "version": "1.0.0"
-  },
-  "md5-toolfile": {
-    "build_dependencies": [],
-    "checksum": "6eaae69cd017dfd5e09f0ac694df6d5b",
-    "dependencies": [
-      "md5"
-    ],
-    "doc": "",
-    "name": "md5-toolfile",
-    "package_name": "external+md5-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "meschach": {
     "build_dependencies": [],
@@ -5273,21 +3899,6 @@
     ],
     "version": "1.2.pCMS1"
   },
-  "meschach-toolfile": {
-    "build_dependencies": [],
-    "checksum": "b6d68c3d382cf115c8cfa96999d64724",
-    "dependencies": [
-      "meschach"
-    ],
-    "doc": "",
-    "name": "meschach-toolfile",
-    "package_name": "external+meschach-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "millepede": {
     "build_dependencies": [],
     "checksum": "626f794e26a68d6c63b8c9844f53b578",
@@ -5305,21 +3916,6 @@
       "svn://svnsrv.desy.de/public/MillepedeII/tags/V04-08-00/?scheme=http&module=V04-08-00&output=/millepede-V04-08-00.tgz"
     ],
     "version": "V04-08-00"
-  },
-  "millepede-toolfile": {
-    "build_dependencies": [],
-    "checksum": "b033573fd5e06faedeecc4fc1e2b98f5",
-    "dependencies": [
-      "millepede"
-    ],
-    "doc": "",
-    "name": "millepede-toolfile",
-    "package_name": "external+millepede-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "mkfit": {
     "build_dependencies": [
@@ -5343,21 +3939,6 @@
     ],
     "version": "2.1.0-ljfedo"
   },
-  "mkfit-toolfile": {
-    "build_dependencies": [],
-    "checksum": "eba5bc1624162c4f11633b9d5dca3b14",
-    "dependencies": [
-      "mkfit"
-    ],
-    "doc": "",
-    "name": "mkfit-toolfile",
-    "package_name": "external+mkfit-toolfile+3.0-ljfedo2",
-    "patches": [],
-    "realversion": "3.0",
-    "revision": "1",
-    "sources": [],
-    "version": "3.0-ljfedo2"
-  },
   "mpfr-static": {
     "build_dependencies": [
       "gmp-static"
@@ -5376,21 +3957,6 @@
       "http://www.mpfr.org/mpfr-4.0.2/mpfr-4.0.2.tar.bz2"
     ],
     "version": "4.0.2"
-  },
-  "mpfr-static-toolfile": {
-    "build_dependencies": [],
-    "checksum": "ad5ed8e0234727400a22f67727a8df6f",
-    "dependencies": [
-      "mpfr-static"
-    ],
-    "doc": "",
-    "name": "mpfr-static-toolfile",
-    "package_name": "external+mpfr-static-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "mxnet-predict": {
     "build_dependencies": [
@@ -5417,21 +3983,6 @@
     ],
     "version": "1.6.0-ljfedo2"
   },
-  "mxnet-predict-toolfile": {
-    "build_dependencies": [],
-    "checksum": "fdb2ac3a518e291901e9540ebdd53222",
-    "dependencies": [
-      "mxnet-predict"
-    ],
-    "doc": "",
-    "name": "mxnet-predict-toolfile",
-    "package_name": "external+mxnet-predict-toolfile+1.5.0-ljfedo2",
-    "patches": [],
-    "realversion": "1.5.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.5.0-ljfedo2"
-  },
   "numactl": {
     "build_dependencies": [
       "autotools"
@@ -5450,21 +4001,6 @@
       "https://github.com/numactl/numactl/archive/v2.0.14.tar.gz"
     ],
     "version": "2.0.14"
-  },
-  "numactl-toolfile": {
-    "build_dependencies": [],
-    "checksum": "7217c56cedb4adfc8d77b5e8bff5df1f",
-    "dependencies": [
-      "numactl"
-    ],
-    "doc": "",
-    "name": "numactl-toolfile",
-    "package_name": "external+numactl-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "onnxruntime": {
     "build_dependencies": [
@@ -5492,21 +4028,6 @@
       "git+https://github.com/cms-externals/onnxruntime.git?obj=cms/v1.6.0/89a104708d109afc7f41661be33062605b7776a3&export=onnxruntime-1.6.0&submodules=1&output=/onnxruntime-1.6.0.tgz"
     ],
     "version": "1.6.0-ljfedo"
-  },
-  "onnxruntime-toolfile": {
-    "build_dependencies": [],
-    "checksum": "5ecd2e52e107bb8ca553e529ebf1c8f7",
-    "dependencies": [
-      "onnxruntime"
-    ],
-    "doc": "",
-    "name": "onnxruntime-toolfile",
-    "package_name": "external+onnxruntime-toolfile+1.0-ljfedo3",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo3"
   },
   "opencl": {
     "build_dependencies": [],
@@ -5537,36 +4058,6 @@
       "http://www.khronos.org/registry/cl/api/1.1/cl.hpp"
     ],
     "version": "1.1"
-  },
-  "opencl-cpp-toolfile": {
-    "build_dependencies": [],
-    "checksum": "54f69ca5d7f4d7b708db3582e87a62b0",
-    "dependencies": [
-      "opencl-cpp"
-    ],
-    "doc": "",
-    "name": "opencl-cpp-toolfile",
-    "package_name": "external+opencl-cpp-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
-  "opencl-toolfile": {
-    "build_dependencies": [],
-    "checksum": "ccb4306b061f8e94d594285f22d95c36",
-    "dependencies": [
-      "opencl"
-    ],
-    "doc": "",
-    "name": "opencl-toolfile",
-    "package_name": "external+opencl-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "opencv": {
     "build_dependencies": [
@@ -5599,21 +4090,6 @@
     ],
     "version": "4.5.1"
   },
-  "opencv-toolfile": {
-    "build_dependencies": [],
-    "checksum": "0b39c273b813493e0bb37545ad6e4259",
-    "dependencies": [
-      "opencv"
-    ],
-    "doc": "",
-    "name": "opencv-toolfile",
-    "package_name": "external+opencv-toolfile+1.0-ljfedo2",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo2"
-  },
   "openldap": {
     "build_dependencies": [],
     "checksum": "586241a0f9a3e0c58429a4667ce49f50",
@@ -5632,21 +4108,6 @@
       "ftp://ftp.openldap.org/pub/OpenLDAP/openldap-release/openldap-2.4.45.tgz"
     ],
     "version": "2.4.45"
-  },
-  "openldap-toolfile": {
-    "build_dependencies": [],
-    "checksum": "01caf76aafe7337203c63d47f2bd1d8a",
-    "dependencies": [
-      "openldap"
-    ],
-    "doc": "",
-    "name": "openldap-toolfile",
-    "package_name": "external+openldap-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "openloops": {
     "build_dependencies": [
@@ -5668,21 +4129,6 @@
       "/home/cmsbld/jenkins_c/workspace/build-any-ib/CMSDIST/openloops-user.coll.file"
     ],
     "version": "2.1.1"
-  },
-  "openloops-toolfile": {
-    "build_dependencies": [],
-    "checksum": "ae623f72aa87f095238a6f0b1b56b7f9",
-    "dependencies": [
-      "openloops"
-    ],
-    "doc": "",
-    "name": "openloops-toolfile",
-    "package_name": "external+openloops-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "openmpi": {
     "build_dependencies": [
@@ -5707,21 +4153,6 @@
     ],
     "version": "4.1.0-eb7bb5d287ecd995d9cb9606f1d04ba4"
   },
-  "openmpi-toolfile": {
-    "build_dependencies": [],
-    "checksum": "b55668e93296148b5a3d701d297842a7",
-    "dependencies": [
-      "openmpi"
-    ],
-    "doc": "",
-    "name": "openmpi-toolfile",
-    "package_name": "external+openmpi-toolfile+1.0-b55668e93296148b5a3d701d297842a7",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-b55668e93296148b5a3d701d297842a7"
-  },
   "openssl": {
     "build_dependencies": [],
     "checksum": "bf07b3f91ff878bb069ecac1ff7a51d4",
@@ -5742,21 +4173,6 @@
     ],
     "version": "1.0.2d"
   },
-  "openssl-toolfile": {
-    "build_dependencies": [],
-    "checksum": "f324d3572c79ff1b0e29a88135b4df69",
-    "dependencies": [
-      "openssl"
-    ],
-    "doc": "",
-    "name": "openssl-toolfile",
-    "package_name": "external+openssl-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "oracle-fake": {
     "build_dependencies": [],
     "checksum": "937f1f5ba5db1b486bd78c2429b70dcf",
@@ -5774,21 +4190,6 @@
     ],
     "version": "11.2.0.3.0__10.2.0.4.0"
   },
-  "oracle-fake-toolfile": {
-    "build_dependencies": [],
-    "checksum": "1273eec6f7d23426337799ae8a1d8c0a",
-    "dependencies": [
-      "oracle-fake"
-    ],
-    "doc": "",
-    "name": "oracle-fake-toolfile",
-    "package_name": "external+oracle-fake-toolfile+2.0",
-    "patches": [],
-    "realversion": "2.0",
-    "revision": "1",
-    "sources": [],
-    "version": "2.0"
-  },
   "pacparser": {
     "build_dependencies": [],
     "checksum": "8574d7a93c18dfcc742b912ae597a878",
@@ -5805,21 +4206,6 @@
       "https://github.com/pacparser/pacparser/releases/download/1.3.5/pacparser-1.3.5.tar.gz"
     ],
     "version": "1.3.5"
-  },
-  "pacparser-toolfile": {
-    "build_dependencies": [],
-    "checksum": "a047bfa39c1cb9d4f3b41ceb92383b4b",
-    "dependencies": [
-      "pacparser"
-    ],
-    "doc": "",
-    "name": "pacparser-toolfile",
-    "package_name": "external+pacparser-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "pcre": {
     "build_dependencies": [],
@@ -5840,21 +4226,6 @@
     ],
     "version": "8.43"
   },
-  "pcre-toolfile": {
-    "build_dependencies": [],
-    "checksum": "b37d9e0c9cc6a336b66dcab2ebf5d50e",
-    "dependencies": [
-      "pcre"
-    ],
-    "doc": "",
-    "name": "pcre-toolfile",
-    "package_name": "external+pcre-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "photos": {
     "build_dependencies": [],
     "checksum": "70a218af276f0c0b68f73c12e23d4638",
@@ -5874,21 +4245,6 @@
     ],
     "version": "215.5"
   },
-  "photos-toolfile": {
-    "build_dependencies": [],
-    "checksum": "7bb078a8bed1a767de4c1b015b80f1cc",
-    "dependencies": [
-      "photos"
-    ],
-    "doc": "",
-    "name": "photos-toolfile",
-    "package_name": "external+photos-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "photospp": {
     "build_dependencies": [],
     "checksum": "a6f0fcacc3e8ecdc2f8b1a35db34454f",
@@ -5906,21 +4262,6 @@
       "https://photospp.web.cern.ch/photospp/resources/PHOTOS.3.64/PHOTOS.3.64.tar.gz"
     ],
     "version": "3.64-ljfedo"
-  },
-  "photospp-toolfile": {
-    "build_dependencies": [],
-    "checksum": "441de8f96e80aa0db8cc16d3a7b51a16",
-    "dependencies": [
-      "photospp"
-    ],
-    "doc": "",
-    "name": "photospp-toolfile",
-    "package_name": "external+photospp-toolfile+4.0-ljfedo2",
-    "patches": [],
-    "realversion": "4.0",
-    "revision": "1",
-    "sources": [],
-    "version": "4.0-ljfedo2"
   },
   "professor": {
     "build_dependencies": [],
@@ -5942,21 +4283,6 @@
       "http://www.hepforge.org/archive/professor/professor-1.4.0.tar.gz"
     ],
     "version": "1.4.0-ljfedo4"
-  },
-  "professor-toolfile": {
-    "build_dependencies": [],
-    "checksum": "fb16805816759741556d26e68fa12a9c",
-    "dependencies": [
-      "professor"
-    ],
-    "doc": "",
-    "name": "professor-toolfile",
-    "package_name": "external+professor-toolfile+1.0-ljfedo4",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo4"
   },
   "professor2": {
     "build_dependencies": [
@@ -5984,21 +4310,6 @@
     ],
     "version": "2.2.2-ljfedo5"
   },
-  "professor2-toolfile": {
-    "build_dependencies": [],
-    "checksum": "8f6c636856cdacf7772aa1a1e4b9e6d2",
-    "dependencies": [
-      "professor2"
-    ],
-    "doc": "",
-    "name": "professor2-toolfile",
-    "package_name": "external+professor2-toolfile+2.0-ljfedo5",
-    "patches": [],
-    "realversion": "2.0",
-    "revision": "1",
-    "sources": [],
-    "version": "2.0-ljfedo5"
-  },
   "protobuf": {
     "build_dependencies": [
       "cmake",
@@ -6021,21 +4332,6 @@
       "https://github.com/google/protobuf/archive/v3.15.1.tar.gz"
     ],
     "version": "3.15.1-ljfedo"
-  },
-  "protobuf-toolfile": {
-    "build_dependencies": [],
-    "checksum": "c6031a39f581ae3e8843b43203d5c1c1",
-    "dependencies": [
-      "protobuf"
-    ],
-    "doc": "",
-    "name": "protobuf-toolfile",
-    "package_name": "external+protobuf-toolfile+1.0-ljfedo2",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo2"
   },
   "py2-Bottleneck": {
     "build_dependencies": [],
@@ -7384,21 +5680,6 @@
       "https://re2.googlecode.com/files/re2-20140304.tgz"
     ],
     "version": "1.0-fddd76cd0f83947428db826855bcab5e"
-  },
-  "py2-dxr-toolfile": {
-    "build_dependencies": [],
-    "checksum": "2f5b6acae6bc197d87e546c19da90be7",
-    "dependencies": [
-      "py2-dxr"
-    ],
-    "doc": "",
-    "name": "py2-dxr-toolfile",
-    "package_name": "external+py2-dxr-toolfile+1.0-2f5b6acae6bc197d87e546c19da90be7",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-2f5b6acae6bc197d87e546c19da90be7"
   },
   "py2-entrypoints": {
     "build_dependencies": [],
@@ -9204,21 +7485,6 @@
     ],
     "version": "1.16.6-ljfedo2"
   },
-  "py2-numpy-toolfile": {
-    "build_dependencies": [],
-    "checksum": "e42105c210fd70e622ced574a7e766f9",
-    "dependencies": [
-      "py2-numpy"
-    ],
-    "doc": "",
-    "name": "py2-numpy-toolfile",
-    "package_name": "external+py2-numpy-toolfile+3.0-ljfedo2",
-    "patches": [],
-    "realversion": "3.0",
-    "revision": "1",
-    "sources": [],
-    "version": "3.0-ljfedo2"
-  },
   "py2-onnx": {
     "build_dependencies": [],
     "checksum": "d70d0ee77e3edd31e356bd75a2c4828c",
@@ -9933,21 +8199,6 @@
       "pip://pybind11/2.6.2?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
     ],
     "version": "2.6.2"
-  },
-  "py2-pybind11-toolfile": {
-    "build_dependencies": [],
-    "checksum": "6a552164e664cd16942741a3810e819b",
-    "dependencies": [
-      "py2-pybind11"
-    ],
-    "doc": "",
-    "name": "py2-pybind11-toolfile",
-    "package_name": "external+py2-pybind11-toolfile+1.0-ljfedo2",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo2"
   },
   "py2-pybrain": {
     "build_dependencies": [],
@@ -13373,21 +11624,6 @@
     ],
     "version": "0.0.1-ljfedo4"
   },
-  "pyminuit2-toolfile": {
-    "build_dependencies": [],
-    "checksum": "a73fa2c4b6f2ac9875f5392991cedc31",
-    "dependencies": [
-      "pyminuit2"
-    ],
-    "doc": "",
-    "name": "pyminuit2-toolfile",
-    "package_name": "external+pyminuit2-toolfile+1.0-ljfedo4",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo4"
-  },
   "pyquen": {
     "build_dependencies": [
       "cmake",
@@ -13410,21 +11646,6 @@
     ],
     "version": "1.5.4-ljfedo2"
   },
-  "pyquen-toolfile": {
-    "build_dependencies": [],
-    "checksum": "18f542e5c5fdc1adbd0480bdfaf39769",
-    "dependencies": [
-      "pyquen"
-    ],
-    "doc": "",
-    "name": "pyquen-toolfile",
-    "package_name": "external+pyquen-toolfile+1.0-ljfedo2",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo2"
-  },
   "pythia6": {
     "build_dependencies": [],
     "checksum": "25807edb82f8e1e22aad0275e8c3f0c4",
@@ -13441,21 +11662,6 @@
       "http://cern.ch/service-spi/external/MCGenerators/distribution/pythia6/pythia6-426-src.tgz"
     ],
     "version": "426"
-  },
-  "pythia6-toolfile": {
-    "build_dependencies": [],
-    "checksum": "21f1f81b695151653a093a06cd99f83e",
-    "dependencies": [
-      "pythia6"
-    ],
-    "doc": "",
-    "name": "pythia6-toolfile",
-    "package_name": "external+pythia6-toolfile+2.1",
-    "patches": [],
-    "realversion": "2.1",
-    "revision": "1",
-    "sources": [],
-    "version": "2.1"
   },
   "pythia8": {
     "build_dependencies": [],
@@ -13475,21 +11681,6 @@
       "http://home.thep.lu.se/~torbjorn/pythia8/pythia8303.tgz"
     ],
     "version": "303-ljfedo3"
-  },
-  "pythia8-toolfile": {
-    "build_dependencies": [],
-    "checksum": "c578bc741b6af5144af8acb193543a65",
-    "dependencies": [
-      "pythia8"
-    ],
-    "doc": "",
-    "name": "pythia8-toolfile",
-    "package_name": "external+pythia8-toolfile+1.0-ljfedo3",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo3"
   },
   "python": {
     "build_dependencies": [],
@@ -13517,21 +11708,6 @@
     ],
     "version": "2.7.15"
   },
-  "python-toolfile": {
-    "build_dependencies": [],
-    "checksum": "175e7002b2b9e2a606b42ecb34827fcb",
-    "dependencies": [
-      "python"
-    ],
-    "doc": "",
-    "name": "python-toolfile",
-    "package_name": "external+python-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "python3": {
     "build_dependencies": [],
     "checksum": "0923d45facc02c507f248eced2e49422",
@@ -13558,21 +11734,6 @@
       "https://www.python.org/ftp/python/3.8.2/Python-3.8.2.tgz"
     ],
     "version": "3.8.2"
-  },
-  "python3-toolfile": {
-    "build_dependencies": [],
-    "checksum": "d20698b6491c86d79cc75ad7e959eb32",
-    "dependencies": [
-      "python3"
-    ],
-    "doc": "",
-    "name": "python3-toolfile",
-    "package_name": "external+python3-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "python_tools": {
     "build_dependencies": [],
@@ -13846,21 +12007,6 @@
     ],
     "version": "2.3.13"
   },
-  "qd-toolfile": {
-    "build_dependencies": [],
-    "checksum": "d535757a56f06a52283648de2f5bf69d",
-    "dependencies": [
-      "qd"
-    ],
-    "doc": "",
-    "name": "qd-toolfile",
-    "package_name": "external+qd-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "qgraf": {
     "build_dependencies": [],
     "checksum": "5e2ed5c5316a0de2567db466a219e4bd",
@@ -13906,21 +12052,6 @@
     ],
     "version": "3.1.3-ljfedo4"
   },
-  "rivet-toolfile": {
-    "build_dependencies": [],
-    "checksum": "33639229c2bbf517d72f0b96742014ad",
-    "dependencies": [
-      "rivet"
-    ],
-    "doc": "",
-    "name": "rivet-toolfile",
-    "package_name": "external+rivet-toolfile+1.0-ljfedo5",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo5"
-  },
   "root": {
     "build_dependencies": [
       "cmake",
@@ -13964,22 +12095,6 @@
     ],
     "version": "6.22.08"
   },
-  "root-toolfile": {
-    "build_dependencies": [],
-    "checksum": "7561bbbd2a8636dc53b669b494db6ec0",
-    "dependencies": [
-      "gcc",
-      "root"
-    ],
-    "doc": "",
-    "name": "root-toolfile",
-    "package_name": "lcg+root-toolfile+2.1-ljfedo4",
-    "patches": [],
-    "realversion": "2.1",
-    "revision": "1",
-    "sources": [],
-    "version": "2.1-ljfedo4"
-  },
   "scons": {
     "build_dependencies": [],
     "checksum": "0740d8e2d9336b84ae0204d7437e82e3",
@@ -13997,21 +12112,6 @@
       "http://prdownloads.sourceforge.net/scons/scons-3.0.1.tar.gz"
     ],
     "version": "3.0.1"
-  },
-  "scons-toolfile": {
-    "build_dependencies": [],
-    "checksum": "e2bb789af929884d09d8592e6d2ca1de",
-    "dependencies": [
-      "scons"
-    ],
-    "doc": "",
-    "name": "scons-toolfile",
-    "package_name": "external+scons-toolfile+2.0",
-    "patches": [],
-    "realversion": "2.0",
-    "revision": "1",
-    "sources": [],
-    "version": "2.0"
   },
   "sherpa": {
     "build_dependencies": [
@@ -14047,21 +12147,6 @@
     ],
     "version": "2.2.11-265027614006ee8f9123ca66df9cc0dd"
   },
-  "sherpa-toolfile": {
-    "build_dependencies": [],
-    "checksum": "9ea8c6d4c82a1b019e67ca259ae9315f",
-    "dependencies": [
-      "sherpa"
-    ],
-    "doc": "",
-    "name": "sherpa-toolfile",
-    "package_name": "external+sherpa-toolfile+2.0-9ea8c6d4c82a1b019e67ca259ae9315f",
-    "patches": [],
-    "realversion": "2.0",
-    "revision": "1",
-    "sources": [],
-    "version": "2.0-9ea8c6d4c82a1b019e67ca259ae9315f"
-  },
   "sigcpp": {
     "build_dependencies": [
       "autotools"
@@ -14081,21 +12166,6 @@
     ],
     "version": "2.6.2"
   },
-  "sigcpp-toolfile": {
-    "build_dependencies": [],
-    "checksum": "20aa6643c5ebb22b33c19fe79a5a213e",
-    "dependencies": [
-      "sigcpp"
-    ],
-    "doc": "",
-    "name": "sigcpp-toolfile",
-    "package_name": "external+sigcpp-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "sip": {
     "build_dependencies": [],
     "checksum": "351a73a056a033e56888e06317577d2c",
@@ -14113,21 +12183,6 @@
       "git+https://github.com/cms-externals/sip.git?obj=cms/v4.17/f5f49b1c14cd058c2736ade2fef0abb0765b8be4&export=sip-4.17&output=/sip-4.17.tgz"
     ],
     "version": "4.17"
-  },
-  "sip-toolfile": {
-    "build_dependencies": [],
-    "checksum": "f94dfe9c2a9cebff8fc376f5995fbf58",
-    "dependencies": [
-      "sip"
-    ],
-    "doc": "",
-    "name": "sip-toolfile",
-    "package_name": "external+sip-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "sloccount": {
     "build_dependencies": [
@@ -14148,21 +12203,6 @@
     ],
     "version": "2.26"
   },
-  "sloccount-toolfile": {
-    "build_dependencies": [],
-    "checksum": "d19c505357bc5144435410fb770a22bc",
-    "dependencies": [
-      "sloccount"
-    ],
-    "doc": "",
-    "name": "sloccount-toolfile",
-    "package_name": "external+sloccount-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "sqlite": {
     "build_dependencies": [],
     "checksum": "c4c906c1e57bb9a584d7364f66307a71",
@@ -14179,21 +12219,6 @@
       "https://www.sqlite.org/2018/sqlite-autoconf-3220000.tar.gz"
     ],
     "version": "3.22.0"
-  },
-  "sqlite-toolfile": {
-    "build_dependencies": [],
-    "checksum": "c94e0955bc2606ad29e1eb20381d12ef",
-    "dependencies": [
-      "sqlite"
-    ],
-    "doc": "",
-    "name": "sqlite-toolfile",
-    "package_name": "external+sqlite-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "starlight": {
     "build_dependencies": [
@@ -14216,21 +12241,6 @@
       "git+https://github.com/cms-externals/starlight.git?obj=cms/r193/689c0da91bacd5591d85d71db0fc7cc6fec0b919&export=starlight-r193&output=/starlight-r193.tgz"
     ],
     "version": "r193-ljfedo"
-  },
-  "starlight-toolfile": {
-    "build_dependencies": [],
-    "checksum": "505e20065f7f9f54e18912028841848d",
-    "dependencies": [
-      "starlight"
-    ],
-    "doc": "",
-    "name": "starlight-toolfile",
-    "package_name": "external+starlight-toolfile+1.0-ljfedo",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo"
   },
   "systemtools": {
     "build_dependencies": [],
@@ -14270,21 +12280,6 @@
     ],
     "version": "27.121.5"
   },
-  "tauola-toolfile": {
-    "build_dependencies": [],
-    "checksum": "3b91417ac244a7ef095e524c4a8a0292",
-    "dependencies": [
-      "tauola"
-    ],
-    "doc": "",
-    "name": "tauola-toolfile",
-    "package_name": "external+tauola-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "tauolapp": {
     "build_dependencies": [],
     "checksum": "724f082f0f07b4582a908be62506ff24",
@@ -14303,21 +12298,6 @@
     "sources": [
       "http://tauolapp.web.cern.ch/tauolapp/resources/TAUOLA.1.1.8/TAUOLA.1.1.8-LHC.tar.gz"
     ],
-    "version": "1.1.8-ljfedo2"
-  },
-  "tauolapp-toolfile": {
-    "build_dependencies": [],
-    "checksum": "32e6c556956be223e0a1cb8e0b77f477",
-    "dependencies": [
-      "tauolapp"
-    ],
-    "doc": "",
-    "name": "tauolapp-toolfile",
-    "package_name": "external+tauolapp-toolfile+1.1.8-ljfedo2",
-    "patches": [],
-    "realversion": "1.1.8",
-    "revision": "1",
-    "sources": [],
     "version": "1.1.8-ljfedo2"
   },
   "tbb": {
@@ -14339,21 +12319,6 @@
     ],
     "version": "2020_U3-ljfedo"
   },
-  "tbb-toolfile": {
-    "build_dependencies": [],
-    "checksum": "da5fd49a750c6b5319235d4dd4d3f666",
-    "dependencies": [
-      "tbb"
-    ],
-    "doc": "",
-    "name": "tbb-toolfile",
-    "package_name": "external+tbb-toolfile+1.0-ljfedo3",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo3"
-  },
   "tensorflow": {
     "build_dependencies": [
       "tensorflow-sources"
@@ -14372,21 +12337,6 @@
       "/home/cmsbld/jenkins_c/workspace/build-any-ib/CMSDIST/none.file"
     ],
     "version": "2.4.1-c5482b2fd50b8430b7781e7c152773e3"
-  },
-  "tensorflow-toolfile": {
-    "build_dependencies": [],
-    "checksum": "105ddbaaf372492839daa7a6669019eb",
-    "dependencies": [
-      "tensorflow"
-    ],
-    "doc": "",
-    "name": "tensorflow-toolfile",
-    "package_name": "external+tensorflow-toolfile+3.0-105ddbaaf372492839daa7a6669019eb",
-    "patches": [],
-    "realversion": "3.0",
-    "revision": "1",
-    "sources": [],
-    "version": "3.0-105ddbaaf372492839daa7a6669019eb"
   },
   "thepeg": {
     "build_dependencies": [
@@ -14416,21 +12366,6 @@
     ],
     "version": "2.2.2"
   },
-  "thepeg-toolfile": {
-    "build_dependencies": [],
-    "checksum": "f1bff95c1328dae262342e1810b50eda",
-    "dependencies": [
-      "thepeg"
-    ],
-    "doc": "",
-    "name": "thepeg-toolfile",
-    "package_name": "external+thepeg-toolfile+2.1-ljfedo4",
-    "patches": [],
-    "realversion": "2.1",
-    "revision": "1",
-    "sources": [],
-    "version": "2.1-ljfedo4"
-  },
   "tinyxml2": {
     "build_dependencies": [
       "cmake",
@@ -14451,21 +12386,6 @@
     ],
     "version": "6.2.0"
   },
-  "tinyxml2-toolfile": {
-    "build_dependencies": [],
-    "checksum": "a32037e00409bdff890662dcfaa0fdf8",
-    "dependencies": [
-      "tinyxml2"
-    ],
-    "doc": "",
-    "name": "tinyxml2-toolfile",
-    "package_name": "external+tinyxml2-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "tkonlinesw-fake": {
     "build_dependencies": [],
     "checksum": "147a2006c370b4d6f6b0cf194b39aa65",
@@ -14482,21 +12402,6 @@
       "https://github.com/cms-externals/tkonlinesw-fake/archive/97afe74471b299148ac9ccdea21e9cda961ec885.tar.gz"
     ],
     "version": "4.2.0-1_gcc7"
-  },
-  "tkonlinesw-fake-toolfile": {
-    "build_dependencies": [],
-    "checksum": "5a1b2f8df40077e431013cf8930159a5",
-    "dependencies": [
-      "tkonlinesw-fake"
-    ],
-    "doc": "",
-    "name": "tkonlinesw-fake-toolfile",
-    "package_name": "external+tkonlinesw-fake-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "toprex": {
     "build_dependencies": [],
@@ -14518,21 +12423,6 @@
       "http://service-spi.web.cern.ch/service-spi/external/MCGenerators/distribution/toprex/toprex-4.23-src.tgz"
     ],
     "version": "4.23"
-  },
-  "toprex-toolfile": {
-    "build_dependencies": [],
-    "checksum": "36f9990c5dd28aa42412ebaa64dedf20",
-    "dependencies": [
-      "toprex"
-    ],
-    "doc": "",
-    "name": "toprex-toolfile",
-    "package_name": "external+toprex-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "triton-inference-server": {
     "build_dependencies": [
@@ -14563,21 +12453,6 @@
     ],
     "version": "2.3.0-ljfedo4"
   },
-  "triton-inference-server-toolfile": {
-    "build_dependencies": [],
-    "checksum": "7b5552613bf889181e651d9f270fdb52",
-    "dependencies": [
-      "triton-inference-server"
-    ],
-    "doc": "",
-    "name": "triton-inference-server-toolfile",
-    "package_name": "external+triton-inference-server-toolfile+1.0-ljfedo4",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo4"
-  },
   "ucx": {
     "build_dependencies": [
       "autotools"
@@ -14598,21 +12473,6 @@
       "https://github.com/openucx/ucx/releases/download/v1.9.0/ucx-1.9.0.tar.gz"
     ],
     "version": "1.9.0-ef0fa65adc8800dc567ef4a87d31e174"
-  },
-  "ucx-toolfile": {
-    "build_dependencies": [],
-    "checksum": "8103699f7fc682be674c2e98bf5d227d",
-    "dependencies": [
-      "ucx"
-    ],
-    "doc": "",
-    "name": "ucx-toolfile",
-    "package_name": "external+ucx-toolfile+1.0-8103699f7fc682be674c2e98bf5d227d",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-8103699f7fc682be674c2e98bf5d227d"
   },
   "utm": {
     "build_dependencies": [
@@ -14635,21 +12495,6 @@
     ],
     "version": "utm_0.8.1-0d4cd0e846b95eee8e4da40427fddc1b"
   },
-  "utm-toolfile": {
-    "build_dependencies": [],
-    "checksum": "9f7c2fca6f8e4c943835cc90101728be",
-    "dependencies": [
-      "utm"
-    ],
-    "doc": "",
-    "name": "utm-toolfile",
-    "package_name": "external+utm-toolfile+1.1-9f7c2fca6f8e4c943835cc90101728be",
-    "patches": [],
-    "realversion": "1.1",
-    "revision": "1",
-    "sources": [],
-    "version": "1.1-9f7c2fca6f8e4c943835cc90101728be"
-  },
   "valgrind": {
     "build_dependencies": [
       "autotools",
@@ -14670,21 +12515,6 @@
     ],
     "version": "3.15.0"
   },
-  "valgrind-toolfile": {
-    "build_dependencies": [],
-    "checksum": "8de706ab9f1d4d321e575d013a320663",
-    "dependencies": [
-      "valgrind"
-    ],
-    "doc": "",
-    "name": "valgrind-toolfile",
-    "package_name": "external+valgrind-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "vdt": {
     "build_dependencies": [
       "cmake"
@@ -14703,21 +12533,6 @@
       "https://github.com/dpiparo/vdt/archive/v0.4.0.tar.gz"
     ],
     "version": "0.4.0"
-  },
-  "vdt-toolfile": {
-    "build_dependencies": [],
-    "checksum": "79a34758bdb77801a07ef97738c26d4d",
-    "dependencies": [
-      "vdt"
-    ],
-    "doc": "",
-    "name": "vdt-toolfile",
-    "package_name": "cms+vdt-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "vecgeom": {
     "build_dependencies": [
@@ -14742,21 +12557,6 @@
     ],
     "version": "v1.1.8"
   },
-  "vecgeom-toolfile": {
-    "build_dependencies": [],
-    "checksum": "7cc5e67fa26ad7ca273e64095966453b",
-    "dependencies": [
-      "vecgeom"
-    ],
-    "doc": "",
-    "name": "vecgeom-toolfile",
-    "package_name": "external+vecgeom-toolfile+4.0-7cc5e67fa26ad7ca273e64095966453b",
-    "patches": [],
-    "realversion": "4.0",
-    "revision": "1",
-    "sources": [],
-    "version": "4.0-7cc5e67fa26ad7ca273e64095966453b"
-  },
   "xerces-c": {
     "build_dependencies": [],
     "checksum": "c93a9d362e4d373e88eca364290e7022",
@@ -14773,21 +12573,6 @@
       "http://www-us.apache.org/dist//xerces/c/3/sources/xerces-c-3.1.3.tar.gz"
     ],
     "version": "3.1.3"
-  },
-  "xerces-c-toolfile": {
-    "build_dependencies": [],
-    "checksum": "789a4aae877e352a1aa9893e2ed69b99",
-    "dependencies": [
-      "xerces-c"
-    ],
-    "doc": "",
-    "name": "xerces-c-toolfile",
-    "package_name": "external+xerces-c-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "xgboost": {
     "build_dependencies": [
@@ -14809,21 +12594,6 @@
       "git+https://github.com/dmlc/xgboost.git?obj=master/v1.3.3&export=xgboost-1.3.3&submodules=1&output=/xgboost-1.3.3.tgz"
     ],
     "version": "1.3.3"
-  },
-  "xgboost-toolfile": {
-    "build_dependencies": [],
-    "checksum": "565cf777c79c17af08b48d92a3c2cd85",
-    "dependencies": [
-      "xgboost"
-    ],
-    "doc": "",
-    "name": "xgboost-toolfile",
-    "package_name": "external+xgboost-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "xrootd": {
     "build_dependencies": [
@@ -14849,21 +12619,6 @@
     ],
     "version": "4.12.3"
   },
-  "xrootd-toolfile": {
-    "build_dependencies": [],
-    "checksum": "285e30a225fc1935f6406f2298eda5a4",
-    "dependencies": [
-      "xrootd"
-    ],
-    "doc": "",
-    "name": "xrootd-toolfile",
-    "package_name": "external+xrootd-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "xtensor": {
     "build_dependencies": [
       "cmake"
@@ -14884,21 +12639,6 @@
     ],
     "version": "0.20.1"
   },
-  "xtensor-toolfile": {
-    "build_dependencies": [],
-    "checksum": "08224523295f10cf9f030e200ceff0cd",
-    "dependencies": [
-      "xtensor"
-    ],
-    "doc": "",
-    "name": "xtensor-toolfile",
-    "package_name": "external+xtensor-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
-  },
   "xtl": {
     "build_dependencies": [
       "cmake"
@@ -14917,21 +12657,6 @@
       "https://github.com/QuantStack/xtl/archive/0.6.3.tar.gz"
     ],
     "version": "0.6.3"
-  },
-  "xtl-toolfile": {
-    "build_dependencies": [],
-    "checksum": "87cc2d1496a8f7bb1a59fce8de87f7f0",
-    "dependencies": [
-      "xtl"
-    ],
-    "doc": "",
-    "name": "xtl-toolfile",
-    "package_name": "external+xtl-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   },
   "xz": {
     "build_dependencies": [
@@ -14952,21 +12677,6 @@
     ],
     "version": "5.2.4"
   },
-  "xz-toolfile": {
-    "build_dependencies": [],
-    "checksum": "a07845c1cb72aff2469a39577aa73c9a",
-    "dependencies": [
-      "xz"
-    ],
-    "doc": "",
-    "name": "xz-toolfile",
-    "package_name": "external+xz-toolfile+1.1",
-    "patches": [],
-    "realversion": "1.1",
-    "revision": "1",
-    "sources": [],
-    "version": "1.1"
-  },
   "yaml-cpp": {
     "build_dependencies": [
       "cmake"
@@ -14986,21 +12696,6 @@
       "https://github.com/jbeder/yaml-cpp/archive/yaml-cpp-0.6.2.tar.gz"
     ],
     "version": "0.6.2-d463f926b42e6e0b42eb671a4f530022"
-  },
-  "yaml-cpp-toolfile": {
-    "build_dependencies": [],
-    "checksum": "978a3b1aa7a7c64dccc8b8b45c57fa70",
-    "dependencies": [
-      "yaml-cpp"
-    ],
-    "doc": "",
-    "name": "yaml-cpp-toolfile",
-    "package_name": "external+yaml-cpp-toolfile+1.0-978a3b1aa7a7c64dccc8b8b45c57fa70",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-978a3b1aa7a7c64dccc8b8b45c57fa70"
   },
   "yoda": {
     "build_dependencies": [
@@ -15027,21 +12722,6 @@
     ],
     "version": "1.8.5-ljfedo4"
   },
-  "yoda-toolfile": {
-    "build_dependencies": [],
-    "checksum": "cda2ea19c32b45bd08861d226e3a2058",
-    "dependencies": [
-      "yoda"
-    ],
-    "doc": "",
-    "name": "yoda-toolfile",
-    "package_name": "external+yoda-toolfile+1.0-ljfedo5",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0-ljfedo5"
-  },
   "zlib": {
     "build_dependencies": [],
     "checksum": "99271b1d98da3981abdd2087fe66ac21",
@@ -15058,21 +12738,6 @@
       "git://github.com/madler/zlib.git?obj=master/v1.2.11&export=zlib-1.2.11&output=/zlib-1.2.11.tgz"
     ],
     "version": "1.2.11"
-  },
-  "zlib-toolfile": {
-    "build_dependencies": [],
-    "checksum": "e2cd6b74c6d1f4d49090c66f414cf545",
-    "dependencies": [
-      "zlib"
-    ],
-    "doc": "",
-    "name": "zlib-toolfile",
-    "package_name": "external+zlib-toolfile+2.0",
-    "patches": [],
-    "realversion": "2.0",
-    "revision": "1",
-    "sources": [],
-    "version": "2.0"
   },
   "zstd": {
     "build_dependencies": [
@@ -15093,20 +12758,5 @@
       "https://github.com/facebook/zstd/releases/download/v1.4.5/zstd-1.4.5.tar.gz"
     ],
     "version": "1.4.5"
-  },
-  "zstd-toolfile": {
-    "build_dependencies": [],
-    "checksum": "38bf881ccb2fc8d46a572bf584040f1a",
-    "dependencies": [
-      "zstd"
-    ],
-    "doc": "",
-    "name": "zstd-toolfile",
-    "package_name": "external+zstd-toolfile+1.0",
-    "patches": [],
-    "realversion": "1.0",
-    "revision": "1",
-    "sources": [],
-    "version": "1.0"
   }
 }
