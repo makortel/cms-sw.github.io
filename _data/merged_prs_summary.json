@@ -15906,7 +15906,10 @@
                 ], 
                 "material_budget_v2": "not-found", 
                 "check-headers": "passed", 
-                "static_checks_v2": "inprogress", 
+                "static_checks_v2": {
+                    "status": "passed", 
+                    "arch": "slc7_amd64_gcc900"
+                }, 
                 "valgrind": "not-found", 
                 "material_budget": "not-found", 
                 "dupDict": [
@@ -15916,7 +15919,7 @@
                     }
                 ], 
                 "lizard": "found", 
-                "static_checks": "inprogress", 
+                "static_checks": "slc7_amd64_gcc900:", 
                 "isIB": true, 
                 "inProgress": false, 
                 "addons": [
