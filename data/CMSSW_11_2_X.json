@@ -90,7 +90,7 @@
             "RVExceptions": null, 
             "igprof": "found", 
             "reco_event_loop": "inprogress", 
-            "profiling": "inprogress", 
+            "profiling": "found", 
             "base_branch": "CMSSW_11_2_X", 
             "compared_tags": "CMSSW_11_2_X_2021-04-04-2300-->CMSSW_11_2_X_2021-04-05-1100", 
             "dqm_tests": "inprogress", 
@@ -106,7 +106,7 @@
             "relvals": [], 
             "release_queue": "CMSSW_11_2_X", 
             "release_name": "CMSSW_11_2_X_2021-04-05-1100", 
-            "comp_baseline": "inprogress", 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_11_2_X_2021-04-05-1100/slc7_amd64_gcc900/-GenuineIntel/matrix-results", 
             "gpu_utests": [
                 {
                     "arch": "slc7_amd64_gcc900", 
@@ -264,9 +264,9 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/cc8_aarch64_gcc9/www/sun/11.2-sun-23/CMSSW_11_2_X_2021-04-04-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 24, 
-                        "known_failed": 49, 
-                        "num_failed": 38
+                        "num_passed": 28, 
+                        "known_failed": 0, 
+                        "num_failed": 90
                     }
                 }, 
                 {
@@ -275,9 +275,9 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/cc8_ppc64le_gcc9/www/sun/11.2-sun-23/CMSSW_11_2_X_2021-04-04-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1464, 
-                        "known_failed": 51, 
-                        "num_failed": 3
+                        "num_passed": 1666, 
+                        "known_failed": 0, 
+                        "num_failed": 54
                     }
                 }
             ], 
