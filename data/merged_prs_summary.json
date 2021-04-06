@@ -24297,7 +24297,17 @@
                 "python3_tests": [], 
                 "tests_archs": [], 
                 "cmsdist_merged_prs": {
-                    "slc7_amd64_gcc900": []
+                    "slc7_amd64_gcc900": [
+                        {
+                            "hash": "b49ef5ac0f229f6ab9d344e668f6d8ec3114c553", 
+                            "title": "Set SCRAM_TARGET=auto for skylakeavx512 builds", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/6789", 
+                            "number": "6789", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
                 }, 
                 "cmsdist_compared_tags": {
                     "slc7_amd64_gcc900": "IB/CMSSW_11_3_ASAN_X_2021-04-05-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_X/master"
@@ -24439,7 +24449,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.ASAN-mon-23/CMSSW_11_3_ASAN_X_2021-04-05-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 790, 
+                            "num_passed": 1044, 
                             "known_failed": 0, 
                             "num_failed": 4
                         }
@@ -25015,7 +25025,17 @@
                 "python3_tests": [], 
                 "tests_archs": [], 
                 "cmsdist_merged_prs": {
-                    "slc7_amd64_gcc900": []
+                    "slc7_amd64_gcc900": [
+                        {
+                            "hash": "b49ef5ac0f229f6ab9d344e668f6d8ec3114c553", 
+                            "title": "Set SCRAM_TARGET=auto for skylakeavx512 builds", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/6789", 
+                            "number": "6789", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
                 }, 
                 "cmsdist_compared_tags": {
                     "slc7_amd64_gcc900": "IB/CMSSW_11_3_CLANG_X_2021-04-05-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_X/master"
@@ -25157,7 +25177,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.CLANG-mon-23/CMSSW_11_3_CLANG_X_2021-04-05-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2047, 
+                            "num_passed": 2718, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -26174,7 +26194,17 @@
                 "python3_tests": [], 
                 "tests_archs": [], 
                 "cmsdist_merged_prs": {
-                    "slc7_amd64_gcc900": []
+                    "slc7_amd64_gcc900": [
+                        {
+                            "hash": "b49ef5ac0f229f6ab9d344e668f6d8ec3114c553", 
+                            "title": "Set SCRAM_TARGET=auto for skylakeavx512 builds", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/6789", 
+                            "number": "6789", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
                 }, 
                 "cmsdist_compared_tags": {
                     "slc7_amd64_gcc900": "IB/CMSSW_11_3_CXXMODULE_X_2021-04-05-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_X/rootmodule"
@@ -27148,6 +27178,15 @@
                 "cmsdist_merged_prs": {
                     "slc7_amd64_gcc900": [
                         {
+                            "hash": "b49ef5ac0f229f6ab9d344e668f6d8ec3114c553", 
+                            "title": "Set SCRAM_TARGET=auto for skylakeavx512 builds", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/6789", 
+                            "number": "6789", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
                             "hash": "fca91d486908205fa11b0122244f6bcade83dc8d", 
                             "title": "[BuildRules] Fix multi-targets symlinks", 
                             "url": "https://github.com/cms-sw/cmsdist/pull/6785", 
@@ -27423,7 +27462,17 @@
                 "python3_tests": [], 
                 "tests_archs": [], 
                 "cmsdist_merged_prs": {
-                    "slc7_amd64_gcc900": []
+                    "slc7_amd64_gcc900": [
+                        {
+                            "hash": "b49ef5ac0f229f6ab9d344e668f6d8ec3114c553", 
+                            "title": "Set SCRAM_TARGET=auto for skylakeavx512 builds", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/6789", 
+                            "number": "6789", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
                 }, 
                 "cmsdist_compared_tags": {
                     "slc7_amd64_gcc900": "IB/CMSSW_11_3_DEVEL_X_2021-04-05-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_X/devel"
@@ -27565,7 +27614,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.DEVEL-mon-23/CMSSW_11_3_DEVEL_X_2021-04-05-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1616, 
+                            "num_passed": 2562, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -28583,6 +28632,15 @@
                 "cmsdist_merged_prs": {
                     "slc7_amd64_gcc900": [
                         {
+                            "hash": "b49ef5ac0f229f6ab9d344e668f6d8ec3114c553", 
+                            "title": "Set SCRAM_TARGET=auto for skylakeavx512 builds", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/6789", 
+                            "number": "6789", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
                             "hash": "fca91d486908205fa11b0122244f6bcade83dc8d", 
                             "title": "[BuildRules] Fix multi-targets symlinks", 
                             "url": "https://github.com/cms-sw/cmsdist/pull/6785", 
@@ -29160,7 +29218,17 @@
                 "python3_tests": [], 
                 "tests_archs": [], 
                 "cmsdist_merged_prs": {
-                    "slc7_amd64_gcc900": []
+                    "slc7_amd64_gcc900": [
+                        {
+                            "hash": "b49ef5ac0f229f6ab9d344e668f6d8ec3114c553", 
+                            "title": "Set SCRAM_TARGET=auto for skylakeavx512 builds", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/6789", 
+                            "number": "6789", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
                 }, 
                 "cmsdist_compared_tags": {
                     "slc7_amd64_gcc900": "IB/CMSSW_11_3_GPU_X_2021-04-05-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_X/master"
@@ -30271,7 +30339,17 @@
                 "python3_tests": [], 
                 "tests_archs": [], 
                 "cmsdist_merged_prs": {
-                    "slc7_amd64_gcc900": []
+                    "slc7_amd64_gcc900": [
+                        {
+                            "hash": "b49ef5ac0f229f6ab9d344e668f6d8ec3114c553", 
+                            "title": "Set SCRAM_TARGET=auto for skylakeavx512 builds", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/6789", 
+                            "number": "6789", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
                 }, 
                 "cmsdist_compared_tags": {
                     "slc7_amd64_gcc900": "IB/CMSSW_11_3_PY3_X_2021-04-05-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_X/py3"
@@ -30413,7 +30491,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.PY3-mon-23/CMSSW_11_3_PY3_X_2021-04-05-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1868, 
+                            "num_passed": 3414, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -31427,7 +31505,17 @@
                     "cc8_amd64_gcc9": [], 
                     "slc7_aarch64_gcc9": [], 
                     "slc7_ppc64le_gcc9": [], 
-                    "slc7_amd64_gcc900": []
+                    "slc7_amd64_gcc900": [
+                        {
+                            "hash": "b49ef5ac0f229f6ab9d344e668f6d8ec3114c553", 
+                            "title": "Set SCRAM_TARGET=auto for skylakeavx512 builds", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/6789", 
+                            "number": "6789", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
                 }, 
                 "cmsdist_compared_tags": {
                     "cc8_amd64_gcc9": "remotes/origin/IB/CMSSW_11_3_X/cc8..IB/CMSSW_11_3_X/cc8", 
@@ -31820,7 +31908,17 @@
                 "python3_tests": [], 
                 "tests_archs": [], 
                 "cmsdist_merged_prs": {
-                    "slc7_amd64_gcc900": []
+                    "slc7_amd64_gcc900": [
+                        {
+                            "hash": "b49ef5ac0f229f6ab9d344e668f6d8ec3114c553", 
+                            "title": "Set SCRAM_TARGET=auto for skylakeavx512 builds", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/6789", 
+                            "number": "6789", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
                 }, 
                 "cmsdist_compared_tags": {
                     "slc7_amd64_gcc900": "IB/CMSSW_11_3_ROOT624_X_2021-04-05-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_X/rootnext"
@@ -31962,7 +32060,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.ROOT624-mon-23/CMSSW_11_3_ROOT624_X_2021-04-05-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1142, 
+                            "num_passed": 1853, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -32626,7 +32724,17 @@
                 "python3_tests": [], 
                 "tests_archs": [], 
                 "cmsdist_merged_prs": {
-                    "slc7_amd64_gcc900": []
+                    "slc7_amd64_gcc900": [
+                        {
+                            "hash": "b49ef5ac0f229f6ab9d344e668f6d8ec3114c553", 
+                            "title": "Set SCRAM_TARGET=auto for skylakeavx512 builds", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/6789", 
+                            "number": "6789", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
                 }, 
                 "cmsdist_compared_tags": {
                     "slc7_amd64_gcc900": "IB/CMSSW_11_3_ROOT6_X_2021-04-05-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_X/rootmaster"
@@ -32768,7 +32876,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.ROOT6-mon-23/CMSSW_11_3_ROOT6_X_2021-04-05-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 986, 
+                            "num_passed": 3152, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -33916,6 +34024,15 @@
                 "cmsdist_merged_prs": {
                     "slc7_amd64_gcc900": [
                         {
+                            "hash": "b49ef5ac0f229f6ab9d344e668f6d8ec3114c553", 
+                            "title": "Set SCRAM_TARGET=auto for skylakeavx512 builds", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/6789", 
+                            "number": "6789", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
                             "hash": "fca91d486908205fa11b0122244f6bcade83dc8d", 
                             "title": "[BuildRules] Fix multi-targets symlinks", 
                             "url": "https://github.com/cms-sw/cmsdist/pull/6785", 
@@ -34612,6 +34729,15 @@
                 "cmsdist_merged_prs": {
                     "slc7_amd64_gcc900": [
                         {
+                            "hash": "b49ef5ac0f229f6ab9d344e668f6d8ec3114c553", 
+                            "title": "Set SCRAM_TARGET=auto for skylakeavx512 builds", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/6789", 
+                            "number": "6789", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
                             "hash": "fca91d486908205fa11b0122244f6bcade83dc8d", 
                             "title": "[BuildRules] Fix multi-targets symlinks", 
                             "url": "https://github.com/cms-sw/cmsdist/pull/6785", 
@@ -35223,6 +35349,15 @@
                 "cmsdist_merged_prs": {
                     "slc7_amd64_gcc900": [
                         {
+                            "hash": "b49ef5ac0f229f6ab9d344e668f6d8ec3114c553", 
+                            "title": "Set SCRAM_TARGET=auto for skylakeavx512 builds", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/6789", 
+                            "number": "6789", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
                             "hash": "fca91d486908205fa11b0122244f6bcade83dc8d", 
                             "title": "[BuildRules] Fix multi-targets symlinks", 
                             "url": "https://github.com/cms-sw/cmsdist/pull/6785", 
@@ -35463,6 +35598,15 @@
                 "cmsdist_merged_prs": {
                     "slc7_amd64_gcc900": [
                         {
+                            "hash": "b49ef5ac0f229f6ab9d344e668f6d8ec3114c553", 
+                            "title": "Set SCRAM_TARGET=auto for skylakeavx512 builds", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/6789", 
+                            "number": "6789", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
                             "hash": "fca91d486908205fa11b0122244f6bcade83dc8d", 
                             "title": "[BuildRules] Fix multi-targets symlinks", 
                             "url": "https://github.com/cms-sw/cmsdist/pull/6785", 
@@ -35698,8 +35842,27 @@
                 "python3_tests": [], 
                 "tests_archs": [], 
                 "cmsdist_merged_prs": {
-                    "cc8_amd64_gcc9": [], 
+                    "cc8_amd64_gcc9": [
+                        {
+                            "hash": "b49ef5ac0f229f6ab9d344e668f6d8ec3114c553", 
+                            "title": "Set SCRAM_TARGET=auto for skylakeavx512 builds", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/6789", 
+                            "number": "6789", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ], 
                     "cc8_aarch64_gcc9": [
+                        {
+                            "hash": "b49ef5ac0f229f6ab9d344e668f6d8ec3114c553", 
+                            "title": "Set SCRAM_TARGET=auto for skylakeavx512 builds", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/6789", 
+                            "number": "6789", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }, 
                         {
                             "hash": "fca91d486908205fa11b0122244f6bcade83dc8d", 
                             "title": "[BuildRules] Fix multi-targets symlinks", 
@@ -35719,11 +35882,61 @@
                             "author_login": "cms-sw"
                         }
                     ], 
-                    "slc7_aarch64_gcc9": [], 
-                    "cc8_ppc64le_gcc9": [], 
-                    "slc7_amd64_gcc10": [], 
-                    "slc7_amd64_gcc900": [], 
-                    "slc7_ppc64le_gcc9": []
+                    "slc7_aarch64_gcc9": [
+                        {
+                            "hash": "b49ef5ac0f229f6ab9d344e668f6d8ec3114c553", 
+                            "title": "Set SCRAM_TARGET=auto for skylakeavx512 builds", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/6789", 
+                            "number": "6789", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ], 
+                    "cc8_ppc64le_gcc9": [
+                        {
+                            "hash": "b49ef5ac0f229f6ab9d344e668f6d8ec3114c553", 
+                            "title": "Set SCRAM_TARGET=auto for skylakeavx512 builds", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/6789", 
+                            "number": "6789", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ], 
+                    "slc7_amd64_gcc10": [
+                        {
+                            "hash": "b49ef5ac0f229f6ab9d344e668f6d8ec3114c553", 
+                            "title": "Set SCRAM_TARGET=auto for skylakeavx512 builds", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/6789", 
+                            "number": "6789", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ], 
+                    "slc7_amd64_gcc900": [
+                        {
+                            "hash": "b49ef5ac0f229f6ab9d344e668f6d8ec3114c553", 
+                            "title": "Set SCRAM_TARGET=auto for skylakeavx512 builds", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/6789", 
+                            "number": "6789", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ], 
+                    "slc7_ppc64le_gcc9": [
+                        {
+                            "hash": "b49ef5ac0f229f6ab9d344e668f6d8ec3114c553", 
+                            "title": "Set SCRAM_TARGET=auto for skylakeavx512 builds", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/6789", 
+                            "number": "6789", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
                 }, 
                 "cmsdist_compared_tags": {
                     "cc8_amd64_gcc9": "IB/CMSSW_11_3_X_2021-04-05-2300/cc8_amd64_gcc9..IB/CMSSW_11_3_X/cc8", 
@@ -36048,7 +36261,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3-mon-23/CMSSW_11_3_X_2021-04-05-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 82, 
+                            "num_passed": 1028, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -36247,9 +36460,15 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/mon/11.3-mon-23/CMSSW_11_3_X_2021-04-05-2300/addOnTests.log", 
                         "details": {}
+                    }, 
+                    {
+                        "arch": "cc8_ppc64le_gcc9", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/cc8_ppc64le_gcc9/www/mon/11.3-mon-23/CMSSW_11_3_X_2021-04-05-2300/addOnTests.log", 
+                        "details": {}
                     }
                 ], 
-                "hlt_tests": "inprogress"
+                "hlt_tests": "found"
             }, 
             {
                 "comp_baseline_state": "ok", 

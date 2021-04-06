@@ -10,7 +10,17 @@
                 "cc8_amd64_gcc9": [], 
                 "slc7_aarch64_gcc9": [], 
                 "slc7_ppc64le_gcc9": [], 
-                "slc7_amd64_gcc900": []
+                "slc7_amd64_gcc900": [
+                    {
+                        "hash": "b49ef5ac0f229f6ab9d344e668f6d8ec3114c553", 
+                        "title": "Set SCRAM_TARGET=auto for skylakeavx512 builds", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/6789", 
+                        "number": "6789", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }
+                ]
             }, 
             "cmsdist_compared_tags": {
                 "cc8_amd64_gcc9": "remotes/origin/IB/CMSSW_11_3_X/cc8..IB/CMSSW_11_3_X/cc8", 
