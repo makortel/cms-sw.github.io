@@ -1860,6 +1860,24 @@
     },
     {
         "exitcode": 62720,
+        "id": "1321.0",
+        "known_error": 0,
+        "name": "SingleMuPt100_UP15+SingleMuPt100_UP15INPUT+DIGIUP15+RECOUP15+HARVESTUP15+NANOUP15",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 62720,
         "id": "1322.0",
         "known_error": 0,
         "name": "SingleMuPt1000_UP15+SingleMuPt1000_UP15INPUT+DIGIUP15+RECOUP15+HARVESTUP15+NANOUP15",
@@ -1891,6 +1909,24 @@
                 "errors": 0,
                 "status": "FAILED",
                 "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 62720,
+        "id": "1338.0",
+        "known_error": 0,
+        "name": "QCD_FlatPt_15_3000HS_13+QCD_FlatPt_15_3000HS_13INPUT+DIGIUP15+RECOUP15+HARVESTUP15+NANOUP15",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 8
             }
         ]
     },
@@ -2760,6 +2796,24 @@
     },
     {
         "exitcode": 62720,
+        "id": "25204.0",
+        "known_error": 0,
+        "name": "QQH1352T_13+QQH1352T_13INPUT+DIGIUP15_PU25+RECOUP15_PU25+HARVESTUP15_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 111
+            }
+        ]
+    },
+    {
+        "exitcode": 62720,
         "id": "25205.0",
         "known_error": 0,
         "name": "ZTT_13+ZTT_13INPUT+DIGIUP15_PU25+RECOUP15_PU25+HARVESTUP15_PU25+NANOUP15_PU25",
@@ -3475,6 +3529,52 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 50
+            },
+            {
+                "errors": 1,
+                "status": "FAILED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 62720,
+        "id": "12634.99",
+        "known_error": 0,
+        "name": "TTbar_14TeV+2023PU_PMXS1S2+TTbar_14TeV_TuneCP5_GenSimINPUT+PREMIX_PremixPU+DigiPU+RecoPU+HARVESTPU+Nano",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 21
+            },
+            {
+                "errors": 1,
+                "status": "FAILED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 62720,
+        "id": "13034.99",
+        "known_error": 0,
+        "name": "TTbar_14TeV+2024PU_PMXS1S2+TTbar_14TeV_TuneCP5_GenSimINPUT+PREMIX_PremixPU+DigiPU+RecoPU+HARVESTPU+Nano",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 40
             },
             {
                 "errors": 1,
