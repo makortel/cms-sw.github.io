@@ -11088,7 +11088,7 @@
                     }
                 ], 
                 "static_checks_v2": "inprogress", 
-                "valgrind": "inprogress", 
+                "valgrind": "found", 
                 "material_budget": "not-found", 
                 "dupDict": [
                     {
@@ -15867,12 +15867,18 @@
                 "cmsdistTags": {
                     "slc7_amd64_gcc900": "IB/CMSSW_11_2_X_2021-04-04-0000/slc7_amd64_gcc900"
                 }, 
-                "piechart": "inprogress", 
+                "piechart": {
+                    "status": "passed", 
+                    "data": "slc7_amd64_gcc900/23434.21/step3_RAW2DIGI_L1Reco_RECO_RECOSIM_PU.resources"
+                }, 
                 "flawfinder": "found", 
                 "next_ib": false, 
                 "RVExceptions": null, 
                 "igprof": "found", 
-                "reco_event_loop": "inprogress", 
+                "reco_event_loop": {
+                    "status": "passed", 
+                    "data": "slc7_amd64_gcc900/profiling/23434.21/sorted_RES_CPU_step3.txt"
+                }, 
                 "profiling": "found", 
                 "base_branch": "CMSSW_11_2_X", 
                 "compared_tags": "CMSSW_11_2_X_2021-04-05-2300-->CMSSW_11_2_X_2021-04-06-1100", 
@@ -32085,7 +32091,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.ROOT624-mon-23/CMSSW_11_3_ROOT624_X_2021-04-05-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2970, 
+                            "num_passed": 3414, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -34047,6 +34053,50 @@
                 "python3_tests": [], 
                 "tests_archs": [], 
                 "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc900": []
+                }, 
+                "cmsdist_compared_tags": {
+                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_SCRAMV3_X_2021-04-06-1100/slc7_amd64_gcc900..IB/CMSSW_11_3_X/scramv3"
+                }, 
+                "cmsdistTags": {}, 
+                "next_ib": true, 
+                "RVExceptions": null, 
+                "igprof": "not-found", 
+                "profiling": "not-found", 
+                "base_branch": "CMSSW_11_3_X", 
+                "compared_tags": "CMSSW_11_3_SCRAMV3_X_2021-04-06-1100-->CMSSW_11_3_X", 
+                "dqm_tests": "inprogress", 
+                "utests": [], 
+                "ib_date": "2021-04-06-1100-0001", 
+                "relvals": [], 
+                "release_queue": "CMSSW_11_3_SCRAMV3_X", 
+                "release_name": "CMSSW_11_3_X", 
+                "comp_baseline": "not-found", 
+                "gpu_utests": [], 
+                "material_budget_comparison": "not-found", 
+                "merged_prs": [], 
+                "fwlite": [], 
+                "invalid_includes": [], 
+                "builds": [], 
+                "material_budget_v2": "not-found", 
+                "static_checks_v2": "not-found", 
+                "valgrind": "not-found", 
+                "material_budget": "not-found", 
+                "dupDict": [], 
+                "static_checks_failures": "not-found", 
+                "static_checks": "not-found", 
+                "isIB": false, 
+                "inProgress": false, 
+                "addons": [], 
+                "hlt_tests": "not-found"
+            }, 
+            {
+                "comp_baseline_state": "errors", 
+                "python3_tests": [], 
+                "tests_archs": [
+                    "slc7_amd64_gcc900"
+                ], 
+                "cmsdist_merged_prs": {
                     "slc7_amd64_gcc900": [
                         {
                             "hash": "b49ef5ac0f229f6ab9d344e668f6d8ec3114c553", 
@@ -34078,21 +34128,30 @@
                     ]
                 }, 
                 "cmsdist_compared_tags": {
-                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_SCRAMV3_X_2021-04-03-1100/slc7_amd64_gcc900..IB/CMSSW_11_3_X/scramv3"
+                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_SCRAMV3_X_2021-04-03-1100/slc7_amd64_gcc900..IB/CMSSW_11_3_SCRAMV3_X_2021-04-06-1100/slc7_amd64_gcc900"
                 }, 
-                "cmsdistTags": {}, 
-                "next_ib": true, 
+                "cmsdistTags": {
+                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_SCRAMV3_X_2021-04-06-1100/slc7_amd64_gcc900"
+                }, 
+                "next_ib": false, 
                 "RVExceptions": null, 
                 "igprof": "not-found", 
                 "profiling": "not-found", 
                 "base_branch": "CMSSW_11_3_X", 
-                "compared_tags": "CMSSW_11_3_SCRAMV3_X_2021-04-03-1100-->CMSSW_11_3_X", 
+                "compared_tags": "CMSSW_11_3_SCRAMV3_X_2021-04-03-1100-->CMSSW_11_3_SCRAMV3_X_2021-04-06-1100", 
                 "dqm_tests": "inprogress", 
-                "utests": [], 
-                "ib_date": "2021-04-03-1100-0001", 
+                "utests": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc7_amd64_gcc900/www/tue/11.3.SCRAMV3-tue-11/CMSSW_11_3_SCRAMV3_X_2021-04-06-1100/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }
+                ], 
+                "ib_date": "2021-04-06-1100-0000", 
                 "relvals": [], 
                 "release_queue": "CMSSW_11_3_SCRAMV3_X", 
-                "release_name": "CMSSW_11_3_X", 
+                "release_name": "CMSSW_11_3_SCRAMV3_X_2021-04-06-1100", 
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
@@ -34172,17 +34231,38 @@
                 ], 
                 "fwlite": [], 
                 "invalid_includes": [], 
-                "builds": [], 
+                "builds": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/tue/11.3.SCRAMV3-tue-11/CMSSW_11_3_SCRAMV3_X_2021-04-06-1100/new/logAnalysis.pkl", 
+                        "details": {
+                            "ignoreWarning": 29
+                        }
+                    }
+                ], 
                 "material_budget_v2": "not-found", 
                 "static_checks_v2": "not-found", 
                 "valgrind": "not-found", 
                 "material_budget": "not-found", 
-                "dupDict": [], 
+                "dupDict": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "passed"
+                    }
+                ], 
                 "static_checks_failures": "not-found", 
                 "static_checks": "not-found", 
-                "isIB": false, 
+                "isIB": true, 
                 "inProgress": false, 
-                "addons": [], 
+                "addons": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/tue/11.3.SCRAMV3-tue-11/CMSSW_11_3_SCRAMV3_X_2021-04-06-1100/addOnTests.log", 
+                        "details": {}
+                    }
+                ], 
                 "hlt_tests": "not-found"
             }, 
             {
@@ -36366,7 +36446,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3-mon-23/CMSSW_11_3_X_2021-04-05-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2379, 
+                            "num_passed": 3414, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
