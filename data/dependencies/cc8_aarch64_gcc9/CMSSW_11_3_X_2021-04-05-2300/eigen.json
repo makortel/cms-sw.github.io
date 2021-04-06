@@ -1,0 +1,138 @@
+{
+  "bz2lib": {
+    "build_dependencies": [],
+    "checksum": "b855990d90f715f37d008f30b79ee4be",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "bz2lib",
+    "package_name": "external+bz2lib+1.0.6",
+    "patches": [],
+    "realversion": "1.0.6",
+    "revision": "1",
+    "sources": [
+      "http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz"
+    ],
+    "version": "1.0.6"
+  },
+  "cmake": {
+    "build_dependencies": [],
+    "checksum": "62d1042773683bed7e77cada0440bfc3",
+    "dependencies": [
+      "bz2lib",
+      "curl",
+      "expat",
+      "gcc",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "cmake",
+    "package_name": "external+cmake+3.17.2",
+    "patches": [],
+    "realversion": "3.17.2",
+    "revision": "1",
+    "sources": [
+      "http://www.cmake.org/files/v3.17/cmake-3.17.2.tar.gz"
+    ],
+    "version": "3.17.2"
+  },
+  "curl": {
+    "build_dependencies": [],
+    "checksum": "f7a4899b45528a9849249a62de71f0c4",
+    "dependencies": [
+      "gcc",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "curl",
+    "package_name": "external+curl+7.70.0",
+    "patches": [],
+    "realversion": "7.70.0",
+    "revision": "1",
+    "sources": [
+      "http://curl.haxx.se/download/curl-7.70.0.tar.gz"
+    ],
+    "version": "7.70.0"
+  },
+  "eigen": {
+    "build_dependencies": [
+      "cmake"
+    ],
+    "checksum": "19ee4e57780b04d55ab58d1312debd0f",
+    "dependencies": [],
+    "doc": "",
+    "name": "eigen",
+    "package_name": "external+eigen+011e0db31d1bed8b7f73662be6d57d9f30fa457a-19ee4e57780b04d55ab58d1312debd0f",
+    "patches": [],
+    "realversion": "011e0db31d1bed8b7f73662be6d57d9f30fa457a",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-externals/eigen-git-mirror.git?obj=cms/master/011e0db31d1bed8b7f73662be6d57d9f30fa457a/fd0c254c0a9adc47c094257ce6256ab4d94b956e&export=eigen-011e0db31d1bed8b7f73662be6d57d9f30fa457a&output=/eigen-011e0db31d1bed8b7f73662be6d57d9f30fa457a-fd0c254c0a9adc47c094257ce6256ab4d94b956e.tgz"
+    ],
+    "version": "011e0db31d1bed8b7f73662be6d57d9f30fa457a-19ee4e57780b04d55ab58d1312debd0f"
+  },
+  "expat": {
+    "build_dependencies": [],
+    "checksum": "3995457479e9f28527335356368b4221",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "expat",
+    "package_name": "external+expat+2.1.0",
+    "patches": [],
+    "realversion": "2.1.0",
+    "revision": "1",
+    "sources": [
+      "http://downloads.sourceforge.net/project/expat/expat/2.1.0/expat-2.1.0.tar.gz"
+    ],
+    "version": "2.1.0"
+  },
+  "gcc": {
+    "build_dependencies": [],
+    "checksum": "c7c8295f32077acdb2335dae078bc82b",
+    "dependencies": [],
+    "doc": "",
+    "name": "gcc",
+    "package_name": "external+gcc+9.3.0",
+    "patches": [
+      "gcc-flex-nonfull-path-m4.patch",
+      "gcc-flex-disable-doc.patch",
+      "m4-centos8.patch"
+    ],
+    "realversion": "9.3.0",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/gcc-mirror/gcc.git?obj=releases/gcc-9/4212a6a3e44f870412d9025eeb323fd4f50a61da&export=gcc-9.3.0&output=/gcc-9.3.0-4212a6a3e44f870412d9025eeb323fd4f50a61da.tgz",
+      "https://gmplib.org/download/gmp/gmp-6.2.0.tar.bz2",
+      "http://www.mpfr.org/mpfr-4.0.2/mpfr-4.0.2.tar.bz2",
+      "https://ftp.gnu.org/gnu/mpc/mpc-1.1.0.tar.gz",
+      "http://isl.gforge.inria.fr/isl-0.21.tar.bz2",
+      "http://zlib.net/zlib-1.2.11.tar.gz",
+      "http://ftp.gnu.org/gnu/bison/bison-3.5.tar.gz",
+      "https://sourceware.org/pub/binutils/releases/binutils-2.32.tar.bz2",
+      "https://sourceware.org/pub/elfutils/0.177/elfutils-0.177.tar.bz2",
+      "http://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.gz",
+      "https://github.com/westes/flex/releases/download/v2.6.4/flex-2.6.4.tar.gz"
+    ],
+    "version": "9.3.0"
+  },
+  "zlib": {
+    "build_dependencies": [],
+    "checksum": "ffdcb287a8c78c60a9b89384af09c43d",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "zlib",
+    "package_name": "external+zlib+1.2.11",
+    "patches": [],
+    "realversion": "1.2.11",
+    "revision": "1",
+    "sources": [
+      "git://github.com/madler/zlib.git?obj=master/v1.2.11&export=zlib-1.2.11&output=/zlib-1.2.11.tgz"
+    ],
+    "version": "1.2.11"
+  }
+}

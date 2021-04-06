@@ -1,0 +1,1131 @@
+{
+  "OpenBLAS": {
+    "build_dependencies": [],
+    "checksum": "3dbb06ed1ecb1f20cbfbaf3eed1bed71",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "OpenBLAS",
+    "package_name": "external+OpenBLAS+0.3.9-3dbb06ed1ecb1f20cbfbaf3eed1bed71",
+    "patches": [
+      "OpenBLAS-fix-dynamic-arch.patch",
+      "OpenBLAS-disable-tests.patch"
+    ],
+    "realversion": "0.3.9",
+    "revision": "1",
+    "sources": [
+      "https://github.com/xianyi/OpenBLAS/archive/v0.3.9.tar.gz"
+    ],
+    "version": "0.3.9-3dbb06ed1ecb1f20cbfbaf3eed1bed71"
+  },
+  "bz2lib": {
+    "build_dependencies": [],
+    "checksum": "b855990d90f715f37d008f30b79ee4be",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "bz2lib",
+    "package_name": "external+bz2lib+1.0.6",
+    "patches": [],
+    "realversion": "1.0.6",
+    "revision": "1",
+    "sources": [
+      "http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz"
+    ],
+    "version": "1.0.6"
+  },
+  "db6": {
+    "build_dependencies": [],
+    "checksum": "37eb4a7cebdcccc6328664e363dd4b01",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "db6",
+    "package_name": "external+db6+6.2.32",
+    "patches": [],
+    "realversion": "6.2.32",
+    "revision": "1",
+    "sources": [
+      "http://cmsrep.cern.ch/cmssw/download/db-6.2.32.tar.gz"
+    ],
+    "version": "6.2.32"
+  },
+  "expat": {
+    "build_dependencies": [],
+    "checksum": "3995457479e9f28527335356368b4221",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "expat",
+    "package_name": "external+expat+2.1.0",
+    "patches": [],
+    "realversion": "2.1.0",
+    "revision": "1",
+    "sources": [
+      "http://downloads.sourceforge.net/project/expat/expat/2.1.0/expat-2.1.0.tar.gz"
+    ],
+    "version": "2.1.0"
+  },
+  "gcc": {
+    "build_dependencies": [],
+    "checksum": "c7c8295f32077acdb2335dae078bc82b",
+    "dependencies": [],
+    "doc": "",
+    "name": "gcc",
+    "package_name": "external+gcc+9.3.0",
+    "patches": [
+      "gcc-flex-nonfull-path-m4.patch",
+      "gcc-flex-disable-doc.patch",
+      "m4-centos8.patch"
+    ],
+    "realversion": "9.3.0",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/gcc-mirror/gcc.git?obj=releases/gcc-9/4212a6a3e44f870412d9025eeb323fd4f50a61da&export=gcc-9.3.0&output=/gcc-9.3.0-4212a6a3e44f870412d9025eeb323fd4f50a61da.tgz",
+      "https://gmplib.org/download/gmp/gmp-6.2.0.tar.bz2",
+      "http://www.mpfr.org/mpfr-4.0.2/mpfr-4.0.2.tar.bz2",
+      "https://ftp.gnu.org/gnu/mpc/mpc-1.1.0.tar.gz",
+      "http://isl.gforge.inria.fr/isl-0.21.tar.bz2",
+      "http://zlib.net/zlib-1.2.11.tar.gz",
+      "http://ftp.gnu.org/gnu/bison/bison-3.5.tar.gz",
+      "https://sourceware.org/pub/binutils/releases/binutils-2.32.tar.bz2",
+      "https://sourceware.org/pub/elfutils/0.177/elfutils-0.177.tar.bz2",
+      "http://ftp.gnu.org/gnu/m4/m4-1.4.18.tar.gz",
+      "https://github.com/westes/flex/releases/download/v2.6.4/flex-2.6.4.tar.gz"
+    ],
+    "version": "9.3.0"
+  },
+  "gdbm": {
+    "build_dependencies": [],
+    "checksum": "5023b25b61417bf4d332131652e67df0",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "gdbm",
+    "package_name": "external+gdbm+1.10",
+    "patches": [],
+    "realversion": "1.10",
+    "revision": "1",
+    "sources": [
+      "http://ftp.gnu.org/gnu/gdbm/gdbm-1.10.tar.gz"
+    ],
+    "version": "1.10"
+  },
+  "libffi": {
+    "build_dependencies": [],
+    "checksum": "49090f639773159363da44e771df5a95",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "libffi",
+    "package_name": "external+libffi+3.2.1",
+    "patches": [
+      "libffi-3.2.1-fix-include-path.patch"
+    ],
+    "realversion": "3.2.1",
+    "revision": "1",
+    "sources": [
+      "ftp://sourceware.org/pub/libffi/libffi-3.2.1.tar.gz"
+    ],
+    "version": "3.2.1"
+  },
+  "libuuid": {
+    "build_dependencies": [],
+    "checksum": "139bfa52a5da2fa26731e2de5d1068c2",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "libuuid",
+    "package_name": "external+libuuid+2.34",
+    "patches": [
+      "libuuid-2.34-disable-get_uuid_via_daemon.patch"
+    ],
+    "realversion": "2.34",
+    "revision": "1",
+    "sources": [
+      "http://www.kernel.org/pub/linux/utils/util-linux/v2.34/util-linux-2.34.tar.gz"
+    ],
+    "version": "2.34"
+  },
+  "py2-Markdown": {
+    "build_dependencies": [],
+    "checksum": "10a83ae2169fc7c84517b6f3460f4ef1",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-Markdown",
+    "package_name": "external+py2-Markdown+3.1.1-10a83ae2169fc7c84517b6f3460f4ef1",
+    "patches": [],
+    "realversion": "3.1.1",
+    "revision": "1",
+    "sources": [
+      "pip://Markdown/3.1.1?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "3.1.1-10a83ae2169fc7c84517b6f3460f4ef1"
+  },
+  "py2-Werkzeug": {
+    "build_dependencies": [],
+    "checksum": "3e938502c97ab24341a4df1c7004a08a",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-Werkzeug",
+    "package_name": "external+py2-Werkzeug+1.0.1-3e938502c97ab24341a4df1c7004a08a",
+    "patches": [],
+    "realversion": "1.0.1",
+    "revision": "1",
+    "sources": [
+      "pip://Werkzeug/1.0.1?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "1.0.1-3e938502c97ab24341a4df1c7004a08a"
+  },
+  "py2-absl-py": {
+    "build_dependencies": [],
+    "checksum": "89ae75aa79695996cf3ec9b040e6486e",
+    "dependencies": [
+      "gcc",
+      "py2-enum34",
+      "py2-pip",
+      "py2-setuptools",
+      "py2-six",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-absl-py",
+    "package_name": "external+py2-absl-py+0.11.0-89ae75aa79695996cf3ec9b040e6486e",
+    "patches": [],
+    "realversion": "0.11.0",
+    "revision": "1",
+    "sources": [
+      "pip://absl-py/0.11.0?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "0.11.0-89ae75aa79695996cf3ec9b040e6486e"
+  },
+  "py2-appdirs": {
+    "build_dependencies": [],
+    "checksum": "d477eb22081dd96831f7b3a56266cd31",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-appdirs",
+    "package_name": "external+py2-appdirs+1.4.4-d477eb22081dd96831f7b3a56266cd31",
+    "patches": [],
+    "realversion": "1.4.4",
+    "revision": "1",
+    "sources": [
+      "pip://appdirs/1.4.4?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "1.4.4-d477eb22081dd96831f7b3a56266cd31"
+  },
+  "py2-attrs": {
+    "build_dependencies": [],
+    "checksum": "8b0a7f1bf69d4d04d181e5ed51c7d2cf",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py2-wheel",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-attrs",
+    "package_name": "external+py2-attrs+20.3.0-8b0a7f1bf69d4d04d181e5ed51c7d2cf",
+    "patches": [],
+    "realversion": "20.3.0",
+    "revision": "1",
+    "sources": [
+      "pip://attrs/20.3.0?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "20.3.0-8b0a7f1bf69d4d04d181e5ed51c7d2cf"
+  },
+  "py2-bleach": {
+    "build_dependencies": [],
+    "checksum": "5aa3d68e869ec6994bbc4b48de8abdab",
+    "dependencies": [
+      "gcc",
+      "py2-html5lib",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-bleach",
+    "package_name": "external+py2-bleach+3.3.0-5aa3d68e869ec6994bbc4b48de8abdab",
+    "patches": [],
+    "realversion": "3.3.0",
+    "revision": "1",
+    "sources": [
+      "pip://bleach/3.3.0?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "3.3.0-5aa3d68e869ec6994bbc4b48de8abdab"
+  },
+  "py2-certifi": {
+    "build_dependencies": [],
+    "checksum": "86bcf3d1ac2ab3c1cae5b4b68725c9f4",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-certifi",
+    "package_name": "external+py2-certifi+2020.12.5-86bcf3d1ac2ab3c1cae5b4b68725c9f4",
+    "patches": [],
+    "realversion": "2020.12.5",
+    "revision": "1",
+    "sources": [
+      "pip://certifi/2020.12.5?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "2020.12.5-86bcf3d1ac2ab3c1cae5b4b68725c9f4"
+  },
+  "py2-chardet": {
+    "build_dependencies": [],
+    "checksum": "b31c2ab61de7fe8f6aafc77d013fc583",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-chardet",
+    "package_name": "external+py2-chardet+3.0.4-b31c2ab61de7fe8f6aafc77d013fc583",
+    "patches": [],
+    "realversion": "3.0.4",
+    "revision": "1",
+    "sources": [
+      "pip://chardet/3.0.4?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "3.0.4-b31c2ab61de7fe8f6aafc77d013fc583"
+  },
+  "py2-cython": {
+    "build_dependencies": [],
+    "checksum": "3f83888d0272ceac4f1009f8e468af22",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-cython",
+    "package_name": "external+py2-cython+0.29.22-3f83888d0272ceac4f1009f8e468af22",
+    "patches": [],
+    "realversion": "0.29.22",
+    "revision": "1",
+    "sources": [
+      "pip://Cython/0.29.22?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "0.29.22-3f83888d0272ceac4f1009f8e468af22"
+  },
+  "py2-enum34": {
+    "build_dependencies": [],
+    "checksum": "8cfb461ffe79e7e3135957f2aba7fd67",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "python"
+    ],
+    "doc": "",
+    "name": "py2-enum34",
+    "package_name": "external+py2-enum34+1.1.10-8cfb461ffe79e7e3135957f2aba7fd67",
+    "patches": [],
+    "realversion": "1.1.10",
+    "revision": "1",
+    "sources": [
+      "pip://enum34/1.1.10?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "1.1.10-8cfb461ffe79e7e3135957f2aba7fd67"
+  },
+  "py2-futures": {
+    "build_dependencies": [],
+    "checksum": "af5db0092354218879d014c556c2515a",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "python"
+    ],
+    "doc": "",
+    "name": "py2-futures",
+    "package_name": "external+py2-futures+3.3.0-af5db0092354218879d014c556c2515a",
+    "patches": [],
+    "realversion": "3.3.0",
+    "revision": "1",
+    "sources": [
+      "pip://futures/3.3.0?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "3.3.0-af5db0092354218879d014c556c2515a"
+  },
+  "py2-grpcio": {
+    "build_dependencies": [],
+    "checksum": "2e9ff909249d8dec4070174e2eeed6b6",
+    "dependencies": [
+      "gcc",
+      "py2-enum34",
+      "py2-futures",
+      "py2-pip",
+      "py2-setuptools",
+      "py2-six",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-grpcio",
+    "package_name": "external+py2-grpcio+1.36.0-2e9ff909249d8dec4070174e2eeed6b6",
+    "patches": [],
+    "realversion": "1.36.0",
+    "revision": "1",
+    "sources": [
+      "pip://grpcio/1.36.0?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "1.36.0-2e9ff909249d8dec4070174e2eeed6b6"
+  },
+  "py2-html5lib": {
+    "build_dependencies": [],
+    "checksum": "61baeef68523bc8d841ed8dce1b6046d",
+    "dependencies": [
+      "gcc",
+      "py2-appdirs",
+      "py2-ordereddict",
+      "py2-packaging",
+      "py2-pip",
+      "py2-pyparsing",
+      "py2-setuptools",
+      "py2-six",
+      "py2-webencodings",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-html5lib",
+    "package_name": "external+py2-html5lib+1.1-61baeef68523bc8d841ed8dce1b6046d",
+    "patches": [],
+    "realversion": "1.1",
+    "revision": "1",
+    "sources": [
+      "pip://html5lib/1.1?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "1.1-61baeef68523bc8d841ed8dce1b6046d"
+  },
+  "py2-idna": {
+    "build_dependencies": [],
+    "checksum": "991a08406f6b0a705e82b5076474224c",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-idna",
+    "package_name": "external+py2-idna+2.10-991a08406f6b0a705e82b5076474224c",
+    "patches": [],
+    "realversion": "2.10",
+    "revision": "1",
+    "sources": [
+      "pip://idna/2.10?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "2.10-991a08406f6b0a705e82b5076474224c"
+  },
+  "py2-ordereddict": {
+    "build_dependencies": [],
+    "checksum": "25236e1c2522741aad744c78f81adb9d",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-ordereddict",
+    "package_name": "external+py2-ordereddict+1.1-25236e1c2522741aad744c78f81adb9d",
+    "patches": [],
+    "realversion": "1.1",
+    "revision": "1",
+    "sources": [
+      "pip://ordereddict/1.1?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "1.1-25236e1c2522741aad744c78f81adb9d"
+  },
+  "py2-packaging": {
+    "build_dependencies": [],
+    "checksum": "3f31ced2fb4982563c964aad9609266a",
+    "dependencies": [
+      "gcc",
+      "py2-attrs",
+      "py2-pip",
+      "py2-pyparsing",
+      "py2-setuptools",
+      "py2-six",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-packaging",
+    "package_name": "external+py2-packaging+20.9-3f31ced2fb4982563c964aad9609266a",
+    "patches": [],
+    "realversion": "20.9",
+    "revision": "1",
+    "sources": [
+      "pip://packaging/20.9?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "20.9-3f31ced2fb4982563c964aad9609266a"
+  },
+  "py2-pip": {
+    "build_dependencies": [],
+    "checksum": "22e8521fcc829d505aef1c50a95d9812",
+    "dependencies": [
+      "gcc",
+      "py2-setuptools",
+      "python"
+    ],
+    "doc": "",
+    "name": "py2-pip",
+    "package_name": "external+py2-pip+9.0.3-22e8521fcc829d505aef1c50a95d9812",
+    "patches": [],
+    "realversion": "9.0.3",
+    "revision": "1",
+    "sources": [
+      "https://github.com/pypa/pip/archive/9.0.3.tar.gz"
+    ],
+    "version": "9.0.3-22e8521fcc829d505aef1c50a95d9812"
+  },
+  "py2-protobuf": {
+    "build_dependencies": [],
+    "checksum": "aefd1915ceb24fd889b036d46fba34c2",
+    "dependencies": [
+      "gcc",
+      "py2-appdirs",
+      "py2-packaging",
+      "py2-pip",
+      "py2-pyparsing",
+      "py2-setuptools",
+      "py2-six",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-protobuf",
+    "package_name": "external+py2-protobuf+3.15.1-aefd1915ceb24fd889b036d46fba34c2",
+    "patches": [],
+    "realversion": "3.15.1",
+    "revision": "1",
+    "sources": [
+      "pip://protobuf/3.15.1?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "3.15.1-aefd1915ceb24fd889b036d46fba34c2"
+  },
+  "py2-pyasn1": {
+    "build_dependencies": [],
+    "checksum": "cd09073422e22e6e2971e0a5affd2c8e",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-pyasn1",
+    "package_name": "external+py2-pyasn1+0.4.8-cd09073422e22e6e2971e0a5affd2c8e",
+    "patches": [],
+    "realversion": "0.4.8",
+    "revision": "1",
+    "sources": [
+      "pip://pyasn1/0.4.8?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "0.4.8-cd09073422e22e6e2971e0a5affd2c8e"
+  },
+  "py2-pyparsing": {
+    "build_dependencies": [],
+    "checksum": "22f2802ead1a9d7c5adb518e8b773c32",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-pyparsing",
+    "package_name": "external+py2-pyparsing+2.4.7-22f2802ead1a9d7c5adb518e8b773c32",
+    "patches": [],
+    "realversion": "2.4.7",
+    "revision": "1",
+    "sources": [
+      "pip://pyparsing/2.4.7?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "2.4.7-22f2802ead1a9d7c5adb518e8b773c32"
+  },
+  "py2-requests": {
+    "build_dependencies": [],
+    "checksum": "8c06b282adc84c0b0d9839319b5c7e05",
+    "dependencies": [
+      "gcc",
+      "py2-certifi",
+      "py2-chardet",
+      "py2-idna",
+      "py2-pip",
+      "py2-setuptools",
+      "py2-urllib3",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-requests",
+    "package_name": "external+py2-requests+2.25.1-8c06b282adc84c0b0d9839319b5c7e05",
+    "patches": [],
+    "realversion": "2.25.1",
+    "revision": "1",
+    "sources": [
+      "pip://requests/2.25.1?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "2.25.1-8c06b282adc84c0b0d9839319b5c7e05"
+  },
+  "py2-setuptools": {
+    "build_dependencies": [],
+    "checksum": "98a6cd4c5d19859de77350a2f223c87c",
+    "dependencies": [
+      "gcc",
+      "python"
+    ],
+    "doc": "",
+    "name": "py2-setuptools",
+    "package_name": "external+py2-setuptools+44.1.1-98a6cd4c5d19859de77350a2f223c87c",
+    "patches": [],
+    "realversion": "44.1.1",
+    "revision": "1",
+    "sources": [
+      "https://github.com/pypa/setuptools/archive/v44.1.1.tar.gz"
+    ],
+    "version": "44.1.1-98a6cd4c5d19859de77350a2f223c87c"
+  },
+  "py2-six": {
+    "build_dependencies": [],
+    "checksum": "b5a82d57c223478fdc377a8b77ac612e",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-six",
+    "package_name": "external+py2-six+1.15.0-b5a82d57c223478fdc377a8b77ac612e",
+    "patches": [],
+    "realversion": "1.15.0",
+    "revision": "1",
+    "sources": [
+      "pip://six/1.15.0?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "1.15.0-b5a82d57c223478fdc377a8b77ac612e"
+  },
+  "py2-urllib3": {
+    "build_dependencies": [],
+    "checksum": "076131a0629eb540c11c6d68ab698cc1",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-urllib3",
+    "package_name": "external+py2-urllib3+1.26.3-076131a0629eb540c11c6d68ab698cc1",
+    "patches": [],
+    "realversion": "1.26.3",
+    "revision": "1",
+    "sources": [
+      "pip://urllib3/1.26.3?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "1.26.3-076131a0629eb540c11c6d68ab698cc1"
+  },
+  "py2-webencodings": {
+    "build_dependencies": [],
+    "checksum": "0ca9a1a7d7c951000dd746605bf27a6b",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-webencodings",
+    "package_name": "external+py2-webencodings+0.5.1-0ca9a1a7d7c951000dd746605bf27a6b",
+    "patches": [],
+    "realversion": "0.5.1",
+    "revision": "1",
+    "sources": [
+      "pip://webencodings/0.5.1?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "0.5.1-0ca9a1a7d7c951000dd746605bf27a6b"
+  },
+  "py2-wheel": {
+    "build_dependencies": [],
+    "checksum": "2875410cdc76495e000370db5e26739f",
+    "dependencies": [
+      "gcc",
+      "py2-pip",
+      "py2-setuptools",
+      "py3-pip",
+      "py3-setuptools",
+      "python",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py2-wheel",
+    "package_name": "external+py2-wheel+0.33.6-2875410cdc76495e000370db5e26739f",
+    "patches": [],
+    "realversion": "0.33.6",
+    "revision": "1",
+    "sources": [
+      "pip://wheel/0.33.6?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip2&output=/source.tar.gz"
+    ],
+    "version": "0.33.6-2875410cdc76495e000370db5e26739f"
+  },
+  "py3-cachetools": {
+    "build_dependencies": [],
+    "checksum": "1cf29a099be5cfd4e045482ac35c4d00",
+    "dependencies": [
+      "gcc",
+      "py3-pip",
+      "py3-setuptools",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py3-cachetools",
+    "package_name": "external+py3-cachetools+4.2.1-1cf29a099be5cfd4e045482ac35c4d00",
+    "patches": [],
+    "realversion": "4.2.1",
+    "revision": "1",
+    "sources": [
+      "pip://cachetools/4.2.1?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip3&package_dependency=py3-pip&output=/source.tar.gz"
+    ],
+    "version": "4.2.1-1cf29a099be5cfd4e045482ac35c4d00"
+  },
+  "py3-google-auth": {
+    "build_dependencies": [],
+    "checksum": "99d35b2b39f92f300e9be25004b9c739",
+    "dependencies": [
+      "gcc",
+      "py2-six",
+      "py3-cachetools",
+      "py3-pip",
+      "py3-pyasn1-modules",
+      "py3-rsa",
+      "py3-setuptools",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py3-google-auth",
+    "package_name": "external+py3-google-auth+1.27.0-99d35b2b39f92f300e9be25004b9c739",
+    "patches": [],
+    "realversion": "1.27.0",
+    "revision": "1",
+    "sources": [
+      "pip://google-auth/1.27.0?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip3&package_dependency=py3-pip&output=/source.tar.gz"
+    ],
+    "version": "1.27.0-99d35b2b39f92f300e9be25004b9c739"
+  },
+  "py3-google-auth-oauthlib": {
+    "build_dependencies": [],
+    "checksum": "5e6804e08f21ea8aa1e531d3aeca7a45",
+    "dependencies": [
+      "gcc",
+      "py3-google-auth",
+      "py3-pip",
+      "py3-requests-oauthlib",
+      "py3-setuptools",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py3-google-auth-oauthlib",
+    "package_name": "external+py3-google-auth-oauthlib+0.4.2-5e6804e08f21ea8aa1e531d3aeca7a45",
+    "patches": [],
+    "realversion": "0.4.2",
+    "revision": "1",
+    "sources": [
+      "pip://google-auth-oauthlib/0.4.2?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip3&package_dependency=py3-pip&output=/source.tar.gz"
+    ],
+    "version": "0.4.2-5e6804e08f21ea8aa1e531d3aeca7a45"
+  },
+  "py3-numpy": {
+    "build_dependencies": [],
+    "checksum": "8a23f74ea416a1a6cf0940d0fc3bbe07",
+    "dependencies": [
+      "OpenBLAS",
+      "gcc",
+      "py2-cython",
+      "py3-pip",
+      "py3-setuptools",
+      "python3",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "py3-numpy",
+    "package_name": "external+py3-numpy+1.17.5-8a23f74ea416a1a6cf0940d0fc3bbe07",
+    "patches": [],
+    "realversion": "1.17.5",
+    "revision": "1",
+    "sources": [
+      "https://github.com/numpy/numpy/releases/download/v1.17.5/numpy-1.17.5.tar.gz"
+    ],
+    "version": "1.17.5-8a23f74ea416a1a6cf0940d0fc3bbe07"
+  },
+  "py3-oauthlib": {
+    "build_dependencies": [],
+    "checksum": "09cb3ea6c24dac4266482465a4693bbd",
+    "dependencies": [
+      "gcc",
+      "py3-pip",
+      "py3-setuptools",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py3-oauthlib",
+    "package_name": "external+py3-oauthlib+3.1.0-09cb3ea6c24dac4266482465a4693bbd",
+    "patches": [],
+    "realversion": "3.1.0",
+    "revision": "1",
+    "sources": [
+      "pip://oauthlib/3.1.0?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip3&package_dependency=py3-pip&output=/source.tar.gz"
+    ],
+    "version": "3.1.0-09cb3ea6c24dac4266482465a4693bbd"
+  },
+  "py3-pip": {
+    "build_dependencies": [],
+    "checksum": "69eed5a705ad0ca3fa5ff60442447c44",
+    "dependencies": [
+      "gcc",
+      "py3-setuptools",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py3-pip",
+    "package_name": "external+py3-pip+20.3.3-69eed5a705ad0ca3fa5ff60442447c44",
+    "patches": [],
+    "realversion": "20.3.3",
+    "revision": "1",
+    "sources": [
+      "https://github.com/pypa/pip/archive/20.3.3.tar.gz"
+    ],
+    "version": "20.3.3-69eed5a705ad0ca3fa5ff60442447c44"
+  },
+  "py3-pyasn1-modules": {
+    "build_dependencies": [],
+    "checksum": "9383874756c0566a347b50a017a09c35",
+    "dependencies": [
+      "gcc",
+      "py2-pyasn1",
+      "py3-pip",
+      "py3-setuptools",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py3-pyasn1-modules",
+    "package_name": "external+py3-pyasn1-modules+0.2.8-9383874756c0566a347b50a017a09c35",
+    "patches": [],
+    "realversion": "0.2.8",
+    "revision": "1",
+    "sources": [
+      "pip://pyasn1-modules/0.2.8?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip3&package_dependency=py3-pip&output=/source.tar.gz"
+    ],
+    "version": "0.2.8-9383874756c0566a347b50a017a09c35"
+  },
+  "py3-requests-oauthlib": {
+    "build_dependencies": [],
+    "checksum": "c1da5c7be4fea4fab1b573872222423e",
+    "dependencies": [
+      "gcc",
+      "py2-requests",
+      "py3-oauthlib",
+      "py3-pip",
+      "py3-setuptools",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py3-requests-oauthlib",
+    "package_name": "external+py3-requests-oauthlib+1.3.0-c1da5c7be4fea4fab1b573872222423e",
+    "patches": [],
+    "realversion": "1.3.0",
+    "revision": "1",
+    "sources": [
+      "pip://requests-oauthlib/1.3.0?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip3&package_dependency=py3-pip&output=/source.tar.gz"
+    ],
+    "version": "1.3.0-c1da5c7be4fea4fab1b573872222423e"
+  },
+  "py3-rsa": {
+    "build_dependencies": [],
+    "checksum": "590a631610e4e324cd8b9af029b3661f",
+    "dependencies": [
+      "gcc",
+      "py2-pyasn1",
+      "py3-pip",
+      "py3-setuptools",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py3-rsa",
+    "package_name": "external+py3-rsa+4.7.2-590a631610e4e324cd8b9af029b3661f",
+    "patches": [],
+    "realversion": "4.7.2",
+    "revision": "1",
+    "sources": [
+      "pip://rsa/4.7.2?pip_options=--no-deps%20--no-binary%3D:all:&pip=pip3&package_dependency=py3-pip&output=/source.tar.gz"
+    ],
+    "version": "4.7.2-590a631610e4e324cd8b9af029b3661f"
+  },
+  "py3-setuptools": {
+    "build_dependencies": [],
+    "checksum": "8039f5b9d600cb0fb806a68c4ac542d3",
+    "dependencies": [
+      "gcc",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py3-setuptools",
+    "package_name": "external+py3-setuptools+51.3.3-8039f5b9d600cb0fb806a68c4ac542d3",
+    "patches": [],
+    "realversion": "51.3.3",
+    "revision": "1",
+    "sources": [
+      "https://github.com/pypa/setuptools/archive/v51.3.3.tar.gz"
+    ],
+    "version": "51.3.3-8039f5b9d600cb0fb806a68c4ac542d3"
+  },
+  "py3-tensorboard": {
+    "build_dependencies": [],
+    "checksum": "63ffb1c7bafe7c1c9e92da63903f6c06",
+    "dependencies": [
+      "gcc",
+      "py2-Markdown",
+      "py2-Werkzeug",
+      "py2-absl-py",
+      "py2-bleach",
+      "py2-futures",
+      "py2-grpcio",
+      "py2-html5lib",
+      "py2-protobuf",
+      "py2-six",
+      "py2-wheel",
+      "py3-google-auth-oauthlib",
+      "py3-numpy",
+      "py3-pip",
+      "py3-setuptools",
+      "py3-tensorboard-plugin-wit",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py3-tensorboard",
+    "package_name": "external+py3-tensorboard+2.4.1-63ffb1c7bafe7c1c9e92da63903f6c06",
+    "patches": [],
+    "realversion": "2.4.1",
+    "revision": "1",
+    "sources": [
+      "pip://tensorboard/2.4.1?pip_options=--no-deps%20--no-binary%3D:none:&pip=pip3&package_dependency=py3-pip&output=/source.tar.gz"
+    ],
+    "version": "2.4.1-63ffb1c7bafe7c1c9e92da63903f6c06"
+  },
+  "py3-tensorboard-plugin-wit": {
+    "build_dependencies": [],
+    "checksum": "c9ed742fab2e9e819ad8247e55151bec",
+    "dependencies": [
+      "gcc",
+      "py3-pip",
+      "py3-setuptools",
+      "python3"
+    ],
+    "doc": "",
+    "name": "py3-tensorboard-plugin-wit",
+    "package_name": "external+py3-tensorboard-plugin-wit+1.8.0-c9ed742fab2e9e819ad8247e55151bec",
+    "patches": [],
+    "realversion": "1.8.0",
+    "revision": "1",
+    "sources": [
+      "pip://tensorboard-plugin-wit/1.8.0?pip_options=--no-deps%20--no-binary%3D:none:&pip=pip3&package_dependency=py3-pip&output=/source.tar.gz"
+    ],
+    "version": "1.8.0-c9ed742fab2e9e819ad8247e55151bec"
+  },
+  "python": {
+    "build_dependencies": [],
+    "checksum": "608b2371161bf309b2a3ace474885739",
+    "dependencies": [
+      "bz2lib",
+      "db6",
+      "expat",
+      "gcc",
+      "gdbm",
+      "libffi",
+      "sqlite",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "python",
+    "package_name": "external+python+2.7.15",
+    "patches": [],
+    "realversion": "2.7.15",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-externals/cpython.git?obj=cms/2.7/c40eeeb/583c0f2237aade97173702ac602b16f51eadde6d&export=python-2.7.15&output=/python-2.7.15.tgz",
+      "/home/cmsbld/jenkins_a/workspace/build-any-ib/CMSDIST/valgrind-python.supp.file"
+    ],
+    "version": "2.7.15"
+  },
+  "python3": {
+    "build_dependencies": [],
+    "checksum": "555576dae8d03b340ea3079ddb8abb0d",
+    "dependencies": [
+      "bz2lib",
+      "db6",
+      "expat",
+      "gcc",
+      "gdbm",
+      "libffi",
+      "libuuid",
+      "sqlite",
+      "xz",
+      "zlib"
+    ],
+    "doc": "",
+    "name": "python3",
+    "package_name": "external+python3+3.8.2",
+    "patches": [],
+    "realversion": "3.8.2",
+    "revision": "1",
+    "sources": [
+      "https://www.python.org/ftp/python/3.8.2/Python-3.8.2.tgz"
+    ],
+    "version": "3.8.2"
+  },
+  "sqlite": {
+    "build_dependencies": [],
+    "checksum": "d028bde1cda2151d9904b25794ca849f",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "sqlite",
+    "package_name": "external+sqlite+3.22.0",
+    "patches": [],
+    "realversion": "3.22.0",
+    "revision": "1",
+    "sources": [
+      "https://www.sqlite.org/2018/sqlite-autoconf-3220000.tar.gz"
+    ],
+    "version": "3.22.0"
+  },
+  "xz": {
+    "build_dependencies": [
+      "autotools"
+    ],
+    "checksum": "45bba53d4768f7c091eaaab3c26252c4",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "xz",
+    "package_name": "external+xz+5.2.4",
+    "patches": [],
+    "realversion": "5.2.4",
+    "revision": "1",
+    "sources": [
+      "git+https://github.com/cms-externals/xz.git?obj=cms/v5.2.4/982e837ddd3da234f710870fa65ba8c14f381b8b&export=xz-5.2.4&output=/xz-5.2.4.tgz"
+    ],
+    "version": "5.2.4"
+  },
+  "zlib": {
+    "build_dependencies": [],
+    "checksum": "ffdcb287a8c78c60a9b89384af09c43d",
+    "dependencies": [
+      "gcc"
+    ],
+    "doc": "",
+    "name": "zlib",
+    "package_name": "external+zlib+1.2.11",
+    "patches": [],
+    "realversion": "1.2.11",
+    "revision": "1",
+    "sources": [
+      "git://github.com/madler/zlib.git?obj=master/v1.2.11&export=zlib-1.2.11&output=/zlib-1.2.11.tgz"
+    ],
+    "version": "1.2.11"
+  }
+}
