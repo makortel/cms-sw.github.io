@@ -116,9 +116,11 @@
             "utests": [
                 {
                     "arch": "slc7_amd64_gcc900", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.ROOT624-mon-23/CMSSW_11_3_ROOT624_X_2021-04-05-2300/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.ROOT624-mon-23/CMSSW_11_3_ROOT624_X_2021-04-05-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
                 }
             ], 
             "ib_date": "2021-04-05-2300-0000", 

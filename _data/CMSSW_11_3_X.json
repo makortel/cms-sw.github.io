@@ -3607,17 +3607,7 @@
                     }
                 ], 
                 "slc7_aarch64_gcc9": [], 
-                "slc7_ppc64le_gcc9": [
-                    {
-                        "hash": "e2d53dcec8e9102ea5b14db6c3005b4432c9cd7a", 
-                        "title": "Update tag for RecoHGCal-TICL to V00-02-01", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/6769", 
-                        "number": "6769", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "cms-sw"
-                    }
-                ], 
+                "slc7_ppc64le_gcc9": [], 
                 "slc7_amd64_gcc900": [], 
                 "slc7_amd64_gcc10": [
                     {
@@ -3634,7 +3624,7 @@
             "cmsdist_compared_tags": {
                 "cc8_amd64_gcc9": "IB/CMSSW_11_3_X_2021-03-29-2300/cc8_amd64_gcc9..IB/CMSSW_11_3_X_2021-03-30-2300/cc8_amd64_gcc9", 
                 "slc7_aarch64_gcc9": "IB/CMSSW_11_3_X_2021-03-30-1100/slc7_aarch64_gcc9..IB/CMSSW_11_3_X_2021-03-30-1100/slc7_aarch64_gcc9", 
-                "slc7_ppc64le_gcc9": "IB/CMSSW_11_3_X_2021-03-29-2300/slc7_ppc64le_gcc9..IB/CMSSW_11_3_X_2021-03-30-2300/slc7_ppc64le_gcc9", 
+                "slc7_ppc64le_gcc9": "IB/CMSSW_11_3_X_2021-03-30-2300/slc7_ppc64le_gcc9..IB/CMSSW_11_3_X_2021-03-30-2300/slc7_ppc64le_gcc9", 
                 "slc7_amd64_gcc900": "IB/CMSSW_11_3_X_2021-03-30-1100/slc7_amd64_gcc900..IB/CMSSW_11_3_X_2021-03-30-1100/slc7_amd64_gcc900", 
                 "slc7_amd64_gcc10": "IB/CMSSW_11_3_X_2021-03-29-2300/slc7_amd64_gcc10..IB/CMSSW_11_3_X_2021-03-30-2300/slc7_amd64_gcc10"
             }, 
@@ -4143,8 +4133,7 @@
                 "slc7_aarch64_gcc9", 
                 "cc8_ppc64le_gcc9", 
                 "slc7_amd64_gcc10", 
-                "slc7_amd64_gcc900", 
-                "slc7_ppc64le_gcc9"
+                "slc7_amd64_gcc900"
             ], 
             "cmsdist_merged_prs": {
                 "cc8_amd64_gcc9": [], 
@@ -4152,8 +4141,7 @@
                 "slc7_aarch64_gcc9": [], 
                 "cc8_ppc64le_gcc9": [], 
                 "slc7_amd64_gcc10": [], 
-                "slc7_amd64_gcc900": [], 
-                "slc7_ppc64le_gcc9": []
+                "slc7_amd64_gcc900": []
             }, 
             "cmsdist_compared_tags": {
                 "cc8_amd64_gcc9": "IB/CMSSW_11_3_X_2021-03-29-2300/cc8_amd64_gcc9..IB/CMSSW_11_3_X_2021-03-29-2300/cc8_amd64_gcc9", 
@@ -4161,8 +4149,7 @@
                 "slc7_aarch64_gcc9": "IB/CMSSW_11_3_X_2021-03-29-2300/slc7_aarch64_gcc9..IB/CMSSW_11_3_X_2021-03-29-2300/slc7_aarch64_gcc9", 
                 "cc8_ppc64le_gcc9": "IB/CMSSW_11_3_X_2021-03-29-2300/cc8_ppc64le_gcc9..IB/CMSSW_11_3_X_2021-03-29-2300/cc8_ppc64le_gcc9", 
                 "slc7_amd64_gcc10": "IB/CMSSW_11_3_X_2021-03-29-2300/slc7_amd64_gcc10..IB/CMSSW_11_3_X_2021-03-29-2300/slc7_amd64_gcc10", 
-                "slc7_amd64_gcc900": "IB/CMSSW_11_3_X_2021-03-29-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_X_2021-03-29-2300/slc7_amd64_gcc900", 
-                "slc7_ppc64le_gcc9": "IB/CMSSW_11_3_X_2021-03-29-2300/slc7_ppc64le_gcc9..IB/CMSSW_11_3_X_2021-03-29-2300/slc7_ppc64le_gcc9"
+                "slc7_amd64_gcc900": "IB/CMSSW_11_3_X_2021-03-29-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_X_2021-03-29-2300/slc7_amd64_gcc900"
             }, 
             "static_checks_failures": "not-found", 
             "cmsdistTags": {
@@ -4213,14 +4200,6 @@
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/mon/11.3-mon-23/CMSSW_11_3_X_2021-03-29-2300/unitTests-summary.log", 
                     "details": {
                         "num_fails": "3"
-                    }
-                }, 
-                {
-                    "arch": "slc7_ppc64le_gcc9", 
-                    "passed": "failed", 
-                    "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/mon/11.3-mon-23/CMSSW_11_3_X_2021-03-29-2300/unitTests-summary.log", 
-                    "details": {
-                        "num_fails": "16"
                     }
                 }, 
                 {
@@ -4281,17 +4260,6 @@
                         "num_passed": 3203, 
                         "known_failed": 51, 
                         "num_failed": 30
-                    }
-                }, 
-                {
-                    "done": true, 
-                    "arch": "slc7_ppc64le_gcc9", 
-                    "passed": false, 
-                    "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/mon/11.3-mon-23/CMSSW_11_3_X_2021-03-29-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                    "details": {
-                        "num_passed": 3262, 
-                        "known_failed": 51, 
-                        "num_failed": 2
                     }
                 }, 
                 {
@@ -4424,14 +4392,6 @@
                     }
                 }, 
                 {
-                    "arch": "slc7_ppc64le_gcc9", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/mon/11.3-mon-23/CMSSW_11_3_X_2021-03-29-2300/new/logAnalysis.pkl", 
-                    "details": {
-                        "ignoreWarning": 29
-                    }
-                }, 
-                {
                     "arch": "cc8_amd64_gcc9", 
                     "passed": "passed", 
                     "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/mon/11.3-mon-23/CMSSW_11_3_X_2021-03-29-2300/new/logAnalysis.pkl", 
@@ -4488,10 +4448,6 @@
                 {
                     "arch": "slc7_amd64_gcc900", 
                     "passed": "passed"
-                }, 
-                {
-                    "arch": "slc7_ppc64le_gcc9", 
-                    "passed": "passed"
                 }
             ], 
             "lizard": "found", 
@@ -4515,12 +4471,6 @@
                     "arch": "slc7_aarch64_gcc9", 
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/mon/11.3-mon-23/CMSSW_11_3_X_2021-03-29-2300/addOnTests.log", 
-                    "details": {}
-                }, 
-                {
-                    "arch": "slc7_ppc64le_gcc9", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/mon/11.3-mon-23/CMSSW_11_3_X_2021-03-29-2300/addOnTests.log", 
                     "details": {}
                 }, 
                 {
