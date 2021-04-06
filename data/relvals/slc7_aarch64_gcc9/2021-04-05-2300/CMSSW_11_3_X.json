@@ -69,6 +69,29 @@
         ]
     },
     {
+        "exitcode": 16896,
+        "id": "10005.0",
+        "known_error": 0,
+        "name": "SingleGammaPt35+2017+SingleGammaPt35_pythia8_GenSimINPUT+Digi+RecoFakeHLT+HARVESTFakeHLT+ALCA+Nano",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 16
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 12
+            }
+        ]
+    },
+    {
         "exitcode": 34304,
         "id": "10008.0",
         "known_error": 0,
@@ -272,6 +295,29 @@
                 "errors": 1,
                 "status": "FAILED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 35584,
+        "id": "250205.18",
+        "known_error": 0,
+        "name": "ZTT_13UP18+ZTT_13UP18INPUT+DIGIPRMXUP18_PU25+RECOPRMXUP18_PU25+HARVESTUP18_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 82
+            },
+            {
+                "errors": 1,
+                "status": "FAILED",
+                "warnings": 6
             }
         ]
     },
