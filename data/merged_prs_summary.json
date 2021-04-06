@@ -11047,7 +11047,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/10.6-mon-23/CMSSW_10_6_X_2021-04-05-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2524, 
+                            "num_passed": 2869, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -11104,7 +11104,7 @@
                 "isIB": true, 
                 "inProgress": false, 
                 "igprof": "inprogress", 
-                "hlt_tests": "inprogress"
+                "hlt_tests": "found"
             }, 
             {
                 "comp_baseline_state": "ok", 
@@ -15881,7 +15881,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.2-mon-23/CMSSW_11_2_X_2021-04-05-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 467, 
+                            "num_passed": 1259, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -16837,26 +16837,7 @@
                             "author_login": "cms-sw"
                         }
                     ], 
-                    "slc7_ppc64le_gcc9": [
-                        {
-                            "hash": "a29d0b687d33bfa418e26b443a7f252d555ab266", 
-                            "title": "[Coral] Bug fix for the DB connection lifetime", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/6774", 
-                            "number": "6774", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": false, 
-                            "author_login": "qliphy"
-                        }, 
-                        {
-                            "hash": "69c1e510ff4de76185a474e7284910e624c0b83d", 
-                            "title": "[11.2.X] Update tag for L1Trigger-L1TMuon to V01-04-00", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/6773", 
-                            "number": "6773", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": false, 
-                            "author_login": "cms-sw"
-                        }
-                    ]
+                    "slc7_ppc64le_gcc9": []
                 }, 
                 "cmsdist_compared_tags": {
                     "cc8_amd64_gcc9": "IB/CMSSW_11_2_X_2021-03-31-2300/cc8_amd64_gcc9..IB/CMSSW_11_2_X_2021-04-02-1500/cc8_amd64_gcc9", 
@@ -16864,7 +16845,7 @@
                     "slc7_aarch64_gcc9": "IB/CMSSW_11_2_X_2021-03-29-2300/slc7_aarch64_gcc9..IB/CMSSW_11_2_X_2021-04-02-1500/slc7_aarch64_gcc9", 
                     "cc8_ppc64le_gcc9": "IB/CMSSW_11_2_X_2021-04-02-1500/cc8_ppc64le_gcc9..IB/CMSSW_11_2_X_2021-04-02-1500/cc8_ppc64le_gcc9", 
                     "slc7_amd64_gcc900": "IB/CMSSW_11_2_X_2021-03-31-2300/slc7_amd64_gcc900..IB/CMSSW_11_2_X_2021-04-02-1500/slc7_amd64_gcc900", 
-                    "slc7_ppc64le_gcc9": "IB/CMSSW_11_2_X_2021-03-29-2300/slc7_ppc64le_gcc9..IB/CMSSW_11_2_X_2021-04-02-1500/slc7_ppc64le_gcc9"
+                    "slc7_ppc64le_gcc9": "IB/CMSSW_11_2_X_2021-04-02-1500/slc7_ppc64le_gcc9..IB/CMSSW_11_2_X_2021-04-02-1500/slc7_ppc64le_gcc9"
                 }, 
                 "static_checks_failures": "not-found", 
                 "cmsdistTags": {
@@ -18237,15 +18218,12 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [
-                    "slc7_ppc64le_gcc9", 
                     "slc7_aarch64_gcc9"
                 ], 
                 "cmsdist_merged_prs": {
-                    "slc7_ppc64le_gcc9": [], 
                     "slc7_aarch64_gcc9": []
                 }, 
                 "cmsdist_compared_tags": {
-                    "slc7_ppc64le_gcc9": "IB/CMSSW_11_2_X_2021-03-29-2300/slc7_ppc64le_gcc9..IB/CMSSW_11_2_X_2021-03-29-2300/slc7_ppc64le_gcc9", 
                     "slc7_aarch64_gcc9": "IB/CMSSW_11_2_X_2021-03-29-2300/slc7_aarch64_gcc9..IB/CMSSW_11_2_X_2021-03-29-2300/slc7_aarch64_gcc9"
                 }, 
                 "static_checks_failures": "not-found", 
@@ -18277,14 +18255,6 @@
                         "details": {
                             "num_fails": "9"
                         }
-                    }, 
-                    {
-                        "arch": "slc7_ppc64le_gcc9", 
-                        "passed": "failed", 
-                        "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/mon/11.2-mon-23/CMSSW_11_2_X_2021-03-29-2300/unitTests-summary.log", 
-                        "details": {
-                            "num_fails": "16"
-                        }
                     }
                 ], 
                 "ib_date": "2021-03-29-2300-0000", 
@@ -18298,17 +18268,6 @@
                             "num_passed": 3165, 
                             "known_failed": 50, 
                             "num_failed": 13
-                        }
-                    }, 
-                    {
-                        "done": true, 
-                        "arch": "slc7_ppc64le_gcc9", 
-                        "passed": false, 
-                        "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/mon/11.2-mon-23/CMSSW_11_2_X_2021-03-29-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                        "details": {
-                            "num_passed": 3204, 
-                            "known_failed": 51, 
-                            "num_failed": 3
                         }
                     }
                 ], 
@@ -18337,14 +18296,6 @@
                         "details": {
                             "ignoreWarning": 3
                         }
-                    }, 
-                    {
-                        "arch": "slc7_ppc64le_gcc9", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/mon/11.2-mon-23/CMSSW_11_2_X_2021-03-29-2300/new/logAnalysis.pkl", 
-                        "details": {
-                            "ignoreWarning": 13
-                        }
                     }
                 ], 
                 "material_budget_v2": "not-found", 
@@ -18356,10 +18307,6 @@
                 "valgrind": "not-found", 
                 "material_budget": "not-found", 
                 "dupDict": [
-                    {
-                        "arch": "slc7_ppc64le_gcc9", 
-                        "passed": "passed"
-                    }, 
                     {
                         "arch": "slc7_aarch64_gcc9", 
                         "passed": "passed"
@@ -18374,12 +18321,6 @@
                         "arch": "slc7_aarch64_gcc9", 
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/mon/11.2-mon-23/CMSSW_11_2_X_2021-03-29-2300/addOnTests.log", 
-                        "details": {}
-                    }, 
-                    {
-                        "arch": "slc7_ppc64le_gcc9", 
-                        "passed": true, 
-                        "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/mon/11.2-mon-23/CMSSW_11_2_X_2021-03-29-2300/addOnTests.log", 
                         "details": {}
                     }
                 ], 
@@ -28936,29 +28877,10 @@
                 "python3_tests": [], 
                 "tests_archs": [], 
                 "cmsdist_merged_prs": {
-                    "slc7_amd64_gcc900": [
-                        {
-                            "hash": "fca91d486908205fa11b0122244f6bcade83dc8d", 
-                            "title": "[BuildRules] Fix multi-targets symlinks", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/6785", 
-                            "number": "6785", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": false, 
-                            "author_login": "cms-sw"
-                        }, 
-                        {
-                            "hash": "3a000de3e81edfa52108a8f4e9233ee81579b555", 
-                            "title": "[Rivet] build rivet for multi-targets", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/6786", 
-                            "number": "6786", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": false, 
-                            "author_login": "cms-sw"
-                        }
-                    ]
+                    "slc7_amd64_gcc900": []
                 }, 
                 "cmsdist_compared_tags": {
-                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_GPU_X_2021-04-04-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_X/master"
+                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_GPU_X_2021-04-05-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_X/master"
                 }, 
                 "cmsdistTags": {}, 
                 "next_ib": true, 
@@ -28966,10 +28888,10 @@
                 "igprof": "not-found", 
                 "profiling": "not-found", 
                 "base_branch": "CMSSW_11_3_X", 
-                "compared_tags": "CMSSW_11_3_GPU_X_2021-04-04-2300-->CMSSW_11_3_X", 
+                "compared_tags": "CMSSW_11_3_GPU_X_2021-04-05-2300-->CMSSW_11_3_X", 
                 "dqm_tests": "inprogress", 
                 "utests": [], 
-                "ib_date": "2021-04-04-2300-0001", 
+                "ib_date": "2021-04-05-2300-0001", 
                 "relvals": [], 
                 "release_queue": "CMSSW_11_3_GPU_X", 
                 "release_name": "CMSSW_11_3_X", 
@@ -28985,15 +28907,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "hqucms"
-                    }, 
-                    {
-                        "hash": "9cf7351f4fc00ec0ff5d3daff1047d1520e93f9c", 
-                        "title": "Use ServiceWeakToken with asynchronous tasks", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33330", 
-                        "number": "33330", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "59ef37456008adf1a30b06992d7004cd2c9fc83c", 
@@ -29025,6 +28938,102 @@
                 "static_checks_failures": "not-found", 
                 "static_checks": "not-found", 
                 "isIB": false, 
+                "inProgress": false, 
+                "addons": [], 
+                "hlt_tests": "not-found"
+            }, 
+            {
+                "comp_baseline_state": "errors", 
+                "python3_tests": [], 
+                "tests_archs": [
+                    "slc7_amd64_gcc900"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc900": [
+                        {
+                            "hash": "fca91d486908205fa11b0122244f6bcade83dc8d", 
+                            "title": "[BuildRules] Fix multi-targets symlinks", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/6785", 
+                            "number": "6785", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
+                            "hash": "3a000de3e81edfa52108a8f4e9233ee81579b555", 
+                            "title": "[Rivet] build rivet for multi-targets", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/6786", 
+                            "number": "6786", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": {
+                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_GPU_X_2021-04-04-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_GPU_X_2021-04-05-2300/slc7_amd64_gcc900"
+                }, 
+                "cmsdistTags": {
+                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_GPU_X_2021-04-05-2300/slc7_amd64_gcc900"
+                }, 
+                "next_ib": false, 
+                "RVExceptions": null, 
+                "igprof": "not-found", 
+                "profiling": "not-found", 
+                "base_branch": "CMSSW_11_3_X", 
+                "compared_tags": "CMSSW_11_3_GPU_X_2021-04-04-2300-->CMSSW_11_3_GPU_X_2021-04-05-2300", 
+                "dqm_tests": "inprogress", 
+                "utests": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.GPU-mon-23/CMSSW_11_3_GPU_X_2021-04-05-2300/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }
+                ], 
+                "ib_date": "2021-04-05-2300-0000", 
+                "relvals": [], 
+                "release_queue": "CMSSW_11_3_GPU_X", 
+                "release_name": "CMSSW_11_3_GPU_X_2021-04-05-2300", 
+                "comp_baseline": "not-found", 
+                "gpu_utests": [], 
+                "material_budget_comparison": "not-found", 
+                "merged_prs": [
+                    {
+                        "hash": "9cf7351f4fc00ec0ff5d3daff1047d1520e93f9c", 
+                        "title": "Use ServiceWeakToken with asynchronous tasks", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33330", 
+                        "number": "33330", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }
+                ], 
+                "fwlite": [], 
+                "invalid_includes": [], 
+                "builds": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.GPU-mon-23/CMSSW_11_3_GPU_X_2021-04-05-2300/new/logAnalysis.pkl", 
+                        "details": {
+                            "ignoreWarning": 29
+                        }
+                    }
+                ], 
+                "material_budget_v2": "not-found", 
+                "static_checks_v2": "not-found", 
+                "valgrind": "not-found", 
+                "material_budget": "not-found", 
+                "dupDict": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "passed"
+                    }
+                ], 
+                "static_checks_failures": "not-found", 
+                "static_checks": "not-found", 
+                "isIB": true, 
                 "inProgress": false, 
                 "addons": [], 
                 "hlt_tests": "not-found"
@@ -29998,29 +30007,10 @@
                 "python3_tests": [], 
                 "tests_archs": [], 
                 "cmsdist_merged_prs": {
-                    "slc7_amd64_gcc900": [
-                        {
-                            "hash": "fca91d486908205fa11b0122244f6bcade83dc8d", 
-                            "title": "[BuildRules] Fix multi-targets symlinks", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/6785", 
-                            "number": "6785", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": true, 
-                            "author_login": "cms-sw"
-                        }, 
-                        {
-                            "hash": "3a000de3e81edfa52108a8f4e9233ee81579b555", 
-                            "title": "[Rivet] build rivet for multi-targets", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/6786", 
-                            "number": "6786", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": true, 
-                            "author_login": "cms-sw"
-                        }
-                    ]
+                    "slc7_amd64_gcc900": []
                 }, 
                 "cmsdist_compared_tags": {
-                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_PY3_X_2021-04-04-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_X/py3"
+                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_PY3_X_2021-04-05-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_X/py3"
                 }, 
                 "cmsdistTags": {}, 
                 "next_ib": true, 
@@ -30028,10 +30018,10 @@
                 "igprof": "not-found", 
                 "profiling": "not-found", 
                 "base_branch": "CMSSW_11_3_DEVEL_X", 
-                "compared_tags": "CMSSW_11_3_PY3_X_2021-04-04-2300-->CMSSW_11_3_DEVEL_X", 
+                "compared_tags": "CMSSW_11_3_PY3_X_2021-04-05-2300-->CMSSW_11_3_DEVEL_X", 
                 "dqm_tests": "inprogress", 
                 "utests": [], 
-                "ib_date": "2021-04-04-2300-0001", 
+                "ib_date": "2021-04-05-2300-0001", 
                 "relvals": [], 
                 "release_queue": "CMSSW_11_3_PY3_X", 
                 "release_name": "CMSSW_11_3_DEVEL_X", 
@@ -30047,15 +30037,6 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "hqucms"
-                    }, 
-                    {
-                        "hash": "9cf7351f4fc00ec0ff5d3daff1047d1520e93f9c", 
-                        "title": "Use ServiceWeakToken with asynchronous tasks", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33330", 
-                        "number": "33330", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "59ef37456008adf1a30b06992d7004cd2c9fc83c", 
@@ -30087,6 +30068,102 @@
                 "static_checks_failures": "not-found", 
                 "static_checks": "not-found", 
                 "isIB": false, 
+                "inProgress": false, 
+                "addons": [], 
+                "hlt_tests": "not-found"
+            }, 
+            {
+                "comp_baseline_state": "errors", 
+                "python3_tests": [], 
+                "tests_archs": [
+                    "slc7_amd64_gcc900"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc900": [
+                        {
+                            "hash": "fca91d486908205fa11b0122244f6bcade83dc8d", 
+                            "title": "[BuildRules] Fix multi-targets symlinks", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/6785", 
+                            "number": "6785", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
+                            "hash": "3a000de3e81edfa52108a8f4e9233ee81579b555", 
+                            "title": "[Rivet] build rivet for multi-targets", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/6786", 
+                            "number": "6786", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": {
+                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_PY3_X_2021-04-04-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_PY3_X_2021-04-05-2300/slc7_amd64_gcc900"
+                }, 
+                "cmsdistTags": {
+                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_PY3_X_2021-04-05-2300/slc7_amd64_gcc900"
+                }, 
+                "next_ib": false, 
+                "RVExceptions": null, 
+                "igprof": "not-found", 
+                "profiling": "not-found", 
+                "base_branch": "CMSSW_11_3_DEVEL_X", 
+                "compared_tags": "CMSSW_11_3_PY3_X_2021-04-04-2300-->CMSSW_11_3_PY3_X_2021-04-05-2300", 
+                "dqm_tests": "inprogress", 
+                "utests": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.PY3-mon-23/CMSSW_11_3_PY3_X_2021-04-05-2300/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }
+                ], 
+                "ib_date": "2021-04-05-2300-0000", 
+                "relvals": [], 
+                "release_queue": "CMSSW_11_3_PY3_X", 
+                "release_name": "CMSSW_11_3_PY3_X_2021-04-05-2300", 
+                "comp_baseline": "not-found", 
+                "gpu_utests": [], 
+                "material_budget_comparison": "not-found", 
+                "merged_prs": [
+                    {
+                        "hash": "9cf7351f4fc00ec0ff5d3daff1047d1520e93f9c", 
+                        "title": "Use ServiceWeakToken with asynchronous tasks", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33330", 
+                        "number": "33330", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
+                    }
+                ], 
+                "fwlite": [], 
+                "invalid_includes": [], 
+                "builds": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.PY3-mon-23/CMSSW_11_3_PY3_X_2021-04-05-2300/new/logAnalysis.pkl", 
+                        "details": {
+                            "ignoreWarning": 29
+                        }
+                    }
+                ], 
+                "material_budget_v2": "not-found", 
+                "static_checks_v2": "not-found", 
+                "valgrind": "not-found", 
+                "material_budget": "not-found", 
+                "dupDict": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "passed"
+                    }
+                ], 
+                "static_checks_failures": "not-found", 
+                "static_checks": "not-found", 
+                "isIB": true, 
                 "inProgress": false, 
                 "addons": [], 
                 "hlt_tests": "not-found"
@@ -31105,6 +31182,53 @@
                     "cc8_amd64_gcc9": [], 
                     "slc7_aarch64_gcc9": [], 
                     "slc7_ppc64le_gcc9": [], 
+                    "slc7_amd64_gcc900": []
+                }, 
+                "cmsdist_compared_tags": {
+                    "cc8_amd64_gcc9": "remotes/origin/IB/CMSSW_11_3_X/cc8..IB/CMSSW_11_3_X/cc8", 
+                    "slc7_aarch64_gcc9": "remotes/origin/IB/CMSSW_11_3_X/master..IB/CMSSW_11_3_X/master", 
+                    "slc7_ppc64le_gcc9": "remotes/origin/IB/CMSSW_11_3_X/master..IB/CMSSW_11_3_X/master", 
+                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_Patatrack_X_2021-04-05-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_X/master"
+                }, 
+                "cmsdistTags": {}, 
+                "next_ib": true, 
+                "RVExceptions": null, 
+                "igprof": "not-found", 
+                "profiling": "not-found", 
+                "base_branch": "CMSSW_11_3_Patatrack_X", 
+                "compared_tags": "CMSSW_11_3_Patatrack_X_2021-04-05-2300-->CMSSW_11_3_Patatrack_X", 
+                "dqm_tests": "inprogress", 
+                "utests": [], 
+                "ib_date": "2021-04-05-2300-0001", 
+                "relvals": [], 
+                "release_queue": "CMSSW_11_3_Patatrack_X", 
+                "release_name": "CMSSW_11_3_Patatrack_X", 
+                "comp_baseline": "not-found", 
+                "gpu_utests": [], 
+                "material_budget_comparison": "not-found", 
+                "merged_prs": [], 
+                "fwlite": [], 
+                "invalid_includes": [], 
+                "builds": [], 
+                "material_budget_v2": "not-found", 
+                "static_checks_v2": "not-found", 
+                "valgrind": "not-found", 
+                "material_budget": "not-found", 
+                "dupDict": [], 
+                "static_checks_failures": "not-found", 
+                "static_checks": "not-found", 
+                "isIB": false, 
+                "inProgress": false, 
+                "addons": [], 
+                "hlt_tests": "not-found"
+            }, 
+            {
+                "comp_baseline_state": "errors", 
+                "python3_tests": [], 
+                "tests_archs": [
+                    "slc7_amd64_gcc900"
+                ], 
+                "cmsdist_merged_prs": {
                     "slc7_amd64_gcc900": [
                         {
                             "hash": "fca91d486908205fa11b0122244f6bcade83dc8d", 
@@ -31127,39 +31251,59 @@
                     ]
                 }, 
                 "cmsdist_compared_tags": {
-                    "cc8_amd64_gcc9": "remotes/origin/IB/CMSSW_11_3_X/cc8..IB/CMSSW_11_3_X/cc8", 
-                    "slc7_aarch64_gcc9": "remotes/origin/IB/CMSSW_11_3_X/master..IB/CMSSW_11_3_X/master", 
-                    "slc7_ppc64le_gcc9": "remotes/origin/IB/CMSSW_11_3_X/master..IB/CMSSW_11_3_X/master", 
-                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_Patatrack_X_2021-04-02-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_X/master"
+                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_Patatrack_X_2021-04-02-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_Patatrack_X_2021-04-05-2300/slc7_amd64_gcc900"
                 }, 
-                "cmsdistTags": {}, 
-                "next_ib": true, 
+                "cmsdistTags": {
+                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_Patatrack_X_2021-04-05-2300/slc7_amd64_gcc900"
+                }, 
+                "next_ib": false, 
                 "RVExceptions": null, 
                 "igprof": "not-found", 
                 "profiling": "not-found", 
                 "base_branch": "CMSSW_11_3_Patatrack_X", 
-                "compared_tags": "CMSSW_11_3_Patatrack_X_2021-04-02-2300-->CMSSW_11_3_Patatrack_X", 
+                "compared_tags": "CMSSW_11_3_Patatrack_X_2021-04-02-2300-->CMSSW_11_3_Patatrack_X_2021-04-05-2300", 
                 "dqm_tests": "inprogress", 
-                "utests": [], 
-                "ib_date": "2021-04-02-2300-0001", 
+                "utests": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.Patatrack-mon-23/CMSSW_11_3_Patatrack_X_2021-04-05-2300/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }
+                ], 
+                "ib_date": "2021-04-05-2300-0000", 
                 "relvals": [], 
                 "release_queue": "CMSSW_11_3_Patatrack_X", 
-                "release_name": "CMSSW_11_3_Patatrack_X", 
+                "release_name": "CMSSW_11_3_Patatrack_X_2021-04-05-2300", 
                 "comp_baseline": "not-found", 
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [], 
                 "fwlite": [], 
                 "invalid_includes": [], 
-                "builds": [], 
+                "builds": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.Patatrack-mon-23/CMSSW_11_3_Patatrack_X_2021-04-05-2300/new/logAnalysis.pkl", 
+                        "details": {
+                            "ignoreWarning": 29
+                        }
+                    }
+                ], 
                 "material_budget_v2": "not-found", 
                 "static_checks_v2": "not-found", 
                 "valgrind": "not-found", 
                 "material_budget": "not-found", 
-                "dupDict": [], 
+                "dupDict": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "passed"
+                    }
+                ], 
                 "static_checks_failures": "not-found", 
                 "static_checks": "not-found", 
-                "isIB": false, 
+                "isIB": true, 
                 "inProgress": false, 
                 "addons": [], 
                 "hlt_tests": "not-found"
@@ -35538,7 +35682,19 @@
                     }
                 ], 
                 "ib_date": "2021-04-05-2300-0000", 
-                "relvals": [], 
+                "relvals": [
+                    {
+                        "done": false, 
+                        "arch": "slc7_aarch64_gcc9", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/mon/11.3-mon-23/CMSSW_11_3_X_2021-04-05-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 0, 
+                            "known_failed": 8, 
+                            "num_failed": 0
+                        }
+                    }
+                ], 
                 "release_queue": "CMSSW_11_3_X", 
                 "release_name": "CMSSW_11_3_X_2021-04-05-2300", 
                 "comp_baseline": "inprogress", 
@@ -35555,7 +35711,14 @@
                         "author_login": "Dr15Jones"
                     }
                 ], 
-                "fwlite": [], 
+                "fwlite": [
+                    {
+                        "arch": "slc7_amd64_gcc900", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3-mon-23/CMSSW_11_3_X_2021-04-05-2300/new_FWLITE/logAnalysis.pkl", 
+                        "details": {}
+                    }
+                ], 
                 "invalid_includes": [], 
                 "builds": [
                     {
@@ -35630,7 +35793,14 @@
                 "static_checks": "inprogress", 
                 "isIB": true, 
                 "inProgress": false, 
-                "addons": [], 
+                "addons": [
+                    {
+                        "arch": "slc7_aarch64_gcc9", 
+                        "passed": true, 
+                        "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/mon/11.3-mon-23/CMSSW_11_3_X_2021-04-05-2300/addOnTests.log", 
+                        "details": {}
+                    }
+                ], 
                 "hlt_tests": "inprogress"
             }, 
             {
@@ -35887,9 +36057,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/sun/11.3-sun-23/CMSSW_11_3_X_2021-04-04-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2024, 
+                            "num_passed": 2026, 
                             "known_failed": 51, 
-                            "num_failed": 73
+                            "num_failed": 74
                         }
                     }, 
                     {

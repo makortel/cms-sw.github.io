@@ -10,6 +10,53 @@
                 "cc8_amd64_gcc9": [], 
                 "slc7_aarch64_gcc9": [], 
                 "slc7_ppc64le_gcc9": [], 
+                "slc7_amd64_gcc900": []
+            }, 
+            "cmsdist_compared_tags": {
+                "cc8_amd64_gcc9": "remotes/origin/IB/CMSSW_11_3_X/cc8..IB/CMSSW_11_3_X/cc8", 
+                "slc7_aarch64_gcc9": "remotes/origin/IB/CMSSW_11_3_X/master..IB/CMSSW_11_3_X/master", 
+                "slc7_ppc64le_gcc9": "remotes/origin/IB/CMSSW_11_3_X/master..IB/CMSSW_11_3_X/master", 
+                "slc7_amd64_gcc900": "IB/CMSSW_11_3_Patatrack_X_2021-04-05-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_X/master"
+            }, 
+            "cmsdistTags": {}, 
+            "next_ib": true, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "profiling": "not-found", 
+            "base_branch": "CMSSW_11_3_Patatrack_X", 
+            "compared_tags": "CMSSW_11_3_Patatrack_X_2021-04-05-2300-->CMSSW_11_3_Patatrack_X", 
+            "dqm_tests": "inprogress", 
+            "utests": [], 
+            "ib_date": "2021-04-05-2300-0001", 
+            "relvals": [], 
+            "release_queue": "CMSSW_11_3_Patatrack_X", 
+            "release_name": "CMSSW_11_3_Patatrack_X", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [], 
+            "fwlite": [], 
+            "invalid_includes": [], 
+            "builds": [], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "dupDict": [], 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": false, 
+            "inProgress": false, 
+            "addons": [], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "python3_tests": [], 
+            "tests_archs": [
+                "slc7_amd64_gcc900"
+            ], 
+            "cmsdist_merged_prs": {
                 "slc7_amd64_gcc900": [
                     {
                         "hash": "fca91d486908205fa11b0122244f6bcade83dc8d", 
@@ -32,39 +79,59 @@
                 ]
             }, 
             "cmsdist_compared_tags": {
-                "cc8_amd64_gcc9": "remotes/origin/IB/CMSSW_11_3_X/cc8..IB/CMSSW_11_3_X/cc8", 
-                "slc7_aarch64_gcc9": "remotes/origin/IB/CMSSW_11_3_X/master..IB/CMSSW_11_3_X/master", 
-                "slc7_ppc64le_gcc9": "remotes/origin/IB/CMSSW_11_3_X/master..IB/CMSSW_11_3_X/master", 
-                "slc7_amd64_gcc900": "IB/CMSSW_11_3_Patatrack_X_2021-04-02-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_X/master"
+                "slc7_amd64_gcc900": "IB/CMSSW_11_3_Patatrack_X_2021-04-02-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_Patatrack_X_2021-04-05-2300/slc7_amd64_gcc900"
             }, 
-            "cmsdistTags": {}, 
-            "next_ib": true, 
+            "cmsdistTags": {
+                "slc7_amd64_gcc900": "IB/CMSSW_11_3_Patatrack_X_2021-04-05-2300/slc7_amd64_gcc900"
+            }, 
+            "next_ib": false, 
             "RVExceptions": null, 
             "igprof": "not-found", 
             "profiling": "not-found", 
             "base_branch": "CMSSW_11_3_Patatrack_X", 
-            "compared_tags": "CMSSW_11_3_Patatrack_X_2021-04-02-2300-->CMSSW_11_3_Patatrack_X", 
+            "compared_tags": "CMSSW_11_3_Patatrack_X_2021-04-02-2300-->CMSSW_11_3_Patatrack_X_2021-04-05-2300", 
             "dqm_tests": "inprogress", 
-            "utests": [], 
-            "ib_date": "2021-04-02-2300-0001", 
+            "utests": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "unknown", 
+                    "file": "['/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.Patatrack-mon-23/CMSSW_11_3_Patatrack_X_2021-04-05-2300/new/logAnalysis.pkl']", 
+                    "details": {}
+                }
+            ], 
+            "ib_date": "2021-04-05-2300-0000", 
             "relvals": [], 
             "release_queue": "CMSSW_11_3_Patatrack_X", 
-            "release_name": "CMSSW_11_3_Patatrack_X", 
+            "release_name": "CMSSW_11_3_Patatrack_X_2021-04-05-2300", 
             "comp_baseline": "not-found", 
             "gpu_utests": [], 
             "material_budget_comparison": "not-found", 
             "merged_prs": [], 
             "fwlite": [], 
             "invalid_includes": [], 
-            "builds": [], 
+            "builds": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.Patatrack-mon-23/CMSSW_11_3_Patatrack_X_2021-04-05-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 29
+                    }
+                }
+            ], 
             "material_budget_v2": "not-found", 
             "static_checks_v2": "not-found", 
             "valgrind": "not-found", 
             "material_budget": "not-found", 
-            "dupDict": [], 
+            "dupDict": [
+                {
+                    "arch": "slc7_amd64_gcc900", 
+                    "passed": "passed"
+                }
+            ], 
             "static_checks_failures": "not-found", 
             "static_checks": "not-found", 
-            "isIB": false, 
+            "isIB": true, 
             "inProgress": false, 
             "addons": [], 
             "hlt_tests": "not-found"
