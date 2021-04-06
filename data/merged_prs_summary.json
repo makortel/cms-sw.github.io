@@ -25901,20 +25901,10 @@
                     "slc7_amd64_gcc900"
                 ], 
                 "cmsdist_merged_prs": {
-                    "slc7_amd64_gcc900": [
-                        {
-                            "hash": "e2d53dcec8e9102ea5b14db6c3005b4432c9cd7a", 
-                            "title": "Update tag for RecoHGCal-TICL to V00-02-01", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/6769", 
-                            "number": "6769", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": false, 
-                            "author_login": "cms-sw"
-                        }
-                    ]
+                    "slc7_amd64_gcc900": []
                 }, 
                 "cmsdist_compared_tags": {
-                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_CLANG_X_2021-03-29-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_CLANG_X_2021-03-30-2300/slc7_amd64_gcc900"
+                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_CLANG_X_2021-03-30-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_CLANG_X_2021-03-30-2300/slc7_amd64_gcc900"
                 }, 
                 "cmsdistTags": {
                     "slc7_amd64_gcc900": "IB/CMSSW_11_3_CLANG_X_2021-03-30-2300/slc7_amd64_gcc900"
@@ -26042,15 +26032,9 @@
             {
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
-                "tests_archs": [
-                    "slc7_amd64_gcc900"
-                ], 
-                "cmsdist_merged_prs": {
-                    "slc7_amd64_gcc900": []
-                }, 
-                "cmsdist_compared_tags": {
-                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_CLANG_X_2021-03-29-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_CLANG_X_2021-03-29-2300/slc7_amd64_gcc900"
-                }, 
+                "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": {}, 
                 "cmsdistTags": {
                     "slc7_amd64_gcc900": "IB/CMSSW_11_3_CLANG_X_2021-03-29-2300/slc7_amd64_gcc900"
                 }, 
@@ -26061,30 +26045,9 @@
                 "base_branch": "CMSSW_11_3_X", 
                 "compared_tags": "CMSSW_11_3_CLANG_X_2021-03-28-2300-->CMSSW_11_3_CLANG_X_2021-03-29-2300", 
                 "dqm_tests": "inprogress", 
-                "utests": [
-                    {
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.CLANG-mon-23/CMSSW_11_3_CLANG_X_2021-03-29-2300/unitTests-summary.log", 
-                        "details": {
-                            "num_fails": "0"
-                        }
-                    }
-                ], 
+                "utests": [], 
                 "ib_date": "2021-03-29-2300-0000", 
-                "relvals": [
-                    {
-                        "done": true, 
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": true, 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.CLANG-mon-23/CMSSW_11_3_CLANG_X_2021-03-29-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                        "details": {
-                            "num_passed": 3450, 
-                            "known_failed": 0, 
-                            "num_failed": 0
-                        }
-                    }
-                ], 
+                "relvals": [], 
                 "release_queue": "CMSSW_11_3_CLANG_X", 
                 "release_name": "CMSSW_11_3_CLANG_X_2021-03-29-2300", 
                 "comp_baseline": "not-found", 
@@ -26184,39 +26147,17 @@
                 ], 
                 "fwlite": [], 
                 "invalid_includes": [], 
-                "builds": [
-                    {
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": "warning", 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.CLANG-mon-23/CMSSW_11_3_CLANG_X_2021-03-29-2300/new/logAnalysis.pkl", 
-                        "details": {
-                            "compWarning": 2, 
-                            "ignoreWarning": 91
-                        }
-                    }
-                ], 
+                "builds": [], 
                 "material_budget_v2": "not-found", 
                 "static_checks_v2": "not-found", 
                 "valgrind": "not-found", 
                 "material_budget": "not-found", 
-                "dupDict": [
-                    {
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": "passed"
-                    }
-                ], 
+                "dupDict": [], 
                 "static_checks_failures": "not-found", 
                 "static_checks": "not-found", 
                 "isIB": true, 
                 "inProgress": false, 
-                "addons": [
-                    {
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": true, 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.CLANG-mon-23/CMSSW_11_3_CLANG_X_2021-03-29-2300/addOnTests.log", 
-                        "details": {}
-                    }
-                ], 
+                "addons": [], 
                 "hlt_tests": "not-found"
             }, 
             {
@@ -28307,20 +28248,10 @@
                     "slc7_amd64_gcc900"
                 ], 
                 "cmsdist_merged_prs": {
-                    "slc7_amd64_gcc900": [
-                        {
-                            "hash": "e2d53dcec8e9102ea5b14db6c3005b4432c9cd7a", 
-                            "title": "Update tag for RecoHGCal-TICL to V00-02-01", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/6769", 
-                            "number": "6769", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": true, 
-                            "author_login": "cms-sw"
-                        }
-                    ]
+                    "slc7_amd64_gcc900": []
                 }, 
                 "cmsdist_compared_tags": {
-                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_DEVEL_X_2021-03-29-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_DEVEL_X_2021-03-30-2300/slc7_amd64_gcc900"
+                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_DEVEL_X_2021-03-30-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_DEVEL_X_2021-03-30-2300/slc7_amd64_gcc900"
                 }, 
                 "cmsdistTags": {
                     "slc7_amd64_gcc900": "IB/CMSSW_11_3_DEVEL_X_2021-03-30-2300/slc7_amd64_gcc900"
@@ -28447,15 +28378,9 @@
             {
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
-                "tests_archs": [
-                    "slc7_amd64_gcc900"
-                ], 
-                "cmsdist_merged_prs": {
-                    "slc7_amd64_gcc900": []
-                }, 
-                "cmsdist_compared_tags": {
-                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_DEVEL_X_2021-03-29-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_DEVEL_X_2021-03-29-2300/slc7_amd64_gcc900"
-                }, 
+                "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": {}, 
                 "cmsdistTags": {
                     "slc7_amd64_gcc900": "IB/CMSSW_11_3_DEVEL_X_2021-03-29-2300/slc7_amd64_gcc900"
                 }, 
@@ -28466,30 +28391,9 @@
                 "base_branch": "CMSSW_11_3_DEVEL_X", 
                 "compared_tags": "CMSSW_11_3_DEVEL_X_2021-03-28-2300-->CMSSW_11_3_DEVEL_X_2021-03-29-2300", 
                 "dqm_tests": "inprogress", 
-                "utests": [
-                    {
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": "failed", 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.DEVEL-mon-23/CMSSW_11_3_DEVEL_X_2021-03-29-2300/unitTests-summary.log", 
-                        "details": {
-                            "num_fails": "3"
-                        }
-                    }
-                ], 
+                "utests": [], 
                 "ib_date": "2021-03-29-2300-0000", 
-                "relvals": [
-                    {
-                        "done": true, 
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": true, 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.DEVEL-mon-23/CMSSW_11_3_DEVEL_X_2021-03-29-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                        "details": {
-                            "num_passed": 979, 
-                            "known_failed": 0, 
-                            "num_failed": 0
-                        }
-                    }
-                ], 
+                "relvals": [], 
                 "release_queue": "CMSSW_11_3_DEVEL_X", 
                 "release_name": "CMSSW_11_3_DEVEL_X_2021-03-29-2300", 
                 "comp_baseline": "not-found", 
@@ -28589,38 +28493,17 @@
                 ], 
                 "fwlite": [], 
                 "invalid_includes": [], 
-                "builds": [
-                    {
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.DEVEL-mon-23/CMSSW_11_3_DEVEL_X_2021-03-29-2300/new/logAnalysis.pkl", 
-                        "details": {
-                            "ignoreWarning": 19
-                        }
-                    }
-                ], 
+                "builds": [], 
                 "material_budget_v2": "not-found", 
                 "static_checks_v2": "not-found", 
                 "valgrind": "not-found", 
                 "material_budget": "not-found", 
-                "dupDict": [
-                    {
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": "passed"
-                    }
-                ], 
+                "dupDict": [], 
                 "static_checks_failures": "not-found", 
                 "static_checks": "not-found", 
                 "isIB": true, 
                 "inProgress": false, 
-                "addons": [
-                    {
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": true, 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.DEVEL-mon-23/CMSSW_11_3_DEVEL_X_2021-03-29-2300/addOnTests.log", 
-                        "details": {}
-                    }
-                ], 
+                "addons": [], 
                 "hlt_tests": "not-found"
             }, 
             {
@@ -31732,56 +31615,10 @@
                     "slc7_amd64_gcc900"
                 ], 
                 "cmsdist_merged_prs": {
-                    "slc7_amd64_gcc900": [
-                        {
-                            "hash": "4ec6a6cc886f5b1903987f120283dd6765aa4c6f", 
-                            "title": "patching CLEO model for production studies", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/6775", 
-                            "number": "6775", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": false, 
-                            "author_login": "cms-sw"
-                        }, 
-                        {
-                            "hash": "e2d53dcec8e9102ea5b14db6c3005b4432c9cd7a", 
-                            "title": "Update tag for RecoHGCal-TICL to V00-02-01", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/6769", 
-                            "number": "6769", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": false, 
-                            "author_login": "cms-sw"
-                        }, 
-                        {
-                            "hash": "f2ac5c9c84b98a8cd3d84ce004f3bca7044df221", 
-                            "title": "[GitTools] enable -A for git-cms-merge/checkout-topic", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/6779", 
-                            "number": "6779", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": false, 
-                            "author_login": "cms-sw"
-                        }, 
-                        {
-                            "hash": "738d5176fca1bcd6a09a372d9321e260faf70c8c", 
-                            "title": "Update tag for L1Trigger-L1TMuon to V01-04-00", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/6772", 
-                            "number": "6772", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": false, 
-                            "author_login": "cms-sw"
-                        }, 
-                        {
-                            "hash": "b63f909adb9b3f893f013eef32573d93c334d534", 
-                            "title": "[Coral] Bug fix for the DB connection lifetime", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/6771", 
-                            "number": "6771", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": false, 
-                            "author_login": "cms-sw"
-                        }
-                    ]
+                    "slc7_amd64_gcc900": []
                 }, 
                 "cmsdist_compared_tags": {
-                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_Patatrack_X_2021-03-29-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_Patatrack_X_2021-03-31-2300/slc7_amd64_gcc900"
+                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_Patatrack_X_2021-03-31-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_Patatrack_X_2021-03-31-2300/slc7_amd64_gcc900"
                 }, 
                 "cmsdistTags": {
                     "slc7_amd64_gcc900": "IB/CMSSW_11_3_Patatrack_X_2021-03-31-2300/slc7_amd64_gcc900"
@@ -31862,15 +31699,9 @@
             {
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
-                "tests_archs": [
-                    "slc7_amd64_gcc900"
-                ], 
-                "cmsdist_merged_prs": {
-                    "slc7_amd64_gcc900": []
-                }, 
-                "cmsdist_compared_tags": {
-                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_Patatrack_X_2021-03-29-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_Patatrack_X_2021-03-29-2300/slc7_amd64_gcc900"
-                }, 
+                "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": {}, 
                 "cmsdistTags": {
                     "slc7_amd64_gcc900": "IB/CMSSW_11_3_Patatrack_X_2021-03-29-2300/slc7_amd64_gcc900"
                 }, 
@@ -31881,30 +31712,9 @@
                 "base_branch": "CMSSW_11_3_Patatrack_X", 
                 "compared_tags": "CMSSW_11_3_Patatrack_X_2021-03-29-2300-->CMSSW_11_3_Patatrack_X_2021-03-29-2300", 
                 "dqm_tests": "inprogress", 
-                "utests": [
-                    {
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.Patatrack-mon-23/CMSSW_11_3_Patatrack_X_2021-03-29-2300/unitTests-summary.log", 
-                        "details": {
-                            "num_fails": "0"
-                        }
-                    }
-                ], 
+                "utests": [], 
                 "ib_date": "2021-03-29-2300-0000", 
-                "relvals": [
-                    {
-                        "done": true, 
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": false, 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.Patatrack-mon-23/CMSSW_11_3_Patatrack_X_2021-03-29-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                        "details": {
-                            "num_passed": 3454, 
-                            "known_failed": 0, 
-                            "num_failed": 1
-                        }
-                    }
-                ], 
+                "relvals": [], 
                 "release_queue": "CMSSW_11_3_Patatrack_X", 
                 "release_name": "CMSSW_11_3_Patatrack_X_2021-03-29-2300", 
                 "comp_baseline": "not-found", 
@@ -31913,38 +31723,17 @@
                 "merged_prs": [], 
                 "fwlite": [], 
                 "invalid_includes": [], 
-                "builds": [
-                    {
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.Patatrack-mon-23/CMSSW_11_3_Patatrack_X_2021-03-29-2300/new/logAnalysis.pkl", 
-                        "details": {
-                            "ignoreWarning": 29
-                        }
-                    }
-                ], 
+                "builds": [], 
                 "material_budget_v2": "not-found", 
                 "static_checks_v2": "not-found", 
                 "valgrind": "not-found", 
                 "material_budget": "not-found", 
-                "dupDict": [
-                    {
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": "error"
-                    }
-                ], 
+                "dupDict": [], 
                 "static_checks_failures": "not-found", 
                 "static_checks": "not-found", 
                 "isIB": true, 
                 "inProgress": false, 
-                "addons": [
-                    {
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": true, 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.Patatrack-mon-23/CMSSW_11_3_Patatrack_X_2021-03-29-2300/addOnTests.log", 
-                        "details": {}
-                    }
-                ], 
+                "addons": [], 
                 "hlt_tests": "not-found"
             }
         ]
@@ -32523,56 +32312,10 @@
                     "slc7_amd64_gcc900"
                 ], 
                 "cmsdist_merged_prs": {
-                    "slc7_amd64_gcc900": [
-                        {
-                            "hash": "4ec6a6cc886f5b1903987f120283dd6765aa4c6f", 
-                            "title": "patching CLEO model for production studies", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/6775", 
-                            "number": "6775", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": true, 
-                            "author_login": "cms-sw"
-                        }, 
-                        {
-                            "hash": "e2d53dcec8e9102ea5b14db6c3005b4432c9cd7a", 
-                            "title": "Update tag for RecoHGCal-TICL to V00-02-01", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/6769", 
-                            "number": "6769", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": true, 
-                            "author_login": "cms-sw"
-                        }, 
-                        {
-                            "hash": "f2ac5c9c84b98a8cd3d84ce004f3bca7044df221", 
-                            "title": "[GitTools] enable -A for git-cms-merge/checkout-topic", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/6779", 
-                            "number": "6779", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": true, 
-                            "author_login": "cms-sw"
-                        }, 
-                        {
-                            "hash": "738d5176fca1bcd6a09a372d9321e260faf70c8c", 
-                            "title": "Update tag for L1Trigger-L1TMuon to V01-04-00", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/6772", 
-                            "number": "6772", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": true, 
-                            "author_login": "cms-sw"
-                        }, 
-                        {
-                            "hash": "b63f909adb9b3f893f013eef32573d93c334d534", 
-                            "title": "[Coral] Bug fix for the DB connection lifetime", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/6771", 
-                            "number": "6771", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": true, 
-                            "author_login": "cms-sw"
-                        }
-                    ]
+                    "slc7_amd64_gcc900": []
                 }, 
                 "cmsdist_compared_tags": {
-                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_ROOT624_X_2021-03-29-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_ROOT624_X_2021-03-31-2300/slc7_amd64_gcc900"
+                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_ROOT624_X_2021-03-31-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_ROOT624_X_2021-03-31-2300/slc7_amd64_gcc900"
                 }, 
                 "cmsdistTags": {
                     "slc7_amd64_gcc900": "IB/CMSSW_11_3_ROOT624_X_2021-03-31-2300/slc7_amd64_gcc900"
@@ -32744,15 +32487,9 @@
             {
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
-                "tests_archs": [
-                    "slc7_amd64_gcc900"
-                ], 
-                "cmsdist_merged_prs": {
-                    "slc7_amd64_gcc900": []
-                }, 
-                "cmsdist_compared_tags": {
-                    "slc7_amd64_gcc900": "IB/CMSSW_11_3_ROOT624_X_2021-03-29-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_ROOT624_X_2021-03-29-2300/slc7_amd64_gcc900"
-                }, 
+                "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": {}, 
                 "cmsdistTags": {
                     "slc7_amd64_gcc900": "IB/CMSSW_11_3_ROOT624_X_2021-03-29-2300/slc7_amd64_gcc900"
                 }, 
@@ -32763,30 +32500,9 @@
                 "base_branch": "CMSSW_11_3_X", 
                 "compared_tags": "CMSSW_11_3_ROOT624_X_2021-03-29-2300-->CMSSW_11_3_ROOT624_X_2021-03-29-2300", 
                 "dqm_tests": "inprogress", 
-                "utests": [
-                    {
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.ROOT624-mon-23/CMSSW_11_3_ROOT624_X_2021-03-29-2300/unitTests-summary.log", 
-                        "details": {
-                            "num_fails": "0"
-                        }
-                    }
-                ], 
+                "utests": [], 
                 "ib_date": "2021-03-29-2300-0000", 
-                "relvals": [
-                    {
-                        "done": true, 
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": true, 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.ROOT624-mon-23/CMSSW_11_3_ROOT624_X_2021-03-29-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                        "details": {
-                            "num_passed": 3450, 
-                            "known_failed": 0, 
-                            "num_failed": 0
-                        }
-                    }
-                ], 
+                "relvals": [], 
                 "release_queue": "CMSSW_11_3_ROOT624_X", 
                 "release_name": "CMSSW_11_3_ROOT624_X_2021-03-29-2300", 
                 "comp_baseline": "not-found", 
@@ -32795,38 +32511,17 @@
                 "merged_prs": [], 
                 "fwlite": [], 
                 "invalid_includes": [], 
-                "builds": [
-                    {
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": "passed", 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.ROOT624-mon-23/CMSSW_11_3_ROOT624_X_2021-03-29-2300/new/logAnalysis.pkl", 
-                        "details": {
-                            "ignoreWarning": 19
-                        }
-                    }
-                ], 
+                "builds": [], 
                 "material_budget_v2": "not-found", 
                 "static_checks_v2": "not-found", 
                 "valgrind": "not-found", 
                 "material_budget": "not-found", 
-                "dupDict": [
-                    {
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": "passed"
-                    }
-                ], 
+                "dupDict": [], 
                 "static_checks_failures": "not-found", 
                 "static_checks": "not-found", 
                 "isIB": true, 
                 "inProgress": false, 
-                "addons": [
-                    {
-                        "arch": "slc7_amd64_gcc900", 
-                        "passed": true, 
-                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.ROOT624-mon-23/CMSSW_11_3_ROOT624_X_2021-03-29-2300/addOnTests.log", 
-                        "details": {}
-                    }
-                ], 
+                "addons": [], 
                 "hlt_tests": "not-found"
             }
         ]
