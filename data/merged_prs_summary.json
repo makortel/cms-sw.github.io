@@ -11087,7 +11087,10 @@
                         "details": {}
                     }
                 ], 
-                "static_checks_v2": "inprogress", 
+                "static_checks_v2": {
+                    "status": "passed", 
+                    "arch": "slc7_amd64_gcc700"
+                }, 
                 "valgrind": "found", 
                 "material_budget": "not-found", 
                 "dupDict": [
@@ -11097,7 +11100,7 @@
                     }
                 ], 
                 "lizard": "found", 
-                "static_checks": "inprogress", 
+                "static_checks": "slc7_amd64_gcc700:", 
                 "isIB": true, 
                 "inProgress": false, 
                 "igprof": "inprogress", 
@@ -15757,7 +15760,7 @@
                 "cmsdist_compared_tags": {
                     "cc8_amd64_gcc9": "IB/CMSSW_11_2_X_2021-04-04-0000/cc8_amd64_gcc9..IB/CMSSW_11_2_X/cc8", 
                     "cc8_aarch64_gcc9": "IB/CMSSW_11_2_X_2021-04-04-2300/cc8_aarch64_gcc9..IB/CMSSW_11_2_X/cc8", 
-                    "slc7_aarch64_gcc9": "IB/CMSSW_11_2_X_2021-04-02-1500/slc7_aarch64_gcc9..IB/CMSSW_11_2_X/master", 
+                    "slc7_aarch64_gcc9": "IB/CMSSW_11_2_X_2021-04-05-2300/slc7_aarch64_gcc9..IB/CMSSW_11_2_X/master", 
                     "cc8_ppc64le_gcc9": "IB/CMSSW_11_2_X_2021-04-04-2300/cc8_ppc64le_gcc9..IB/CMSSW_11_2_X/cc8", 
                     "slc7_amd64_gcc900": "IB/CMSSW_11_2_X_2021-04-04-0000/slc7_amd64_gcc900..IB/CMSSW_11_2_X/master", 
                     "slc7_ppc64le_gcc9": "IB/CMSSW_11_2_X_2021-04-05-2300/slc7_ppc64le_gcc9..IB/CMSSW_11_2_X/master"
@@ -15813,19 +15816,23 @@
                 ], 
                 "tests_archs": [
                     "slc7_ppc64le_gcc9", 
+                    "slc7_aarch64_gcc9", 
                     "slc7_amd64_gcc900"
                 ], 
                 "cmsdist_merged_prs": {
                     "slc7_ppc64le_gcc9": [], 
+                    "slc7_aarch64_gcc9": [], 
                     "slc7_amd64_gcc900": []
                 }, 
                 "cmsdist_compared_tags": {
                     "slc7_ppc64le_gcc9": "IB/CMSSW_11_2_X_2021-04-02-1500/slc7_ppc64le_gcc9..IB/CMSSW_11_2_X_2021-04-05-2300/slc7_ppc64le_gcc9", 
+                    "slc7_aarch64_gcc9": "IB/CMSSW_11_2_X_2021-04-02-1500/slc7_aarch64_gcc9..IB/CMSSW_11_2_X_2021-04-05-2300/slc7_aarch64_gcc9", 
                     "slc7_amd64_gcc900": "IB/CMSSW_11_2_X_2021-04-04-0000/slc7_amd64_gcc900..IB/CMSSW_11_2_X_2021-04-04-0000/slc7_amd64_gcc900"
                 }, 
                 "static_checks_failures": "not-found", 
                 "cmsdistTags": {
                     "slc7_ppc64le_gcc9": "IB/CMSSW_11_2_X_2021-04-05-2300/slc7_ppc64le_gcc9", 
+                    "slc7_aarch64_gcc9": "IB/CMSSW_11_2_X_2021-04-05-2300/slc7_aarch64_gcc9", 
                     "slc7_amd64_gcc900": "IB/CMSSW_11_2_X_2021-04-04-0000/slc7_amd64_gcc900"
                 }, 
                 "piechart": {
@@ -15852,6 +15859,12 @@
                         "details": {
                             "num_fails": "0"
                         }
+                    }, 
+                    {
+                        "arch": "slc7_aarch64_gcc9", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc7_aarch64_gcc9/www/mon/11.2-mon-23/CMSSW_11_2_X_2021-04-05-2300/new/logAnalysis.pkl']", 
+                        "details": {}
                     }, 
                     {
                         "arch": "slc7_ppc64le_gcc9", 
@@ -15915,6 +15928,14 @@
                         "details": {}
                     }, 
                     {
+                        "arch": "slc7_aarch64_gcc9", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/mon/11.2-mon-23/CMSSW_11_2_X_2021-04-05-2300/new/logAnalysis.pkl", 
+                        "details": {
+                            "ignoreWarning": 3
+                        }
+                    }, 
+                    {
                         "arch": "slc7_ppc64le_gcc9", 
                         "passed": "passed", 
                         "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc9/www/mon/11.2-mon-23/CMSSW_11_2_X_2021-04-05-2300/new/logAnalysis.pkl", 
@@ -15931,6 +15952,10 @@
                 "dupDict": [
                     {
                         "arch": "slc7_ppc64le_gcc9", 
+                        "passed": "passed"
+                    }, 
+                    {
+                        "arch": "slc7_aarch64_gcc9", 
                         "passed": "passed"
                     }, 
                     {
