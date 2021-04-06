@@ -146,6 +146,29 @@
         ]
     },
     {
+        "exitcode": 34304,
+        "id": "4.68",
+        "known_error": 0,
+        "name": "WElSkim2012C+WElSkim2012C+HLTDSKIM+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 9
+            },
+            {
+                "errors": 3,
+                "status": "FAILED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
         "exitcode": 35584,
         "id": "4.78",
         "known_error": 0,
@@ -1596,6 +1619,29 @@
                 "errors": 4,
                 "status": "FAILED",
                 "warnings": 12
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
+        "id": "23234.103",
+        "known_error": 0,
+        "name": "TTbar_14TeV+2026D49Aging3000+TTbar_14TeV_TuneCP5_GenSimHLBeamSpot14INPUT+DigiTrigger+RecoGlobal+HARVESTGlobal",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 22
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
             }
         ]
     },
