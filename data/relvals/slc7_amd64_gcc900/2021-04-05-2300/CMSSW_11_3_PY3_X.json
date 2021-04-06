@@ -448,6 +448,39 @@
     },
     {
         "exitcode": 0,
+        "id": "11024.6",
+        "known_error": 0,
+        "name": "TTbar_13+2018PU_heCollapse+TTbar_13TeV_TuneCUETP8M1_GenSimINPUT+DigiPU+RecoFakeHLTPU+HARVESTFakeHLTPU+Nano",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 64
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 429
+            },
+            {
+                "errors": 46,
+                "status": "PASSED",
+                "warnings": 4
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 54
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "23461.97",
         "known_error": 0,
         "name": "PREMIXUP26D49_PU25+2026D49PU_PMXS1+PREMIX_PremixHLBeamSpotPU",
@@ -456,6 +489,39 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 30
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "25202.15",
+        "known_error": 0,
+        "name": "TTbar_13+TTbar_13INPUT+DIGIUP15_PU25+RECOUP15_PU25+HARVESTUP15_PU25+NANOUP15MC_PU25_JME",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 74
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 521
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 4
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 53
             }
         ]
     }
