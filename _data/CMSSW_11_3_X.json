@@ -29,26 +29,7 @@
                     }
                 ], 
                 "slc7_aarch64_gcc9": [], 
-                "cc8_ppc64le_gcc9": [
-                    {
-                        "hash": "fca91d486908205fa11b0122244f6bcade83dc8d", 
-                        "title": "[BuildRules] Fix multi-targets symlinks", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/6785", 
-                        "number": "6785", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "cms-sw"
-                    }, 
-                    {
-                        "hash": "3a000de3e81edfa52108a8f4e9233ee81579b555", 
-                        "title": "[Rivet] build rivet for multi-targets", 
-                        "url": "https://github.com/cms-sw/cmsdist/pull/6786", 
-                        "number": "6786", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": true, 
-                        "author_login": "cms-sw"
-                    }
-                ], 
+                "cc8_ppc64le_gcc9": [], 
                 "slc7_amd64_gcc10": [], 
                 "slc7_amd64_gcc900": [], 
                 "slc7_ppc64le_gcc9": []
@@ -57,7 +38,7 @@
                 "cc8_amd64_gcc9": "IB/CMSSW_11_3_X_2021-04-05-2300/cc8_amd64_gcc9..IB/CMSSW_11_3_X/cc8", 
                 "cc8_aarch64_gcc9": "IB/CMSSW_11_3_X_2021-04-02-2300/cc8_aarch64_gcc9..IB/CMSSW_11_3_X/cc8", 
                 "slc7_aarch64_gcc9": "IB/CMSSW_11_3_X_2021-04-05-2300/slc7_aarch64_gcc9..IB/CMSSW_11_3_X/master", 
-                "cc8_ppc64le_gcc9": "IB/CMSSW_11_3_X_2021-04-02-2300/cc8_ppc64le_gcc9..IB/CMSSW_11_3_X/cc8", 
+                "cc8_ppc64le_gcc9": "IB/CMSSW_11_3_X_2021-04-05-2300/cc8_ppc64le_gcc9..IB/CMSSW_11_3_X/cc8", 
                 "slc7_amd64_gcc10": "IB/CMSSW_11_3_X_2021-04-05-2300/slc7_amd64_gcc10..IB/CMSSW_11_3_X/gcc10", 
                 "slc7_amd64_gcc900": "IB/CMSSW_11_3_X_2021-04-05-2300/slc7_amd64_gcc900..IB/CMSSW_11_3_X/master", 
                 "slc7_ppc64le_gcc9": "IB/CMSSW_11_3_X_2021-04-05-2300/slc7_ppc64le_gcc9..IB/CMSSW_11_3_X/master"
@@ -179,7 +160,26 @@
                         "author_login": "cms-sw"
                     }
                 ], 
-                "cc8_ppc64le_gcc9": [], 
+                "cc8_ppc64le_gcc9": [
+                    {
+                        "hash": "fca91d486908205fa11b0122244f6bcade83dc8d", 
+                        "title": "[BuildRules] Fix multi-targets symlinks", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/6785", 
+                        "number": "6785", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "3a000de3e81edfa52108a8f4e9233ee81579b555", 
+                        "title": "[Rivet] build rivet for multi-targets", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/6786", 
+                        "number": "6786", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": true, 
+                        "author_login": "cms-sw"
+                    }
+                ], 
                 "slc7_amd64_gcc10": [
                     {
                         "hash": "fca91d486908205fa11b0122244f6bcade83dc8d", 
@@ -244,7 +244,7 @@
             "cmsdist_compared_tags": {
                 "cc8_amd64_gcc9": "IB/CMSSW_11_3_X_2021-04-04-0000/cc8_amd64_gcc9..IB/CMSSW_11_3_X_2021-04-05-2300/cc8_amd64_gcc9", 
                 "slc7_aarch64_gcc9": "IB/CMSSW_11_3_X_2021-04-04-2300/slc7_aarch64_gcc9..IB/CMSSW_11_3_X_2021-04-05-2300/slc7_aarch64_gcc9", 
-                "cc8_ppc64le_gcc9": "IB/CMSSW_11_3_X_2021-04-02-2300/cc8_ppc64le_gcc9..IB/CMSSW_11_3_X_2021-04-02-2300/cc8_ppc64le_gcc9", 
+                "cc8_ppc64le_gcc9": "IB/CMSSW_11_3_X_2021-04-02-2300/cc8_ppc64le_gcc9..IB/CMSSW_11_3_X_2021-04-05-2300/cc8_ppc64le_gcc9", 
                 "slc7_amd64_gcc10": "IB/CMSSW_11_3_X_2021-04-04-2300/slc7_amd64_gcc10..IB/CMSSW_11_3_X_2021-04-05-2300/slc7_amd64_gcc10", 
                 "slc7_amd64_gcc900": "IB/CMSSW_11_3_X_2021-04-04-0000/slc7_amd64_gcc900..IB/CMSSW_11_3_X_2021-04-05-2300/slc7_amd64_gcc900", 
                 "slc7_ppc64le_gcc9": "IB/CMSSW_11_3_X_2021-04-04-0000/slc7_ppc64le_gcc9..IB/CMSSW_11_3_X_2021-04-05-2300/slc7_ppc64le_gcc9"
@@ -253,7 +253,7 @@
             "cmsdistTags": {
                 "cc8_amd64_gcc9": "IB/CMSSW_11_3_X_2021-04-05-2300/cc8_amd64_gcc9", 
                 "slc7_aarch64_gcc9": "IB/CMSSW_11_3_X_2021-04-05-2300/slc7_aarch64_gcc9", 
-                "cc8_ppc64le_gcc9": "IB/CMSSW_11_3_X_2021-04-02-2300/cc8_ppc64le_gcc9", 
+                "cc8_ppc64le_gcc9": "IB/CMSSW_11_3_X_2021-04-05-2300/cc8_ppc64le_gcc9", 
                 "slc7_amd64_gcc10": "IB/CMSSW_11_3_X_2021-04-05-2300/slc7_amd64_gcc10", 
                 "slc7_amd64_gcc900": "IB/CMSSW_11_3_X_2021-04-05-2300/slc7_amd64_gcc900", 
                 "slc7_ppc64le_gcc9": "IB/CMSSW_11_3_X_2021-04-05-2300/slc7_ppc64le_gcc9"
