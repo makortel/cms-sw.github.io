@@ -80,6 +80,34 @@
     },
     {
         "exitcode": 0,
+        "id": "134.801",
+        "known_error": 0,
+        "name": "RunHLTPhy2015C+RunHLTPhy2015C+HLTDR2_25ns+RECODR2_25nsreHLT_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 51
+            },
+            {
+                "errors": 10,
+                "status": "PASSED",
+                "warnings": 584
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.785",
         "known_error": 0,
         "name": "RunMuonEG2017B+RunMuonEG2017B+HLTDR2_2017+RECODR2_2017reHLT_skimMuonEG_Prompt+HARVEST2017",
@@ -103,6 +131,24 @@
                 "errors": 2,
                 "status": "PASSED",
                 "warnings": 4
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "144.6",
+        "known_error": 0,
+        "name": "MinimumBias2010A+MinimumBias2010A+RECOSKIMALCAR1",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 337
             }
         ]
     },
@@ -218,6 +264,24 @@
     },
     {
         "exitcode": 0,
+        "id": "1325.61",
+        "known_error": 0,
+        "name": "TTbar_13_106Xv1NanoAODINPUT+TTbar_13_106Xv1NanoAODINPUT+NANOAODMC2017_106XMiniAODv1",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 5,
+                "status": "PASSED",
+                "warnings": 170
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "1370.18",
         "known_error": 0,
         "name": "GluGluHToGG_M125_Pow_MINLO_NNLOPS_py8_13UP18+GluGluHToGG_M125_Pow_MINLO_NNLOPS_py8_13UP18+Hadronizer_TuneCUETP8M1_13TeV_powhegEmissionVeto_2p_HToGG_M125_13UP18+DIGIUP18+RECOUP18+HARVESTUP18+NANOUP18Had",
@@ -251,6 +315,29 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 37
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4001.0",
+        "known_error": 0,
+        "name": "TTbar+TTbarINPUT+DIGIPU1+RECOPUDBG",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 77
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 322
             }
         ]
     },
@@ -383,6 +470,44 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 69
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "10802.0",
+        "known_error": 0,
+        "name": "SingleElectronPt35+2018+SingleElectronPt35_pythia8_GenSimINPUT+Digi+RecoFakeHLT+HARVESTFakeHLT+ALCA+Nano",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 46
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 56
+            },
+            {
+                "errors": 46,
+                "status": "PASSED",
+                "warnings": 4
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 24
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 34
             }
         ]
     },
@@ -586,6 +711,39 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 35
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "25200.0",
+        "known_error": 0,
+        "name": "ZEE_13+ZEE_13INPUT+DIGIUP15_PU25+RECOUP15_PU25_L1TEgDQM+HARVESTUP15_PU25_L1TEgDQM+NANOUP15_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 71
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 314
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 4
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 31
             }
         ]
     },
