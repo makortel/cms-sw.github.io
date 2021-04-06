@@ -47,6 +47,29 @@
     },
     {
         "exitcode": 34304,
+        "id": "10001.0",
+        "known_error": 0,
+        "name": "SingleElectronPt10+2017+SingleElectronPt10_pythia8_GenSimINPUT+Digi+RecoFakeHLT+HARVESTFakeHLT+ALCA+Nano",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 4
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 1
+            }
+        ]
+    },
+    {
+        "exitcode": 34304,
         "id": "10002.0",
         "known_error": 0,
         "name": "SingleElectronPt35+2017+SingleElectronPt35_pythia8_GenSimINPUT+Digi+RecoFakeHLT+HARVESTFakeHLT+ALCA+Nano",
@@ -175,6 +198,29 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 4
+            },
+            {
+                "errors": 1,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 34304,
+        "id": "10803.0",
+        "known_error": 0,
+        "name": "SingleElectronPt1000+2018+SingleElectronPt1000_pythia8_GenSimINPUT+Digi+RecoFakeHLT+HARVESTFakeHLT+ALCA+Nano",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 24
             },
             {
                 "errors": 1,
