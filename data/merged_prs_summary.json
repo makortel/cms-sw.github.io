@@ -15891,12 +15891,12 @@
                     {
                         "done": false, 
                         "arch": "slc7_aarch64_gcc9", 
-                        "passed": true, 
+                        "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/mon/11.2-mon-23/CMSSW_11_2_X_2021-04-05-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 0, 
+                            "num_passed": 2, 
                             "known_failed": 24, 
-                            "num_failed": 0
+                            "num_failed": 1
                         }
                     }, 
                     {
@@ -24318,6 +24318,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "6d67904e193dda9f4d22e33f7115a07597b94cf5", 
+                        "title": "Update geometry tags in mcRun3 GTs", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33331", 
+                        "number": "33331", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "francescobrivio"
+                    }, 
+                    {
                         "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
                         "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
                         "url": "https://github.com/cms-sw/cmssw/pull/33322", 
@@ -24417,7 +24426,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.ASAN-mon-23/CMSSW_11_3_ASAN_X_2021-04-05-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 313, 
+                            "num_passed": 526, 
                             "known_failed": 0, 
                             "num_failed": 4
                         }
@@ -25016,6 +25025,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "6d67904e193dda9f4d22e33f7115a07597b94cf5", 
+                        "title": "Update geometry tags in mcRun3 GTs", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33331", 
+                        "number": "33331", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "francescobrivio"
+                    }, 
+                    {
                         "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
                         "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
                         "url": "https://github.com/cms-sw/cmssw/pull/33322", 
@@ -25117,7 +25135,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.CLANG-mon-23/CMSSW_11_3_CLANG_X_2021-04-05-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 55, 
+                            "num_passed": 313, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -26157,6 +26175,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "6d67904e193dda9f4d22e33f7115a07597b94cf5", 
+                        "title": "Update geometry tags in mcRun3 GTs", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33331", 
+                        "number": "33331", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "francescobrivio"
+                    }, 
+                    {
                         "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
                         "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
                         "url": "https://github.com/cms-sw/cmssw/pull/33322", 
@@ -27157,13 +27184,13 @@
                         "author_login": "dtp2-tpg-am"
                     }, 
                     {
-                        "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
-                        "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33322", 
-                        "number": "33322", 
+                        "hash": "6d67904e193dda9f4d22e33f7115a07597b94cf5", 
+                        "title": "Update geometry tags in mcRun3 GTs", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33331", 
+                        "number": "33331", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "hqucms"
+                        "author_login": "francescobrivio"
                     }, 
                     {
                         "hash": "9cf7351f4fc00ec0ff5d3daff1047d1520e93f9c", 
@@ -27182,6 +27209,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "srimanob"
+                    }, 
+                    {
+                        "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
+                        "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33322", 
+                        "number": "33322", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "hqucms"
                     }, 
                     {
                         "hash": "12fa92054fb9ce8eb798ad45d65a4c44ca5d29ce", 
@@ -27370,6 +27406,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "6d67904e193dda9f4d22e33f7115a07597b94cf5", 
+                        "title": "Update geometry tags in mcRun3 GTs", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33331", 
+                        "number": "33331", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "francescobrivio"
+                    }, 
+                    {
                         "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
                         "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
                         "url": "https://github.com/cms-sw/cmssw/pull/33322", 
@@ -27471,7 +27516,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.3.DEVEL-mon-23/CMSSW_11_3_DEVEL_X_2021-04-05-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 46, 
+                            "num_passed": 340, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -28556,13 +28601,13 @@
                         "author_login": "dtp2-tpg-am"
                     }, 
                     {
-                        "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
-                        "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33322", 
-                        "number": "33322", 
+                        "hash": "6d67904e193dda9f4d22e33f7115a07597b94cf5", 
+                        "title": "Update geometry tags in mcRun3 GTs", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33331", 
+                        "number": "33331", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "hqucms"
+                        "author_login": "francescobrivio"
                     }, 
                     {
                         "hash": "9cf7351f4fc00ec0ff5d3daff1047d1520e93f9c", 
@@ -28572,6 +28617,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
+                        "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33322", 
+                        "number": "33322", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "hqucms"
                     }, 
                     {
                         "hash": "60b0b66d5a12e0ec5ce3be7ba53c41725c252ae0", 
@@ -29070,6 +29124,15 @@
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
+                    {
+                        "hash": "6d67904e193dda9f4d22e33f7115a07597b94cf5", 
+                        "title": "Update geometry tags in mcRun3 GTs", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33331", 
+                        "number": "33331", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "francescobrivio"
+                    }, 
                     {
                         "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
                         "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
@@ -30163,6 +30226,15 @@
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
+                    {
+                        "hash": "6d67904e193dda9f4d22e33f7115a07597b94cf5", 
+                        "title": "Update geometry tags in mcRun3 GTs", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33331", 
+                        "number": "33331", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "francescobrivio"
+                    }, 
                     {
                         "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
                         "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
@@ -31695,6 +31767,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "6d67904e193dda9f4d22e33f7115a07597b94cf5", 
+                        "title": "Update geometry tags in mcRun3 GTs", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33331", 
+                        "number": "33331", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "francescobrivio"
+                    }, 
+                    {
                         "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
                         "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
                         "url": "https://github.com/cms-sw/cmssw/pull/33322", 
@@ -32482,6 +32563,15 @@
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
+                    {
+                        "hash": "6d67904e193dda9f4d22e33f7115a07597b94cf5", 
+                        "title": "Update geometry tags in mcRun3 GTs", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33331", 
+                        "number": "33331", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "francescobrivio"
+                    }, 
                     {
                         "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
                         "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
@@ -33790,13 +33880,13 @@
                         "author_login": "dtp2-tpg-am"
                     }, 
                     {
-                        "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
-                        "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33322", 
-                        "number": "33322", 
+                        "hash": "6d67904e193dda9f4d22e33f7115a07597b94cf5", 
+                        "title": "Update geometry tags in mcRun3 GTs", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33331", 
+                        "number": "33331", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "hqucms"
+                        "author_login": "francescobrivio"
                     }, 
                     {
                         "hash": "9cf7351f4fc00ec0ff5d3daff1047d1520e93f9c", 
@@ -33806,6 +33896,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
+                        "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33322", 
+                        "number": "33322", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "hqucms"
                     }, 
                     {
                         "hash": "60b0b66d5a12e0ec5ce3be7ba53c41725c252ae0", 
@@ -34477,13 +34576,13 @@
                         "author_login": "dtp2-tpg-am"
                     }, 
                     {
-                        "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
-                        "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33322", 
-                        "number": "33322", 
+                        "hash": "6d67904e193dda9f4d22e33f7115a07597b94cf5", 
+                        "title": "Update geometry tags in mcRun3 GTs", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33331", 
+                        "number": "33331", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "hqucms"
+                        "author_login": "francescobrivio"
                     }, 
                     {
                         "hash": "9cf7351f4fc00ec0ff5d3daff1047d1520e93f9c", 
@@ -34502,6 +34601,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "srimanob"
+                    }, 
+                    {
+                        "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
+                        "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33322", 
+                        "number": "33322", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "hqucms"
                     }, 
                     {
                         "hash": "12fa92054fb9ce8eb798ad45d65a4c44ca5d29ce", 
@@ -35070,13 +35178,13 @@
                         "author_login": "dtp2-tpg-am"
                     }, 
                     {
-                        "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
-                        "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33322", 
-                        "number": "33322", 
+                        "hash": "6d67904e193dda9f4d22e33f7115a07597b94cf5", 
+                        "title": "Update geometry tags in mcRun3 GTs", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33331", 
+                        "number": "33331", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "hqucms"
+                        "author_login": "francescobrivio"
                     }, 
                     {
                         "hash": "9cf7351f4fc00ec0ff5d3daff1047d1520e93f9c", 
@@ -35086,6 +35194,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
+                        "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33322", 
+                        "number": "33322", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "hqucms"
                     }, 
                     {
                         "hash": "60b0b66d5a12e0ec5ce3be7ba53c41725c252ae0", 
@@ -35292,13 +35409,13 @@
                         "author_login": "dtp2-tpg-am"
                     }, 
                     {
-                        "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
-                        "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33322", 
-                        "number": "33322", 
+                        "hash": "6d67904e193dda9f4d22e33f7115a07597b94cf5", 
+                        "title": "Update geometry tags in mcRun3 GTs", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33331", 
+                        "number": "33331", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "hqucms"
+                        "author_login": "francescobrivio"
                     }, 
                     {
                         "hash": "9cf7351f4fc00ec0ff5d3daff1047d1520e93f9c", 
@@ -35308,6 +35425,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
+                        "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33322", 
+                        "number": "33322", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "hqucms"
                     }, 
                     {
                         "hash": "60b0b66d5a12e0ec5ce3be7ba53c41725c252ae0", 
@@ -35499,6 +35625,15 @@
                 "gpu_utests": [], 
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
+                    {
+                        "hash": "6d67904e193dda9f4d22e33f7115a07597b94cf5", 
+                        "title": "Update geometry tags in mcRun3 GTs", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33331", 
+                        "number": "33331", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "francescobrivio"
+                    }, 
                     {
                         "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
                         "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
@@ -35785,7 +35920,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc10/www/mon/11.3-mon-23/CMSSW_11_3_X_2021-04-05-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 134, 
+                            "num_passed": 458, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -35796,9 +35931,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/mon/11.3-mon-23/CMSSW_11_3_X_2021-04-05-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 41, 
+                            "num_passed": 45, 
                             "known_failed": 49, 
-                            "num_failed": 21
+                            "num_failed": 23
                         }
                     }, 
                     {
@@ -35818,7 +35953,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/cc8_amd64_gcc9/www/mon/11.3-mon-23/CMSSW_11_3_X_2021-04-05-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 72, 
+                            "num_passed": 135, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -36231,9 +36366,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/sun/11.3-sun-23/CMSSW_11_3_X_2021-04-04-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2709, 
+                            "num_passed": 2872, 
                             "known_failed": 51, 
-                            "num_failed": 92
+                            "num_failed": 93
                         }
                     }, 
                     {
