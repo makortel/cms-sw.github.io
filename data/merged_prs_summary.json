@@ -11047,7 +11047,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/10.6-mon-23/CMSSW_10_6_X_2021-04-05-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 4, 
+                            "num_passed": 102, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -11088,7 +11088,7 @@
                     }
                 ], 
                 "static_checks_v2": "inprogress", 
-                "valgrind": "inprogress", 
+                "valgrind": "found", 
                 "material_budget": "not-found", 
                 "dupDict": [
                     {
@@ -15852,7 +15852,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc900/www/mon/11.2-mon-23/CMSSW_11_2_X_2021-04-05-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 15, 
+                            "num_passed": 19, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -24304,13 +24304,13 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "9cf7351f4fc00ec0ff5d3daff1047d1520e93f9c", 
-                        "title": "Use ServiceWeakToken with asynchronous tasks", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33330", 
-                        "number": "33330", 
+                        "hash": "aa9e4a2958ce84151b1eda60a7d80460ff1cc065", 
+                        "title": "Add interactive option to runTheMatrix", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33082", 
+                        "number": "33082", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "rovere"
                     }, 
                     {
                         "hash": "9d30a110f010a46eafa7f71084da98b2c66dc57a", 
@@ -24322,22 +24322,31 @@
                         "author_login": "fabferro"
                     }, 
                     {
-                        "hash": "aa9e4a2958ce84151b1eda60a7d80460ff1cc065", 
-                        "title": "Add interactive option to runTheMatrix", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33082", 
-                        "number": "33082", 
+                        "hash": "be5b6cc02afd46af9aa02c0e690aab361923db6e", 
+                        "title": "Updates to the Phase-2 DT Trigger primitive generation code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33243", 
+                        "number": "33243", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "rovere"
+                        "author_login": "dtp2-tpg-am"
                     }, 
                     {
-                        "hash": "59ef37456008adf1a30b06992d7004cd2c9fc83c", 
-                        "title": "Introduce PixelTopologyMap", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33319", 
-                        "number": "33319", 
+                        "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
+                        "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33322", 
+                        "number": "33322", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "mmusich"
+                        "author_login": "hqucms"
+                    }, 
+                    {
+                        "hash": "9cf7351f4fc00ec0ff5d3daff1047d1520e93f9c", 
+                        "title": "Use ServiceWeakToken with asynchronous tasks", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33330", 
+                        "number": "33330", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "60b0b66d5a12e0ec5ce3be7ba53c41725c252ae0", 
@@ -24347,6 +24356,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "ebrondol"
+                    }, 
+                    {
+                        "hash": "59ef37456008adf1a30b06992d7004cd2c9fc83c", 
+                        "title": "Introduce PixelTopologyMap", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33319", 
+                        "number": "33319", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
                     }
                 ], 
                 "fwlite": [], 
@@ -24991,6 +25009,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
+                        "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33322", 
+                        "number": "33322", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "hqucms"
+                    }, 
+                    {
                         "hash": "9cf7351f4fc00ec0ff5d3daff1047d1520e93f9c", 
                         "title": "Use ServiceWeakToken with asynchronous tasks", 
                         "url": "https://github.com/cms-sw/cmssw/pull/33330", 
@@ -25007,6 +25034,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "mmusich"
+                    }, 
+                    {
+                        "hash": "be5b6cc02afd46af9aa02c0e690aab361923db6e", 
+                        "title": "Updates to the Phase-2 DT Trigger primitive generation code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33243", 
+                        "number": "33243", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "dtp2-tpg-am"
                     }
                 ], 
                 "fwlite": [], 
@@ -26083,13 +26119,13 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "9cf7351f4fc00ec0ff5d3daff1047d1520e93f9c", 
-                        "title": "Use ServiceWeakToken with asynchronous tasks", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33330", 
-                        "number": "33330", 
+                        "hash": "aa9e4a2958ce84151b1eda60a7d80460ff1cc065", 
+                        "title": "Add interactive option to runTheMatrix", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33082", 
+                        "number": "33082", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "rovere"
                     }, 
                     {
                         "hash": "9d30a110f010a46eafa7f71084da98b2c66dc57a", 
@@ -26101,22 +26137,31 @@
                         "author_login": "fabferro"
                     }, 
                     {
-                        "hash": "aa9e4a2958ce84151b1eda60a7d80460ff1cc065", 
-                        "title": "Add interactive option to runTheMatrix", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33082", 
-                        "number": "33082", 
+                        "hash": "be5b6cc02afd46af9aa02c0e690aab361923db6e", 
+                        "title": "Updates to the Phase-2 DT Trigger primitive generation code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33243", 
+                        "number": "33243", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "rovere"
+                        "author_login": "dtp2-tpg-am"
                     }, 
                     {
-                        "hash": "59ef37456008adf1a30b06992d7004cd2c9fc83c", 
-                        "title": "Introduce PixelTopologyMap", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33319", 
-                        "number": "33319", 
+                        "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
+                        "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33322", 
+                        "number": "33322", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "mmusich"
+                        "author_login": "hqucms"
+                    }, 
+                    {
+                        "hash": "9cf7351f4fc00ec0ff5d3daff1047d1520e93f9c", 
+                        "title": "Use ServiceWeakToken with asynchronous tasks", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33330", 
+                        "number": "33330", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "60b0b66d5a12e0ec5ce3be7ba53c41725c252ae0", 
@@ -26126,6 +26171,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "ebrondol"
+                    }, 
+                    {
+                        "hash": "59ef37456008adf1a30b06992d7004cd2c9fc83c", 
+                        "title": "Introduce PixelTopologyMap", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33319", 
+                        "number": "33319", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
                     }
                 ], 
                 "fwlite": [], 
@@ -26960,6 +27014,24 @@
                         "author_login": "fabferro"
                     }, 
                     {
+                        "hash": "be5b6cc02afd46af9aa02c0e690aab361923db6e", 
+                        "title": "Updates to the Phase-2 DT Trigger primitive generation code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33243", 
+                        "number": "33243", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "dtp2-tpg-am"
+                    }, 
+                    {
+                        "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
+                        "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33322", 
+                        "number": "33322", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "hqucms"
+                    }, 
+                    {
                         "hash": "9cf7351f4fc00ec0ff5d3daff1047d1520e93f9c", 
                         "title": "Use ServiceWeakToken with asynchronous tasks", 
                         "url": "https://github.com/cms-sw/cmssw/pull/33330", 
@@ -27190,6 +27262,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "59ef37456008adf1a30b06992d7004cd2c9fc83c", 
+                        "title": "Introduce PixelTopologyMap", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33319", 
+                        "number": "33319", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
                     }
                 ], 
                 "fwlite": [], 
@@ -28292,6 +28373,15 @@
                         "author_login": "rovere"
                     }, 
                     {
+                        "hash": "59ef37456008adf1a30b06992d7004cd2c9fc83c", 
+                        "title": "Introduce PixelTopologyMap", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33319", 
+                        "number": "33319", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
+                    }, 
+                    {
                         "hash": "60b0b66d5a12e0ec5ce3be7ba53c41725c252ae0", 
                         "title": "[HGCAL] CaloParticleSelector selects non-converted CP", 
                         "url": "https://github.com/cms-sw/cmssw/pull/33309", 
@@ -28799,6 +28889,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
+                        "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33322", 
+                        "number": "33322", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "hqucms"
+                    }, 
+                    {
                         "hash": "9cf7351f4fc00ec0ff5d3daff1047d1520e93f9c", 
                         "title": "Use ServiceWeakToken with asynchronous tasks", 
                         "url": "https://github.com/cms-sw/cmssw/pull/33330", 
@@ -28815,6 +28914,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "mmusich"
+                    }, 
+                    {
+                        "hash": "be5b6cc02afd46af9aa02c0e690aab361923db6e", 
+                        "title": "Updates to the Phase-2 DT Trigger primitive generation code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33243", 
+                        "number": "33243", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "dtp2-tpg-am"
                     }
                 ], 
                 "fwlite": [], 
@@ -29850,6 +29958,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "Dr15Jones"
+                    }, 
+                    {
+                        "hash": "59ef37456008adf1a30b06992d7004cd2c9fc83c", 
+                        "title": "Introduce PixelTopologyMap", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33319", 
+                        "number": "33319", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
                     }
                 ], 
                 "fwlite": [], 
@@ -31322,13 +31439,13 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "9cf7351f4fc00ec0ff5d3daff1047d1520e93f9c", 
-                        "title": "Use ServiceWeakToken with asynchronous tasks", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33330", 
-                        "number": "33330", 
+                        "hash": "aa9e4a2958ce84151b1eda60a7d80460ff1cc065", 
+                        "title": "Add interactive option to runTheMatrix", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33082", 
+                        "number": "33082", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "rovere"
                     }, 
                     {
                         "hash": "9d30a110f010a46eafa7f71084da98b2c66dc57a", 
@@ -31340,22 +31457,31 @@
                         "author_login": "fabferro"
                     }, 
                     {
-                        "hash": "aa9e4a2958ce84151b1eda60a7d80460ff1cc065", 
-                        "title": "Add interactive option to runTheMatrix", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33082", 
-                        "number": "33082", 
+                        "hash": "be5b6cc02afd46af9aa02c0e690aab361923db6e", 
+                        "title": "Updates to the Phase-2 DT Trigger primitive generation code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33243", 
+                        "number": "33243", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "rovere"
+                        "author_login": "dtp2-tpg-am"
                     }, 
                     {
-                        "hash": "59ef37456008adf1a30b06992d7004cd2c9fc83c", 
-                        "title": "Introduce PixelTopologyMap", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33319", 
-                        "number": "33319", 
+                        "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
+                        "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33322", 
+                        "number": "33322", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "mmusich"
+                        "author_login": "hqucms"
+                    }, 
+                    {
+                        "hash": "9cf7351f4fc00ec0ff5d3daff1047d1520e93f9c", 
+                        "title": "Use ServiceWeakToken with asynchronous tasks", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33330", 
+                        "number": "33330", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "60b0b66d5a12e0ec5ce3be7ba53c41725c252ae0", 
@@ -31365,6 +31491,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "ebrondol"
+                    }, 
+                    {
+                        "hash": "59ef37456008adf1a30b06992d7004cd2c9fc83c", 
+                        "title": "Introduce PixelTopologyMap", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33319", 
+                        "number": "33319", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
                     }
                 ], 
                 "fwlite": [], 
@@ -32097,6 +32232,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
+                        "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33322", 
+                        "number": "33322", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "hqucms"
+                    }, 
+                    {
                         "hash": "9cf7351f4fc00ec0ff5d3daff1047d1520e93f9c", 
                         "title": "Use ServiceWeakToken with asynchronous tasks", 
                         "url": "https://github.com/cms-sw/cmssw/pull/33330", 
@@ -32113,6 +32257,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "mmusich"
+                    }, 
+                    {
+                        "hash": "be5b6cc02afd46af9aa02c0e690aab361923db6e", 
+                        "title": "Updates to the Phase-2 DT Trigger primitive generation code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33243", 
+                        "number": "33243", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "dtp2-tpg-am"
                     }
                 ], 
                 "fwlite": [], 
@@ -33318,15 +33471,6 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "9cf7351f4fc00ec0ff5d3daff1047d1520e93f9c", 
-                        "title": "Use ServiceWeakToken with asynchronous tasks", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33330", 
-                        "number": "33330", 
-                        "is_merge_commit": false, 
-                        "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
-                    }, 
-                    {
                         "hash": "aa9e4a2958ce84151b1eda60a7d80460ff1cc065", 
                         "title": "Add interactive option to runTheMatrix", 
                         "url": "https://github.com/cms-sw/cmssw/pull/33082", 
@@ -33336,13 +33480,31 @@
                         "author_login": "rovere"
                     }, 
                     {
-                        "hash": "59ef37456008adf1a30b06992d7004cd2c9fc83c", 
-                        "title": "Introduce PixelTopologyMap", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33319", 
-                        "number": "33319", 
+                        "hash": "be5b6cc02afd46af9aa02c0e690aab361923db6e", 
+                        "title": "Updates to the Phase-2 DT Trigger primitive generation code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33243", 
+                        "number": "33243", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "mmusich"
+                        "author_login": "dtp2-tpg-am"
+                    }, 
+                    {
+                        "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
+                        "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33322", 
+                        "number": "33322", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "hqucms"
+                    }, 
+                    {
+                        "hash": "9cf7351f4fc00ec0ff5d3daff1047d1520e93f9c", 
+                        "title": "Use ServiceWeakToken with asynchronous tasks", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33330", 
+                        "number": "33330", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "60b0b66d5a12e0ec5ce3be7ba53c41725c252ae0", 
@@ -33352,6 +33514,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "ebrondol"
+                    }, 
+                    {
+                        "hash": "59ef37456008adf1a30b06992d7004cd2c9fc83c", 
+                        "title": "Introduce PixelTopologyMap", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33319", 
+                        "number": "33319", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
                     }
                 ], 
                 "fwlite": [], 
@@ -33996,6 +34167,24 @@
                         "author_login": "fabferro"
                     }, 
                     {
+                        "hash": "be5b6cc02afd46af9aa02c0e690aab361923db6e", 
+                        "title": "Updates to the Phase-2 DT Trigger primitive generation code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33243", 
+                        "number": "33243", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "dtp2-tpg-am"
+                    }, 
+                    {
+                        "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
+                        "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33322", 
+                        "number": "33322", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "hqucms"
+                    }, 
+                    {
                         "hash": "9cf7351f4fc00ec0ff5d3daff1047d1520e93f9c", 
                         "title": "Use ServiceWeakToken with asynchronous tasks", 
                         "url": "https://github.com/cms-sw/cmssw/pull/33330", 
@@ -34553,13 +34742,13 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "9cf7351f4fc00ec0ff5d3daff1047d1520e93f9c", 
-                        "title": "Use ServiceWeakToken with asynchronous tasks", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33330", 
-                        "number": "33330", 
+                        "hash": "aa9e4a2958ce84151b1eda60a7d80460ff1cc065", 
+                        "title": "Add interactive option to runTheMatrix", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33082", 
+                        "number": "33082", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "rovere"
                     }, 
                     {
                         "hash": "9d30a110f010a46eafa7f71084da98b2c66dc57a", 
@@ -34571,22 +34760,31 @@
                         "author_login": "fabferro"
                     }, 
                     {
-                        "hash": "aa9e4a2958ce84151b1eda60a7d80460ff1cc065", 
-                        "title": "Add interactive option to runTheMatrix", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33082", 
-                        "number": "33082", 
+                        "hash": "be5b6cc02afd46af9aa02c0e690aab361923db6e", 
+                        "title": "Updates to the Phase-2 DT Trigger primitive generation code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33243", 
+                        "number": "33243", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "rovere"
+                        "author_login": "dtp2-tpg-am"
                     }, 
                     {
-                        "hash": "59ef37456008adf1a30b06992d7004cd2c9fc83c", 
-                        "title": "Introduce PixelTopologyMap", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33319", 
-                        "number": "33319", 
+                        "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
+                        "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33322", 
+                        "number": "33322", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "mmusich"
+                        "author_login": "hqucms"
+                    }, 
+                    {
+                        "hash": "9cf7351f4fc00ec0ff5d3daff1047d1520e93f9c", 
+                        "title": "Use ServiceWeakToken with asynchronous tasks", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33330", 
+                        "number": "33330", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "60b0b66d5a12e0ec5ce3be7ba53c41725c252ae0", 
@@ -34596,6 +34794,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "ebrondol"
+                    }, 
+                    {
+                        "hash": "59ef37456008adf1a30b06992d7004cd2c9fc83c", 
+                        "title": "Introduce PixelTopologyMap", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33319", 
+                        "number": "33319", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
                     }
                 ], 
                 "fwlite": [], 
@@ -34757,13 +34964,13 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
-                        "hash": "9cf7351f4fc00ec0ff5d3daff1047d1520e93f9c", 
-                        "title": "Use ServiceWeakToken with asynchronous tasks", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33330", 
-                        "number": "33330", 
+                        "hash": "aa9e4a2958ce84151b1eda60a7d80460ff1cc065", 
+                        "title": "Add interactive option to runTheMatrix", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33082", 
+                        "number": "33082", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "Dr15Jones"
+                        "author_login": "rovere"
                     }, 
                     {
                         "hash": "9d30a110f010a46eafa7f71084da98b2c66dc57a", 
@@ -34775,22 +34982,31 @@
                         "author_login": "fabferro"
                     }, 
                     {
-                        "hash": "aa9e4a2958ce84151b1eda60a7d80460ff1cc065", 
-                        "title": "Add interactive option to runTheMatrix", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33082", 
-                        "number": "33082", 
+                        "hash": "be5b6cc02afd46af9aa02c0e690aab361923db6e", 
+                        "title": "Updates to the Phase-2 DT Trigger primitive generation code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33243", 
+                        "number": "33243", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "rovere"
+                        "author_login": "dtp2-tpg-am"
                     }, 
                     {
-                        "hash": "59ef37456008adf1a30b06992d7004cd2c9fc83c", 
-                        "title": "Introduce PixelTopologyMap", 
-                        "url": "https://github.com/cms-sw/cmssw/pull/33319", 
-                        "number": "33319", 
+                        "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
+                        "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33322", 
+                        "number": "33322", 
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
-                        "author_login": "mmusich"
+                        "author_login": "hqucms"
+                    }, 
+                    {
+                        "hash": "9cf7351f4fc00ec0ff5d3daff1047d1520e93f9c", 
+                        "title": "Use ServiceWeakToken with asynchronous tasks", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33330", 
+                        "number": "33330", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "Dr15Jones"
                     }, 
                     {
                         "hash": "60b0b66d5a12e0ec5ce3be7ba53c41725c252ae0", 
@@ -34800,6 +35016,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "ebrondol"
+                    }, 
+                    {
+                        "hash": "59ef37456008adf1a30b06992d7004cd2c9fc83c", 
+                        "title": "Introduce PixelTopologyMap", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33319", 
+                        "number": "33319", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "mmusich"
                     }
                 ], 
                 "fwlite": [], 
@@ -35088,6 +35313,15 @@
                 "material_budget_comparison": "not-found", 
                 "merged_prs": [
                     {
+                        "hash": "860616152097e0b7201cb6a0e0c72908c1817e7a", 
+                        "title": "Explicitly using CPUExecutionProvider in ONNXRuntime python test", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33322", 
+                        "number": "33322", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "hqucms"
+                    }, 
+                    {
                         "hash": "9cf7351f4fc00ec0ff5d3daff1047d1520e93f9c", 
                         "title": "Use ServiceWeakToken with asynchronous tasks", 
                         "url": "https://github.com/cms-sw/cmssw/pull/33330", 
@@ -35104,6 +35338,15 @@
                         "is_merge_commit": false, 
                         "from_merge_commit": false, 
                         "author_login": "mmusich"
+                    }, 
+                    {
+                        "hash": "be5b6cc02afd46af9aa02c0e690aab361923db6e", 
+                        "title": "Updates to the Phase-2 DT Trigger primitive generation code", 
+                        "url": "https://github.com/cms-sw/cmssw/pull/33243", 
+                        "number": "33243", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "dtp2-tpg-am"
                     }
                 ], 
                 "fwlite": [], 
@@ -35376,9 +35619,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_aarch64_gcc9/www/sun/11.3-sun-23/CMSSW_11_3_X_2021-04-04-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2012, 
+                            "num_passed": 2016, 
                             "known_failed": 51, 
-                            "num_failed": 67
+                            "num_failed": 69
                         }
                     }, 
                     {
